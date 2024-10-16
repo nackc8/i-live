@@ -8,6 +8,8 @@ if [ "$a" = "$b" ]; then
     echo "A $a är samma sak som B $b"
 elif [ "$b" = "giraff" ]; then
     echo "Knappast!"
+elif [ "$b" = "rådjur" ]; then
+    echo "Äter ibland animaliskt."
 else
     echo "$b är nog ett bra djur!"
 fi
