@@ -317,4 +317,64 @@ Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [7m Manual page test(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 and FILE2 have the same device and inode numbers[m
 [7m Manual page test(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page test(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       FILE1 [1m-nt[0m FILE2[m
-[7m Manual page te
+[7m Manual page test(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 is newer (modification date) than FILE2[m
+[7m Manual page test(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       FILE1 [1m-ot[0m FILE2[m
+[7m Manual page test(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 is older than FILE2[m
+[7m Manual page test(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m FILE[m
+[7m Manual page test(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is block special[m
+[7m Manual page test(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m FILE[m
+[7m Manual page test(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is character special[m
+[7m Manual page test(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m FILE[m
+[7m Manual page test(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a directory[m
+[7m Manual page test(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m FILE[m
+[7m Manual page test(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists[m
+[7m Manual page test(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m FILE[m
+[7m Manual page test(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a regular file[m
+[7m Manual page test(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[0m FILE[m
+[7m Manual page test(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is set-group-ID[m
+[7m Manual page test(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-G[0m FILE[m
+[7m Manual page test(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is owned by the effective group ID[m
+[7m Manual page test(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m FILE[m
+[7m Manual page test(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a symbolic link (same as [1m-L[0m)[m
+[7m Manual page test(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m FILE[m
+[7m Manual page test(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has its sticky bit set[m
+[7m Manual page test(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m FILE[m
+[7m Manual page test(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a symbolic link (same as [1m-h[0m)[m
+[7m Manual page test(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-N[0m FILE[m
+[7m Manual page test(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has been modified since it was last read[m
+[7m Manual page test(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-O[0m FILE[m
+[7m Manual page test(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is owned by the effective user ID[m
+[7m Manual page test(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m FILE[m
+[7m Manual page test(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a named pipe[m
+[7m Manual page test(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m FILE[m
+[7m Manual page test(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has read access[m
+[7m Manual page test(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m FILE[m
+[7m Manual page test(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has a size greater than zero[m
+[7m Manual page test(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m FILE[m
+[7m Manual page test(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a socket[m
+[7m Manual page test(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m FD  file descriptor FD is opened on a terminal[m
+[7m Manual page test(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m FILE[m
+[7m Manual page test(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and its set-user-ID bit is set[m
+[7m Manual page test(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m FILE[m
+[7m Manual page test(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has write access[m
+[7m Manual page test(1) line 116 (press h for help or
