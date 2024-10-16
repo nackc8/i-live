@@ -2,3 +2,6 @@
 
 # Visar alla djur som har ett a
 grep a djurfil
+
+# -E rekommenderas då den gör uttrycken lättare att läsa
+grep -E
