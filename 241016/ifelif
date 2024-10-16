@@ -1,7 +1,8 @@
 #!/bin/bash
 
 a="hund"
-b="katt"
+
+read -r -p "Vilket husdjur har du hemma? " b
 
 if [ "$a" = "$b" ]; then
     echo "A $a är samma sak som B $b"
