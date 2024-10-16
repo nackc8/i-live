@@ -1,12 +1,9 @@
 #!/bin/bash
 
-echo "Skriptarg 1: $1"
-
-funktionsnamn() {
-    for namn in "$@" # "$@" => "$1" "$2" "$3" ...
-    echo "Hej $1" # $1 är första argumentet till funktionen
+funktionsnamn1() {
+    for namn in "$@"; do # "$@" => "$1" "$2" "$3" ...
+        echo "Hej namn"
+    done
 }
 
-# $1 i funktionen är aldrig $1 till skriptet
-funktionsnamn Pelle
-funktionsnamn Mayank
+funktionsnamn1 Pelle Mayank
