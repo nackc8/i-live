@@ -7,6 +7,7 @@
 # grep -E 'ens$' djurfil
 
 # Exempel1: med å också innan
-grep -E 'å.*ens$' djurfil
+# grep -E 'å.*ens$' djurfil
 
 # Bra sida: regex101.com
+grep -E 'ens$' djurfil
