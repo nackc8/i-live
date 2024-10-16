@@ -2,8 +2,15 @@
 
 funktionsnamn1() {
     for namn in "$@"; do # "$@" => "$1" "$2" "$3" ...
-        echo "Hej $namn"
+        echo "Hej1 $namn"
+    done
+}
+
+funktionsnamn2() {
+    for namn; do
+        echo "Hej2 $namn"
     done
 }
 
 funktionsnamn1 Pelle Mayank
+funktionsnamn2 Pelle Mayank
