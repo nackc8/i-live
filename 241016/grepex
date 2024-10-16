@@ -1,3 +1,4 @@
 #!/bin/bash
 
+# Visar alla djur som har ett a
 grep a djurfil
