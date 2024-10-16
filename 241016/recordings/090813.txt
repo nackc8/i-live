@@ -1083,4 +1083,65 @@ GNU Bash 5.2                     2022 September 19                         BASH(
 [18;1H[K[7m Manual page bash(1) line 1741/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              panded  value  of  [4mparameter[24m using the rules described under [1mPattern[0m[m
 [18;1H[K[7m Manual page bash(1) line 1740/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              pattern just as in pathname expansion, and matched against  the  ex‐[m
 [18;1H[K[7m Manual page bash(1) line 1739/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mRemove[0m  [1mmatching[0m  [1mprefix[0m [1mpattern[0m.  The [4mword[24m is expanded to produce a[m
-[18;1H[K[7m Manual page bash(1) line 1738/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m##[0m[
+[18;1H[K[7m Manual page bash(1) line 1738/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m##[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1737/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m#[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1736/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 1735/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              references the last element.[m
+[18;1H[K[7m Manual page bash(1) line 1734/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              indices count back from the end of the array, and  an  index  of  -1[m
+[18;1H[K[7m Manual page bash(1) line 1733/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              tive to one greater than the maximum index of [4mparameter[24m, so negative[m
+[18;1H[K[7m Manual page bash(1) line 1732/6395 29% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m2m29s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m x'[K="";" "e"c"h"o" "r"m" "/"[1@e[1@c[1@h[1@o[1@ [1@h[1@e[1@j
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $x
+[?2004lhej; echo rm /
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $xx="echo hej; echo rm /"
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m x="echo hej; echo rm /"[C[C$x[K
+[?2004lhej; echo rm /
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $xx="echo hej; echo rm /"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m x="echo hej"
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $x
+[?2004lhej
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m touch f[Kfil[K[K[K''v'i'k't'i'g' 'f'i'l'.'t'x't'[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m tgouch [K[K[K[K[K[Ku[Kouch viktig
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch viktig[K[K[K[K[K[Kfil.txt
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m x=""r"m" "[C[K[K[K[K[K[K[Kfilnamn=''[7mviktig fil.txt[27m'[C[C[C[C[C[C[C[C[C[C[Cviktig fil.txt'C'[C[1P'[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m rm $filnamn[C $filnamn[C[C[C[C[C- $filnamn[C[C[C[C[C[Cv $filnamn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lremoved 'viktig'
+removed 'fil.txt'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch vukj[K[K[Kiktig
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m v[Ktouch fil.txt
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch fil.txt[1Pviktig[C[Crm -v $filnamn""$filnamn"[C[C[C[C[C[C[C[C[C # fix, funkar b'[Kättre
+[?2004lremoved 'viktig fil.txt'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m (reverse-i-search)`': c': tou[7mc[27mh fil.txt[1@h': tou[7mch[27mm': [7mchm[27mo
