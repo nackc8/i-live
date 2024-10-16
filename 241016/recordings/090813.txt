@@ -1,0 +1,77 @@
+Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="97" LINES="10"]
+[?2004h
+[34mi-live/241016[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m code .[C[C[Cd i-live/[C[C[6Pexit[C[C./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241016[0m [90m241016[36m [0m
+[31m❯[0m [H[2J
+[34mi-live/241016[0m [90m241016[36m [0m
+[31m❯[0m cd ..
+[?2004l[?2004h
+[34mi-live[0m [90m241016[36m [0m
+[35m❯[0m ./bio[Kn/daystart  ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live[0m [90m241016[36m [0m
+[31m❯[0m code .[K[K[K[K[K[Kcd ITINF23/
+[?2004l[?2004h
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m ls
+[?2004llektion2
+[?2004h
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m cd lektion2
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ls
+[?2004lrecordings
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m read namn
+[?2004lKent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namn
+[?2004lKent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namn[C[C[1Pread namn[C namn- namnp namn[C namn" namn" namn[1@V[1@a[1@d[1@ [1@h[1@e[1@t[1@e[1@r[1@ [1@d[1@u[1@?[1@ [C[C[C[C[C[C
+[?2004lVad heter du? Bengt\ Slashson  son
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m echo ""$"n"a"m"n"
+[?2004lBengt Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo "$namn"[C[Cread -p "Vad heter du? " namn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C namn- namnr namn
+[?2004lVad heter du? Bengt\ Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m19s[0m 
+[35m❯[0m echo $namn 
+[?2004lBengt\ Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m true
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ''[K[K""E"x"i"t" "c"o"d"e":" "$"?"[C
+[?2004lExit code: 0
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m false
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m false[C[Cecho "Exit code: $?"
+[?2004lExit code: 1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo "Hej" | [K[K[K[K[K[K[K[K[K[K[K[K[Ksew[Kq 1 100 | grep 5 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| false [C[C[C[C[C[C[C[C[C[C# e[Kfalse esit [K[K[K[Kxit [Kkod blir pipens exitc[Kkod
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m echo $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
