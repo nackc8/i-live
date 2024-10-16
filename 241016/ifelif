@@ -12,6 +12,8 @@ elif [ "$b" = "rådjur" ]; then
     echo "Äter ibland animaliskt."
 elif [ "$b" = "snok" -o "$b" = "katt" ]; then
     echo "Fint med $b."
+elif [ "$b" = "hamster" ] || [ "$b" = "nakenråtta" ]; then
+    echo "Fult med $b."
 else
     echo "$b är nog ett bra djur!"
 fi

@@ -431,4 +431,88 @@ Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004lbash: ./ifelif: Permission denied
 [?2004h
 [34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
-[31m❯[0m chm
+[31m❯[0m chmod +x ./ifelif 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./iif[K[Kfelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./ifelif 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m4s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m4s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? giraff
+Knappast!
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? giraff
+Knappast!
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m4s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? r[ ådjur
+rådjur är nog ett bra djur!
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? rådjur
+Äter ibland animaliskt.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m30s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m30s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? snok
+Fint med snok.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? katt
+Fint med katt.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? nakenråtta
+Fint med nakenråtta.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m l[Knano djurd[Kfil
+[?2004l[?2004h[?1049h[22;0;0t[1;9r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[7;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                           djurfil                                     [1;84H(B[m[8d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[8;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[9d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[84G(B[m[?12l[?25h[2d;[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hö[?25l[?12l[?25hr
