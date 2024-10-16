@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "Hej"
+a="hund"
+b="katt"
+
+if [ "$a" = "$b" ]; then
+    echo "A $a är samma sak som B $b"
+fi
