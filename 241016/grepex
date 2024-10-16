@@ -10,4 +10,4 @@
 # grep -E 'å.*ens$' djurfil
 
 # Bra sida: regex101.com
-grep -E 'ens$' djurfil
+grep -E 'ens$' djurfil | grep 'å'
