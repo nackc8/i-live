@@ -86,4 +86,119 @@ Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [35m❯[0m set -o pipefail
 [?2004l[?2004h
 [34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
-[35m❯[0m set -o pipefail[C[C[8Pecho $?[C[Cseq 1 100 | grep 500 | echo "Sist" # echos exitkod blir pipens exitkod[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@f[1@a[1@i[1@l[C[1@ [1@n[1@'[1@r[1P[1P[1@ä[1@r[C[1@ [1@n[1@å[1@g[1@o[1@n[C[1@ [1@d[1@el pipens exitkod [A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C pipens exitkod[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipe[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C
+[35m❯[0m set -o pipefail[C[C[8Pecho $?[C[Cseq 1 100 | grep 500 | echo "Sist" # echos exitkod blir pipens exitkod[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@f[1@a[1@i[1@l[C[1@ [1@n[1@'[1@r[1P[1P[1@ä[1@r[C[1@ [1@n[1@å[1@g[1@o[1@n[C[1@ [1@d[1@el pipens exitkod [A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C pipens exitkod[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipe[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpipen[1P[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cipens[1P exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpens [1Pexitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cens e[1Pxitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cns ex[1Pitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs exi[1Ptkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exit[1Pkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexitk[1Pod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxitko[1Pd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Citkod[K[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctkod [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pkod
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pod[1Pd[K
+[?2004lSist
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m seq 1 100 | grep 500 | echo "Sist" # exitkod blir fail när någon del misslyckas[C[C[C[Ct -o pipefail[K[C[C[8Pecho $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m help test
+[?2004ltest: test [expr]
+    Evaluate conditional expression.
+    
+    Exits with a status of 0 (true) or 1 (false) depending on
+    the evaluation of EXPR.  Expressions may be unary or binary.  Unary
+    expressions are often used to examine the status of a file.  There
+    are string operators and numeric comparison operators as well.
+    
+    The behavior of test depends on the number of arguments.  Read the
+    bash manual page for the complete specification.
+    
+    File operators:
+    
+      -a FILE        True if file exists.
+      -b FILE        True if file is block special.
+      -c FILE        True if file is character special.
+      -d FILE        True if file is a directory.
+      -e FILE        True if file exists.
+      -f FILE        True if file exists and is a regular file.
+      -g FILE        True if file is set-group-id.
+      -h FILE        True if file is a symbolic link.
+      -L FILE        True if file is a symbolic link.
+      -k FILE        True if file has its `sticky' bit set.
+      -p FILE        True if file is a named pipe.
+      -r FILE        True if file is readable by you.
+      -s FILE        True if file exists and is not empty.
+      -S FILE        True if file is a socket.
+      -t FD          True if FD is opened on a terminal.
+      -u FILE        True if the file is set-user-id.
+      -w FILE        True if the file is writable by you.
+      -x FILE        True if the file is executable by you.
+      -O FILE        True if the file is effectively owned by you.
+      -G FILE        True if the file is effectively owned by your group.
+      -N FILE        True if the file has been modified since it was last read.
+    
+      FILE1 -nt FILE2  True if file1 is newer than file2 (according to
+                       modification date).
+    
+      FILE1 -ot FILE2  True if file1 is older than file2.
+    
+      FILE1 -ef FILE2  True if file1 is a hard link to file2.
+    
+    All file operators except -h and -L are acting on the target of a symbolic
+    link, not on the symlink itself, if FILE is a symbolic link.
+    
+    String operators:
+    
+      -z STRING      True if string is empty.
+    
+      -n STRING
+         STRING      True if string is not empty.
+    
+      STRING1 = STRING2
+                     True if the strings are equal.
+      STRING1 != STRING2
+                     True if the strings are not equal.
+      STRING1 < STRING2
+                     True if STRING1 sorts before STRING2 lexicographically.
+      STRING1 > STRING2
+                     True if STRING1 sorts after STRING2 lexicographically.
+    
+    Other operators:
+    
+      -o OPTION      True if the shell option OPTION is enabled.
+      -v VAR         True if the shell variable VAR is set.
+      -R VAR         True if the shell variable VAR is set and is a name
+                     reference.
+      ! EXPR         True if expr is false.
+      EXPR1 -a EXPR2 True if both expr1 AND expr2 are true.
+      EXPR1 -o EXPR2 True if either expr1 OR expr2 is true.
+    
+      arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne,
+                     -lt, -le, -gt, or -ge.
+    
+    Arithmetic binary operators return true if ARG1 is equal, not-equal,
+    less-than, less-than-or-equal, greater-than, or greater-than-or-equal
+    than ARG2.
+    
+    See the bash manual page bash(1) for the handling of parameters (i.e.
+    missing parameters).
+    
+    Exit Status:
+    Returns success if EXPR evaluates to true; fails if EXPR evaluates to
+    false or an invalid argument is given.
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m help cd
+[?2004lcd: cd [-L|[-P [-e]] [-@]] [dir]
+    Change the shell working directory.
+    
+    Change the current directory to DIR.  The default DIR is the value of the
+    HOME shell variable. If DIR is "-", it is converted to $OLDPWD.
+    
+    The variable CDPATH defines the search path for the directory containing
+    DIR.  Alternative directory names in CDPATH are separated by a colon (:).
+    A null directory name is the same as the current directory.  If DIR begins
+    with a slash (/), then CDPATH is not used.
+    
+    If the directory is not found, and the shell option `cdable_vars' is set,
+    the word is assumed to be  a variable name.  If that variable has a value,
+    its value is used for DIR.
+    
+    Options:
+      -L	force symb
