@@ -550,4 +550,98 @@ Fult med påfågel.
 Nog om djur...
 [?2004h
 [34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m24s[0m 
-[35m❯[0m bash -x ./ifelif 
+[35m❯[0m bash -x ./ifelif [1P[1P[1P
+[?2004lVilket husdjur har du hemma? påfågel
+örn
+Fult med påfågel.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m2s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m who[Kile tureö [K[K[K[K[Krue; do git pull [K; sleep 5; done
+[?2004lAlready up to date.
+^C
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m6s[0m 
+[31m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m6s[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m echo $RANDOM
+[?2004l645
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l32199
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l30162
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l25960
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l32151
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name
+[?2004l
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name[C[C[Kname=Ove
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m name=Ove[C[Cecho $name[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name
+[?2004lOve
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name{name[C[C[C[C}
+[?2004lOve
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}[2Pnamesan
+[?2004l
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namesan}sanPname}san[1Pname}san{name}san[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}san[C[C[Kending=san
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ending=san[C[C[Ccho ${name}san[K[K[K$ending[C[C[C[C{ending[C[C[C[C[C[C}[1P{ending}[C%{ending}[1P{ending}${ending}[C[C[C[C[C[C[C[C
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}${ending}[1Pending}[C[C[C[C[C[C[C[K
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./forloop 
+[?2004lDjur: hund
+Djur: katt
+Djur: nakenråtta
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo [7mrecordings/*timing*[27m[C[C[C[C[C[C[Crecordings/*timing*
+[?2004lrecordings/090813_timing.txt
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo recordings/*timing*[C[C[14P./forloop [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./forloop 
+[?2004lDjur: hund
+Djur: katt
+Djur: nakenråtta
+Matchande fil från globbingen: recordings/090813_timing.txt
+[?200

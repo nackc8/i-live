@@ -3,3 +3,7 @@
 for djur in hund katt nakenråtta; do
     echo "Djur: $djur"
 done
+
+for fil in recordings/*timing*; do
+    echo "Matchande fil från globbingen: $fil"
+done
