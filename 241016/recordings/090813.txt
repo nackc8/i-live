@@ -1144,4 +1144,103 @@ removed 'fil.txt'
 [?2004lremoved 'viktig fil.txt'
 [?2004h
 [34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
-[35m❯[0m (reverse-i-search)`': c': tou[7mc[27mh fil.txt[1@h': tou[7mch[27mm': [7mchm[27mo
+[35m❯[0m (reverse-i-search)`': c': tou[7mc[27mh fil.txt[1@h': tou[7mch[27mm': [7mchm[27mod +x ./ifelif [1@o': [7mchmo[27m[1@d': [7mchmod[27m[25P[35m❯[0m chmod[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kfn
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./fi[Kn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./fn[K[35m❯[0m ./fn[K[35m❯[0m ./fn[K[35m❯[0m ./fn
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn
+[?2004lJag är en funktion
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo $USER
+[?2004lkent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo $USER[C[C[6P./fn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn
+[?2004lbash: ./fn: No such file or directory
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m ./fnaa[Krgs1 [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m ./fnargs1 
+[?2004lHej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m ./fnargs1 [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 
+[?2004lSkriptarg 1: 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./fnargs1 Lotta[C[C[K./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta[1P Lotta2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej namn
+Hej namn
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej1 Pelle
+Hej1 Mayank
+Hej2 Pelle
+Hej2 Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./egnafunktioner.sh 
+[?2004lHej1 Pelle
+Hej1 Mayank
+Hej2 Pelle
+Hej2 Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m chmod[K[K[K[K[K./egnaf
