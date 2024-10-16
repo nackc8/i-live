@@ -1,7 +1,8 @@
 #!/bin/bash
 
 funktionsnamn() {
-    echo "Jag är en funktion"
+    echo "Hej $1"
 }
 
-funktionsnamn
+funktionsnamn Pelle
+funktionsnamn Mayank
