@@ -13,6 +13,8 @@ elif [ "$b" = "rådjur" ]; then
 elif [ "$b" = "snok" -o "$b" = "katt" ]; then
     echo "Fint med $b."
 elif [ "$b" = "hamster" ] || [ "$b" = "nakenråtta" ]; then
+    echo "Vackert med $b."
+elif [ "$b" = "lodjur" ] || grep 'örn' djurfil; then
     echo "Fult med $b."
 else
     echo "$b är nog ett bra djur!"
