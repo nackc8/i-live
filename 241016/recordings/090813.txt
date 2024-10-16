@@ -377,4 +377,58 @@ Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [7m Manual page test(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page test(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m FILE[m
 [7m Manual page test(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has write access[m
-[7m Manual page test(1) line 116 (press h for help or
+[7m Manual page test(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m FILE[m
+[7m Manual page test(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has execute (or search) access[m
+[7m Manual page test(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Except for [1m-h[0m and [1m-L[0m, all FILE-related tests  dereference  symbolic  links.[m
+[7m Manual page test(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Beware  that  parentheses  need  to  be  escaped (e.g., by backslashes) for[m
+[7m Manual page test(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       shells.  INTEGER may also be [1m-l[0m STRING, which evaluates to  the  length  of[m
+[7m Manual page test(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING.[m
+[7m Manual page test(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  Binary  [1m-a[0m and [1m-o[0m are inherently ambiguous.  Use 'test EXPR1 && test[m
+[7m Manual page test(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPR2' or 'test EXPR1 || test EXPR2' instead.[m
+[7m Manual page test(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE: [ honors the [1m--help[0m and [1m--version[0m options, but test does  not.   test[m
+[7m Manual page test(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       treats each of those as it treats any other nonempty STRING.[m
+[7m Manual page test(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 131 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m5m23s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m a[Ka=""h"u"n"d"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m b=""k"a"t"t"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m test ""$"a"[C = ""$"b"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m echio [K[K[Ko $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $?[C[Ctest "$a" = "$b"[1P[1P[1P[1P[1@[[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: [: missing `]'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m  ][K[K[ "$a" = "$b" ]
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m [ "$a" = "$b" ][K[C[C[6Pecho $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ][[K[Kecho $?[C[C[ "$a" = "$b" ][C[C[C[1@![C[C[C[C[C[C[C[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [ "$a" != "$b" ][C[C[9Pecho $?
+[?2004l0
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m c[K./ifn[Kelif
+[?2004lbash: ./ifelif: Permission denied
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m chm
