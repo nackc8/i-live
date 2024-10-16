@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Om filen endast innehåller funktioner som jag vill använda,
 # så ska inga funktionsanrop göras när den läses. Det innebär
 # att endast funktionens definition finns i filen.
