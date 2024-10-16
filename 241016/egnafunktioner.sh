@@ -11,3 +11,6 @@ greet() {
     done
     return 0 # exitkod 0, det gick bra
 }
+
+# Får tillgång till att använda funktionen, lägg in i .bashrc
+source /home/kent/i-live/ITINF23/lektion2/egnafunktioner.sh
