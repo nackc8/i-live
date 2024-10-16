@@ -515,4 +515,39 @@ Nog om djur...
 [35m❯[0m [H[2J
 [34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
 [35m❯[0m l[Knano djurd[Kfil
-[?2004l[?2004h[?1049h[22;0;0t[1;9r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[7;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                           djurfil                                     [1;84H(B[m[8d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[8;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[9d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[84G(B[m[?12l[?25h[2d;[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hö[?25l[?12l[?25hr
+[?2004l[?2004h[?1049h[22;0;0t[1;9r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[7;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                           djurfil                                     [1;84H(B[m[8d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[8;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[9d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[84G(B[m[?12l[?25h[2d;[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hö[?25l[?12l[?25hr[?25l[?12l[?25hn[?25l[3d[?12l[?25h[?25l[?12l[?25hk[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[4d[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25hu[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[5d[?12l[?25h[?25l[7d(B[0;7mSave modified buffer?                                                                [8;1H Y(B[m Yes[K[9d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[7;23H[?12l[?25h[?25l[8d(B[0;7m^G(B[m Help[8;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[8;64H(B[0;7mM-B(B[m Backup File[9d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[9;64H(B[0;7m^T(B[m Browse[7d(B[0;7mFile Name to Write: djurfil(B[m[?12l[?25h[?25l[35G[1K (B[0;7m[ Writing... ](B[m[K[1d(B[0;7m [84G(B[m[7;35H(B[0;7m[ Wrote 4 lines ](B[m[J[9d[?12l[?25h[9;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [33m13s[0m 
+[35m❯[0m nano djurfil[C[C[3P./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [33m13s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? lodjur      påfågel
+örn
+Fult med påfågel.
+./ifelif: line 22: syntax error near unexpected token `fi'
+./ifelif: line 22: `fi'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m ./ifelif [C[C[K./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m ./ifelif [C[C[1@b[1@a[1@s[1@h[1@ [1@+[1P[1@-[1@x[1@ [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [C[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m bash -x ./ifelif [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l+ a=hund
++ read -r -p 'Vilket husdjur har du hemma? ' b
+Vilket husdjur har du hemma? påfågel
++ '[' hund = påfågel ']'
++ '[' påfågel = giraff ']'
++ '[' påfågel = rådjur ']'
++ '[' påfågel = snok -o påfågel = katt ']'
++ '[' påfågel = hamster ']'
++ '[' påfågel = nakenråtta ']'
++ '[' påfågel = lodjur ']'
++ grep örn djurfil
+örn
++ echo 'Fult med påfågel.'
+Fult med påfågel.
++ echo 'Nog om djur...'
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m24s[0m 
+[35m❯[0m bash -x ./ifelif 
