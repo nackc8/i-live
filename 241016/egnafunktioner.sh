@@ -1,3 +1,5 @@
+# shellcheck disable=SC2317
+
 # Om filen endast innehåller funktioner som jag vill använda,
 # så ska inga funktionsanrop göras när den läses. Det innebär
 # att endast funktionens definition finns i filen.
@@ -13,4 +15,4 @@ greet() {
 }
 
 # Får tillgång till att använda funktionen, lägg in i .bashrc
-source /home/kent/i-live/ITINF23/lektion2/egnafunktioner.sh
+#   source /home/kent/i-live/ITINF23/lektion2/egnafunktioner.sh
