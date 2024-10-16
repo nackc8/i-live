@@ -10,6 +10,8 @@ elif [ "$b" = "giraff" ]; then
     echo "Knappast!"
 elif [ "$b" = "rådjur" ]; then
     echo "Äter ibland animaliskt."
+elif [ "$b" = "snok" -o "$b" = "katt" ]; then
+    echo "Fint med $b."
 else
     echo "$b är nog ett bra djur!"
 fi
