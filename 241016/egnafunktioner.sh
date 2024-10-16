@@ -6,5 +6,3 @@ greet() {
     done
     return 0 # exitkod 0, det gick bra
 }
-
-greet Pelle Mayank
