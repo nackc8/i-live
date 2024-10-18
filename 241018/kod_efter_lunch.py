@@ -39,7 +39,8 @@ for line in file_lines:
     print(f"rad: {line}", end="")
     https://docs.python.org/3/howto/regex.html
     https://docs.python.org/3/library/re.html#raw-string-notation
-#   ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
+    # ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
+
     https://docs.python.org/3/library/re.html#text-munging
 
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
