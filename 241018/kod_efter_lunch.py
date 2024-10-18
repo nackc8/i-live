@@ -37,6 +37,7 @@ non_repeating_chars = ":,.; "
 # för varje line i file_lines
 for line in file_lines:
     print(f"rad: {line}", end="")
+    https://docs.python.org/3/library/re.html#raw-string-notation
     repeating_re = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
     https://docs.python.org/3/library/re.html#text-munging
 
