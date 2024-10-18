@@ -47,9 +47,11 @@ repeating = re.compile(repeating_regex_string)
 
 # för varje line i file_lines
 for line in enumerate(file_lines):
-    print(f"rad: {line}", end="")
+    print(f"rad innan: {line}", end="")
 
-    line[line[0]] = repeating.sub(repl, line[1])
+    file_lines[line[0]] = repeating.sub(repl, line[1])
+
+    print(f"rad efter: {line}", end="")
 
 #    för varje part i parts
 #       line =
