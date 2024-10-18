@@ -1,0 +1,1246 @@
+Script started on 2024-10-16 09:08:25+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="97" LINES="10"]
+[?2004h
+[34mi-live/241016[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m code .[C[C[Cd i-live/[C[C[6Pexit[C[C./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart [K[35m❯[0m ./bin/daystart ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241016[0m [90m241016[36m [0m
+[31m❯[0m [H[2J
+[34mi-live/241016[0m [90m241016[36m [0m
+[31m❯[0m cd ..
+[?2004l[?2004h
+[34mi-live[0m [90m241016[36m [0m
+[35m❯[0m ./bio[Kn/daystart  ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live[0m [90m241016[36m [0m
+[31m❯[0m code .[K[K[K[K[K[Kcd ITINF23/
+[?2004l[?2004h
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m ls
+[?2004llektion2
+[?2004h
+[34mi-live/ITINF23[0m [90m241016[36m [0m
+[35m❯[0m cd lektion2
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ls
+[?2004lrecordings
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m read namn
+[?2004lKent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namn
+[?2004lKent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namn[C[C[1Pread namn[C namn- namnp namn[C namn" namn" namn[1@V[1@a[1@d[1@ [1@h[1@e[1@t[1@e[1@r[1@ [1@d[1@u[1@?[1@ [C[C[C[C[C[C
+[?2004lVad heter du? Bengt\ Slashson  son
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m echo ""$"n"a"m"n"
+[?2004lBengt Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo "$namn"[C[Cread -p "Vad heter du? " namn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C namn- namnr namn
+[?2004lVad heter du? Bengt\ Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m19s[0m 
+[35m❯[0m echo $namn 
+[?2004lBengt\ Slashsson
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m true
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ''[K[K""E"x"i"t" "c"o"d"e":" "$"?"[C
+[?2004lExit code: 0
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m false
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m false[C[Cecho "Exit code: $?"
+[?2004lExit code: 1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo "Hej" | [K[K[K[K[K[K[K[K[K[K[K[K[Ksew[Kq 1 100 | grep 5 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| false [C[C[C[C[C[C[C[C[C[C# e[Kfalse esit [K[K[K[Kxit [Kkod blir pipens exitc[Kkod
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m echo $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $?[C[Cseq 1 100 | grep 5 | false # false exitkod blir pipens exitkod[1@0[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@t[1@r[1@u[1@e[C[C[C[C[C[C[C[1P[1P[1P[1P[1@e[1@c[1@h[1@o[C[1@ [1@"[1@"[1@S[1@i[1@s[1@t[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@e[1@c[1@h[1@o[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lSist
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m seq 1 100 | grep 500 | echo "Sist" # echos exitkod blir pipens exitkod[C[Cecho $?[K
+[?2004l0
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m set -o pipefail
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m set -o pipefail[C[C[8Pecho $?[C[Cseq 1 100 | grep 500 | echo "Sist" # echos exitkod blir pipens exitkod[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@f[1@a[1@i[1@l[C[1@ [1@n[1@'[1@r[1P[1P[1@ä[1@r[C[1@ [1@n[1@å[1@g[1@o[1@n[C[1@ [1@d[1@el pipens exitkod [A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C pipens exitkod[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca pipens exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs pipe[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpipen[1P[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cipens[1P exitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpens [1Pexitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cens e[1Pxitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cns ex[1Pitkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs exi[1Ptkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exit[1Pkod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexitk[1Pod[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxitko[1Pd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Citkod[K[A[35m❯[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctkod [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pkod
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pod[1Pd[K
+[?2004lSist
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m seq 1 100 | grep 500 | echo "Sist" # exitkod blir fail när någon del misslyckas[C[C[C[Ct -o pipefail[K[C[C[8Pecho $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m help test
+[?2004ltest: test [expr]
+    Evaluate conditional expression.
+    
+    Exits with a status of 0 (true) or 1 (false) depending on
+    the evaluation of EXPR.  Expressions may be unary or binary.  Unary
+    expressions are often used to examine the status of a file.  There
+    are string operators and numeric comparison operators as well.
+    
+    The behavior of test depends on the number of arguments.  Read the
+    bash manual page for the complete specification.
+    
+    File operators:
+    
+      -a FILE        True if file exists.
+      -b FILE        True if file is block special.
+      -c FILE        True if file is character special.
+      -d FILE        True if file is a directory.
+      -e FILE        True if file exists.
+      -f FILE        True if file exists and is a regular file.
+      -g FILE        True if file is set-group-id.
+      -h FILE        True if file is a symbolic link.
+      -L FILE        True if file is a symbolic link.
+      -k FILE        True if file has its `sticky' bit set.
+      -p FILE        True if file is a named pipe.
+      -r FILE        True if file is readable by you.
+      -s FILE        True if file exists and is not empty.
+      -S FILE        True if file is a socket.
+      -t FD          True if FD is opened on a terminal.
+      -u FILE        True if the file is set-user-id.
+      -w FILE        True if the file is writable by you.
+      -x FILE        True if the file is executable by you.
+      -O FILE        True if the file is effectively owned by you.
+      -G FILE        True if the file is effectively owned by your group.
+      -N FILE        True if the file has been modified since it was last read.
+    
+      FILE1 -nt FILE2  True if file1 is newer than file2 (according to
+                       modification date).
+    
+      FILE1 -ot FILE2  True if file1 is older than file2.
+    
+      FILE1 -ef FILE2  True if file1 is a hard link to file2.
+    
+    All file operators except -h and -L are acting on the target of a symbolic
+    link, not on the symlink itself, if FILE is a symbolic link.
+    
+    String operators:
+    
+      -z STRING      True if string is empty.
+    
+      -n STRING
+         STRING      True if string is not empty.
+    
+      STRING1 = STRING2
+                     True if the strings are equal.
+      STRING1 != STRING2
+                     True if the strings are not equal.
+      STRING1 < STRING2
+                     True if STRING1 sorts before STRING2 lexicographically.
+      STRING1 > STRING2
+                     True if STRING1 sorts after STRING2 lexicographically.
+    
+    Other operators:
+    
+      -o OPTION      True if the shell option OPTION is enabled.
+      -v VAR         True if the shell variable VAR is set.
+      -R VAR         True if the shell variable VAR is set and is a name
+                     reference.
+      ! EXPR         True if expr is false.
+      EXPR1 -a EXPR2 True if both expr1 AND expr2 are true.
+      EXPR1 -o EXPR2 True if either expr1 OR expr2 is true.
+    
+      arg1 OP arg2   Arithmetic tests.  OP is one of -eq, -ne,
+                     -lt, -le, -gt, or -ge.
+    
+    Arithmetic binary operators return true if ARG1 is equal, not-equal,
+    less-than, less-than-or-equal, greater-than, or greater-than-or-equal
+    than ARG2.
+    
+    See the bash manual page bash(1) for the handling of parameters (i.e.
+    missing parameters).
+    
+    Exit Status:
+    Returns success if EXPR evaluates to true; fails if EXPR evaluates to
+    false or an invalid argument is given.
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m help cd
+[?2004lcd: cd [-L|[-P [-e]] [-@]] [dir]
+    Change the shell working directory.
+    
+    Change the current directory to DIR.  The default DIR is the value of the
+    HOME shell variable. If DIR is "-", it is converted to $OLDPWD.
+    
+    The variable CDPATH defines the search path for the directory containing
+    DIR.  Alternative directory names in CDPATH are separated by a colon (:).
+    A null directory name is the same as the current directory.  If DIR begins
+    with a slash (/), then CDPATH is not used.
+    
+    If the directory is not found, and the shell option `cdable_vars' is set,
+    the word is assumed to be  a variable name.  If that variable has a value,
+    its value is used for DIR.
+    
+    Options:
+      -L	force symbolic links to be followed: resolve symbolic
+    		links in DIR after processing instances of `..'
+      -P	use the physical directory structure without following
+    		symbolic links: resolve symbolic links in DIR before
+    		processing instances of `..'
+      -e	if the -P option is supplied, and the current working
+    		directory cannot be determined successfully, exit with
+    		a non-zero status
+      -@	on systems that support it, present a file with extended
+    		attributes as a directory containing the file attributes
+    
+    The default is to follow symbolic links, as if `-L' were specified.
+    `..' is processed by removing the immediately previous pathname component
+    back to a slash or the beginning of DIR.
+    
+    Exit Status:
+    Returns 0 if the directory is changed, and if $PWD is set successfully when
+    -P is used; non-zero otherwise.
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m man cd
+[?2004lNo manual entry for cd
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m man test[K[31m❯[0m man test[K[31m❯[0m man test[K[31m❯[0m man test[K[31m❯[0m man test[K[31m❯[0m man test
+[?2004l[?1049h[22;0;0t[?1h=TEST(1)                            User Commands                           TEST(1)[m
+[m
+[1mNAME[0m[m
+       test - check file types and compare values[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtest[0m [4mEXPRESSION[24m[m
+       [1mtest[0m[m
+       [1m[[0m [4mEXPRESSION[24m [1m][0m[m
+       [1m[[0m [1m][0m[m
+       [1m[[0m [4mOPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Exit with the status determined by EXPRESSION.[m
+[m
+       [1m--help[0m display this help and exit[m
+[7m Manual page test(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page test(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page test(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       An  omitted EXPRESSION defaults to false.  Otherwise, EXPRESSION is true or[m
+[7m Manual page test(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       false and sets exit status.  It is one of:[m
+[7m Manual page test(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ( EXPRESSION )[m
+[7m Manual page test(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              EXPRESSION is true[m
+[7m Manual page test(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ! EXPRESSION[m
+[7m Manual page test(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              EXPRESSION is false[m
+[7m Manual page test(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPRESSION1 [1m-a[0m EXPRESSION2[m
+[7m Manual page test(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              both EXPRESSION1 and EXPRESSION2 are true[m
+[7m Manual page test(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPRESSION1 [1m-o[0m EXPRESSION2[m
+[7m Manual page test(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              either EXPRESSION1 or EXPRESSION2 is true[m
+[7m Manual page test(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m STRING[m
+[7m Manual page test(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the length of STRING is nonzero[m
+[7m Manual page test(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING equivalent to [1m-n[0m STRING[m
+[7m Manual page test(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page test(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       false and sets exit status.  It is one of:[m
+[17;1H[K[7m Manual page test(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       An  omitted EXPRESSION defaults to false.  Otherwise, EXPRESSION is true or[m
+[17;1H[K[7m Manual page test(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page test(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[17;1H[K[7m Manual page test(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[17;1H[K[7m Manual page test(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page test(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[17;1H[K[7m Manual page test(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page test(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Exit with the status determined by EXPRESSION.[m
+[17;1H[K[7m Manual page test(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPRESSION1 [1m-a[0m EXPRESSION2[m
+[7m Manual page test(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              both EXPRESSION1 and EXPRESSION2 are true[m
+[7m Manual page test(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPRESSION1 [1m-o[0m EXPRESSION2[m
+[7m Manual page test(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              either EXPRESSION1 or EXPRESSION2 is true[m
+[7m Manual page test(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m STRING[m
+[7m Manual page test(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the length of STRING is nonzero[m
+[7m Manual page test(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING equivalent to [1m-n[0m STRING[m
+[7m Manual page test(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m STRING[m
+[7m Manual page test(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the length of STRING is zero[m
+[7m Manual page test(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING1 = STRING2[m
+[7m Manual page test(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the strings are equal[m
+[7m Manual page test(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING1 != STRING2[m
+[7m Manual page test(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the strings are not equal[m
+[7m Manual page test(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-eq[0m INTEGER2[m
+[7m Manual page test(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is equal to INTEGER2[m
+[7m Manual page test(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-ge[0m INTEGER2[m
+[7m Manual page test(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is greater than or equal to INTEGER2[m
+[7m Manual page test(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-gt[0m INTEGER2[m
+[7m Manual page test(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is greater than INTEGER2[m
+[7m Manual page test(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-le[0m INTEGER2[m
+[7m Manual page test(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is less than or equal to INTEGER2[m
+[7m Manual page test(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-lt[0m INTEGER2[m
+[7m Manual page test(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is less than INTEGER2[m
+[7m Manual page test(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       INTEGER1 [1m-ne[0m INTEGER2[m
+[7m Manual page test(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              INTEGER1 is not equal to INTEGER2[m
+[7m Manual page test(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       FILE1 [1m-ef[0m FILE2[m
+[7m Manual page test(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 and FILE2 have the same device and inode numbers[m
+[7m Manual page test(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       FILE1 [1m-nt[0m FILE2[m
+[7m Manual page test(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 is newer (modification date) than FILE2[m
+[7m Manual page test(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       FILE1 [1m-ot[0m FILE2[m
+[7m Manual page test(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE1 is older than FILE2[m
+[7m Manual page test(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m FILE[m
+[7m Manual page test(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is block special[m
+[7m Manual page test(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m FILE[m
+[7m Manual page test(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is character special[m
+[7m Manual page test(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m FILE[m
+[7m Manual page test(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a directory[m
+[7m Manual page test(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m FILE[m
+[7m Manual page test(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists[m
+[7m Manual page test(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m FILE[m
+[7m Manual page test(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a regular file[m
+[7m Manual page test(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[0m FILE[m
+[7m Manual page test(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is set-group-ID[m
+[7m Manual page test(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-G[0m FILE[m
+[7m Manual page test(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is owned by the effective group ID[m
+[7m Manual page test(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m FILE[m
+[7m Manual page test(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a symbolic link (same as [1m-L[0m)[m
+[7m Manual page test(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m FILE[m
+[7m Manual page test(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has its sticky bit set[m
+[7m Manual page test(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m FILE[m
+[7m Manual page test(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a symbolic link (same as [1m-h[0m)[m
+[7m Manual page test(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-N[0m FILE[m
+[7m Manual page test(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has been modified since it was last read[m
+[7m Manual page test(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-O[0m FILE[m
+[7m Manual page test(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is owned by the effective user ID[m
+[7m Manual page test(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m FILE[m
+[7m Manual page test(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a named pipe[m
+[7m Manual page test(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m FILE[m
+[7m Manual page test(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has read access[m
+[7m Manual page test(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m FILE[m
+[7m Manual page test(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and has a size greater than zero[m
+[7m Manual page test(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m FILE[m
+[7m Manual page test(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and is a socket[m
+[7m Manual page test(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m FD  file descriptor FD is opened on a terminal[m
+[7m Manual page test(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m FILE[m
+[7m Manual page test(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and its set-user-ID bit is set[m
+[7m Manual page test(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m FILE[m
+[7m Manual page test(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has write access[m
+[7m Manual page test(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m FILE[m
+[7m Manual page test(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              FILE exists and the user has execute (or search) access[m
+[7m Manual page test(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Except for [1m-h[0m and [1m-L[0m, all FILE-related tests  dereference  symbolic  links.[m
+[7m Manual page test(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Beware  that  parentheses  need  to  be  escaped (e.g., by backslashes) for[m
+[7m Manual page test(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       shells.  INTEGER may also be [1m-l[0m STRING, which evaluates to  the  length  of[m
+[7m Manual page test(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       STRING.[m
+[7m Manual page test(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  Binary  [1m-a[0m and [1m-o[0m are inherently ambiguous.  Use 'test EXPR1 && test[m
+[7m Manual page test(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       EXPR2' or 'test EXPR1 || test EXPR2' instead.[m
+[7m Manual page test(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE: [ honors the [1m--help[0m and [1m--version[0m options, but test does  not.   test[m
+[7m Manual page test(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       treats each of those as it treats any other nonempty STRING.[m
+[7m Manual page test(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page test(1) line 131 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m5m23s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m a[Ka=""h"u"n"d"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m b=""k"a"t"t"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m test ""$"a"[C = ""$"b"[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m echio [K[K[Ko $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $?[C[Ctest "$a" = "$b"[1P[1P[1P[1P[1@[[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: [: missing `]'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m  ][K[K[ "$a" = "$b" ]
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m [ "$a" = "$b" ][K[C[C[6Pecho $?
+[?2004l1
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ][[K[Kecho $?[C[C[ "$a" = "$b" ][C[C[C[1@![C[C[C[C[C[C[C[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [ "$a" != "$b" ][C[C[9Pecho $?
+[?2004l0
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m c[K./ifn[Kelif
+[?2004lbash: ./ifelif: Permission denied
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m chmod +x ./ifelif 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./iif[K[Kfelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./ifelif 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m4s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m4s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? giraff
+Knappast!
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? hund
+A hund är samma sak som B hund
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? giraff
+Knappast!
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m4s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? r[ ådjur
+rådjur är nog ett bra djur!
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m11s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? rådjur
+Äter ibland animaliskt.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m30s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m30s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? snok
+Fint med snok.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? katt
+Fint med katt.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m3s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? nakenråtta
+Fint med nakenråtta.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m l[Knano djurd[Kfil
+[?2004l[?2004h[?1049h[22;0;0t[1;9r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[7;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                           djurfil                                     [1;84H(B[m[8d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[8;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[9d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[84G(B[m[?12l[?25h[2d;[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hö[?25l[?12l[?25hr[?25l[?12l[?25hn[?25l[3d[?12l[?25h[?25l[?12l[?25hk[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[4d[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25hu[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[5d[?12l[?25h[?25l[7d(B[0;7mSave modified buffer?                                                                [8;1H Y(B[m Yes[K[9d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[7;23H[?12l[?25h[?25l[8d(B[0;7m^G(B[m Help[8;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[8;64H(B[0;7mM-B(B[m Backup File[9d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[9;64H(B[0;7m^T(B[m Browse[7d(B[0;7mFile Name to Write: djurfil(B[m[?12l[?25h[?25l[35G[1K (B[0;7m[ Writing... ](B[m[K[1d(B[0;7m [84G(B[m[7;35H(B[0;7m[ Wrote 4 lines ](B[m[J[9d[?12l[?25h[9;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [33m13s[0m 
+[35m❯[0m nano djurfil[C[C[3P./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [33m13s[0m 
+[35m❯[0m ./ifelif 
+[?2004lVilket husdjur har du hemma? lodjur      påfågel
+örn
+Fult med påfågel.
+./ifelif: line 22: syntax error near unexpected token `fi'
+./ifelif: line 22: `fi'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m ./ifelif [C[C[K./ifelif [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m ./ifelif [C[C[1@b[1@a[1@s[1@h[1@ [1@+[1P[1@-[1@x[1@ [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [K[31m❯[0m bash -x ./ifelif [C[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m1m51s[0m 
+[31m❯[0m bash -x ./ifelif [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l+ a=hund
++ read -r -p 'Vilket husdjur har du hemma? ' b
+Vilket husdjur har du hemma? påfågel
++ '[' hund = påfågel ']'
++ '[' påfågel = giraff ']'
++ '[' påfågel = rådjur ']'
++ '[' påfågel = snok -o påfågel = katt ']'
++ '[' påfågel = hamster ']'
++ '[' påfågel = nakenråtta ']'
++ '[' påfågel = lodjur ']'
++ grep örn djurfil
+örn
++ echo 'Fult med påfågel.'
+Fult med påfågel.
++ echo 'Nog om djur...'
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m24s[0m 
+[35m❯[0m bash -x ./ifelif [1P[1P[1P
+[?2004lVilket husdjur har du hemma? påfågel
+örn
+Fult med påfågel.
+Nog om djur...
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m2s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m who[Kile tureö [K[K[K[K[Krue; do git pull [K; sleep 5; done
+[?2004lAlready up to date.
+^C
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m6s[0m 
+[31m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [33m6s[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m echo $RANDOM
+[?2004l645
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l32199
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l30162
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l25960
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $RANDOM
+[?2004l32151
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name
+[?2004l
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name[C[C[Kname=Ove
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m name=Ove[C[Cecho $name[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name
+[?2004lOve
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $name{name[C[C[C[C}
+[?2004lOve
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}[2Pnamesan
+[?2004l
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo $namesan}sanPname}san[1Pname}san{name}san[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}san[C[C[Kending=san
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ending=san[C[C[Ccho ${name}san[K[K[K$ending[C[C[C[C{ending[C[C[C[C[C[C}[1P{ending}[C%{ending}[1P{ending}${ending}[C[C[C[C[C[C[C[C
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m echo ${name}${ending}[1Pending}[C[C[C[C[C[C[C[K
+[?2004lOvesan
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./forloop 
+[?2004lDjur: hund
+Djur: katt
+Djur: nakenråtta
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo [7mrecordings/*timing*[27m[C[C[C[C[C[C[Crecordings/*timing*
+[?2004lrecordings/090813_timing.txt
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo recordings/*timing*[C[C[14P./forloop [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./forloop 
+[?2004lDjur: hund
+Djur: katt
+Djur: nakenråtta
+Matchande fil från globbingen: recordings/090813_timing.txt
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m man bash
+[?2004l[?1049h[22;0;0t[?1h=BASH(1)                       General Commands Manual                      BASH(1)[m
+[m
+[1mNAME[0m[m
+       bash - GNU Bourne-Again SHell[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mbash[0m [options] [command_string | file][m
+[m
+[1mCOPYRIGHT[0m[m
+       Bash is Copyright (C) 1989-2022 by the Free Software Foundation, Inc.[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mBash[0m  is  an  [1msh[0m-compatible command language interpreter that executes com‐[m
+       mands read from the standard input or from a file.  [1mBash[0m also  incorporates[m
+       useful features from the [4mKorn[24m and [4mC[24m shells ([1mksh[0m and [1mcsh[0m).[m
+[m
+       [1mBash[0m  is intended to be a conformant implementation of the Shell and Utili‐[m
+[7m Manual page bash(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+       [1msh[0m, mostly because of the [1mPOSIX[0m specification.[m
+[m
+       Aliases are confusing in some uses.[m
+[m
+       Shell builtin commands and functions are not stoppable/restartable.[m
+[m
+       Compound  commands  and  command  sequences of the form `a ; b ; c' are not[m
+       handled gracefully when process suspension is attempted.  When a process is[m
+       stopped,  the  shell immediately executes the next command in the sequence.[m
+       It suffices to place the sequence of commands between parentheses to  force[m
+       it into a subshell, which may be stopped as a unit.[m
+[m
+       Array variables may not (yet) be exported.[m
+[m
+       There may be only one active coprocess at a time.[m
+[m
+GNU Bash 5.2                     2022 September 19                         BASH(1)[m
+[7m Manual page bash(1) line 6379/6395 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       There are some subtle differences between [1mbash[0m and traditional versions  of[m
+[18;1H[K[7m Manual page bash(1) line 6378/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 6377/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       It's too big and too slow.[m
+[18;1H[K[7m Manual page bash(1) line 6376/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mBUGS[0m[m
+[18;1H[K[7m Manual page bash(1) line 6375/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 6374/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mchet.ramey@case.edu[24m.[m
+[18;1H[K[7m Manual page bash(1) line 6373/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Comments  and bug reports concerning this manual page should be directed to[m
+[18;1H[K[7m Manual page bash(1) line 6372/6395 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 6371/6395 100% (press h for help or q to quit)[27m[K[K[H[2J[HM       [1mBash[0m  is intended to be a conformant implementation of the Shell and Utili‐[m
+[HM[m
+[HM       useful features from the [4mKorn[24m and [4mC[24m shells ([1mksh[0m and [1mcsh[0m).[m
+[HM       mands read from the standard input or from a file.  [1mBash[0m also  incorporates[m
+[HM       [1mBash[0m  is  an  [1msh[0m-compatible command language interpreter that executes com‐[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       Bash is Copyright (C) 1989-2022 by the Free Software Foundation, Inc.[m
+[HM[1mCOPYRIGHT[0m[m
+[HM[m
+[HM       [1mbash[0m [options] [command_string | file][m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       bash - GNU Bourne-Again SHell[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMBASH(1)                       General Commands Manual                      BASH(1)[m
+[18;1H[K[7m Manual page bash(1) line 1/6395 0% (press h for help or q to quit)[27m[K[K-[K[7m Manual page bash(1) line 1/6395 0% (press h for help or q to quit)[27m[K[K/[KEE[KXX[KPP[KAA[KNN[KSS[KII[KOO[KNN[K[1;1HBASH(1)                       General Commands Manual                      BASH(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       bash - GNU Bourne-Again SHell[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mbash[0m [options] [command_string | file][m
+[8;1H[m
+[9;1H[1mCOPYRIGHT[0m[m
+[10;1H       Bash is Copyright (C) 1989-2022 by the Free Software Foundation, Inc.[m
+[11;1H[m
+[12;1H[1mDESCRIPTION[0m[m
+[13;1H       [1mBash[0m  is  an  [1msh[0m-compatible command language interpreter that executes com‐[m
+[14;1H       mands read from the standard input or from a file.  [1mBash[0m also  incorporates[m
+[15;1H       useful features from the [4mKorn[24m and [4mC[24m shells ([1mksh[0m and [1mcsh[0m).[m
+[16;1H[m
+[17;1H       [1mBash[0m  is intended to be a conformant implementation of the Shell and Utili‐[m
+[18;1H[1;1HBASH(1)                       General Commands Manual                      BASH(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       bash - GNU Bourne-Again SHell[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mbash[0m [options] [command_string | file][m
+[8;1H[m
+[9;1H[1mCOPYRIGHT[0m[m
+[10;1H       Bash is Copyright (C) 1989-2022 by the Free Software Foundation, Inc.[m
+[11;1H[m
+[12;1H[1mDESCRIPTION[0m[m
+[13;1H       [1mBash[0m  is  an  [1msh[0m-compatible command language interpreter that executes com‐[m
+[14;1H       mands read from the standard input or from a file.  [1mBash[0m also  incorporates[m
+[15;1H       useful features from the [4mKorn[24m and [4mC[24m shells ([1mksh[0m and [1mcsh[0m).[m
+[16;1H[m
+[17;1H       [1mBash[0m  is intended to be a conformant implementation of the Shell and Utili‐[m
+[18;1H...skipping...
+       [1m[7mEXPANSION[27m[0m section.[m
+[m
+       When [1mbash[0m is invoked as an interactive login shell, or as a non-interactive[m
+       shell  with  the  [1m--login[0m option, it first reads and executes commands from[m
+       the file [4m/etc/profile[24m, if that file exists.  After reading  that  file,  it[m
+       looks  for  [4m~/.bash_profile[24m,  [4m~/.bash_login[24m, and [4m~/.profile[24m, in that order,[m
+       and reads and executes commands from the first one that exists and is read‐[m
+       able.   The [1m--noprofile[0m option may be used when the shell is started to in‐[m
+       hibit this behavior.[m
+[m
+       When an interactive login shell exits, or a non-interactive login shell ex‐[m
+       ecutes  the [1mexit[0m builtin command, [1mbash[0m reads and executes commands from the[m
+       file [4m~/.bash_logout[24m, if it exists.[m
+[m
+       When an interactive shell that is not a login shell is started, [1mbash[0m  reads[m
+       and  executes  commands from [4m/etc/bash.bashrc[24m and [4m~/.bashrc[24m, if these files[m
+       exist.  This may be inhibited by using the  [1m--norc[0m  option.   The  [1m--rcfile[0m[m
+[7m Manual page bash(1) line 139/6395 2% (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m[7mEXPANSION[27m[0m  below),  the  [4mhistory[24m  [4mexpansion[24m  character,  usually [1m![0m, must be[m
+       quoted to prevent history expansion.[m
+[m
+       There are three quoting mechanisms: the [4mescape[24m  [4mcharacter[24m,  single  quotes,[m
+       and double quotes.[m
+[m
+       A  non-quoted backslash ([1m\[0m) is the [4mescape[24m [4mcharacter[24m.  It preserves the lit‐[m
+       eral value of the next character that follows, with the exception of  <new‐[m
+       line>.   If  a  [1m\[0m<newline>  pair  appears,  and the backslash is not itself[m
+       quoted, the [1m\[0m<newline> is treated as a line continuation (that  is,  it  is[m
+       removed from the input stream and effectively ignored).[m
+[m
+       Enclosing  characters  in single quotes preserves the literal value of each[m
+       character within the quotes.  A single quote may not occur  between  single[m
+       quotes, even when preceded by a backslash.[m
+[m
+       Enclosing  characters  in  double quotes preserves the literal value of all[m
+[7m Manual page bash(1) line 589/6395 9% (press h for help or q to quit)[27m[K[K/[K...skipping...
+       stitution,  arithmetic  expansion, and quote removal (see [1m[7mEXPANSION[27m[0m below).[m
+       If the variable has its [1minteger[0m attribute set, then [4mvalue[24m is  evaluated  as[m
+       an  arithmetic  expression  even if the $((...)) expansion is not used (see[m
+       [1mArithmetic[0m [1mExpansion[0m below).  Word splitting and pathname expansion are not[m
+       performed.   Assignment  statements  may  also  appear  as arguments to the[m
+       [1malias[0m, [1mdeclare[0m, [1mtypeset[0m, [1mexport[0m, [1mreadonly[0m, and [1mlocal[0m builtin commands ([4mdec‐[24m[m
+       [4mlaration[24m  commands).   When  in  [4mposix[24m [4mmode[24m, these builtins may appear in a[m
+       command after one or more instances of the [1mcommand[0m builtin and retain these[m
+       assignment statement properties.[m
+[m
+       In  the  context  where  an  assignment statement is assigning a value to a[m
+       shell variable or array index, the += operator can be used to append to  or[m
+       add  to  the variable's previous value.  This includes arguments to builtin[m
+       commands such as [1mdeclare[0m that  accept  assignment  statements  ([4mdeclaration[24m[m
+       commands).   When  += is applied to a variable for which the [1minteger[0m attri‐[m
+       bute has been set, [4mvalue[24m is evaluated as an arithmetic expression and added[m
+       to  the  variable's current value, which is also evaluated.  When += is ap‐[m
+[7m Manual page bash(1) line 679/6395 11% (press h for help or q to quit)[27m[K[K/[K...skipping...
+       panded, it must be enclosed in braces (see [1m[7mEXPANSION[27m[0m below).[m
+[m
+   [1mSpecial[0m [1mParameters[0m[m
+       The shell treats several parameters specially.  These parameters  may  only[m
+       be referenced; assignment to them is not allowed.[m
+       [1m*[0m      Expands  to  the positional parameters, starting from one.  When the[m
+              expansion is not within double quotes, each positional parameter ex‐[m
+              pands  to a separate word.  In contexts where it is performed, those[m
+              words are subject to further word splitting and pathname  expansion.[m
+              When the expansion occurs within double quotes, it expands to a sin‐[m
+              gle word with the value of each parameter  separated  by  the  first[m
+              character  of the [1mIFS[0m special variable.  That is, "[1m$*[0m" is equivalent[m
+              to "[1m$1[0m[4mc[24m[1m$2[0m[4mc[24m[1m...[0m", where [4mc[24m is the first character of the value  of  the[m
+              [1mIFS[0m variable.  If [1mIFS[0m is unset, the parameters are separated by spa‐[m
+              ces.  If [1mIFS[0m is null, the parameters are joined without  intervening[m
+              separators.[m
+       [1m@[0m      Expands  to  the  positional parameters, starting from one.  In con‐[m
+[7m Manual page bash(1) line 737/6395 12% (press h for help or q to quit)[27m[K[K/[K...skipping...
+              enization (see [1mHISTORY[0m [1m[7mEXPANSION[27m[0m below).  The first character is the[m
+              [4mhistory[24m  [4mexpansion[24m  character, the character which signals the start[m
+              of a history expansion, normally `[1m![0m'.  The second character  is  the[m
+              [4mquick[24m [4msubstitution[24m character, which is used as shorthand for re-run‐[m
+              ning the previous command entered, substituting one string  for  an‐[m
+              other in the command.  The default is `[1m^[0m'.  The optional third char‐[m
+              acter is the character which indicates that  the  remainder  of  the[m
+              line  is a comment when found as the first character of a word, nor‐[m
+              mally `[1m#[0m'.  The history comment character causes  history  substitu‐[m
+              tion to be skipped for the remaining words on the line.  It does not[m
+              necessarily cause the shell parser to treat the rest of the line  as[m
+              a comment.[m
+[m
+   [1mArrays[0m[m
+       [1mBash[0m provides one-dimensional indexed and associative array variables.  Any[m
+       variable may be used as an indexed array; the [1mdeclare[0m builtin will  explic‐[m
+       itly  declare an array.  There is no maximum limit on the size of an array,[m
+[7m Manual page bash(1) line 1380/6395 23% (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m[7mEXPANSION[27m[0m.  When assigning to indexed arrays, if the optional brackets  and[m
+       subscript  are  supplied, that index is assigned to; otherwise the index of[m
+       the element assigned is the last index assigned to by  the  statement  plus[m
+       one.  Indexing starts at zero.[m
+[m
+       When  assigning to an associative array, the words in a compound assignment[m
+       may be either assignment statements, for which the subscript  is  required,[m
+       or  a  list  of words that is interpreted as a sequence of alternating keys[m
+       and values: [4mname[24m=[1m([0m [4mkey1[24m [4mvalue1[24m [4mkey2[24m [4mvalue2[24m ...[1m)[0m.  These are treated identi‐[m
+       cally  to  [4mname[24m=[1m([0m  [[4mkey1[24m]=[4mvalue1[24m [[4mkey2[24m]=[4mvalue2[24m ...[1m)[0m.  The first word in the[m
+       list determines how the remaining words are interpreted; all assignments in[m
+       a  list must be of the same type.  When using key/value pairs, the keys may[m
+       not be missing or empty; a final missing value is treated  like  the  empty[m
+       string.[m
+[m
+       This syntax is also accepted by the [1mdeclare[0m builtin.  Individual array ele‐[m
+       ments may be assigned to using the [4mname[24m[[4msubscript[24m]=[4mvalue[24m syntax  introduced[m
+[7m Manual page bash(1) line 1419/6395 23% (press h for help or q to quit)[27m[K[K/[K...skipping...
+[1m[7mEXPANSION[27m[0m[m
+       Expansion is performed on the command line after it  has  been  split  into[m
+       words.   There  are  seven  kinds  of expansion performed: [4mbrace[24m [4mexpansion[24m,[m
+       [4mtilde[24m [4mexpansion[24m, [4mparameter[24m [4mand[24m [4mvariable[24m  [4mexpansion[24m,  [4mcommand[24m  [4msubstitution[24m,[m
+       [4marithmetic[24m [4mexpansion[24m, [4mword[24m [4msplitting[24m, and [4mpathname[24m [4mexpansion[24m.[m
+[m
+       The order of expansions is: brace expansion; tilde expansion, parameter and[m
+       variable expansion, arithmetic expansion, and command substitution (done in[m
+       a left-to-right fashion); word splitting; and pathname expansion.[m
+[m
+       On systems that can support it, there is an additional expansion available:[m
+       [4mprocess[24m [4msubstitution[24m.  This is performed at the same time as tilde, parame‐[m
+       ter, variable, and arithmetic expansion and command substitution.[m
+[m
+       After these expansions are performed, quote characters present in the orig‐[m
+       inal word are removed unless they have been quoted  themselves  ([4mquote[24m  [4mre‐[24m[m
+       [4mmoval[24m).[m
+[7m Manual page bash(1) line 1499/6395 25% (press h for help or q to quit)[27m[K[K-[K[7m Manual page bash(1) line 1499/6395 25% (press h for help or q to quit)[27m[K[K/[KPP[Kaa[Krr[Kaa[Kmm[Kee[Ktt[Kee[Krr[K  [KEE[Kxx[Kpp[Kaa[Knn[Kss[Kii[Koo[Knn[K[1;1H[1mEXPANSION[0m[m
+[2;1H       Expansion is performed on the command line after it  has  been  split  into[m
+[3;1H       words.   There  are  seven  kinds  of expansion performed: [4mbrace[24m [4mexpansion[24m,[m
+[4;1H       [4mtilde[24m [4mexpansion[24m, [4mparameter[24m [4mand[24m [4mvariable[24m  [4mexpansion[24m,  [4mcommand[24m  [4msubstitution[24m,[m
+[5;1H       [4marithmetic[24m [4mexpansion[24m, [4mword[24m [4msplitting[24m, and [4mpathname[24m [4mexpansion[24m.[m
+[6;1H[m
+[7;1H       The order of expansions is: brace expansion; tilde expansion, parameter and[m
+[8;1H       variable expansion, arithmetic expansion, and command substitution (done in[m
+[9;1H       a left-to-right fashion); word splitting; and pathname expansion.[m
+[10;1H[m
+[11;1H       On systems that can support it, there is an additional expansion available:[m
+[12;1H       [4mprocess[24m [4msubstitution[24m.  This is performed at the same time as tilde, parame‐[m
+[13;1H       ter, variable, and arithmetic expansion and command substitution.[m
+[14;1H[m
+[15;1H       After these expansions are performed, quote characters present in the orig‐[m
+[16;1H       inal word are removed unless they have been quoted  themselves  ([4mquote[24m  [4mre‐[24m[m
+[17;1H       [4mmoval[24m).[m
+[18;1H[1;1H[1mEXPANSION[0m[m
+[2;1H       Expansion is performed on the command line after it  has  been  split  into[m
+[3;1H       words.   There  are  seven  kinds  of expansion performed: [4mbrace[24m [4mexpansion[24m,[m
+[4;1H       [4mtilde[24m [4mexpansion[24m, [4mparameter[24m [4mand[24m [4mvariable[24m  [4mexpansion[24m,  [4mcommand[24m  [4msubstitution[24m,[m
+[5;1H       [4marithmetic[24m [4mexpansion[24m, [4mword[24m [4msplitting[24m, and [4mpathname[24m [4mexpansion[24m.[m
+[6;1H[m
+[7;1H       The order of expansions is: brace expansion; tilde expansion, parameter and[m
+[8;1H       variable expansion, arithmetic expansion, and command substitution (done in[m
+[9;1H       a left-to-right fashion); word splitting; and pathname expansion.[m
+[10;1H[m
+[11;1H       On systems that can support it, there is an additional expansion available:[m
+[12;1H       [4mprocess[24m [4msubstitution[24m.  This is performed at the same time as tilde, parame‐[m
+[13;1H       ter, variable, and arithmetic expansion and command substitution.[m
+[14;1H[m
+[15;1H       After these expansions are performed, quote characters present in the orig‐[m
+[16;1H       inal word are removed unless they have been quoted  themselves  ([4mquote[24m  [4mre‐[24m[m
+[17;1H       [4mmoval[24m).[m
+[18;1H...skipping...
+   [1m[7mParameter[27m[0m[7m [27m[1m[7mExpansion[27m[0m[m
+       The `[1m$[0m' character introduces parameter expansion, command substitution,  or[m
+       arithmetic  expansion.   The parameter name or symbol to be expanded may be[m
+       enclosed in braces, which are optional but serve to protect the variable to[m
+       be  expanded from characters immediately following it which could be inter‐[m
+       preted as part of the name.[m
+[m
+       When braces are used, the matching ending brace is the first  `[1m}[0m'  not  es‐[m
+       caped  by a backslash or within a quoted string, and not within an embedded[m
+       arithmetic expansion, command substitution, or parameter expansion.[m
+[m
+       ${[4mparameter[24m}[m
+              The value of [4mparameter[24m is substituted.  The braces are required when[m
+              [4mparameter[24m  is  a  positional  parameter with more than one digit, or[m
+              when [4mparameter[24m is followed by a character which is not to be  inter‐[m
+              preted  as  part of its name.  The [4mparameter[24m is a shell parameter as[m
+              described above [1mPARAMETERS[0m) or an array reference ([1mArrays[0m).[m
+[7m Manual page bash(1) line 1614/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1615/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If the first character of [4mparameter[24m is an exclamation point ([1m![0m), and [4mparam‐[24m[m
+[7m Manual page bash(1) line 1616/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4meter[24m is not a [4mnameref[24m, it introduces a level of indirection.  [1mBash[0m uses the[m
+[7m Manual page bash(1) line 1617/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       value formed by expanding the rest of [4mparameter[24m as the new [4mparameter[24m;  this[m
+[7m Manual page bash(1) line 1618/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       is  then  expanded  and  that  value  is used in the rest of the expansion,[m
+[7m Manual page bash(1) line 1619/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rather than the expansion of the original [4mparameter[24m.  This is known as  [4min‐[24m[m
+[7m Manual page bash(1) line 1620/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mdirect[24m  [4mexpansion[24m.   The value is subject to tilde expansion, parameter ex‐[m
+[7m Manual page bash(1) line 1621/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pansion, command substitution, and arithmetic expansion.  If [4mparameter[24m is a[m
+[7m Manual page bash(1) line 1622/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       nameref,  this expands to the name of the parameter referenced by [4mparameter[24m[m
+[7m Manual page bash(1) line 1623/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       instead of performing the complete indirect expansion.  The  exceptions  to[m
+[7m Manual page bash(1) line 1624/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       this  are  the  expansions  of ${[1m![0m[4mprefix[24m[1m*[0m} and ${[1m![0m[4mname[24m[[4m@[24m]} described below.[m
+[7m Manual page bash(1) line 1625/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The exclamation point must immediately follow the left brace  in  order  to[m
+[7m Manual page bash(1) line 1626/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       introduce indirection.[m
+[7m Manual page bash(1) line 1627/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1628/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       In  each  of the cases below, [4mword[24m is subject to tilde expansion, parameter[m
+[7m Manual page bash(1) line 1629/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       expansion, command substitution, and arithmetic expansion.[m
+[7m Manual page bash(1) line 1630/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1631/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When not performing substring expansion, using the forms  documented  below[m
+[7m Manual page bash(1) line 1632/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (e.g., [1m:-[0m), [1mbash[0m tests for a parameter that is unset or null.  Omitting the[m
+[7m Manual page bash(1) line 1633/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       colon results in a test only for a parameter that is unset.[m
+[7m Manual page bash(1) line 1634/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1635/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:-[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1636/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mUse[0m [1mDefault[0m [1mValues[0m.  If [4mparameter[24m is unset or null, the expansion of[m
+[7m Manual page bash(1) line 1637/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mword[24m  is  substituted.  Otherwise, the value of [4mparameter[24m is substi‐[m
+[7m Manual page bash(1) line 1638/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tuted.[m
+[7m Manual page bash(1) line 1639/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:=[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1640/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mAssign[0m [1mDefault[0m [1mValues[0m.  If [4mparameter[24m is unset or null, the expansion[m
+[7m Manual page bash(1) line 1641/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of  [4mword[24m  is  assigned to [4mparameter[24m.  The value of [4mparameter[24m is then[m
+[7m Manual page bash(1) line 1642/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              substituted.  Positional parameters and special parameters  may  not[m
+[7m Manual page bash(1) line 1643/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be assigned to in this way.[m
+[7m Manual page bash(1) line 1644/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:?[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1645/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mDisplay[0m  [1mError[0m [1mif[0m [1mNull[0m [1mor[0m [1mUnset[0m.  If [4mparameter[24m is null or unset, the[m
+[7m Manual page bash(1) line 1646/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expansion of [4mword[24m (or a message  to  that  effect  if  [4mword[24m  is  not[m
+[7m Manual page bash(1) line 1647/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              present)  is  written  to the standard error and the shell, if it is[m
+[7m Manual page bash(1) line 1648/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              not interactive, exits.  Otherwise, the value of [4mparameter[24m  is  sub‐[m
+[7m Manual page bash(1) line 1649/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stituted.[m
+[7m Manual page bash(1) line 1650/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:+[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1651/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mUse[0m [1mAlternate[0m [1mValue[0m.  If [4mparameter[24m is null or unset, nothing is sub‐[m
+[7m Manual page bash(1) line 1652/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stituted, otherwise the expansion of [4mword[24m is substituted.[m
+[7m Manual page bash(1) line 1653/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:[0m[4moffset[24m}[m
+[7m Manual page bash(1) line 1654/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m:[0m[4moffset[24m[1m:[0m[4mlength[24m}[m
+[7m Manual page bash(1) line 1655/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mSubstring[0m [1mExpansion[0m.  Expands to up  to  [4mlength[24m  characters  of  the[m
+[7m Manual page bash(1) line 1656/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              value  of  [4mparameter[24m  starting at the character specified by [4moffset[24m.[m
+[7m Manual page bash(1) line 1657/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mparameter[24m is [1m@[0m or [1m*[0m, an indexed array subscripted by [1m@[0m or  [1m*[0m,  or[m
+[7m Manual page bash(1) line 1658/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              an  associative  array  name, the results differ as described below.[m
+[7m Manual page bash(1) line 1659/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mlength[24m is omitted, expands to the substring of the value  of  [4mpa‐[24m[m
+[7m Manual page bash(1) line 1660/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mrameter[24m  starting at the character specified by [4moffset[24m and extending[m
+[7m Manual page bash(1) line 1661/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to the end of the value.  [4mlength[24m and [4moffset[24m are  arithmetic  expres‐[m
+[7m Manual page bash(1) line 1662/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sions (see [1mARITHMETIC[0m [1mEVALUATION[0m below).[m
+[7m Manual page bash(1) line 1663/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1664/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4moffset[24m evaluates to a number less than zero, the value is used as[m
+[7m Manual page bash(1) line 1665/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              an offset in characters from the end of the value of [4mparameter[24m.   If[m
+[7m Manual page bash(1) line 1666/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mlength[24m evaluates to a number less than zero, it is interpreted as an[m
+[7m Manual page bash(1) line 1667/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              offset in characters from the end of the value of  [4mparameter[24m  rather[m
+[7m Manual page bash(1) line 1668/6395 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              than a number of characters, and the expansion is the characters be‐[m
+[7m Manual page bash(1) line 1669/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tween [4moffset[24m and that result.  Note that a negative offset  must  be[m
+[7m Manual page bash(1) line 1670/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              separated  from  the colon by at least one space to avoid being con‐[m
+[7m Manual page bash(1) line 1671/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              fused with the [1m:-[0m expansion.[m
+[7m Manual page bash(1) line 1672/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1673/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mparameter[24m is [1m@[0m or [1m*[0m, the result is [4mlength[24m  positional  parameters[m
+[7m Manual page bash(1) line 1674/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              beginning  at  [4moffset[24m.   A  negative [4moffset[24m is taken relative to one[m
+[7m Manual page bash(1) line 1675/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              greater than the greatest positional parameter, so an offset  of  -1[m
+[7m Manual page bash(1) line 1676/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              evaluates  to the last positional parameter.  It is an expansion er‐[m
+[7m Manual page bash(1) line 1677/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ror if [4mlength[24m evaluates to a number less than zero.[m
+[7m Manual page bash(1) line 1678/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1679/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mparameter[24m is an indexed array name subscripted by @ or *, the re‐[m
+[7m Manual page bash(1) line 1680/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sult  is  the  [4mlength[24m  members of the array beginning with ${[4mparame‐[24m[m
+[7m Manual page bash(1) line 1681/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mter[24m[[4moffset[24m]}.  A negative [4moffset[24m is taken relative  to  one  greater[m
+[7m Manual page bash(1) line 1682/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              than  the  maximum index of the specified array.  It is an expansion[m
+[7m Manual page bash(1) line 1683/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              error if [4mlength[24m evaluates to a number less than zero.[m
+[7m Manual page bash(1) line 1684/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1685/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Substring expansion applied to an associative array  produces  unde‐[m
+[7m Manual page bash(1) line 1686/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              fined results.[m
+[7m Manual page bash(1) line 1687/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1688/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Substring  indexing  is  zero-based unless the positional parameters[m
+[7m Manual page bash(1) line 1689/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              are used, in which case the indexing starts at  1  by  default.   If[m
+[7m Manual page bash(1) line 1690/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4moffset[24m  is 0, and the positional parameters are used, [1m$0[0m is prefixed[m
+[7m Manual page bash(1) line 1691/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to the list.[m
+[7m Manual page bash(1) line 1692/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1693/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[1m![0m[4mprefix[24m[1m*[0m}[m
+[7m Manual page bash(1) line 1694/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[1m![0m[4mprefix[24m[1m@[0m}[m
+[7m Manual page bash(1) line 1695/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mNames[0m [1mmatching[0m [1mprefix[0m.  Expands to  the  names  of  variables  whose[m
+[7m Manual page bash(1) line 1696/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              names begin with [4mprefix[24m, separated by the first character of the [1mIFS[0m[m
+[7m Manual page bash(1) line 1697/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              special variable.  When [4m@[24m is used and the expansion  appears  within[m
+[7m Manual page bash(1) line 1698/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              double quotes, each variable name expands to a separate word.[m
+[7m Manual page bash(1) line 1699/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1700/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[1m![0m[4mname[24m[[4m@[24m]}[m
+[7m Manual page bash(1) line 1701/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[1m![0m[4mname[24m[[4m*[24m]}[m
+[7m Manual page bash(1) line 1702/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mList[0m  [1mof[0m  [1marray[0m  [1mkeys[0m.  If [4mname[24m is an array variable, expands to the[m
+[7m Manual page bash(1) line 1703/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              list of array indices (keys) assigned in [4mname[24m.  If [4mname[24m  is  not  an[m
+[7m Manual page bash(1) line 1704/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              array,  expands  to  0 if [4mname[24m is set and null otherwise.  When [4m@[24m is[m
+[7m Manual page bash(1) line 1705/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              used and the expansion appears within double quotes,  each  key  ex‐[m
+[7m Manual page bash(1) line 1706/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              pands to a separate word.[m
+[7m Manual page bash(1) line 1707/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1708/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[1m#[0m[4mparameter[24m}[m
+[7m Manual page bash(1) line 1709/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mParameter[0m  [1mlength[0m.  The length in characters of the value of [4mparame‐[24m[m
+[7m Manual page bash(1) line 1710/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mter[24m is substituted.  If [4mparameter[24m is [1m*[0m or [1m@[0m, the  value  substituted[m
+[7m Manual page bash(1) line 1711/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              is  the  number  of positional parameters.  If [4mparameter[24m is an array[m
+[7m Manual page bash(1) line 1712/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              name subscripted by [1m*[0m or [1m@[0m, the value substituted is the  number  of[m
+[7m Manual page bash(1) line 1713/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              elements  in  the array.  If [4mparameter[24m is an indexed array name sub‐[m
+[7m Manual page bash(1) line 1714/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              scripted by a negative number, that number is interpreted  as  rela‐[m
+[7m Manual page bash(1) line 1715/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tive to one greater than the maximum index of [4mparameter[24m, so negative[m
+[7m Manual page bash(1) line 1716/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              indices count back from the end of the array, and  an  index  of  -1[m
+[7m Manual page bash(1) line 1717/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              references the last element.[m
+[7m Manual page bash(1) line 1718/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1719/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m#[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1720/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m##[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1721/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mRemove[0m  [1mmatching[0m  [1mprefix[0m [1mpattern[0m.  The [4mword[24m is expanded to produce a[m
+[7m Manual page bash(1) line 1722/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              pattern just as in pathname expansion, and matched against  the  ex‐[m
+[7m Manual page bash(1) line 1723/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              panded  value  of  [4mparameter[24m using the rules described under [1mPattern[0m[m
+[7m Manual page bash(1) line 1724/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mMatching[0m below.  If the pattern matches the beginning of  the  value[m
+[7m Manual page bash(1) line 1725/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of [4mparameter[24m, then the result of the expansion is the expanded value[m
+[7m Manual page bash(1) line 1726/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of [4mparameter[24m with the shortest matching pattern (the ``[1m#[0m'' case)  or[m
+[7m Manual page bash(1) line 1727/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the  longest matching pattern (the ``[1m##[0m'' case) deleted.  If [4mparame‐[24m[m
+[7m Manual page bash(1) line 1728/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mter[24m is [1m@[0m or [1m*[0m, the pattern removal operation is applied to each  po‐[m
+[7m Manual page bash(1) line 1729/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sitional parameter in turn, and the expansion is the resultant list.[m
+[7m Manual page bash(1) line 1730/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If [4mparameter[24m is an array variable subscripted with [1m@[0m or [1m*[0m, the  pat‐[m
+[7m Manual page bash(1) line 1731/6395 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tern  removal  operation  is  applied to each member of the array in[m
+[7m Manual page bash(1) line 1732/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              turn, and the expansion is the resultant list.[m
+[7m Manual page bash(1) line 1733/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1734/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m%[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1735/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m%%[0m[4mword[24m}[m
+[7m Manual page bash(1) line 1736/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mRemove[0m [1mmatching[0m [1msuffix[0m [1mpattern[0m.  The [4mword[24m is expanded to  produce  a[m
+[7m Manual page bash(1) line 1737/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              pattern  just  as in pathname expansion, and matched against the ex‐[m
+[7m Manual page bash(1) line 1738/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              panded value of [4mparameter[24m using the rules  described  under  [1mPattern[0m[m
+[7m Manual page bash(1) line 1739/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mMatching[0m  below.   If  the pattern matches a trailing portion of the[m
+[7m Manual page bash(1) line 1740/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expanded value of [4mparameter[24m, then the result of the expansion is the[m
+[7m Manual page bash(1) line 1741/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              expanded  value of [4mparameter[24m with the shortest matching pattern (the[m
+[7m Manual page bash(1) line 1742/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ``[1m%[0m'' case) or  the  longest  matching  pattern  (the  ``[1m%%[0m''  case)[m
+[7m Manual page bash(1) line 1743/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              deleted.   If  [4mparameter[24m is [1m@[0m or [1m*[0m, the pattern removal operation is[m
+[7m Manual page bash(1) line 1744/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              applied to each positional parameter in turn, and the  expansion  is[m
+[7m Manual page bash(1) line 1745/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the  resultant  list.  If [4mparameter[24m is an array variable subscripted[m
+[7m Manual page bash(1) line 1746/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              with [1m@[0m or [1m*[0m, the pattern removal operation is applied to each member[m
+[7m Manual page bash(1) line 1747/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of the array in turn, and the expansion is the resultant list.[m
+[7m Manual page bash(1) line 1748/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 1749/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m/[0m[4mpattern[24m[1m/[0m[4mstring[24m}[m
+[7m Manual page bash(1) line 1750/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m//[0m[4mpattern[24m[1m/[0m[4mstring[24m}[m
+[7m Manual page bash(1) line 1751/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m/#[0m[4mpattern[24m[1m/[0m[4mstring[24m}[m
+[7m Manual page bash(1) line 1752/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ${[4mparameter[24m[1m/%[0m[4mpattern[24m[1m/[0m[4mstring[24m}[m
+[7m Manual page bash(1) line 1753/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mPattern[0m  [1msubstitution[0m.  The [4mpattern[24m is expanded to produce a pattern[m
+[7m Manual page bash(1) line 1754/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              just as in pathname expansion.  [4mParameter[24m is expanded and the  long‐[m
+[7m Manual page bash(1) line 1755/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              est  match  of  [4mpattern[24m  against  its value is replaced with [4mstring[24m.[m
+[7m Manual page bash(1) line 1756/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mstring[24m undergoes tilde expansion, parameter and variable  expansion,[m
+[7m Manual page bash(1) line 1757/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mMatching[0m  below.   If  the pattern matches a trailing portion of the[m
+[18;1H[K[7m Manual page bash(1) line 1756/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              panded value of [4mparameter[24m using the rules  described  under  [1mPattern[0m[m
+[18;1H[K[7m Manual page bash(1) line 1755/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              pattern  just  as in pathname expansion, and matched against the ex‐[m
+[18;1H[K[7m Manual page bash(1) line 1754/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mRemove[0m [1mmatching[0m [1msuffix[0m [1mpattern[0m.  The [4mword[24m is expanded to  produce  a[m
+[18;1H[K[7m Manual page bash(1) line 1753/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m%%[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1752/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m%[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1751/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 1750/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              turn, and the expansion is the resultant list.[m
+[18;1H[K[7m Manual page bash(1) line 1749/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              tern  removal  operation  is  applied to each member of the array in[m
+[18;1H[K[7m Manual page bash(1) line 1748/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              If [4mparameter[24m is an array variable subscripted with [1m@[0m or [1m*[0m, the  pat‐[m
+[18;1H[K[7m Manual page bash(1) line 1747/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              sitional parameter in turn, and the expansion is the resultant list.[m
+[18;1H[K[7m Manual page bash(1) line 1746/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [4mter[24m is [1m@[0m or [1m*[0m, the pattern removal operation is applied to each  po‐[m
+[18;1H[K[7m Manual page bash(1) line 1745/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the  longest matching pattern (the ``[1m##[0m'' case) deleted.  If [4mparame‐[24m[m
+[18;1H[K[7m Manual page bash(1) line 1744/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              of [4mparameter[24m with the shortest matching pattern (the ``[1m#[0m'' case)  or[m
+[18;1H[K[7m Manual page bash(1) line 1743/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              of [4mparameter[24m, then the result of the expansion is the expanded value[m
+[18;1H[K[7m Manual page bash(1) line 1742/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mMatching[0m below.  If the pattern matches the beginning of  the  value[m
+[18;1H[K[7m Manual page bash(1) line 1741/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              panded  value  of  [4mparameter[24m using the rules described under [1mPattern[0m[m
+[18;1H[K[7m Manual page bash(1) line 1740/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              pattern just as in pathname expansion, and matched against  the  ex‐[m
+[18;1H[K[7m Manual page bash(1) line 1739/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mRemove[0m  [1mmatching[0m  [1mprefix[0m [1mpattern[0m.  The [4mword[24m is expanded to produce a[m
+[18;1H[K[7m Manual page bash(1) line 1738/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m##[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1737/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ${[4mparameter[24m[1m#[0m[4mword[24m}[m
+[18;1H[K[7m Manual page bash(1) line 1736/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7m Manual page bash(1) line 1735/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              references the last element.[m
+[18;1H[K[7m Manual page bash(1) line 1734/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              indices count back from the end of the array, and  an  index  of  -1[m
+[18;1H[K[7m Manual page bash(1) line 1733/6395 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              tive to one greater than the maximum index of [4mparameter[24m, so negative[m
+[18;1H[K[7m Manual page bash(1) line 1732/6395 29% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [33m2m29s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m x'[K="";" "e"c"h"o" "r"m" "/"[1@e[1@c[1@h[1@o[1@ [1@h[1@e[1@j
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $x
+[?2004lhej; echo rm /
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $xx="echo hej; echo rm /"
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m x="echo hej; echo rm /"[C[C$x[K
+[?2004lhej; echo rm /
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $xx="echo hej; echo rm /"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m x="echo hej"
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m $x
+[?2004lhej
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m touch f[Kfil[K[K[K''v'i'k't'i'g' 'f'i'l'.'t'x't'[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m tgouch [K[K[K[K[K[Ku[Kouch viktig
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch viktig[K[K[K[K[K[Kfil.txt
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m x=""r"m" "[C[K[K[K[K[K[K[Kfilnamn=''[7mviktig fil.txt[27m'[C[C[C[C[C[C[C[C[C[C[Cviktig fil.txt'C'[C[1P'[C
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m rm $filnamn[C $filnamn[C[C[C[C[C- $filnamn[C[C[C[C[C[Cv $filnamn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lremoved 'viktig'
+removed 'fil.txt'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch vukj[K[K[Kiktig
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m v[Ktouch fil.txt
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m touch fil.txt[1Pviktig[C[Crm -v $filnamn""$filnamn"[C[C[C[C[C[C[C[C[C # fix, funkar b'[Kättre
+[?2004lremoved 'viktig fil.txt'
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m (reverse-i-search)`': c': tou[7mc[27mh fil.txt[1@h': tou[7mch[27mm': [7mchm[27mod +x ./ifelif [1@o': [7mchmo[27m[1@d': [7mchmod[27m[25P[35m❯[0m chmod[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kfn
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./fi[Kn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​​[36m [0m
+[35m❯[0m ./fn[K[35m❯[0m ./fn[K[35m❯[0m ./fn[K[35m❯[0m ./fn
+[?2004l[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn
+[?2004lJag är en funktion
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo $USER
+[?2004lkent
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m echo $USER[C[C[6P./fn[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fn
+[?2004lbash: ./fn: No such file or directory
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m ./fnaa[Krgs1 [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[31m❯[0m ./fnargs1 
+[?2004lHej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m ./fnargs1 [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 
+[?2004lSkriptarg 1: 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./fnargs1 Lotta[C[C[K./fnargs1 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta
+[?2004lSkriptarg 1: Lotta
+Hej 
+Hej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs1 Lotta[1P Lotta2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej namn
+Hej namn
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej Pelle
+Hej Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta[H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./fnargs2 Lotta
+[?2004lHej1 Pelle
+Hej1 Mayank
+Hej2 Pelle
+Hej2 Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[38;5;218m*​[36m [0m
+[35m❯[0m ./egnafunktioner.sh 
+[?2004lHej1 Pelle
+Hej1 Mayank
+Hej2 Pelle
+Hej2 Mayank
+[?2004h
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34mi-live/ITINF23/lektion2[0m [90m241016[36m [0m
+[31m❯[0m chmod[K[K[K[K[K./egnaf

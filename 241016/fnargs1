@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Skriptarg 1: $1"
+
+funktionsnamn() {
+    echo "Hej $1" # $1 är första argumentet till funktionen
+}
+
+# $1 i funktionen är aldrig $1 till skriptet
+funktionsnamn
+funktionsnamn Pelle
+funktionsnamn Mayank
