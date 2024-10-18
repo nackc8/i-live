@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
 
+import argparse
+
 # # Mål: Byt ut repeterande specialtecken som :,.; och mellanslag mot endast ett tecken i
 # en fil som användaren anger och skriv ut det till stdout.
 
 # ln kod1.py kod # två namn, samma fil (funkar ivf i Linux)
+
+parser = argparse.ArgumentParser(
+    prog="ProgramName",
+    description="What the program does",
+    epilog="Text at the bottom of help",
+)
+
 
 # om användaren inte har angett något argument
 #    skriv ett felmeddelande till stderr
