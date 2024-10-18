@@ -23,5 +23,5 @@
 non_repeating_chars = ":,.; "
 
 # för varje line i file_lines
-#    hitta repeterande non_repeating_chars i
-#    line, och uppdatera line med en version där endast sådant tecken är i följd.
+#    för varje line där non_repeating_chars repeteras
+#       line = uppdatera line med en version där tecknet förekommer en gång i följd
