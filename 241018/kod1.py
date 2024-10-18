@@ -23,6 +23,7 @@ try:
         file_lines = f.readlines()
 except:
     #    skriv ett felmeddelande till stderr
+    print("")
     #    avsluta med en statuskod som betyder att det blev fel
 
 
