@@ -9,7 +9,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
     prog="cleanup",
-    description="What the program does",
+    description="Cleans up a file by removing repetetive special characters and writing the result to stdout.",
     epilog="Text at the bottom of help",
 )
 
