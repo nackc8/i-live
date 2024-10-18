@@ -38,6 +38,7 @@ non_repeating_chars = ":,.; "
 for line in file_lines:
     print(f"rad: {line}", end="")
     repeating_re = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
+    https://docs.python.org/3/library/re.html#text-munging
 
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
 
