@@ -31,3 +31,7 @@ non_repeating_chars = ":,.; "
 
 # Notering: nu har vi en lines där radernas repeterande
 #           non_repeating_chars-tecken bytts ut mot endast ett
+
+# Skriv ut alla lines som en sträng
+
+# Avsluta med en statuskod som betyder att det gick bra
