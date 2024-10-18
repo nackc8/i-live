@@ -19,7 +19,6 @@ parser = argparse.ArgumentParser(
 parser.add_argument("FILE")
 
 args = parser.parse_args()
-print(args.FILE)
 
 try:
     with open(args.FILE, encoding="utf-8") as f:
@@ -27,11 +26,6 @@ try:
 except:
     print(f"{parser.prog}: error: the file does not exist or could not be read: FILE")
     sys.exit(3)
-
-
-print(file_lines)
-print(type(file_lines))
-
 
 non_repeating_chars = ":,.; "
 
@@ -48,11 +42,11 @@ repeating = re.compile(repeating_regex_string)
 
 # för varje line i file_lines
 for line in enumerate(file_lines):
-    print(f"rad innan: {line}", end="")
+    print(f"rad innan: {line}")
 
     file_lines[line[0]] = repeating.sub(repl, line[1])
 
-    print(f"rad efter: {file_lines[line[0]]}", end="")
+    print(f"rad efter: {file_lines[line[0]]}")
 
 #    för varje part i parts
 #       line =
