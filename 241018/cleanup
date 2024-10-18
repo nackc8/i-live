@@ -44,7 +44,7 @@ repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
 repeating = re.compile(repeating_regex_string)
 
 # för varje line i file_lines
-for line in file_lines:
+for line in file_lines.items():
     print(f"rad: {line}", end="")
     https://docs.python.org/3/howto/regex.html
     https://docs.python.org/3/library/re.html#raw-string-notation
