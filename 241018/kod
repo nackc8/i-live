@@ -18,11 +18,6 @@ parser.add_argument("FILE")
 args = parser.parse_args()
 print(args.filename, args.count, args.verbose)
 
-
-# om användaren inte har angett något argument
-#    skriv ett felmeddelande till stderr
-#    avsluta med en statuskod som betyder att det blev fel
-
 # om användaren har anget fler än ett argument
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
