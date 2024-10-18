@@ -37,6 +37,7 @@ non_repeating_chars = ":,.; "
 for line in file_lines:
     print(f"rad: {line}", end="")
 
+
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
 #    för varje part i parts
 #       line =
