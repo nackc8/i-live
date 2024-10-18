@@ -43,6 +43,8 @@ repeating = re.compile(repeating_regex_string)
 for line in enumerate(file_lines):
     file_lines[line[0]] = repeating.sub(repl, line[1])
 
+output = "".join(file_lines)
+
 # Skriv ut alla lines som en sträng
 
 # Avsluta med en statuskod som betyder att det gick bra
