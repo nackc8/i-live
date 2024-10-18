@@ -36,9 +36,10 @@ non_repeating_chars = ":,.; "
 # för varje line i file_lines
 for line in file_lines:
     print(f"rad: {line}", end="")
-
+# ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
 
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
+
 #    för varje part i parts
 #       line =
 #         - Den nuvarande line, fast med delen part utbytt mot ett tecken.
