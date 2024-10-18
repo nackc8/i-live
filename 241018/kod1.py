@@ -18,10 +18,6 @@ parser.add_argument("FILE")
 args = parser.parse_args()
 print(args.filename, args.count, args.verbose)
 
-# om användaren har anget fler än ett argument
-#    skriv ett felmeddelande till stderr
-#    avsluta med en statuskod som betyder att det blev fel
-
 # input = argumentet som användaren angav
 
 # om filen input inte finns eller inte kan läsas
