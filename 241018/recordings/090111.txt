@@ -1,0 +1,15 @@
+Script started on 2024-10-18 09:01:58+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="109" LINES="15"]
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+[35m❯[0m while trueö[K; do git pull; sleep 5; done[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lAlready up to date.
+Already up to date.
+^C
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [33m10s[0m 
+[31m❯[0m [?2004l
+exit
+
+Script done on 2024-10-18 09:12:15+02:00 [COMMAND_EXIT_CODE="130"]
