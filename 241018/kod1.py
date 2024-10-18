@@ -8,7 +8,7 @@ import argparse
 # ln kod1.py kod # två namn, samma fil (funkar ivf i Linux)
 
 parser = argparse.ArgumentParser(
-    prog="ProgramName",
+    prog="cleanup",
     description="What the program does",
     epilog="Text at the bottom of help",
 )
