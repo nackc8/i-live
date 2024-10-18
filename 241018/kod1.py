@@ -22,6 +22,10 @@ print(args.FILE)
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
 
+with open(args.FILE, encoding="utf-8") as f:
+    read_data = f.read()
+
+
 # if filen args.FILE inte finns eller inte kan läsas
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
