@@ -43,14 +43,6 @@ repeating = re.compile(repeating_regex_string)
 for line in enumerate(file_lines):
     file_lines[line[0]] = repeating.sub(repl, line[1])
 
-#    för varje part i parts
-#       line =
-#         - Den nuvarande line, fast med delen part utbytt mot ett tecken.
-#         - Det tecknet kan tas från första positionen i part.
-
-# Notering: nu har vi en lines där radernas repeterande
-#           non_repeating_chars-tecken bytts ut mot endast ett
-
 # Skriv ut alla lines som en sträng
 
 # Avsluta med en statuskod som betyder att det gick bra
