@@ -15,5 +15,5 @@
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
 
-# file_lines = läs in alla rader i filen "input" till en lista
+# file_lines = läs in alla rader i filen "input" till en lista med strängar
 
