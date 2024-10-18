@@ -19,11 +19,11 @@ args = parser.parse_args()
 print(args.FILE)
 
 try:
-    with open(args.FILE, encoding="utf-8") as f:
+    with open(parser.FILE, encoding="utf-8") as f:
         file_lines = f.readlines()
 except:
     #    skriv ett felmeddelande till stderr
-    print(f"{args.}: error: the file does not exist or could not be read: FILE")
+    print(f"{parser.prog}: error: the file does not exist or could not be read: FILE")
     #    avsluta med en statuskod som betyder att det blev fel
 
 
