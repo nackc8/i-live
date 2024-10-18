@@ -28,3 +28,6 @@ non_repeating_chars = ":,.; "
 #       line =
 #         - Den nuvarande line, fast med delen part utbytt mot ett tecken.
 #         - Det tecknet kan tas från första positionen i part.
+
+# Notering: nu har vi en lines där radernas repeterande
+#           non_repeating_chars-tecken bytts ut mot endast ett
