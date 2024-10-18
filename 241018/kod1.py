@@ -3,6 +3,8 @@
 
 # Filen körbar med: chmod +x kod1.py
 
+print("utskrift")
+
 # om användaren inte har angett något argument
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
