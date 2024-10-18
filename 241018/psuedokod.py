@@ -17,7 +17,7 @@
 
 # file_lines = läs in alla rader i filen "input" till en lista med strängar
 
-non_repeating_chars = ":,.; "
+# non_repeating_chars = ":,.; "
 
 # för varje line i file_lines
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
