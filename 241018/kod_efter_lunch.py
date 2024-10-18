@@ -37,9 +37,8 @@ non_repeating_chars = ":,.; "
 
 def repl(m):
     complete_match = m.group(0)
-    inner_word = list(m.group(2))
-    random.shuffle(inner_word)
-    return m.group(1) + "".join(inner_word) + m.group(3)
+    used_char = complete_match[0]
+    return used_char
 
 
 repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
