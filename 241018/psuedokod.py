@@ -23,4 +23,5 @@
 non_repeating_chars = ":,.; "
 
 # för varje line i file_lines
-#
+#    hitta repeterande tecken inom non_repeating_chars i
+#    line, och byt ut dessa mot ett sådant tecken.
