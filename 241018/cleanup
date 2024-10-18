@@ -34,10 +34,12 @@ print(type(file_lines))
 
 non_repeating_chars = ":,.; "
 
+
 def repl(m):
     inner_word = list(m.group(2))
     random.shuffle(inner_word)
     return m.group(1) + "".join(inner_word) + m.group(3)
+
 
 repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
 
@@ -46,14 +48,8 @@ repeating = re.compile(repeating_regex_string)
 # för varje line i file_lines
 for line in enumerate(file_lines):
     print(f"rad: {line}", end="")
-    https://docs.python.org/3/howto/regex.html
-    https://docs.python.org/3/library/re.html#raw-string-notation
 
-    repeating.sub(repl, line)
-
-    # ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
-
-    https://docs.python.org/3/library/re.html#text-munging
+    line[line[0]] = repeating.sub(repl, line[1])
 
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
 
