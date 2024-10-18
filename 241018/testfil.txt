@@ -1,4 +1,4 @@
-,.; och mellansla
+.; och mellanslag
 
 Mina favoritdjur::
 
@@ -6,4 +6,6 @@ Mina favoritdjur::
 - Katt
 - Nakenråtta
 
-Mina favoritmaträtter: tårta,pizza,kebabrulle
+Mina favoritmaträtter: tårta,pizza,,kebabrulle
+
+Mina favoritdjur   älskar   också min favoritmat.
