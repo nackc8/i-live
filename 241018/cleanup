@@ -43,14 +43,11 @@ for line in file_lines:
     repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
 
     def repl(m):
-    inner_word = list(m.group(2))
-    random.shuffle(inner_word)
-    return m.group(1) + "".join(inner_word) + m.group(3)
+        inner_word = list(m.group(2))
+        random.shuffle(inner_word)
+        return m.group(1) + "".join(inner_word) + m.group(3)
 
-    text = "Professor Abdolmalek, please report your absences promptly."
-    re.sub(r"(\w)(\w+)(\w)", repl, text)
-
-    re.sub(r"(\w)(\w+)(\w)", repl, text)
+    re.sub(repeating_regular_expression, repl, text)
 
     # ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
 
