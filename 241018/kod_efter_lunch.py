@@ -34,18 +34,18 @@ print(type(file_lines))
 
 non_repeating_chars = ":,.; "
 
+def repl(m):
+    inner_word = list(m.group(2))
+    random.shuffle(inner_word)
+    return m.group(1) + "".join(inner_word) + m.group(3)
+
+repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
+
 # för varje line i file_lines
 for line in file_lines:
     print(f"rad: {line}", end="")
     https://docs.python.org/3/howto/regex.html
     https://docs.python.org/3/library/re.html#raw-string-notation
-
-    repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
-
-    def repl(m):
-        inner_word = list(m.group(2))
-        random.shuffle(inner_word)
-        return m.group(1) + "".join(inner_word) + m.group(3)
 
     re.sub(repeating_regular_expression, repl, text)
 
