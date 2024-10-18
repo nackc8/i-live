@@ -270,4 +270,116 @@ cleanup: error: the file does not exist or could not be read: FILE
 [34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
  [31m❯[0m ./kod testfil.txt [H[2J
 [34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m 
+ [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
+<class 'list'>
+rad: Mina favoritdjur::
+
+rad: 
+
+rad: - Hund
+
+rad: - Katt
+
+rad: - Nakenråtta
+
+rad: 
+
+rad: Mina favoritmaträtter: tårta,pizza,,kebabrulle
+
+rad: 
+
+rad: Mina favoritdjur   älskar   också min favoritmat.
+
+rad: 
+
+rad: Jag gillar denna for-loop:
+
+rad: 
+
+rad: for(int i = 0; i < 100;;; i++) {
+
+rad:     printf("%s", i);
+
+rad: }
+
+rad: 
+
+rad: Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
+
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
+<class 'list'>
+rad: Mina favoritdjur::
+rad: 
+rad: - Hund
+rad: - Katt
+rad: - Nakenråtta
+rad: 
+rad: Mina favoritmaträtter: tårta,pizza,,kebabrulle
+rad: 
+rad: Mina favoritdjur   älskar   också min favoritmat.
+rad: 
+rad: Jag gillar denna for-loop:
+rad: 
+rad: for(int i = 0; i < 100;;; i++) {
+rad:     printf("%s", i);
+rad: }
+rad: 
+rad: Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m rn [K[Km kod
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
+ [35m❯[0m ln kod_efter_lunch.py kod
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m ⇡[0m
+ [35m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m ⇡[0m
+ [35m❯[0m ./kod[K[K[K[K[Kmv kod cleanup
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
+ [35m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
+ [35m❯[0m ./cleanup 
+[?2004l  File "/home/kent/i-live/241018/./cleanup", line 39
+    repeating_re = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
+                                                       ^^
+SyntaxError: invalid syntax
+[?2004h
+[34mi-live/241018[0m [90m241018[36m [0m
+ [31m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[36m [0m
+ [31m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[36m [0m
+ [31m❯[0m python3
+[?2004lPython 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hej")
+Hej
+>>> import re
+>>> repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
+>>> print(re
+re                            repr(                         reversed(
+repeating_regular_expression  return                        
+>>> print(re
+re                            repr(                         reversed(
+repeating_regular_expression  return                        
+>>> print(rep
+repeating_regular_expression  repr(                         
+>>> print(rep
+repeating_regular_expression  repr(                         
+>>> print(repeating_regular_expression)[H[2J>>> print(repeating_regular_expression)
+:{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}
+>>> repl[Keating_regular_expression
+':{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}'
+>>> 5
+5
+>>> re.compilepre.compile[C[C[C[C[C re.compile[C[C[C[C[C[C=re.compile
