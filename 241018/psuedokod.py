@@ -23,7 +23,8 @@
 non_repeating_chars = ":,.; "
 
 # för varje line i file_lines
-#    för varje part av line där non_repeating_chars repeteras
+#    parts = en lista av de delar inom line där non_repeating_chars repeteras
+#    för varje part i parts
 #       line =
 #         - Den nuvarande line, fast med delen part utbytt mot ett tecken.
 #         - Det tecknet kan tas från första positionen i part.
