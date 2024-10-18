@@ -39,6 +39,7 @@ for line in file_lines:
     print(f"rad: {line}", end="")
     https://docs.python.org/3/howto/regex.html
     https://docs.python.org/3/library/re.html#raw-string-notation
+    x = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
     # ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
 
     https://docs.python.org/3/library/re.html#text-munging
