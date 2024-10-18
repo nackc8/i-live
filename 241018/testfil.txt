@@ -1,5 +1,3 @@
-.; och mellanslag
-
 Mina favoritdjur::
 
 - Hund
@@ -9,3 +7,11 @@ Mina favoritdjur::
 Mina favoritmaträtter: tårta,pizza,,kebabrulle
 
 Mina favoritdjur   älskar   också min favoritmat.
+
+Jag gillar denna for-loop:
+
+for(int i = 0; i < 100;;; i++) {
+    printf("%s", i);
+}
+
+Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
