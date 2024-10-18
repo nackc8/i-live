@@ -6,11 +6,12 @@ import sys
 # # Mål: Byt ut repeterande specialtecken som :,.; och mellanslag mot endast ett tecken i
 # en fil som användaren anger och skriv ut det till stdout.
 
-# ln kod1.py kod # två namn, samma fil (funkar ivf i Linux)
+# ln kod1.py cleanup # två namn, samma fil (funkar ivf i Linux)
 
 parser = argparse.ArgumentParser(
     prog="cleanup",
-    description="Cleans up a file by removing repetetive special characters and writing the result to stdout.",
+    description="Cleans up a file by removing repetetive \
+        special characters and writing the result to stdout.",
     epilog="Text at the bottom of help",
 )
 
