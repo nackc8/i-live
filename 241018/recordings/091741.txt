@@ -72,4 +72,111 @@ cleanup: error: unrecognized arguments: filnamn2
           ^^^^^^^^^^^^^
 AttributeError: 'Namespace' object has no attribute 'filename'
 [?2004h
-[34mi-live/241018[0m
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod filnamn1[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod filnamn1
+[?2004lTraceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 19, in <module>
+    print(args.FILE, args.count, args.verbose)
+                     ^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'count'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod filnamn1[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod filnamn1
+[?2004lfilnamn1
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod filnamn1[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod filnamn1
+[?2004lfilnamn1
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 25, in <module>
+    with open(args.FILE, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'filnamn1'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod filnamn1[K[K[K[K[K[K[K[Ktestfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+Mina favoritdjur::
+
+- Hund
+- Katt
+- Nakenråtta
+
+Mina favoritmaträtter: tårta,pizza,,kebabrulle
+
+Mina favoritdjur   älskar   också min favoritmat.
+
+Jag gillar denna for-loop:
+
+for(int i = 0; i < 100;;; i++) {
+    printf("%s", i);
+}
+
+Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
+
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+Mina favoritdjur::
+
+- Hund
+- Katt
+- Nakenråtta
+
+Mina favoritmaträtter: tårta,pizza,,kebabrulle
+
+Mina favoritdjur   älskar   också min favoritmat.
+
+Jag gillar denna for-loop:
+
+for(int i = 0; i < 100;;; i++) {
+    printf("%s", i);
+}
+
+Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
+
+<class 'str'>
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
+<class 'list'>
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod testfil.txt [1P[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P f o i [1P [1P i n n s i n t e 
+[?2004lfinnsinte
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 25, in <module>
+    with open(args.FILE, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte [K[K[K[K[K[K[K[K[K[K[K
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: the following arguments are required: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: the following arguments are required: FILE
+[?2004h
+[34mi-liv

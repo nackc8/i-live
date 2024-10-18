@@ -23,7 +23,7 @@ try:
         file_lines = f.readlines()
 except:
     #    skriv ett felmeddelande till stderr
-    print("")
+    print(f"{args.}: error: the file does not exist or could not be read: FILE")
     #    avsluta med en statuskod som betyder att det blev fel
 
 
