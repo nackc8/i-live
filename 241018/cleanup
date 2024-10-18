@@ -40,13 +40,8 @@ repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
 
 repeating = re.compile(repeating_regex_string)
 
-# för varje line i file_lines
 for line in enumerate(file_lines):
-    print(f"rad innan: {line}")
-
     file_lines[line[0]] = repeating.sub(repl, line[1])
-
-    print(f"rad efter: {file_lines[line[0]]}")
 
 #    för varje part i parts
 #       line =
