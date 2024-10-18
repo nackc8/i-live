@@ -18,13 +18,13 @@ parser.add_argument("FILE")
 args = parser.parse_args()
 print(args.filename, args.count, args.verbose)
 
-# input = argumentet som användaren angav
+# args.filename = argumentet som användaren angav
 
-# om filen input inte finns eller inte kan läsas
+# om filen args.filename inte finns eller inte kan läsas
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
 
-# file_lines = läs in alla rader i filen "input" till en lista med strängar
+# file_lines = läs in alla rader i filen "args.filename" till en lista med strängar
 
 # non_repeating_chars = ":,.; "
 
