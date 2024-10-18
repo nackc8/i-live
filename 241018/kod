@@ -23,7 +23,7 @@ print(args.FILE)
 #    avsluta med en statuskod som betyder att det blev fel
 
 with open(args.FILE, encoding="utf-8") as f:
-    read_data = f.read()
+    read_data = f.readlines()
 
 print(read_data)
 print(type(read_data))
