@@ -5,8 +5,6 @@
 
 # ln kod1.py kod # två namn, samma fil (funkar ivf i Linux)
 
-print("utskrift")
-
 # om användaren inte har angett något argument
 #    skriv ett felmeddelande till stderr
 #    avsluta med en statuskod som betyder att det blev fel
