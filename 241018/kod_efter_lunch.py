@@ -2,6 +2,7 @@
 
 import argparse
 import sys
+import re
 
 # # Mål: Byt ut repeterande specialtecken som :,.; och mellanslag mot endast ett tecken i
 # en fil som användaren anger och skriv ut det till stdout.
@@ -51,7 +52,7 @@ for line in enumerate(file_lines):
 
     file_lines[line[0]] = repeating.sub(repl, line[1])
 
-    print(f"rad efter: {line}", end="")
+    print(f"rad efter: {file_lines[line[0]]}", end="")
 
 #    för varje part i parts
 #       line =

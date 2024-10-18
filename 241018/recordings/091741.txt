@@ -382,4 +382,65 @@ repeating_regular_expression  repr(
 ':{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}'
 >>> 5
 5
->>> re.compilepre.compile[C[C[C[C[C re.compile[C[C[C[C[C[C=re.compile
+>>> re.compilepre.compile[C[C[C[C[C re.compile[C[C[C[C[C[C=re.compile[C[C[C[C[C[C[C re.compile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(repeating_regular_expression)
+>>> p
+re.compile(':{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}')
+>>> p.match(""h"e"j"s"a"n"[C)
+>>> p.match("hejsan")sp.match("hejsan")[C[C[C[C[Cvp.match("hejsan")[C[C[C[C[C[Cap.match("hejsan")[C[C[C[C[C[C[Crp.match("hejsan")[C[C[C[C[C[C[C[C p.match("hejsan")[C[C[C[C[C[C[C[C[C=p.match("hejsan")[C[C[C[C[C[C[C[C[C[C p.match("hejsan")[C[C[C[C[C[C[C[C[C[C[C
+>>> svar
+>>> print(svar)
+None
+>>> print(svar)[C[C[C[C[7Psvar = p.match("hejsan")[C san") san") san")[C[C[C[C[C
+>>> svar
+>>> print(svar)
+None
+>>>     print(svar)[C[C[C[C[7Psvar = p.match("hej   san")[1Psan")[1Psan")[1Psan")[1Psan")[C[Cjsan") hejsan") hejsan") hejsan")
+>>> svar
+<re.Match object; span=(0, 3), match='   '>
+>>> p.findall("hejsan")
+[]
+>>> p.findall("hejsan") san") san") san")[C[C[C[C[C
+['   ']
+>>> p.findall("hej   san");n");n");n")
+['   ', ';;;']
+>>> [K>>> [K>>> [K>>> [K>>> [K>>> [H[2J>>> [''[Krad 1\n'm[K [K, ''r'a'd' '2'\'n'm'[1P'[C][1@f[1@i[1@l[1@e[1@_[1@l[1@i[1@n[1@e[1@s[1@ [1@=[1@ 
+>>> for line in file_lines:
+...             [K
+KeyboardInterrupt
+>>> repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
+>>> 
+>>> repeating = re.compile(repeating_regex_string)
+>>> 
+>>> for line in file_lins:[K[Kes:
+...   print("[Kf"l[K{f[Kline}")[K)
+... 
+rad 1
+
+rad 2
+
+>>>   print(f"{line}")[C[C[C[Cfor line in file_lines:[C[C[C[C[C[C[C[C[C[C[C[C[C[C,:[1P:.:t:i:[1P:[1P:i:t:e:m:s:(:):[C[C[C[C[C[C[C[C
+...   print("[Kf"{line"[K}")
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>>   print(f"{line}")[C[C[C[Cfor line in file_lines.items():[1P():[1P():[1P():[1P():[1P():[1P():[C[C[1P:[1P:efile_lines:nfile_lines:ufile_lines:mfile_lines:efile_lines:rfile_lines:afile_lines:tfile_lines:efile_lines:(file_lines:[C[C[C[C[C[C[C[C[C[C[C):[C
+...   print(f""{"l"i"n"e"}"[C_)[K[K)
+... 
+(0, 'rad 1\n')
+(1, 'rad 2\n')
+>>> 
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [33m27m20s[0m 
+ [35m❯[0m python3[C[C[C[K./cleanup [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [33m27m20s[0m 
+ [35m❯[0m ./cleanup 
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: the following arguments are required: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./cleanup testfil.txt 
+[?2004ltestfil.txt
+['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall
