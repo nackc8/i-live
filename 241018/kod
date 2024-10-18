@@ -20,7 +20,7 @@ args = parser.parse_args()
 print(args.FILE)
 
 try:
-    with open(parser.FILE, encoding="utf-8") as f:
+    with open(args.FILE, encoding="utf-8") as f:
         file_lines = f.readlines()
 except:
     print(f"{parser.prog}: error: the file does not exist or could not be read: FILE")

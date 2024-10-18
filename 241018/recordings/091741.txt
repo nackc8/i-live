@@ -179,4 +179,95 @@ cleanup: error: the following arguments are required: FILE
 [?2004lusage: cleanup [-h] FILE
 cleanup: error: the following arguments are required: FILE
 [?2004h
-[34mi-liv
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004lfinnsinte
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 22, in <module>
+    with open(args.FILE, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 26, in <module>
+    print(f"{args.program}: error: the file does not exist or could not be read: FILE")
+             ^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'program'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004lfinnsinte
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 22, in <module>
+    with open(args.FILE, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 26, in <module>
+    print(f"{args.prog}: error: the file does not exist or could not be read: FILE")
+             ^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'prog'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004l  File "/home/kent/i-live/241018/./kod", line 26
+    (args.)
+          ^
+SyntaxError: f-string: invalid syntax
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004lfinnsinte
+cleanup: error: the file does not exist or could not be read: FILE
+Traceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 30, in <module>
+    print(file_lines)
+          ^^^^^^^^^^
+NameError: name 'file_lines' is not defined
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004lfinnsinte
+cleanup: error: the file does not exist or could not be read: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m ./kod finnsinte[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte
+[?2004lfinnsinte
+cleanup: error: the file does not exist or could not be read: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod finnsinte[K[K[K[K[K[K[K[K[K[K
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: the following arguments are required: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod eokoe okoe 
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: unrecognized arguments: okoe
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod eokoe okoe [K[K[K[K[K[K[K[K[K[K[K[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod testfil.txt 
+[?2004ltestfil.txt
+cleanup: error: the file does not exist or could not be read: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m 
