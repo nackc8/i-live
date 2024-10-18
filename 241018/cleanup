@@ -39,7 +39,9 @@ def repl(m):
     random.shuffle(inner_word)
     return m.group(1) + "".join(inner_word) + m.group(3)
 
-repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
+repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
+
+repeating = re.compile(repeating_regex_string)
 
 # för varje line i file_lines
 for line in file_lines:
@@ -47,7 +49,7 @@ for line in file_lines:
     https://docs.python.org/3/howto/regex.html
     https://docs.python.org/3/library/re.html#raw-string-notation
 
-    re.sub(repeating_regular_expression, repl, text)
+    repeating.sub(repl, line)
 
     # ":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
 
