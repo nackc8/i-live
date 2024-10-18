@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import sys
 
 # # Mål: Byt ut repeterande specialtecken som :,.; och mellanslag mot endast ett tecken i
 # en fil som användaren anger och skriv ut det till stdout.
@@ -22,9 +23,7 @@ try:
     with open(parser.FILE, encoding="utf-8") as f:
         file_lines = f.readlines()
 except:
-    #    skriv ett felmeddelande till stderr
     print(f"{parser.prog}: error: the file does not exist or could not be read: FILE")
-    #    avsluta med en statuskod som betyder att det blev fel
 
 
 print(file_lines)
