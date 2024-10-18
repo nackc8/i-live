@@ -26,6 +26,7 @@ with open(args.FILE, encoding="utf-8") as f:
     read_data = f.read()
 
 print(read_data)
+print(type(read_data))
 
 # if filen args.FILE inte finns eller inte kan läsas
 #    skriv ett felmeddelande till stderr
