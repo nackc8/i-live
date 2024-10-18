@@ -15,6 +15,9 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument("FILE")
 
+args = parser.parse_args()
+print(args.filename, args.count, args.verbose)
+
 
 # om användaren inte har angett något argument
 #    skriv ett felmeddelande till stderr
