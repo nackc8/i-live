@@ -23,16 +23,11 @@ print(args.FILE)
 #    avsluta med en statuskod som betyder att det blev fel
 
 with open(args.FILE, encoding="utf-8") as f:
-    read_data = f.readlines()
+    file_lines = f.readlines()
 
-print(read_data)
-print(type(read_data))
+print(file_lines)
+print(type(file_lines))
 
-# if filen args.FILE inte finns eller inte kan läsas
-#    skriv ett felmeddelande till stderr
-#    avsluta med en statuskod som betyder att det blev fel
-
-# file_lines = läs in alla rader i filen "args.FILE" till en lista med strängar
 
 # non_repeating_chars = ":,.; "
 
