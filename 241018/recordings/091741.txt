@@ -1,0 +1,75 @@
+Script started on 2024-10-18 09:17:41+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="109" LINES="11"]
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [7mchmod +x kod1.py[27m[C[C[Cchmod +x kod1.py
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod1.py 
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[36m ⇡[0m
+ [35m❯[0m ./kod1.py 
+[?2004l./kod1.py: line 6: syntax error near unexpected token `"utskrift"'
+./kod1.py: line 6: `print("utskrift")'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod1.py [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod1.py 
+[?2004l./kod1.py: line 8: syntax error near unexpected token `"utskrift"'
+./kod1.py: line 8: `print("utskrift")'
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod1.py [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m ./kod1.py 
+[?2004lutskrift
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ln kod1.py kod # två namn, samma fil
+[?2004l[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ln kod1.py kod # två namn, samma fil[C[C[C./kod1.py [K[H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./kod1.py 
+[?2004lutskrift
+[?2004h
+[34mi-live/241018[0m [90m241018[36m [0m
+ [35m❯[0m ./kod1.py [1P[1P[C[C[C[C[C[C[C[C ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241018[0m [90m241018[36m [0m
+ [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m .-[K-[K-[K/kod[H[2J
+[34mi-live/241018[0m [90m241018[36m [0m
+ [31m❯[0m ./kod
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: the following arguments are required: FILE
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m echo $?
+[?2004l2
+[?2004h
+[34mi-live/241018[0m [90m241018[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m echo $?[C[C[C[2P./kod[H[2J
+[34mi-live/241018[0m [90m241018[36m [0m
+ [35m❯[0m ./kod filnamn[K[Kmn1 filnamnw[K2
+[?2004lusage: cleanup [-h] FILE
+cleanup: error: unrecognized arguments: filnamn2
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [31m❯[0m echo $?
+[?2004l2
+[?2004h
+[34mi-live/241018[0m [90m241018[36m [0m
+ [35m❯[0m echo $?[C[C[C./kod filnamn1 filnamn2[H[2J
+[34mi-live/241018[0m [90m241018[36m [0m
+ [35m❯[0m ./kod filnamn1 filnamn2[K[K[K[K[K[K[K[K[K
+[?2004lTraceback (most recent call last):
+  File "/home/kent/i-live/241018/./kod", line 19, in <module>
+    print(args.filename, args.count, args.verbose)
+          ^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'filename'
+[?2004h
+[34mi-live/241018[0m
