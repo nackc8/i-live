@@ -45,6 +45,6 @@ for line in enumerate(file_lines):
 
 output = "".join(file_lines)
 
-# Skriv ut alla lines som en sträng
+print(output)
 
-# Avsluta med en statuskod som betyder att det gick bra
+sys.exit(0)

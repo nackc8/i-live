@@ -477,4 +477,83 @@ rad innan: (15, '\n')rad efter:
 rad innan: (16, 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n')rad efter: Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
 [?2004h
 [34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt 
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt 
+[?2004lrad innan: (0, 'Mina favoritdjur::\n')
+rad efter: Mina favoritdjur:
+
+rad innan: (1, '\n')
+rad efter: 
+
+rad innan: (2, '- Hund\n')
+rad efter: - Hund
+
+rad innan: (3, '- Katt\n')
+rad efter: - Katt
+
+rad innan: (4, '- Nakenråtta\n')
+rad efter: - Nakenråtta
+
+rad innan: (5, '\n')
+rad efter: 
+
+rad innan: (6, 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n')
+rad efter: Mina favoritmaträtter: tårta,pizza,kebabrulle
+
+rad innan: (7, '\n')
+rad efter: 
+
+rad innan: (8, 'Mina favoritdjur   älskar   också min favoritmat.\n')
+rad efter: Mina favoritdjur älskar också min favoritmat.
+
+rad innan: (9, '\n')
+rad efter: 
+
+rad innan: (10, 'Jag gillar denna for-loop:\n')
+rad efter: Jag gillar denna for-loop:
+
+rad innan: (11, '\n')
+rad efter: 
+
+rad innan: (12, 'for(int i = 0; i < 100;;; i++) {\n')
+rad efter: for(int i = 0; i < 100; i++) {
+
+rad innan: (13, '    printf("%s", i);\n')
+rad efter:  printf("%s", i);
+
+rad innan: (14, '}\n')
+rad efter: }
+
+rad innan: (15, '\n')
+rad efter: 
+
+rad innan: (16, 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n')
+rad efter: Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
+
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m ./cleanup testfil.txt [H[2J
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m ./cleanup testfil.txt 
+[?2004lMina favoritdjur:
+
+- Hund
+- Katt
+- Nakenråtta
+
+Mina favoritmaträtter: tårta,pizza,kebabrulle
+
+Mina favoritdjur älskar också min favoritmat.
+
+Jag gillar denna for-loop:
+
+for(int i = 0; i < 100; i++) {
+ printf("%s", i);
+}
+
+Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
+
+[?2004h
+[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m
