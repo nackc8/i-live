@@ -36,6 +36,7 @@ non_repeating_chars = ":,.; "
 
 
 def repl(m):
+    complete_match = m.group(0)
     inner_word = list(m.group(2))
     random.shuffle(inner_word)
     return m.group(1) + "".join(inner_word) + m.group(3)
@@ -50,8 +51,6 @@ for line in enumerate(file_lines):
     print(f"rad: {line}", end="")
 
     line[line[0]] = repeating.sub(repl, line[1])
-
-#    parts = en lista av de delar inom line där non_repeating_chars repeteras
 
 #    för varje part i parts
 #       line =
