@@ -24,6 +24,7 @@ try:
         file_lines = f.readlines()
 except:
     print(f"{parser.prog}: error: the file does not exist or could not be read: FILE")
+    sys.exit(3)
 
 
 print(file_lines)
