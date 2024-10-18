@@ -13,6 +13,8 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
+parser.add_argument("FILE")
+
 
 # om användaren inte har angett något argument
 #    skriv ett felmeddelande till stderr
