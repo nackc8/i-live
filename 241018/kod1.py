@@ -31,7 +31,7 @@ print(file_lines)
 print(type(file_lines))
 
 
-# non_repeating_chars = ":,.; "
+non_repeating_chars = ":,.; "
 
 # för varje line i file_lines
 #    parts = en lista av de delar inom line där non_repeating_chars repeteras
