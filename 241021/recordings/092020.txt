@@ -1,0 +1,97 @@
+Script started on 2024-10-21 09:20:29+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="45" LINES="17"]
+[?2004h
+[34mi-live/241021[0m [90m241021[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34mi-live/241021[0m [90m241021[38;5;218m*​[36m [0m
+[35m❯[0m .-[K[Kcd ..
+[?2004l[?2004h
+[34mi-live[0m [90m241021[36m [0m
+[35m❯[0m [H[2J
+[34mi-live[0m [90m241021[36m [0m
+[35m❯[0m pwd
+[?2004l/home/kent/i-live
+[?2004h
+[34mi-live[0m [90m241021[36m [0m
+[35m❯[0m ls
+[?2004l241016	241018	241021	bin  ITINF23  README.md
+[?2004h
+[34mi-live[0m [90m241021[36m [0m
+[35m❯[0m ./bin/s[Kdaystart ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live[0m [90m241021[36m [0m
+[31m❯[0m [H[2J
+[34mi-live[0m [90m241021[36m [0m
+[31m❯[0m [K[31m❯[0m git pull[K[K[K[K[K[K[K[KGetC=[K[K[K[K[Kpswh
+[?2004lbash: pswh: command not found
+[?2004h
+[34mi-live[0m [90m241021[36m [0m
+[31m❯[0m pw
+pw-cat         pw-dump        pw-mididump    pw-profiler
+pw-cli         pwdx           pw-midiplay    pw-record
+pwd            pw-link        pw-midirecord  pw-reserve
+pw-dot         pw-loopback    pw-mon         pwsh
+pw-dsdplay     pw-metadata    pw-play        pw-top
+
+[34mi-live[0m [90m241021[36m [0m
+[31m❯[0m pwsh [H[2J
+[34mi-live[0m [90m241021[36m [0m
+[31m❯[0m pwsh 
+[?2004l[?1h=PowerShell 7.4.5
+[6nPS /home/kent/i-live> [?1h[6n[?25l[5;23H[0m[93mG[0m[97;2;3met-Help grep[0m[39;49m[0m[5;24H[?12l[?25h[6n[?25l[5;23H[0m[93mGe[0m[97;2;3mt-Help grep[0m[39;49m[0m[5;25H[?12l[?25h[6n[?25l[5;23H[0m[93mGet[0m[97;2;3m-Help grep[0m[39;49m[0m[5;26H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-[0m[97;2;3mHelp grep[0m[39;49m[0m[5;27H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-C[0m[97;2;3mommand Get-*[0m[39;49m[0m[5;28H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Co[0m[97;2;3mmmand Get-*[0m[39;49m[0m[5;29H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coo[39;49m          [0m[5;30H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coom[39;49m[0m[5;31H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomm[39;49m[0m[5;32H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomma[39;49m[0m[5;33H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomman[39;49m[0m[5;34H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coommand[39;49m[0m[5;35H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomman[39;49m [0m[5;34H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomma[39;49m [0m[5;33H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coomm[39;49m [0m[5;32H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coom[39;49m [0m[5;31H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Coo[39;49m [0m[5;30H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Co[0m[97;2;3mmmand Get-*[0m[39;49m[0m[5;29H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Com[0m[97;2;3mmand Get-*[0m[39;49m[0m[5;30H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Comm[0m[97;2;3mand Get-*[0m[39;49m[0m[5;31H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Comma[0m[97;2;3mnd Get-*[0m[39;49m[0m[5;32H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Comman[0m[97;2;3md Get-*[0m[39;49m[0m[5;33H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[5;34H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[5;35H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[37mG[0m[97;2;3met-*[0m[39;49m[0m[5;36H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[37mGe[0m[97;2;3mt-*[0m[39;49m[0m[5;37H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[37mGet[0m[97;2;3m-*[0m[39;49m[0m[5;38H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[37mGet-[0m[97;2;3m*[0m[39;49m[0m[5;39H[?12l[?25h[6n[?25l[5;23H[0m[93mGet-Command[0m[39;49m [0m[37mGet-*[39;49m[0m[5;40H[?12l[?25h[6n[5;39H[5;38H[5;37H[5;36H[5;35H[5;36H[5;37H[5;38H[5;39H[5;40H[5;39H[5;38H[5;39H[5;40H
+[?1l
+[32;1mCommandType    [0m[32;1m Name[0m
+[32;1m-----------    [0m [32;1m----                                              [0m
+Alias           Get-PSResource                                    
+Function        Get-CredsFromCredentialProvider                   
+Function        Get-InstalledModule                               
+Function        Get-InstalledScript                               
+Function        Get-PSRepository                                  
+Cmdlet          Get-Alias                                         
+Cmdlet          Get-ChildItem                                     
+Cmdlet          Get-Clipboard                                     
+Cmdlet          Get-CmsMessage                                    
+Cmdlet          Get-Command                                       
+Cmdlet          Get-Content                                       
+Cmdlet          Get-Credential                                    
+Cmdlet          Get-Culture                                       
+Cmdlet          Get-Date                                          
+Cmdlet          Get-Error                                         
+Cmdlet          Get-Event                                         
+Cmdlet          Get-EventSubscriber                               
+Cmdlet          Get-ExecutionPolicy                               
+Cmdlet          Get-ExperimentalFeature                           
+Cmdlet          Get-FileHash                                      
+Cmdlet          Get-FormatData                                    
+Cmdlet          Get-Help                                          
+Cmdlet          Get-History                                       
+Cmdlet          Get-Host                                          
+Cmdlet          Get-InstalledPSResource                           
+Cmdlet          Get-Item                                          
+Cmdlet          Get-ItemProperty                                  
+Cmdlet          Get-ItemPropertyValue                             
+Cmdlet          Get-Job                                           
+Cmdlet          Get-Location                                      
+Cmdlet          Get-MarkdownOption                                
+Cmdlet          Get-Member                                        
+Cmdlet          Get-Module                                        
+Cmdlet          Get-Package                                       
+Cmdlet          Get-PackageProvider                               
+Cmdlet          Get-PackageSource                                 
+Cmdlet          Get-PfxCertificate                                
+Cmdlet          Get-Process                                       
+Cmdlet          Get-PSBreakpoint                                  
+Cmdlet          Get-PSCallStack                                   
+Cmdlet          Get-PSDrive                                       
+Cmdlet          Get-PSHostProcessInfo                             
+Cmdlet          Get-PSProvider                                    
+Cmdlet          Get-PSReadLineKeyHandler                          
+Cmdlet          Get-PSReadLineOption                              
+Cmdlet          Get-PSResourceRepository                          
+Cmdlet          Get-PSScriptFileInfo                              
+Cmdlet          Get-PSSession                                     
+Cmdlet          Get-Random                                        
+Cmdlet          Get-Runspace                                      
+Cmdlet          Get-RunspaceDebug                                 
+Cmdlet          Get-SecureRandom                                  
+Cmdlet          Get-TimeZone                                      
+Cmdlet          Get-TraceSource                                   
