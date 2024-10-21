@@ -94,4 +94,29 @@ Cmdlet          Get-Runspace
 Cmdlet          Get-RunspaceDebug                                 
 Cmdlet          Get-SecureRandom                                  
 Cmdlet          Get-TimeZone                                      
-Cmdlet          Get-TraceSource                                   
+Cmdlet          Get-TraceSource                                   
+Cmdlet          Get-TypeData                                      
+Cmdlet          Get-UICulture                                     
+Cmdlet          Get-Unique                                        
+Cmdlet          Get-Uptime                                        
+Cmdlet          Get-Variable                                      
+Cmdlet          Get-Verb                                          
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mG[0m[97;2;3met-Command Get-*[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mGe[0m[97;2;3mt-Command Get-*[0m[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mGet[0m[97;2;3m-Command Get-*[0m[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-[0m[97;2;3mCommand Get-*[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-T[0m[97;2;3mimeZone[0m[39;49m     [0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Ti[0m[97;2;3mmeZone[0m[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Tim[0m[97;2;3meZone[0m[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Time[0m[97;2;3mZone[0m[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Time[0m[39;49m [39;49m   [0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Time[0m[97;2;3mZone[0m[39;49m[0m[20;31H[?12l[?25h[6n[K
+[?1l[31;1mGet-Time: [31;1mThe term 'Get-Time' is not recognized as a name of a cmdlet, function, script file, or executable program.[0m
+[31;1m[31;1mCheck the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Time[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Tim[0m[97;2;3me[0m[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Ti[0m[97;2;3mme[0m[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-T[0m[97;2;3mime[0m[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-[0m[97;2;3mTime[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-U[39;49m   [0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Up[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Upt[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Uptime[39;49m[0m[20;33H[?12l[?25h[6n
+[?1l
+[32;1mDays              : [0m0
+[32;1mHours             : [0m0
+[32;1mMinutes           : [0m21
+[32;1mSeconds           : [0m55
+[32;1mMilliseconds      : [0m0
+[32;1mTicks             : [0m13150000000
+[32;1mTotalDays         : [0m0.0152199074074074
+[32;1mTotalHours        : [0m0.365277777777778
+[32;1mTotalMinutes      : [0m21.9166666666667
+[32;1mTotalSeconds      : [0m1315
+[32;1mTotalMilliseconds : [0m1315000
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Uptime[39;49m[0m[20;33H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Uptim[0m[97;2;3me[0m[39;49m[0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Upti[0m[97;2;3mme[0m[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Upt[0m[97;2;3mime[0m[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Up[0m[97;2;3mtime[0m[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-U[0m[97;2;3mptime[0m[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-[0m[97;2;3mUptime[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet[0m[97;2;3m-Uptime[0m[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGe[0m[97;2;3mt-Uptime[0m[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mG[0m[97;2;3met-Uptime[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[39;49m          [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mG[0m[97;2;3met-Uptime[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mGe[0m[97;2;3mt-Uptime[0m[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mGet[0m[97;2;3m-Uptime[0m[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-[0m[97;2;3mUptime[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-H[0m[97;2
