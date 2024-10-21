@@ -757,4 +757,151 @@ Alias           wjb -> Wait-Job
 [?1l[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;10H(B[0;1m[37m[41m[ Directory '/home/kent/.config/powershell' does not exist ][39;49m(B[m[H(B[0;7m    /home/kent/.config/powershell/Microsoft.PowerShell_profile.ps1             [1;78H(B[m[19d(B[0;7m^G(B[m Help[19;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[19;61H(B[0;7m^T(B[m Execute[20d(B[0;7m^X(B[m Exit[20;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[18d[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l[?1h=]0;[6nPS /home/kent/i-live> [?1h[6n[?25l[4;23H[0m[93mm[0m[97;2;3man grep[0m[39;49m[0m[4;24H[?12l[?25h[6n[?25l[4;23H[0m[93mmk[0m[97;2;3mdir user[0m[39;49m[0m[4;25H[?12l[?25h[6n[?25l[4;23H[0m[93mmkd[0m[97;2;3mir user[0m[39;49m[0m[4;26H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdi[0m[97;2;3mr user[0m[39;49m[0m[4;27H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[97;2;3m user[0m[39;49m[0m[4;28H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[97;2;3muser[0m[39;49m[0m[4;29H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m.[39;49m   [0m[4;30H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m..[39;49m[0m[4;31H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../[39;49m[0m[4;32H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.[39;49m[0m[4;33H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.c[39;49m[0m[4;34H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.co[39;49m[0m[4;35H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.con[39;49m[0m[4;36H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.conf[39;49m[0m[4;37H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.confi[39;49m[0m[4;38H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config[39;49m[0m[4;39H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/[39;49m[0m[4;40H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/p[39;49m[0m[4;41H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/po[39;49m[0m[4;42H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/pow[39;49m[0m[4;43H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powr[39;49m[0m[4;44H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powre[39;49m[0m[4;45H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powr[39;49m [0m[4;44H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powre[39;49m[0m[4;45H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powr[39;49m [0m[4;44H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/pow[39;49m [0m[4;43H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powe[39;49m[0m[4;44H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/power[39;49m[0m[4;45H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powers[39;49m[0m[4;46H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powersh[39;49m[0m[4;47H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powershe[39;49m[0m[4;48H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powershel[39;49m[0m[4;49H[?12l[?25h[6n[?25l[4;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powershell[39;49m[0m[4;50H[?12l[?25h[6n
 [?1l[?1h=]0;[6nPS /home/kent/i-live> [?1h[6n[?25l[5;23H[0m[93mmkdir[0m[39;49m [0m[37m../.config/powershell[39;49m[0m[5;50H[?12l[?25h[6n[?25l[5;23H[0m[93mnano[0m[39;49m [0m[92m$PROFILE[39;49m              [0m[5;36H[?12l[?25h[6n
 [?1l[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;34H(B[0;7m[ New File ](B[m[H(B[0;7m    /home/kent/.config/powershell/Microsoft.PowerShell_profile.ps1             [1;78H(B[m[19d(B[0;7m^G(B[m Help[19;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[19;61H(B[0;7m^T(B[m Execute[20d(B[0;7m^X(B[m Exit[20;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;68H(B[0;7m*[78G(B[m[?12l[?25h[2du[?25l[?12l[?25hu[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hj[?25l[18d[K[?12l[?25h[2;8Hu[?25l[?12l[?25hl[?25l[?12l[?25h=[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hH[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h"[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h:echo Ho ho ho"[2;12H[?25l[?12l[?25h[1P[?25l[?12l[?25h"echo Ho ho ho"[2;12H[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hH[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25h"[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[18d(B[0;7mSave modified buffer?                                                          [19;1H Y(B[m Yes[K[20d(B[0;7m N(B[m No  [20;16H (B[0;7m^C(B[m Cancel[K[18;23H[?12l[?25h[?25l[19d(B[0;7m^G(B[m Help[19;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[19;58H(B[0;7mM-B(B[m Backup File[20d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[20;58H(B[0;7m^T(B[m Browse[18d(B[0;7mFile Name to Write:<e.ps1(B[m[?12l[?25h[?25l[32G[1K (B[0;7m[ Writing... ](B[m[K[1;68H(B[0;7m [78G(B[m[18;32H(B[0;7m[ Wrote 1 line ](B[m[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l[?1h=]0;[6nPS /home/kent/i-live> [?1h[6n[?25l[6;23H[0m[93mnano[0m[39;49m [0m[92m$PROFILE[39;49m[0m[6;36H[?12l[?25h[6n
-[?1l[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;33H(B[0;7m[ Reading... ](B[m[18;39H(B[0;7m 1 line ](B[m[H(B[0;7m    /home/kent/.config/powershell/Microsoft.PowerShell_profile.ps1             [1;78H(B[m[19d(B[0;7m^G(B[m Help[19;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[19;61H(B[0;7m^T(B[m Execute[20d(B[0;7m^X(B[m Exit[20;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dalias jul="echo Ho ho ho"[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[18d[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l[?1h=]0;[6nPS /home/kent/i-live> [?1h[6n[?25l[7;23H[0m[93ma[0m[97;2;3mlias[0m[39;49m[0m[7;24H[?12l[?25h[6n[?25l[7;23H[7;21H[91m> [0m[0m[93malias[0m[39;49m [0m[37mjul="echo[39;49m[0m[7;38H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo [39;49m[0m[7;39H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo H[39;49m[0m[7;40H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho[39;49m[0m[7;41H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho [39;49m[0m[7;42H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho h[39;49m[0m[7;43H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho[39;49m[0m[7;44H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho [39;49m[0m[7;45H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho h[39;49m[0m[7;46H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho[39;49m[0m[7;47H[?12l[?25h[6n[?25l[7;23H[7;21H[39;49m> [0m[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho"[39;49m[0m[7;48H[?12l[?25h
+[?1l[?2004h[?1049h[22;0;0t[1;20r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[18;33H(B[0;7m[ Reading... ](B[m[18;39H(B[0;7m 1 line ](B[m[H(B[0;7m    /home/kent/.config/powershell/Microsoft.PowerShell_profile.ps1             [1;78H(B[m[19d(B[0;7m^G(B[m Help[19;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[19;61H(B[0;7m^T(B[m Execute[20d(B[0;7m^X(B[m Exit[20;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dalias jul="echo Ho ho ho"[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[18d[J[20d[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?2004l[?1h=]0;[6nPS /home/kent/i-live> [?1h[6n[?25l[7;23H[0m[93ma[0m[97;2;3mlias[0m[39;49m[0m[7;24H[?12l[?25h[6n[?25l[7;23H[7;21H[91m> [0m[0m[93malias[0m[39;49m [0m[37mjul="echo[39;49m[0m[7;38H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo [39;49m[0m[7;39H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo H[39;49m[0m[7;40H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho[39;49m[0m[7;41H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho [39;49m[0m[7;42H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho h[39;49m[0m[7;43H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho[39;49m[0m[7;44H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho [39;49m[0m[7;45H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho h[39;49m[0m[7;46H[?12l[?25h[6n[?25l[7;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho[39;49m[0m[7;47H[?12l[?25h[6n[?25l[7;23H[7;21H[39;49m> [0m[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho"[39;49m[0m[7;48H[?12l[?25h[6n
+[?1l[31;1mGet-Alias: [31;1mThis command cannot find a matching alias because an alias with the name 'jul=echo Ho ho ho' does not exist.[0m
+[6nPS /home/kent/i-live> [?1h[6n[?25l[10;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho"[39;49m[0m[10;48H[?12l[?25h[6n[10;47H[10;46H[10;45H[10;44H[10;43H[10;42H[10;41H[10;40H[10;39H[10;38H[10;37H[10;36H[10;35H[10;34H[10;33H[10;32H[10;31H[10;30H[10;31H[10;32H[?25l[10;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho"[39;49m[0m[10;48H[?12l[?25h[6n[91m^C[0m[6n
+PS /home/kent/i-live> [?1h[6n[?25l[11;23H[0m[93mN[0m[97;2;3mano $PROFILE[0m[39;49m[0m[11;24H[?12l[?25h[6n[?25l[11;23H[0m[93mNe[39;49m           [0m[11;25H[?12l[?25h[6n[?25l[11;23H[0m[93mNew[39;49m[0m[11;26H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-[39;49m[0m[11;27H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-A[39;49m[0m[11;28H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-Al[39;49m[0m[11;29H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-Alias[39;49m[0m[11;32H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-Alias[0m[39;49m [39;49m[0m[11;33H[?12l[?25h[6n[?25l[11;23H[0m[93mNew-Alias[0m[39;49m [0m[37m./[39;49m[0m[11;35H[?12l[?25h[6n
+.educator.gitignore  .state               241021               [K[6n
+.educator.vscode     .vscode              bin                  [K[6n
+.git                 241016               ITINF23              [K[6n
+.gitignore           241018               README.md            [K[6n
+[?25l[16;1HPS /home/kent/i-live> [?25l[16;23H[0m[93mNew-Alias[0m[39;49m [0m[37m./[39;49m[0m[16;35H[?12l[?25h[6n[?12l[?25h[6n[?25l[16;23H[0m[93mNew-Alias[0m[39;49m [0m[37m.[39;49m [0m[16;34H[?12l[?25h[6n[?25l[16;23H[0m[93mNew-Alias[0m[39;49m [39;49m [0m[16;33H[?12l[?25h[6n[?25l[16;23H[0m[93mNew-Alias[39;49m [0m[16;32H[?12l[?25h[6n[?25l[16;23H[0m[93mNew-Alias[0m[39;49m [39;49m[0m[16;33H[?12l[?25h[6n
+[?1l
+[39;49m[97m[39;49m[97mcmdlet New-Alias at command pipeline position 1
+[39;49m[39;49mSupply values for the following parameters:
+Name: [6nj[20;7Hju[20;7Hjul
+Value: e[20;8Hec[20;8Hech[20;8Hecho[20;8Hecho [20;8Hecho "[20;8Hecho "h[20;8Hecho "ho[20;8Hecho "ho [20;8Hecho "ho h[20;8Hecho "ho ho[20;8Hecho "ho ho [20;8Hecho "ho ho h[20;8Hecho "ho ho ho[20;8Hecho "ho ho ho"
+PS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93ma[0m[97;2;3mlias jul="echo Ho ho ho"[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mal[0m[97;2;3mias jul="echo Ho ho ho"[0m[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mali[0m[97;2;3mas jul="echo Ho ho ho"[0m[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93malia[0m[97;2;3ms jul="echo Ho ho ho"[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93malias[0m[97;2;3m jul="echo Ho ho ho"[0m[39;49m[0m[20;28H[?12l[?25h[6n[K
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Alias           ? -> Where-Object                                            
+Alias           % -> ForEach-Object                                          
+Alias           cd -> Set-Location                                           
+Alias           chdir -> Set-Location                                        
+Alias           clc -> Clear-Content                                         
+Alias           clhy -> Clear-History                                        
+Alias           cli -> Clear-Item                                            
+Alias           clp -> Clear-ItemProperty                                    
+Alias           cls -> Clear-Host                                            
+Alias           clv -> Clear-Variable                                        
+Alias           copy -> Copy-Item                                            
+Alias           cpi -> Copy-Item                                             
+Alias           cvpa -> Convert-Path                                         
+Alias           dbp -> Disable-PSBreakpoint                                  
+Alias           del -> Remove-Item                                           
+Alias           dir -> Get-ChildItem                                         
+Alias           ebp -> Enable-PSBreakpoint                                   
+Alias           echo -> Write-Output                                         
+Alias           epal -> Export-Alias                                         
+Alias           epcsv -> Export-Csv                                          
+Alias           erase -> Remove-Item                                         
+Alias           etsn -> Enter-PSSession                                      
+Alias           exsn -> Exit-PSSession                                       
+Alias           fc -> Format-Custom                                          
+Alias           fhx -> Format-Hex                                  7.0.0.0   
+Alias           fl -> Format-List                                            
+Alias           foreach -> ForEach-Object                                    
+Alias           ft -> Format-Table                                           
+Alias           fw -> Format-Wide                                            
+Alias           gal -> Get-Alias                                             
+Alias           gbp -> Get-PSBreakpoint                                      
+Alias           gc -> Get-Content                                            
+Alias           gcb -> Get-Clipboard                               7.0.0.0   
+Alias           gci -> Get-ChildItem                                         
+Alias           gcm -> Get-Command                                           
+Alias           gcs -> Get-PSCallStack                                       
+Alias           gdr -> Get-PSDrive                                           
+Alias           gerr -> Get-Error                                            
+Alias           ghy -> Get-History                                           
+Alias           gi -> Get-Item                                               
+Alias           gjb -> Get-Job                                               
+Alias           gl -> Get-Location                                           
+Alias           gm -> Get-Member                                             
+Alias           gmo -> Get-Module                                            
+Alias           gp -> Get-ItemProperty                                       
+Alias           gps -> Get-Process                                           
+Alias           gpv -> Get-ItemPropertyValue                                 
+Alias           group -> Group-Object                                        
+Alias           gsn -> Get-PSSession                                         
+Alias           gtz -> Get-TimeZone                                7.0.0.0   
+Alias           gu -> Get-Unique                                             
+Alias           gv -> Get-Variable                                           
+Alias           h -> Get-History                                             
+Alias           history -> Get-History                                       
+Alias           icm -> Invoke-Command                                        
+Alias           iex -> Invoke-Expression                                     
+Alias           ihy -> Invoke-History                                        
+Alias           ii -> Invoke-Item                                            
+Alias           ipal -> Import-Alias                                         
+Alias           ipcsv -> Import-Csv                                          
+Alias           ipmo -> Import-Module                                        
+Alias           irm -> Invoke-RestMethod                                     
+Alias           iwr -> Invoke-WebRequest                                     
+Alias           jul -> echo "ho ho ho"                                       
+Alias           md -> mkdir                                                  
+Alias           measure -> Measure-Object                                    
+Alias           mi -> Move-Item                                              
+Alias           move -> Move-Item                                            
+Alias           mp -> Move-ItemProperty                                      
+Alias           nal -> New-Alias                                             
+Alias           ndr -> New-PSDrive                                           
+Alias           ni -> New-Item                                               
+Alias           nmo -> New-Module                                            
+Alias           nsn -> New-PSSession                                         
+Alias           nv -> New-Variable                                           
+Alias           oh -> Out-Host                                               
+Alias           popd -> Pop-Location                                         
+Alias           pushd -> Push-Location                                       
+Alias           pwd -> Get-Location                                          
+Alias           r -> Invoke-History                                          
+Alias           rbp -> Remove-PSBreakpoint                                   
+Alias           rcjb -> Receive-Job                                          
+Alias           rcsn -> Receive-PSSession                                    
+Alias           rd -> Remove-Item                                            
+Alias           rdr -> Remove-PSDrive                                        
+Alias           ren -> Rename-Item                                           
+Alias           ri -> Remove-Item                                            
+Alias           rjb -> Remove-Job                                            
+Alias           rmo -> Remove-Module                                         
+Alias           rni -> Rename-Item                                           
+Alias           rnp -> Rename-ItemProperty                                   
+Alias           rp -> Remove-ItemProperty                                    
+Alias           rsn -> Remove-PSSession                                      
+Alias           rv -> Remove-Variable                                        
+Alias           rvpa -> Resolve-Path                                         
+Alias           sajb -> Start-Job                                            
+Alias           sal -> Set-Alias                                             
+Alias           saps -> Start-Process                                        
+Alias           sbp -> Set-PSBreakpoint                                      
+Alias           scb -> Set-Clipboard                               7.0.0.0   
+Alias           select -> Select-Object                                      
+Alias           set -> Set-Variable                                          
+Alias           si -> Set-Item                                               
+Alias           sl -> Set-Location                                           
+Alias           sls -> Select-String                                         
+Alias           sp -> Set-ItemProperty                                       
+Alias           spjb -> Stop-Job                                             
+Alias           spps -> Stop-Process                                         
+Alias           sv -> Set-Variable                                           
+Alias           type -> Get-Content                                          
+Alias           where -> Where-Object                                        
+Alias           wjb -> Wait-Job                                              
+
+[6nPS /home/kent/i-live> [?1h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[39;49m[0m[1;23H[?12l[?25h[6n[?12l[?25h[6n[?25l[1;23H[0m[93mj[39;49m[0m[1;24H[?12l[?25h[6n[?25l[1;23H[0m[93mju[39;49m[0m[1;25H[?12l[?25h[6n[?25l[1;23H[0m[93mjul[39;49m[0m[1;26H[?12l[?25h[6n
+[?1l[31;1mjul: [31;1mThe term 'echo "ho ho ho"' is not recognized as a name of a cmdlet, function, script file, or executable program.[0m
+[31;1m[31;1mCheck the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[6nPS /home/kent/i-live> [?1h[6n[?25l[6;23H[0m[93ma[0m[97;2;3mlias[0m[39;49m[0m[6;24H[?12l[?25h[6n[?25l[6;23H[0m[93mal[0m[97;2;3mias[0m[39;49m[0m[6;25H[?12l[?25h[6n[?25l[6;23H[0m[93mali[0m[97;2;3mas[0m[39;49m[0m[6;26H[?12l[?25h[6n[?25l[6;23H[0m[93malio[39;49m [0m[6;27H[?12l[?25h[6n[?25l[6;23H[0m[93malioa[39;49m[0m[6;28H[?12l[?25h[6n[?25l[6;23H[0m[93malioas[39;49m[0m[6;29H[?12l[?25h[6n[?25l[6;23H[0m[93malioas[0m[39;49m [39;49m[0m[6;30H[?12l[?25h[6n[?25l[6;23H[0m[93malioas[39;49m [0m[6;29H[?12l[?25h[6n[?25l[6;23H[0m[93malioa[39;49m [0m[6;28H[?12l[?25h[6n[?25l[6;23H[0m[93malio[39;49m [0m[6;27H[?12l[?25h[6n[?25l[6;23H[0m[93mali[0m[97;2;3mas[0m[39;49m[0m[6;26H[?12l[?25h[6n[?25l[6;23H[0m[93malia[0m[97;2;3ms[0m[39;49m[0m[6;27H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[97;2;3m jul="echo Ho ho ho"[0m[39;49m[0m[6;28H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[39;49m [0m[97;2;3mjul="echo Ho ho ho"[0m[39;49m[0m[6;29H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[39;49m [0m[37me[0m[97;2;3mcho[0m[39;49m               [0m[6;30H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[39;49m [0m[37mec[0m[97;2;3mho[0m[39;49m[0m[6;31H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[39;49m [0m[37mech[0m[97;2;3mo[0m[39;49m[0m[6;32H[?12l[?25h[6n[?25l[6;23H[0m[93malias[0m[39;49m [0m[37mecho[39;49m[0m[6;33H[?12l[?25h[6n
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Alias           echo -> Write-Output                                         
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[12;23H[0m[93malias[0m[39;49m [0m[37mecho[39;49m[0m[12;33H[?12l[?25h[6n[?25l[12;23H[0m[93mjul[39;49m       [0m[12;26H[?12l[?25h[6n[?25l[12;23H[0m[93malias[39;49m[0m[12;28H[?12l[?25h[6n[?25l[12;23H[0m[93mNew-Alias[0m[39;49m [39;49m[0m[12;33H[?12l[?25h[6n[?25l[12;23H[0m[93malias[0m[39;49m [0m[37mjul="echo Ho ho ho"[39;49m[0m[12;48H[?12l[?25h[6n[?25l[12;23H[0m[93mNew-Alias[0m[39;49m [39;49m               [0m[12;33H[?12l[?25h[6n
+[?1l
+[39;49m[97m[39;49m[97mcmdlet New-Alias at command pipeline position 1
+[39;49m[39;49mSupply values for the following parameters:
+Name: [6nj[16;7Hju[16;7Hjul
+Value: W[17;8HWr[17;8HWri[17;8HWrit[17;8HWrite[17;8HWrite-[17;8HWrite-O[17;8HWrite-Ou[17;8HWrite-Out[17;8HWrite-Outp[17;8HWrite-Outpo[17;8HWrite-Outpou[17;8HWrite-Outpo [17;19H[17;8HWrite-Outp [17;18H[17;8HWrite-Out [17;17H[17;8HWrite-Outp[17;8HWrite-Outpu[17;8HWrite-Output[17;8HWrite-Output [17;8HWrite-Output "[17;8HWrite-Output ""[17;22H[17;8HWrite-Output "H"[17;23H[17;8HWrite-Output "Ho"[17;24H[17;8HWrite-Output "Hoh"[17;25H[17;8HWrite-Output "Hoho"[17;26H[17;8HWrite-Output "Hohoh"[17;27H[17;8HWrite-Output "Hohoho"[17;28H[17;29H
+[31;1mNew-Alias: [31;1mThe alias is not allowed, because an alias with the name 'jul' already exists.[0m
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mu[0m[97;2;3mpdate-Help[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mun[39;49m         [0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93muna[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93munal[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93munali[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93munalia[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93munalias[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93muna
