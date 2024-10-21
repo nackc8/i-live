@@ -195,4 +195,395 @@ REMARKS
            go to https://go.microsoft.com/fwlink/?linkid=834862.
 
 
-[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;52H[?12l[?25h[6n[?25l[20;23H[39;49m                             [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m 
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;52H[?12l[?25h[6n[?25l[20;23H[39;49m                             [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;52H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Example[0m[97;2;3ms[0m[39;49m[0m[20;51H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Exampl[0m[97;2;3mes[0m[39;49m[0m[20;50H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examp[0m[97;2;3mles[0m[39;49m[0m[20;49H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Exam[0m[97;2;3mples[0m[39;49m[0m[20;48H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Exa[0m[97;2;3mmples[0m[39;49m[0m[20;47H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Ex[0m[97;2;3mamples[0m[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-E[0m[97;2;3mxamples[0m[39;49m[0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[37m-[0m[97;2;3mExamples[0m[39;49m[0m[20;44H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-I[39;49m       [0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Ib[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-I[39;49m [0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[37m-[0m[97;2;3mExamples[0m[39;49m[0m[20;44H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-O[39;49m       [0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-On[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Onl[39;49m[0m[20;47H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Onli[39;49m[0m[20;48H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Onlin[39;49m[0m[20;49H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Online[39;49m[0m[20;50H[?12l[?25h[6n
+[?1l[6nPS /home/kent/i-live> [?1h[6nOpening in existing browser session.
+
+[6nPS /home/kent/i-live> [?1h[6n
+PS /home/kent/i-live> [?1h[6n
+PS /home/kent/i-live> [?1h[6n
+PS /home/kent/i-live> [?1h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[39;49m[0m[1;23H[?12l[?25h[6n[?12l[?25h[6n[?25l[1;23H[0m[93mG[0m[97;2;3met-Help Get-Uptime -Online[0m[39;49m[0m[1;24H[?12l[?25h[6n[?25l[1;23H[0m[93mGe[0m[97;2;3mt-Help Get-Uptime -Online[0m[39;49m[0m[1;25H[?12l[?25h[6n[?25l[1;23H[0m[93mGet[0m[97;2;3m-Help Get-Uptime -Online[0m[39;49m[0m[1;26H[?12l[?25h[6n[?25l[1;23H[0m[93mGet/[39;49m                       [0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93mGet/C[39;49m[0m[1;28H[?12l[?25h[6n[?25l[1;23H[0m[93mGet/[39;49m [0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93mGet[0m[97;2;3m-Help Get-Uptime -Online[0m[39;49m[0m[1;26H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-[0m[97;2;3mHelp Get-Uptime -Online[0m[39;49m[0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-C[0m[97;2;3mommand Get-*[0m[39;49m          [0m[1;28H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Co[0m[97;2;3mmmand Get-*[0m[39;49m[0m[1;29H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Com[0m[97;2;3mmand Get-*[0m[39;49m[0m[1;30H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Comm[0m[97;2;3mand Get-*[0m[39;49m[0m[1;31H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Comma[0m[97;2;3mnd Get-*[0m[39;49m[0m[1;32H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Comman[0m[97;2;3md Get-*[0m[39;49m[0m[1;33H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[1;34H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[1;35H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[39;49m [0m[37m-[39;49m    [0m[1;36H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[39;49m [0m[90m-n[39;49m[0m[1;37H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[39;49m [0m[37m-[39;49m [0m[1;36H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[1;35H[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[1;34H[?12l[?25h[6n[K
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Alias           Get-PSResource                                     1.0.4.1   
+Function        cd..                                                         
+Function        cd\                                                          
+Function        cd~                                                          
+Function        Clear-Host                                                   
+Function        Compress-Archive                                   1.2.5     
+Function        exec                                                         
+Function        Expand-Archive                                     1.2.5     
+Function        Find-Command                                       2.2.5     
+Function        Find-DSCResource                                   2.2.5     
+Function        Find-Module                                        2.2.5     
+Function        Find-RoleCapability                                2.2.5     
+Function        Find-Script                                        2.2.5     
+Function        Get-CredsFromCredentialProvider                    2.2.5     
+Function        Get-InstalledModule                                2.2.5     
+Function        Get-InstalledScript                                2.2.5     
+Function        Get-PSRepository                                   2.2.5     
+Function        help                                                         
+Function        Import-PSGetRepository                             1.0.4.1   
+Function        Install-Module                                     2.2.5     
+Function        Install-Script                                     2.2.5     
+Function        New-ScriptFileInfo                                 2.2.5     
+Function        oss                                                          
+Function        Pause                                                        
+Function        prompt                                                       
+Function        PSConsoleHostReadLine                              2.3.5     
+Function        Publish-Module                                     2.2.5     
+Function        Publish-Script                                     2.2.5     
+Function        Register-PSRepository                              2.2.5     
+Function        Save-Module                                        2.2.5     
+Function        Save-Script                                        2.2.5     
+Function        Set-PSRepository                                   2.2.5     
+Function        TabExpansion2                                                
+Function        Test-ScriptFileInfo                                2.2.5     
+Function        Uninstall-Module                                   2.2.5     
+Function        Uninstall-Script                                   2.2.5     
+Function        Unregister-PSRepository                            2.2.5     
+Function        Update-Module                                      2.2.5     
+Function        Update-ModuleManifest                              2.2.5     
+Function        Update-Script                                      2.2.5     
+Function        Update-ScriptFileInfo                              2.2.5     
+Cmdlet          Add-Content                                        7.0.0.0   
+Cmdlet          Add-History                                        7.4.5.500 
+Cmdlet          Add-Member                                         7.0.0.0   
+Cmdlet          Add-Type                                           7.0.0.0   
+Cmdlet          Clear-Content                                      7.0.0.0   
+Cmdlet          Clear-History                                      7.4.5.500 
+Cmdlet          Clear-Item                                         7.0.0.0   
+Cmdlet          Clear-ItemProperty                                 7.0.0.0   
+Cmdlet          Clear-Variable                                     7.0.0.0   
+Cmdlet          Compare-Object                                     7.0.0.0   
+Cmdlet          Convert-Path                                       7.0.0.0   
+Cmdlet          ConvertFrom-Csv                                    7.0.0.0   
+Cmdlet          ConvertFrom-Json                                   7.0.0.0   
+Cmdlet          ConvertFrom-Markdown                               7.0.0.0   
+Cmdlet          ConvertFrom-SecureString                           7.0.0.0   
+Cmdlet          ConvertFrom-StringData                             7.0.0.0   
+Cmdlet          ConvertTo-Csv                                      7.0.0.0   
+Cmdlet          ConvertTo-Html                                     7.0.0.0   
+Cmdlet          ConvertTo-Json                                     7.0.0.0   
+Cmdlet          ConvertTo-SecureString                             7.0.0.0   
+Cmdlet          ConvertTo-Xml                                      7.0.0.0   
+Cmdlet          Copy-Item                                          7.0.0.0   
+Cmdlet          Copy-ItemProperty                                  7.0.0.0   
+Cmdlet          Debug-Job                                          7.4.5.500 
+Cmdlet          Debug-Process                                      7.0.0.0   
+Cmdlet          Debug-Runspace                                     7.0.0.0   
+Cmdlet          Disable-ExperimentalFeature                        7.4.5.500 
+Cmdlet          Disable-PSBreakpoint                               7.0.0.0   
+Cmdlet          Disable-RunspaceDebug                              7.0.0.0   
+Cmdlet          Enable-ExperimentalFeature                         7.4.5.500 
+Cmdlet          Enable-PSBreakpoint                                7.0.0.0   
+Cmdlet          Enable-RunspaceDebug                               7.0.0.0   
+Cmdlet          Enter-PSHostProcess                                7.4.5.500 
+Cmdlet          Enter-PSSession                                    7.4.5.500 
+Cmdlet          Exit-PSHostProcess                                 7.4.5.500 
+Cmdlet          Exit-PSSession                                     7.4.5.500 
+Cmdlet          Export-Alias                                       7.0.0.0   
+Cmdlet          Export-Clixml                                      7.0.0.0   
+Cmdlet          Export-Csv                                         7.0.0.0   
+Cmdlet          Export-FormatData                                  7.0.0.0   
+Cmdlet          Export-ModuleMember                                7.4.5.500 
+Cmdlet          Export-PSSession                                   7.0.0.0   
+Cmdlet          Find-Package                                       1.4.8.1   
+Cmdlet          Find-PackageProvider                               1.4.8.1   
+Cmdlet          Find-PSResource                                    1.0.4.1   
+Cmdlet          ForEach-Object                                     7.4.5.500 
+Cmdlet          Format-Custom                                      7.0.0.0   
+Cmdlet          Format-Hex                                         7.0.0.0   
+Cmdlet          Format-List                                        7.0.0.0   
+Cmdlet          Format-Table                                       7.0.0.0   
+Cmdlet          Format-Wide                                        7.0.0.0   
+Cmdlet          Get-Alias                                          7.0.0.0   
+Cmdlet          Get-ChildItem                                      7.0.0.0   
+Cmdlet          Get-Clipboard                                      7.0.0.0   
+Cmdlet          Get-CmsMessage                                     7.0.0.0   
+Cmdlet          Get-Command                                        7.4.5.500 
+Cmdlet          Get-Content                                        7.0.0.0   
+Cmdlet          Get-Credential                                     7.0.0.0   
+Cmdlet          Get-Culture                                        7.0.0.0   
+Cmdlet          Get-Date                                           7.0.0.0   
+Cmdlet          Get-Error                                          7.0.0.0   
+Cmdlet          Get-Event                                          7.0.0.0   
+Cmdlet          Get-EventSubscriber                                7.0.0.0   
+Cmdlet          Get-ExecutionPolicy                                7.0.0.0   
+Cmdlet          Get-ExperimentalFeature                            7.4.5.500 
+Cmdlet          Get-FileHash                                       7.0.0.0   
+Cmdlet          Get-FormatData                                     7.0.0.0   
+Cmdlet          Get-Help                                           7.4.5.500 
+Cmdlet          Get-History                                        7.4.5.500 
+Cmdlet          Get-Host                                           7.0.0.0   
+Cmdlet          Get-InstalledPSResource                            1.0.4.1   
+Cmdlet          Get-Item                                           7.0.0.0   
+Cmdlet          Get-ItemProperty                                   7.0.0.0   
+Cmdlet          Get-ItemPropertyValue                              7.0.0.0   
+Cmdlet          Get-Job                                            7.4.5.500 
+Cmdlet          Get-Location                                       7.0.0.0   
+Cmdlet          Get-MarkdownOption                                 7.0.0.0   
+Cmdlet          Get-Member                                         7.0.0.0   
+Cmdlet          Get-Module                                         7.4.5.500 
+Cmdlet          Get-Package                                        1.4.8.1   
+Cmdlet          Get-PackageProvider                                1.4.8.1   
+Cmdlet          Get-PackageSource                                  1.4.8.1   
+Cmdlet          Get-PfxCertificate                                 7.0.0.0   
+Cmdlet          Get-Process                                        7.0.0.0   
+Cmdlet          Get-PSBreakpoint                                   7.0.0.0   
+Cmdlet          Get-PSCallStack                                    7.0.0.0   
+Cmdlet          Get-PSDrive                                        7.0.0.0   
+Cmdlet          Get-PSHostProcessInfo                              7.4.5.500 
+Cmdlet          Get-PSProvider                                     7.0.0.0   
+Cmdlet          Get-PSReadLineKeyHandler                           2.3.5     
+Cmdlet          Get-PSReadLineOption                               2.3.5     
+Cmdlet          Get-PSResourceRepository                           1.0.4.1   
+Cmdlet          Get-PSScriptFileInfo                               1.0.4.1   
+Cmdlet          Get-PSSession                                      7.4.5.500 
+Cmdlet          Get-Random                                         7.0.0.0   
+Cmdlet          Get-Runspace                                       7.0.0.0   
+Cmdlet          Get-RunspaceDebug                                  7.0.0.0   
+Cmdlet          Get-SecureRandom                                   7.0.0.0   
+Cmdlet          Get-TimeZone                                       7.0.0.0   
+Cmdlet          Get-TraceSource                                    7.0.0.0   
+Cmdlet          Get-TypeData                                       7.0.0.0   
+Cmdlet          Get-UICulture                                      7.0.0.0   
+Cmdlet          Get-Unique                                         7.0.0.0   
+Cmdlet          Get-Uptime                                         7.0.0.0   
+Cmdlet          Get-Variable                                       7.0.0.0   
+Cmdlet          Get-Verb                                           7.0.0.0   
+Cmdlet          Group-Object                                       7.0.0.0   
+Cmdlet          Import-Alias                                       7.0.0.0   
+Cmdlet          Import-Clixml                                      7.0.0.0   
+Cmdlet          Import-Csv                                         7.0.0.0   
+Cmdlet          Import-LocalizedData                               7.0.0.0   
+Cmdlet          Import-Module                                      7.4.5.500 
+Cmdlet          Import-PackageProvider                             1.4.8.1   
+Cmdlet          Import-PowerShellDataFile                          7.0.0.0   
+Cmdlet          Import-PSSession                                   7.0.0.0   
+Cmdlet          Install-Package                                    1.4.8.1   
+Cmdlet          Install-PackageProvider                            1.4.8.1   
+Cmdlet          Install-PSResource                                 1.0.4.1   
+Cmdlet          Invoke-Command                                     7.4.5.500 
+Cmdlet          Invoke-Expression                                  7.0.0.0   
+Cmdlet          Invoke-History                                     7.4.5.500 
+Cmdlet          Invoke-Item                                        7.0.0.0   
+Cmdlet          Invoke-RestMethod                                  7.0.0.0   
+Cmdlet          Invoke-WebRequest                                  7.0.0.0   
+Cmdlet          Join-Path                                          7.0.0.0   
+Cmdlet          Join-String                                        7.0.0.0   
+Cmdlet          Measure-Command                                    7.0.0.0   
+Cmdlet          Measure-Object                                     7.0.0.0   
+Cmdlet          Move-Item                                          7.0.0.0   
+Cmdlet          Move-ItemProperty                                  7.0.0.0   
+Cmdlet          New-Alias                                          7.0.0.0   
+Cmdlet          New-Event                                          7.0.0.0   
+Cmdlet          New-Guid                                           7.0.0.0   
+Cmdlet          New-Item                                           7.0.0.0   
+Cmdlet          New-ItemProperty                                   7.0.0.0   
+Cmdlet          New-Module                                         7.4.5.500 
+Cmdlet          New-ModuleManifest                                 7.4.5.500 
+Cmdlet          New-Object                                         7.0.0.0   
+Cmdlet          New-PSDrive                                        7.0.0.0   
+Cmdlet          New-PSRoleCapabilityFile                           7.4.5.500 
+Cmdlet          New-PSScriptFileInfo                               1.0.4.1   
+Cmdlet          New-PSSession                                      7.4.5.500 
+Cmdlet          New-PSSessionConfigurationFile                     7.4.5.500 
+Cmdlet          New-PSSessionOption                                7.4.5.500 
+Cmdlet          New-PSTransportOption                              7.4.5.500 
+Cmdlet          New-TemporaryFile                                  7.0.0.0   
+Cmdlet          New-TimeSpan                                       7.0.0.0   
+Cmdlet          New-Variable                                       7.0.0.0   
+Cmdlet          Out-Default                                        7.4.5.500 
+Cmdlet          Out-File                                           7.0.0.0   
+Cmdlet          Out-Host                                           7.4.5.500 
+Cmdlet          Out-Null                                           7.4.5.500 
+Cmdlet          Out-String                                         7.0.0.0   
+Cmdlet          Pop-Location                                       7.0.0.0   
+Cmdlet          Protect-CmsMessage                                 7.0.0.0   
+Cmdlet          Publish-PSResource                                 1.0.4.1   
+Cmdlet          Push-Location                                      7.0.0.0   
+Cmdlet          Read-Host                                          7.0.0.0   
+Cmdlet          Receive-Job                                        7.4.5.500 
+Cmdlet          Register-ArgumentCompleter                         7.4.5.500 
+Cmdlet          Register-EngineEvent                               7.0.0.0   
+Cmdlet          Register-ObjectEvent                               7.0.0.0   
+Cmdlet          Register-PackageSource                             1.4.8.1   
+Cmdlet          Register-PSResourceRepository                      1.0.4.1   
+Cmdlet          Remove-Alias                                       7.0.0.0   
+Cmdlet          Remove-Event                                       7.0.0.0   
+Cmdlet          Remove-Item                                        7.0.0.0   
+Cmdlet          Remove-ItemProperty                                7.0.0.0   
+Cmdlet          Remove-Job                                         7.4.5.500 
+Cmdlet          Remove-Module                                      7.4.5.500 
+Cmdlet          Remove-PSBreakpoint                                7.0.0.0   
+Cmdlet          Remove-PSDrive                                     7.0.0.0   
+Cmdlet          Remove-PSReadLineKeyHandler                        2.3.5     
+Cmdlet          Remove-PSSession                                   7.4.5.500 
+Cmdlet          Remove-TypeData                                    7.0.0.0   
+Cmdlet          Remove-Variable                                    7.0.0.0   
+Cmdlet          Rename-Item                                        7.0.0.0   
+Cmdlet          Rename-ItemProperty                                7.0.0.0   
+Cmdlet          Resolve-Path                                       7.0.0.0   
+Cmdlet          Restart-Computer                                   7.0.0.0   
+Cmdlet          Save-Help                                          7.4.5.500 
+Cmdlet          Save-Package                                       1.4.8.1   
+Cmdlet          Save-PSResource                                    1.0.4.1   
+Cmdlet          Select-Object                                      7.0.0.0   
+Cmdlet          Select-String                                      7.0.0.0   
+Cmdlet          Select-Xml                                         7.0.0.0   
+Cmdlet          Send-MailMessage                                   7.0.0.0   
+Cmdlet          Set-Alias                                          7.0.0.0   
+Cmdlet          Set-Clipboard                                      7.0.0.0   
+Cmdlet          Set-Content                                        7.0.0.0   
+Cmdlet          Set-Date                                           7.0.0.0   
+Cmdlet          Set-ExecutionPolicy                                7.0.0.0   
+Cmdlet          Set-Item                                           7.0.0.0   
+Cmdlet          Set-ItemProperty                                   7.0.0.0   
+Cmdlet          Set-Location                                       7.0.0.0   
+Cmdlet          Set-MarkdownOption                                 7.0.0.0   
+Cmdlet          Set-PackageSource                                  1.4.8.1   
+Cmdlet          Set-PSBreakpoint                                   7.0.0.0   
+Cmdlet          Set-PSDebug                                        7.4.5.500 
+Cmdlet          Set-PSReadLineKeyHandler                           2.3.5     
+Cmdlet          Set-PSReadLineOption                               2.3.5     
+Cmdlet          Set-PSResourceRepository                           1.0.4.1   
+Cmdlet          Set-StrictMode                                     7.4.5.500 
+Cmdlet          Set-TraceSource                                    7.0.0.0   
+Cmdlet          Set-Variable                                       7.0.0.0   
+Cmdlet          Show-Markdown                                      7.0.0.0   
+Cmdlet          Sort-Object                                        7.0.0.0   
+Cmdlet          Split-Path                                         7.0.0.0   
+Cmdlet          Start-Job                                          7.4.5.500 
+Cmdlet          Start-Process                                      7.0.0.0   
+Cmdlet          Start-Sleep                                        7.0.0.0   
+Cmdlet          Start-ThreadJob                                    2.0.3     
+Cmdlet          Start-Transcript                                   7.0.0.0   
+Cmdlet          Stop-Computer                                      7.0.0.0   
+Cmdlet          Stop-Job                                           7.4.5.500 
+Cmdlet          Stop-Process                                       7.0.0.0   
+Cmdlet          Stop-Transcript                                    7.0.0.0   
+Cmdlet          Switch-Process                                     7.4.5.500 
+Cmdlet          Tee-Object                                         7.0.0.0   
+Cmdlet          Test-Connection                                    7.0.0.0   
+Cmdlet          Test-Json                                          7.0.0.0   
+Cmdlet          Test-ModuleManifest                                7.4.5.500 
+Cmdlet          Test-Path                                          7.0.0.0   
+Cmdlet          Test-PSScriptFileInfo                              1.0.4.1   
+Cmdlet          Trace-Command                                      7.0.0.0   
+Cmdlet          Unblock-File                                       7.0.0.0   
+Cmdlet          Uninstall-Package                                  1.4.8.1   
+Cmdlet          Uninstall-PSResource                               1.0.4.1   
+Cmdlet          Unprotect-CmsMessage                               7.0.0.0   
+Cmdlet          Unregister-Event                                   7.0.0.0   
+Cmdlet          Unregister-PackageSource                           1.4.8.1   
+Cmdlet          Unregister-PSResourceRepository                    1.0.4.1   
+Cmdlet          Update-FormatData                                  7.0.0.0   
+Cmdlet          Update-Help                                        7.4.5.500 
+Cmdlet          Update-List                                        7.0.0.0   
+Cmdlet          Update-PSModuleManifest                            1.0.4.1   
+Cmdlet          Update-PSResource                                  1.0.4.1   
+Cmdlet          Update-PSScriptFileInfo                            1.0.4.1   
+Cmdlet          Update-TypeData                                    7.0.0.0   
+Cmdlet          Wait-Debugger                                      7.0.0.0   
+Cmdlet          Wait-Event                                         7.0.0.0   
+Cmdlet          Wait-Job                                           7.4.5.500 
+Cmdlet          Wait-Process                                       7.0.0.0   
+Cmdlet          Where-Object                                       7.4.5.500 
+Cmdlet          Write-Debug                                        7.0.0.0   
+Cmdlet          Write-Error                                        7.0.0.0   
+Cmdlet          Write-Host                                         7.0.0.0   
+Cmdlet          Write-Information                                  7.0.0.0   
+Cmdlet          Write-Output                                       7.0.0.0   
+Cmdlet          Write-Progress                                     7.0.0.0   
+Cmdlet          Write-Verbose                                      7.0.0.0   
+Cmdlet          Write-Warning                                      7.0.0.0   
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Command[39;49m[0m[20;34H[?12l[?25h[6n[20;33H[20;32H[20;31H[20;30H[20;29H[20;28H[20;27H[20;26H[20;25H[20;24H[20;23H[?25l[20;23H[0m[93mGGet-Command[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mGiGet-Command[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mGitGet-Command[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGit[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGit[0m[39;49m [0m[37mHGet-Command[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGit[0m[39;49m [0m[37mHeGet-Command[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGit[0m[39;49m [0m[37mHGet-Command[39;49m [0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGit[0m[39;49m [0m[37mGet-Command[39;49m [0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGitGet-Command[39;49m [0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGiGet-Command[39;49m [0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mGGet-Command[39;49m [0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mGeGet-Command[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mGetGet-Command[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Get-Command[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-HGet-Command[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-HeGet-Command[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-HelGet-Command[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-HelpGet-Command[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[97;2;3m -Examples[0m[39;49m[0m[20;32H[?12l[?25h[6n[20;43H[K
+[?1l
+NAME
+    Get-Command
+    
+SYNTAX
+    Get-Command [[-ArgumentList] <Object[]>] [-Verb <string[]>] [-Noun 
+    <string[]>] [-Module <string[]>] [-FullyQualifiedModule 
+    <ModuleSpecification[]>] [-TotalCount <int>] [-Syntax] [-ShowCommandInfo] 
+    [-All] [-ListImported] [-ParameterName <string[]>] [-ParameterType 
+    <PSTypeName[]>] [<CommonParameters>]
+    
+    Get-Command [[-Name] <string[]>] [[-ArgumentList] <Object[]>] [-Module 
+    <string[]>] [-FullyQualifiedModule <ModuleSpecification[]>] [-CommandType 
+    {Alias | Function | Filter | Cmdlet | ExternalScript | Application | 
+    Script | Configuration | All}] [-TotalCount <int>] [-Syntax] 
+    [-ShowCommandInfo] [-All] [-ListImported] [-ParameterName <string[]>] 
+    [-ParameterType <PSTypeName[]>] [-UseFuzzyMatching] 
+    [-FuzzyMinimumDistance <uint>] [-UseAbbreviationExpansion] 
+    [<CommonParameters>]
+    
+
+ALIASES
+    gcm
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It 
+    is displaying only partial help.
+        -- To download and install Help files for the module that includes 
+    this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help 
+    Get-Command -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2096579.
+
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;43H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Command[39;49m         [0m[20;34H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[20;35H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[20;34H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Comman[0m[97;2;3md[0m[39;49m      [0m[20;33H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Comma[0m[97;2;3mnd[0m[39;49m[0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Comm[0m[97;2;3mand[0m[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Com[0m[97;2;3mmand[0m[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Co[0m[97;2;3mmmand[0m[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-C[0m[97;2;3mommand[0m[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-[0m[97;2;3mHelp Get-Command[0m[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mGet[0m[97;2;3m-Help Get-Command[0m[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mGe[0m[97;2;3mt-Help Get-Command[0m[39;49m[0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mG[0m[97;2;3met-Help Get-Command[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[39;49m                    [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mU[0m[97;2;3mSER=user[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[39;49m         [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mU[0m[97;2;3mSER=user[0m[39;49m[0m[20;24H[?12l[?25h[6n[?25l[20;23H[0m[93mUp[39;49m       [0m[20;25H[?12l[?25h[6n[?25l[20;23H[0m[93mUpd[39;49m[0m[20;26H[?12l[?25h[6n[?25l[20;23H[0m[93mUpda[39;49m[0m[20;27H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdat[39;49m[0m[20;28H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate[39;49m[0m[20;29H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-G[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-Ge[39;49m[0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-Get[39;49m[0m[20;33H[?12l[?25h[6n
+[?1l[31;1mUpdate-Get: [31;1mThe term 'Update-Get' is not recognized as a name of a cmdlet, function, script file, or executable program.[0m
+[31;1m[31;1mCheck the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mUpdate-Get[39;49m[0m[20;33H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-Ge[0m[97;2;3mt[0m[39;49m[0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-G[0m[97;2;3met[0m[39;49m[0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-[0m[97;2;3mGet[0m[39;49m[0m[20;30H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-H[39;49m  [0m[20;31H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-He[39;49m[0m[20;32H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-Hel[39;49m[0m[20;33H[?12l[?25h[6n[?25l[20;23H[0m[93mUpdate-Help[39;49m[0m[20;34H[?12l[?25h[6n
+[?1l[6n
+[19;1H[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7m[27mLocating Help Content...          ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mInstalling Help content...        [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mInstalling Help content...        [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PSReadLine [[7m[27mLocating Help Content...               ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PSReadLine [[7mLocating Help Content...               [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PSReadLine [[7mDownloading Help Content...            [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7m[27mLocating Help Content...          ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7m[27mLocating Help Content...          ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PackageManagem… [[7m[27mLocating Help Content...          ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PackageManagem… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PackageManagem… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PowerShellGet [[7mLocating Help Content...            [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module PowerShellGet [[7mDownloading Help Content...         [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module ThreadJob [[7m[27mLocating Help Content...                ][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module ThreadJob [[7mLocating Help Content...                [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module ThreadJob [[7mDownloading Help Content...             [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mLocating Help Content...          [27m][0m[19;1H[?12l[?25h[?25l[6n[33;1mUpdating Help for module Microsoft.Powe… [[7mDownloading Help Content...       [27m][0m[19;1H[?12l[?25h[19;1H                                                                               [19;1HPS /home/kent/i-live> [?1h[6n[?25l[19;23H[0m[93mUpdate-Help[39;49m[0m[19;34H[?12l[?25h[6n[?25l[19;23H[0m[93mUpdate-Get[39;49m [0m[19;33H[?12l[?25h[6n[?25l[19;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[19;43H[?12l[?25h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[97;2;3m -Examples[0m[39;49m[0m[1;43H[?12l[?25h[6n[?12l[?25h[6n[K
+[?1l
+NAME
+    Get-Command
+    
+SYNOPSIS
+    Gets all commands.
+    
+    
+SYNTAX
+    Get-Command [[-Name] <System.String[]>] [[-ArgumentList] 
+    <System.Object[]>] [-All] [-CommandType {Alias | Function | Filter | 
+    Cmdlet | ExternalScript | Application | Script | Workflow | Configuration 
+    | All}] [-FullyQualifiedModule 
+    <Microsoft.PowerShell.Commands.ModuleSpecification[]>] [-ListImported] 
+    [-Module <System.String[]>] [-ParameterName <System.String[]>] 
+    [-ParameterType <System.Management.Automation.PSTypeName[]>] 
+    [-ShowCommandInfo] [-Syntax] [-TotalCount <System.Int32>] 
+    [-UseAbbreviationExpansion] [-UseFuzzyMatching] [<CommonParameters>]
+    
+    Get-Command [[-ArgumentList] <System.Object[]>] [-All] 
+    [-FullyQualifiedModule 
+    <Microsoft.PowerShell.Commands.ModuleSpecification[]>] [-ListImported] 
+    [-Module <System.String[]>] [-Noun <System.String[]>] [-ParameterName 
+    <System.String[]>] [-ParameterType 
+    <System.Management.Automation.PSTypeName[]>] [-ShowCommandInfo] [-Syntax] 
+    [-TotalCount <System.Int32>] [-Verb <System.String[]>] 
+    [<CommonParameters>]
+    
+    
+DESCRIPTION
+    The `Get-Command` cmdlet gets all commands that are installed on the 
+    computer, including cmdlets, aliases, functions, filters, scripts, and 
+    applications. `Get-Command` gets the commands from PowerShell modules and 
+    commands that were imported from other sessions. To get only commands 
+    that have been imported into the current session, use the ListImported 
+    parameter.
+    
+    Without parameters, `Get-Command` gets all of the cmdlets, functions, and 
+    aliases installed on the computer. `Get-Command *` gets all types of 
+    commands, including all of the non-PowerShell files in the Path 
+    environment variable (`$env:Path`), which it lists in the Application 
+    command type.
+    
+    `Get-Command` that uses the exact name of the command, without wildcard 
+    characters, automatically imports the module that contains the command so 
+    that you can use the command immediately. To enable, disable,
