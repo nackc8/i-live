@@ -586,4 +586,35 @@ DESCRIPTION
     
     `Get-Command` that uses the exact name of the command, without wildcard 
     characters, automatically imports the module that contains the command so 
-    that you can use the command immediately. To enable, disable,
+    that you can use the command immediately. To enable, disable, and 
+    configure automatic importing of modules, use the 
+    `$PSModuleAutoLoadingPreference` preference variable. For more 
+    information, see about_Preference_Variables 
+    (About/about_Preference_Variables.md).
+    
+    `Get-Command` gets its data directly from the command code, unlike 
+    `Get-Help`, which gets its information from help topics.
+    
+    Starting in Windows PowerShell 5.0, results of the `Get-Command` cmdlet 
+    display a Version column by default. A new Version property has been 
+    added to the CommandInfo class.
+    
+
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/module/microsoft.po
+    wershell.core/get-command?view=powershell-7.3&WT.mc_id=ps-gethelp
+    Export-PSSession 
+    Get-Help 
+    Get-Member 
+    Get-PSDrive 
+    Import-PSSession 
+    about_Command_Precedence 
+
+REMARKS
+    To see the examples, type: "Get-Help Get-Command -Examples"
+    For more information, type: "Get-Help Get-Command -Detailed"
+    For technical information, type: "Get-Help Get-Command -Full"
+    For online help, type: "Get-Help Get-Command -Online"
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;43H[?12l[?25h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[97;2;3m -Examples[0m[39;49m[0m[1;43H[?12l[?25h[6n[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m          [0m[1;43H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[39;49m         [0m[1;34H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m [39;49m[0m[1;35H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m  [39;49m[0m[1;36H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m   [39;49m[0m[1;37H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m    [39;49m[0m[1;38H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m    [39;49m[0m[1;38H[?12l[?25h[6n[91m^C[0m[6n
+PS /home/kent/i-live> [?1h[6n[?25l[2;23H[0m[93mG[0m[97;2;3met-Help Get-Command[0m[39;49m[0m[2;24H[?12l[?25h[6n[?25l[2;23H[0m[93mGe[0m[97;2;3mt-Help Get-Command[0m[39;49m[0m[2;25H[?12l[?25h[6n[?25l[2;23H[0m[93mGet[0m[97;2;3m-Help Get-Command[0m[39;49m[0m[2;26H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-[0m[97;2;3mHelp Get-Command[0m[39;49m[0m[2;27H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-C[0m[97;2;3mommand[0m[39;49m         [0m[2;28H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Co[0m[97;2;3mmmand[0m[39;49m[0m[2;29H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Com[0m[97;2;3mmand[0m[39;49m[0m[2;30H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comm[0m[97;2;3mand[0m[39;49m[0m[2;31H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comma[0m[97;2;3mnd[0m[39;49m[0m[2;32H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comman[0m[97;2;3md[0m[39;49m[0m[2;33H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[2;34H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[2;35H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[37m-[39;49m    [0m[2;36H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-N[39;49m[0m[2;37H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-No[39;49m[0m[2;38H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Nou[39;49m[0m[2;39H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[39;49m[0m[2;40H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [39;49m[0m[2;41H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mH[39;49m[0m[2;42H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHe[39;49m[0m[2;43H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHel[39;49m[0m
