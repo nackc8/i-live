@@ -617,4 +617,128 @@ REMARKS
     For online help, type: "Get-Help Get-Command -Online"
 
 [6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;43H[?12l[?25h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[97;2;3m -Examples[0m[39;49m[0m[1;43H[?12l[?25h[6n[?12l[?25h[6n[?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m          [0m[1;43H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[39;49m         [0m[1;34H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m [39;49m[0m[1;35H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m  [39;49m[0m[1;36H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m   [39;49m[0m[1;37H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m    [39;49m[0m[1;38H[?12l[?25h[6n[?25l[1;23H[0m[93mUpdate-Help[0m[39;49m    [39;49m[0m[1;38H[?12l[?25h[6n[91m^C[0m[6n
-PS /home/kent/i-live> [?1h[6n[?25l[2;23H[0m[93mG[0m[97;2;3met-Help Get-Command[0m[39;49m[0m[2;24H[?12l[?25h[6n[?25l[2;23H[0m[93mGe[0m[97;2;3mt-Help Get-Command[0m[39;49m[0m[2;25H[?12l[?25h[6n[?25l[2;23H[0m[93mGet[0m[97;2;3m-Help Get-Command[0m[39;49m[0m[2;26H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-[0m[97;2;3mHelp Get-Command[0m[39;49m[0m[2;27H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-C[0m[97;2;3mommand[0m[39;49m         [0m[2;28H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Co[0m[97;2;3mmmand[0m[39;49m[0m[2;29H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Com[0m[97;2;3mmand[0m[39;49m[0m[2;30H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comm[0m[97;2;3mand[0m[39;49m[0m[2;31H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comma[0m[97;2;3mnd[0m[39;49m[0m[2;32H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comman[0m[97;2;3md[0m[39;49m[0m[2;33H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[2;34H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[2;35H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[37m-[39;49m    [0m[2;36H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-N[39;49m[0m[2;37H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-No[39;49m[0m[2;38H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Nou[39;49m[0m[2;39H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[39;49m[0m[2;40H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [39;49m[0m[2;41H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mH[39;49m[0m[2;42H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHe[39;49m[0m[2;43H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHel[39;49m[0m
+PS /home/kent/i-live> [?1h[6n[?25l[2;23H[0m[93mG[0m[97;2;3met-Help Get-Command[0m[39;49m[0m[2;24H[?12l[?25h[6n[?25l[2;23H[0m[93mGe[0m[97;2;3mt-Help Get-Command[0m[39;49m[0m[2;25H[?12l[?25h[6n[?25l[2;23H[0m[93mGet[0m[97;2;3m-Help Get-Command[0m[39;49m[0m[2;26H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-[0m[97;2;3mHelp Get-Command[0m[39;49m[0m[2;27H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-C[0m[97;2;3mommand[0m[39;49m         [0m[2;28H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Co[0m[97;2;3mmmand[0m[39;49m[0m[2;29H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Com[0m[97;2;3mmand[0m[39;49m[0m[2;30H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comm[0m[97;2;3mand[0m[39;49m[0m[2;31H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comma[0m[97;2;3mnd[0m[39;49m[0m[2;32H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Comman[0m[97;2;3md[0m[39;49m[0m[2;33H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[97;2;3m Get-*[0m[39;49m[0m[2;34H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[97;2;3mGet-*[0m[39;49m[0m[2;35H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[37m-[39;49m    [0m[2;36H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-N[39;49m[0m[2;37H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-No[39;49m[0m[2;38H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Nou[39;49m[0m[2;39H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[39;49m[0m[2;40H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [39;49m[0m[2;41H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mH[39;49m[0m[2;42H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHe[39;49m[0m[2;43H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHel[39;49m[0m[2;44H[?12l[?25h[6n[?25l[2;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHelp[39;49m[0m[2;45H[?12l[?25h[6n
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Cmdlet          Get-Help                                           7.4.5.500 
+Cmdlet          Save-Help                                          7.4.5.500 
+Cmdlet          Update-Help                                        7.4.5.500 
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHelp[39;49m[0m[10;45H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHel[0m[97;2;3mp[0m[39;49m[0m[10;44H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mHe[0m[97;2;3mlp[0m[39;49m[0m[10;43H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mH[0m[97;2;3melp[0m[39;49m[0m[10;42H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[97;2;3mHelp[0m[39;49m[0m[10;41H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mC[39;49m   [0m[10;42H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mCo[39;49m[0m[10;43H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mCom[39;49m[0m[10;44H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mComm[39;49m[0m[10;45H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mComma[39;49m[0m[10;46H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mComman[39;49m[0m[10;47H[?12l[?25h[6n[?25l[10;23H[0m[93mGet-Command[0m[39;49m [0m[90m-Noun[0m[39;49m [0m[37mCommand[39;49m[0m[10;48H[?12l[?25h[6n
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Function        Find-Command                                       2.2.5     
+Cmdlet          Get-Command                                        7.4.5.500 
+Cmdlet          Invoke-Command                                     7.4.5.500 
+Cmdlet          Measure-Command                                    7.0.0.0   
+Cmdlet          Trace-Command                                      7.0.0.0   
+
+[6nPS /home/kent/i-live> [?1h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[39;49m[0m[1;23H[?12l[?25h[6n[?12l[?25h[6n[?25l[1;23H[0m[93ma[0m[97;2;3mlias echo[0m[39;49m[0m[1;24H[?12l[?25h[6n[?25l[1;23H[0m[93mal[0m[97;2;3mias echo[0m[39;49m[0m[1;25H[?12l[?25h[6n[?25l[1;23H[0m[93mali[0m[97;2;3mas echo[0m[39;49m[0m[1;26H[?12l[?25h[6n[?25l[1;23H[0m[93malis[39;49m      [0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93malisa[39;49m[0m[1;28H[?12l[?25h[6n[?25l[1;23H[0m[93malisas[39;49m[0m[1;29H[?12l[?25h[6n[?25l[1;23H[0m[93malisa[39;49m [0m[1;28H[?12l[?25h[6n[?25l[1;23H[0m[93malis[39;49m [0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93mali[0m[97;2;3mas echo[0m[39;49m[0m[1;26H[?12l[?25h[6n[?25l[1;23H[0m[93mal[0m[97;2;3mias echo[0m[39;49m[0m[1;25H[?12l[?25h[6n[?25l[1;23H[0m[93mali[0m[97;2;3mas echo[0m[39;49m[0m[1;26H[?12l[?25h[6n[?25l[1;23H[0m[93malia[0m[97;2;3ms echo[0m[39;49m[0m[1;27H[?12l[?25h[6n[?25l[1;23H[0m[93malias[0m[97;2;3m echo[0m[39;49m[0m[1;28H[?12l[?25h[6n[K
+[?1l
+[32;1mCommandType    [0m[32;1m Name                                              [0m[32;1m Version[0m
+[32;1m-----------    [0m [32;1m----                                              [0m [32;1m-------   [0m
+Alias           ? -> Where-Object                                            
+Alias           % -> ForEach-Object                                          
+Alias           cd -> Set-Location                                           
+Alias           chdir -> Set-Location                                        
+Alias           clc -> Clear-Content                                         
+Alias           clhy -> Clear-History                                        
+Alias           cli -> Clear-Item                                            
+Alias           clp -> Clear-ItemProperty                                    
+Alias           cls -> Clear-Host                                            
+Alias           clv -> Clear-Variable                                        
+Alias           copy -> Copy-Item                                            
+Alias           cpi -> Copy-Item                                             
+Alias           cvpa -> Convert-Path                                         
+Alias           dbp -> Disable-PSBreakpoint                                  
+Alias           del -> Remove-Item                                           
+Alias           dir -> Get-ChildItem                                         
+Alias           ebp -> Enable-PSBreakpoint                                   
+Alias           echo -> Write-Output                                         
+Alias           epal -> Export-Alias                                         
+Alias           epcsv -> Export-Csv                                          
+Alias           erase -> Remove-Item                                         
+Alias           etsn -> Enter-PSSession                                      
+Alias           exsn -> Exit-PSSession                                       
+Alias           fc -> Format-Custom                                          
+Alias           fhx -> Format-Hex                                  7.0.0.0   
+Alias           fl -> Format-List                                            
+Alias           foreach -> ForEach-Object                                    
+Alias           ft -> Format-Table                                           
+Alias           fw -> Format-Wide                                            
+Alias           gal -> Get-Alias                                             
+Alias           gbp -> Get-PSBreakpoint                                      
+Alias           gc -> Get-Content                                            
+Alias           gcb -> Get-Clipboard                               7.0.0.0   
+Alias           gci -> Get-ChildItem                                         
+Alias           gcm -> Get-Command                                           
+Alias           gcs -> Get-PSCallStack                                       
+Alias           gdr -> Get-PSDrive                                           
+Alias           gerr -> Get-Error                                            
+Alias           ghy -> Get-History                                           
+Alias           gi -> Get-Item                                               
+Alias           gjb -> Get-Job                                               
+Alias           gl -> Get-Location                                           
+Alias           gm -> Get-Member                                             
+Alias           gmo -> Get-Module                                            
+Alias           gp -> Get-ItemProperty                                       
+Alias           gps -> Get-Process                                           
+Alias           gpv -> Get-ItemPropertyValue                                 
+Alias           group -> Group-Object                                        
+Alias           gsn -> Get-PSSession                                         
+Alias           gtz -> Get-TimeZone                                7.0.0.0   
+Alias           gu -> Get-Unique                                             
+Alias           gv -> Get-Variable                                           
+Alias           h -> Get-History                                             
+Alias           history -> Get-History                                       
+Alias           icm -> Invoke-Command                                        
+Alias           iex -> Invoke-Expression                                     
+Alias           ihy -> Invoke-History                                        
+Alias           ii -> Invoke-Item                                            
+Alias           ipal -> Import-Alias                                         
+Alias           ipcsv -> Import-Csv                                          
+Alias           ipmo -> Import-Module                                        
+Alias           irm -> Invoke-RestMethod                                     
+Alias           iwr -> Invoke-WebRequest                                     
+Alias           md -> mkdir                                                  
+Alias           measure -> Measure-Object                                    
+Alias           mi -> Move-Item                                              
+Alias           move -> Move-Item                                            
+Alias           mp -> Move-ItemProperty                                      
+Alias           nal -> New-Alias                                             
+Alias           ndr -> New-PSDrive                                           
+Alias           ni -> New-Item                                               
+Alias           nmo -> New-Module                                            
+Alias           nsn -> New-PSSession                                         
+Alias           nv -> New-Variable                                           
+Alias           oh -> Out-Host                                               
+Alias           popd -> Pop-Location                                         
+Alias           pushd -> Push-Location                                       
+Alias           pwd -> Get-Location                                          
+Alias           r -> Invoke-History                                          
+Alias           rbp -> Remove-PSBreakpoint                                   
+Alias           rcjb -> Receive-Job                                          
+Alias           rcsn -> Receive-PSSession                                    
+Alias           rd -> Remove-Item                                            
+Alias           rdr -> Remove-PSDrive                                        
+Alias           ren -> Rename-Item                                           
+Alias           ri -> Remove-Item                                            
+Alias           rjb -> Remove-Job                                            
+Alias           rmo -> Remove-Module                                         
+Alias           rni -> Rename-Item                                           
+Alias           rnp -> Rename-ItemProperty                                   
+Alias           rp -> Remove-ItemProperty                                    
+Alias           rsn -> Remove-PSSession                                      
+Alias           rv -> Remove-Variable                                        
+Alias           rvpa -> Resolve-Path                                         
+Alias           sajb -> Start-Job                                            
+Alias           sal -> Set-Alias                                             
+Alias           saps -> Start-Process                                        
+Alias           sbp -> Set-PSBreakpoint                                      
+Alias           scb -> Set-Clipboard                               7.0.0.0   
+Alias           select -> Select-Object                                      
+Alias           set -> Set-Variable                                          
+Alias           si -> Set-Item                                               
+Alias           sl -> Set-Location                         
