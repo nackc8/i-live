@@ -157,4 +157,42 @@ REMARKS
            go to https://go.microsoft.com/fwlink/?LinkID=2096579.
 
 
-[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;43H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [39;49m[0m[20;44H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[37m-[39;49m[0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m--[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[37m-[39;49m [0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-E[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Ex[39;49m[0m[20;47H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Exa[39;49m[0m[20;48H[?12l[?25h[6n[?25l[
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[39;49m[0m[20;43H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [39;49m[0m[20;44H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[37m-[39;49m[0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m--[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[37m-[39;49m [0m[20;45H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-E[39;49m[0m[20;46H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Ex[39;49m[0m[20;47H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Exa[39;49m[0m[20;48H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Exam[39;49m[0m[20;49H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Examp[39;49m[0m[20;50H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Exampo[39;49m[0m[20;51H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Examp[39;49m [0m[20;50H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Exampl[39;49m[0m[20;51H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Example[39;49m[0m[20;52H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Examples[39;49m[0m[20;53H[?12l[?25h[6n[2J[?25l[1;1HPS /home/kent/i-live> [?25l[1;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Examples[39;49m[0m[1;53H[?12l[?25h[6n[?12l[?25h
+[?1l
+NAME
+    Get-Command
+
+ALIASES
+    gcm
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this 
+    computer. It is displaying only partial help.
+        -- To download and install Help files for the module that 
+    includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: 
+    "Get-Help Get-Command -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2096579.
+
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Command[0m[39;49m [0m[90m-Examples[39;49m[0m[20;53H[?12l[?25h[6n[20;52H[20;51H[20;50H[20;49H[20;48H[20;47H[20;46H[20;45H[20;44H[20;43H[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Comman[0m[39;49m [0m[90m-Examples[39;49m [0m[20;42H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Comma[0m[39;49m [0m[90m-Examples[39;49m [0m[20;41H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Comm[0m[39;49m [0m[90m-Examples[39;49m [0m[20;40H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Com[0m[39;49m [0m[90m-Examples[39;49m [0m[20;39H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Co[0m[39;49m [0m[90m-Examples[39;49m [0m[20;38H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-C[0m[39;49m [0m[90m-Examples[39;49m [0m[20;37H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-[0m[39;49m [0m[90m-Examples[39;49m [0m[20;36H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-U[0m[39;49m [0m[90m-Examples[39;49m[0m[20;37H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Up[0m[39;49m [0m[90m-Examples[39;49m[0m[20;38H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Upt[0m[39;49m [0m[90m-Examples[39;49m[0m[20;39H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;42H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;42H[?12l[?25h[6n[20;52H
+[?1l
+NAME
+    Get-Uptime
+
+ALIASES
+    None
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this 
+    computer. It is displaying only partial help.
+        -- To download and install Help files for the module that 
+    includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: 
+    "Get-Help Get-Uptime -Online" or
+           go to https://go.microsoft.com/fwlink/?linkid=834862.
+
+
+[6nPS /home/kent/i-live> [?1h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Uptime[0m[39;49m [0m[90m-Examples[39;49m[0m[20;52H[?12l[?25h[6n[?25l[20;23H[39;49m                             [0m[20;23H[?12l[?25h[6n[?25l[20;23H[0m[93mGet-Help[0m[39;49m 
