@@ -30,3 +30,7 @@ class Format:
         # för att matcha rader.
         self.indicator = re.compile(f"^\s*{indicator}")
         self.help = help
+
+
+# Lägg alla formaten i listan med format. Varje rad är en instans av Format.
+formats = [Format()]
