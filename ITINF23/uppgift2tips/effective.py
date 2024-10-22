@@ -47,4 +47,11 @@ formats = [
     Format("--exclamation", "-e", "!", "Filters exclamation comments."),
 ]
 
-parser =
+parser = argparse.ArgumentParser(
+    prog="effective",
+    description="Removes comments and blank lines from files.",
+)
+
+parser.add_argument("FILE")
+
+args = parser.parse_args()
