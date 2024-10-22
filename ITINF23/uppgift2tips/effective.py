@@ -67,8 +67,12 @@ for format in formats:
     filter_group.add_argument(
         format.short,
         format.long,
+        # Lagra värdet i variabeln "format". Om inget format anges
+        # är den forsatt None. Om ett format anges så...
         dest="format",
+        # Lagra ett konstant värde om optionen väljs
         action="store_const",
+        # Det konstanta värdet är Format-objektet.
         const=format,
         help=format.help,
     )
