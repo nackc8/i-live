@@ -97,5 +97,6 @@ def filter_lines(lines, format):
 
 with open(args.file) as file:
     lines = file.readlines()
+# Lägg in hantering om det blir fel här med try..except runt with-delen ovan
 
 if args.format:
