@@ -109,6 +109,7 @@ else:
             detection_filtered_lines = format_filtered
     lines = detection_filtered_lines
 
-if args.keep
 
 print(lines)
+
+print(args)
