@@ -37,6 +37,8 @@ formats = [
     Format("--hash", "-h", "#", "Filters hash comments."),
     Format("--dblslash", "-l", "//", "Filters double slash comments."),
     Format("--dbldash", "-d", "--", "Filters double dash comments."),
+    # Procenttecken behöver skrivas dubbelt då det är ett procenttecken
+    # vill skriva. Det är en egenhet hos argparse.
     Format("--percent", "-p", "%%", "Filters percent comments."),
     Format("--apostrophe", "-a", "'", "Filters apostrophe comments."),
     Format("--basic", "-b", "REM|'", "Filters REM or apostrophe comments."),
