@@ -10,6 +10,3 @@ def hello_world():
     global x
     x = x + 1
     return f"Call {x}"
-
-
-app.run(host="0.0.0.0", port=5000)
