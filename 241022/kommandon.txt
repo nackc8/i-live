@@ -21,3 +21,8 @@ Python för en minimal Flask-applikation:
 
 docker run -d --name test first:latest
 docker exec -it test bash
+
+flask --app /app/app.py run
+Ctrl + Z
+bg
+
