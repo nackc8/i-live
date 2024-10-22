@@ -1,0 +1,6 @@
+# is a comment line and totally filtered out
+included line # if comment is last
+  # a comment line might be preceeded with a some white space characters.
+a second line without any comments at all
+if the first non whitespace isn't a # , then the line is included
+
