@@ -5096,4 +5096,101 @@ See 'docker --help'
 [?2004ltest
 [?2004h
 [34mi-live/241022[0m [90m241022[36m [33m10s[0m 
- [35m❯[0m docker stop test ps[Klogs test[1P tests testps[Kstop test ^C
+ [35m❯[0m docker stop test ps[Klogs test[1P tests testps[Kstop test ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m (reverse-i-search)`': [18@r': docke[7mr[27m stop testu': docker [7mru[27mn -d --name test -p 1024:5000 first:latest[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n': docker [7mrun[27m[22P [31m❯[0m docker run[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@5[1@0[1@0[1@0
+[?2004ldocker: Error response from daemon: Conflict. The container name "/test" is already in use by container "1e48db19306904f354674e5ef99e6d6b0b8a6b319c2cc596442f47c6a36fd7c6". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker container rm twest[K[K[K[Kest
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker container rm test[C[C[C[C[C[C[C[C[C[Crun -d --name test -p 5000:5000 first:latest[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker run -d --name test -p 5000:5000 first:latest
+[?2004l69fc0d88bba4b4f8f530e21d80e3044e41a05ff8672cf973a8bfb39e15e48ce6
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m curl localhost>50[K[K[K:5000
+[?2004lcurl: (56) Recv failure: Connection reset by peer
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker stop test
+[?2004ldocker container rm tsrt   est
+test
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m10s[0m 
+ [35m❯[0m docker container rm test
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m (reverse-i-search)`': b': docker [7mb[27muild -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u': docker [7mbu[27m[1@i': docker [7mbui[27m[1@l': docker [7mbuil[27m[1@d': docker [7mbuild[27m[24P [35m❯[0m docker build[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker build -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.8s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.9s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.1s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           1.1s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.1s (2/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest           1.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (12/12) FINISHED                               docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 383B                                       0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest           1.1s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 28B                                           0.0s
+[0m[34m => [1/7] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cdac  0.0s
+[0m[34m => CACHED [2/7] RUN apt-get update                                        0.0s
+[0m[34m => CACHED [3/7] RUN apt install -y python3                                0.0s
+[0m[34m => CACHED [4/7] RUN apt install -y python3-pip                            0.0s
+[0m[34m => CACHED [5/7] RUN pip3 install Flask --break-system-packages            0.0s
+[0m[34m => CACHED [6/7] WORKDIR /app                                              0.0s
+[0m[34m => CACHED [7/7] COPY app.py .                                             0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:9fc31f32e53ec955f6c88164b045e7ebd5de33b01f713  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                            0.0s
+[0m[?25h[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m (reverse-i-search)`': r': docker build -t first:latest -f Dockerfile.fi[7mr[27mst .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu': docker [7mru[27mn -d --name test -p 5000:5000 first:latest[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n': docker [7mrun[27m[22P [35m❯[0m docker run
+[?2004lba77e3385d4e78dad39ecba2a28b6e08033581d08ab4741acb7534b350276c30
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m curl localhost>50[K[K[K:5000
+[?2004lcurl: (56) Recv failure: Connection reset by peer
+[?2004h
+[34m
