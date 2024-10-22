@@ -81,6 +81,8 @@ for format in formats:
         help=format.help,
     )
 
+parser.add_argument("-k", "--keep", action="store_true")
+
 parser.add_argument("searchterm", nargs="?")
 parser.add_argument("file")
 
