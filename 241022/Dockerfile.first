@@ -14,3 +14,7 @@ COPY app.py .
 CMD ["sleep", "3600"]
 
 # CMD ["flask", "--app", "/app/app.py", "run"]
+
+flask --app /app/app.py run
+Ctrl + Z
+bg
