@@ -34,3 +34,12 @@ class Format:
 
 # Lägg alla formaten i listan med format. Varje rad är en instans av Format.
 formats = [Format()]
+
+"--hash"
+"--dblslash"
+"--dbldash"
+"--percent"
+"--apostrophe"
+"--basic"
+"--semicolon"
+"--exclamation"
