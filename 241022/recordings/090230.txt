@@ -3194,4 +3194,51 @@ gapps        latest    95207c825bdd   4 weeks ago   1.26GB
 [0m => [internal] load metadata for docker.io/library/ubuntu:latest          2.1s
 [?25h[1A[1A[1A[1A[0G[?25l[+] Building 2.2s (2/2)                                         docker:default
 [34m => [internal] load build definition from Dockerfile.first                0.0s
-[0m[34m => => transferring dockerf
+[0m[34m => => transferring dockerfile: 109B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest          2.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Building 2.3s (6/6) FINISHED                                docker:default
+[34m => [internal] load build definition from Dockerfile.first                0.0s
+[0m[34m => => transferring dockerfile: 109B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest          2.2s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/2] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  0.0s
+[0m[34m => CACHED [2/2] RUN apt-get update && apt-get install -y tree            0.0s
+[0m[34m => exporting to image                                                    0.0s
+[0m[34m => => exporting layers                                                   0.0s
+[0m[34m => => writing image sha256:5f97e3317362a9f6f1b7ad92ecd29295fd085eaa036c  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                           0.0s
+[0m[?25h[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m2s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m docker build -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C     ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241022[0m [90m241022[36m ⇡[0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[36m ⇡[0m
+[31m❯[0m docker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+first        latest    5f97e3317362   26 minutes ago   121MB
+gapps        latest    95207c825bdd   4 weeks ago      1.26GB
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m docker run first>[K:latest [H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m docker run first:latest [K[35m❯[0m docker run first:latest [K[35m❯[0m docker run first:latest [K[35m❯[0m docker run first:latest [K[35m❯[0m docker run first:latest [1@-[1@d[1@ [1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m bash[K[K[K[K(reverse-i-search)`': b': docker [7mb[27muild -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u': docker [7mbu[27m[1@i': docker [7mbui[27m[1@l': docker [7mbuil[27m[1@d': docker [7mbuild[27m[25P[35m❯[0m docker build[C[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m docker build -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                         docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile.first                0.0s
+[0m[34m => => transferring dockerfile: 132B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest          0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile.first                0.0s
+[0m[34m => => transferring dockerfile: 132B                                      0.0s
+[0m => [internal] load metadata 
