@@ -110,10 +110,7 @@ else:
     lines = detection_filtered_lines
 
 
-print(lines)
-
 if not args.keep:
-    lines = [line for line in lines if line.strip() == ""]
+    lines = [line for line in lines if line.strip() != ""]
 
-print(args)
 print(lines)
