@@ -52,6 +52,7 @@ parser = argparse.ArgumentParser(
     description="Removes comments and blank lines from files.",
 )
 
+
 parser.add_argument("FILE")
 
 args = parser.parse_args()
