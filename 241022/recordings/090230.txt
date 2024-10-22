@@ -3894,4 +3894,358 @@ gapps        latest    95207c825bdd   4 weeks ago      1.26GB
 ]
 [?2004h
 [34mi-live/241022[0m [90m241022[36m [0m
- [35m❯[0
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m kjhk[K[K[K[Kdocker run +e[K[Köe[K[K-e X'[K=345[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kffuhiu[K[K[K[K[K[Kdocker run -e SECRET=password   ^C[?2004l[?2004h[?2004l
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [31m❯[0m docker inspect first:latest [C[C[C[C[C[C[C[C[C[C[Cmages[Knspect first:latest [C[C[C[K[K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [31m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m (reverse-i-search)`': r': docke[7mr[27m psu': docker [7mru[27mn -d --name test first:latest[1@n': docker [7mrun[27m[22P [35m❯[0m docker run[C
+[?2004lb82455bd436eb4722e65a0aaec997d462743d57f53276a0a5aaeac5b3ee7b696
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker run -d --name test first:latest[C[C[C[C[C[C[C[C[C[Cps[K
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS        PORTS     NAMES
+b82455bd436e   first:latest   "flask --app /app/ap…"   2 seconds ago   Up 1 second             test
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m docker ps[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS     NAMES
+b82455bd436e   first:latest   "flask --app /app/ap…"   2 minutes ago   Up 2 minutes             test
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m man docker-run
+[?2004l[?1049h[22;0;0t[?1h=DOCKER(1)                     Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-run - Create and run a new container from an image[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m  [1mrun[0m  [[1m-a[0m|[1m--attach[0m[=[4m[][24m]]  [[1m--add-host[0m[=[4m[][24m]]  [[1m--annotation[0m[=[4m[][24m]][m
+       [[1m--blkio-weight[0m[=[4m[BLKIO-WEIGHT][24m]]          [[1m--blkio-weight-device[0m[=[4m[][24m]][m
+       [[1m-c[0m|[1m--cpu-shares[0m[=[4m0[24m]]         [[1m--cap-add[0m[=[4m[][24m]]        [[1m--cap-drop[0m[=[4m[][24m]][m
+       [[1m--cgroupns[0m[=[4m[][24m]] [[1m--cgroup-parent[0m[=[4mCGROUP-PATH[24m]] [[1m--cidfile[0m[=[4mCIDFILE[24m]][m
+       [[1m--cpu-count[0m[=[4m0[24m]]    [[1m--cpu-percent[0m[=[4m0[24m]]   [[1m--cpu-period[0m[=[4m0[24m]]   [[1m--cpu-[0m[m
+       [1mquota[0m[=[4m0[24m]] [[1m--cpu-rt-period[0m[=[4m0[24m]] [[1m--cpu-rt-runtime[0m[=[4m0[24m]]  [[1m--cpus[0m[=[4m0.0[24m]][m
+       [[1m--cpuset-cpus[0m[=[4mCPUSET-CPUS[24m]]  [[1m--cpuset-mems[0m[=[4mCPUSET-MEMS[24m]]  [[1m-d[0m|[1m--de‐[0m[m
+[7m Manual page docker-run(1) line 1 (press h for help or q to quit)[27m[K[K-[K[7m Manual page docker-run(1) line 1 (press h for help or q to quit)[27m[K[K/[K++[K[K--[Kdd[K[1;1HDOCKER(1)                     Docker User Manuals                    DOCKER(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       docker-run - Create and run a new container from an image[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mdocker[0m  [1mrun[0m  [[1m-a[0m|[1m--attach[0m[=[4m[][24m]]  [[1m--add-host[0m[=[4m[][24m]]  [[1m--annotation[0m[=[4m[][24m]][m
+[8;1H       [[1m--blkio-weight[0m[=[4m[BLKIO-WEIGHT][24m]]          [[1m--blkio-weight-device[0m[=[4m[][24m]][m
+[9;1H       [[1m-c[0m|[1m--cpu-shares[0m[=[4m0[24m]]         [[1m--cap-add[0m[=[4m[][24m]]        [[1m--cap-drop[0m[=[4m[][24m]][m
+[10;1H       [[1m--cgroupns[0m[=[4m[][24m]] [[1m--cgroup-parent[0m[=[4mCGROUP-PATH[24m]] [[1m--cidfile[0m[=[4mCIDFILE[24m]][m
+[11;1H       [[1m--cpu-count[0m[=[4m0[24m]]    [[1m--cpu-percent[0m[=[4m0[24m]]   [[1m--cpu-period[0m[=[4m0[24m]]   [[1m--cpu-[0m[m
+[12;1H       [1mquota[0m[=[4m0[24m]] [[1m--cpu-rt-period[0m[=[4m0[24m]] [[1m--cpu-rt-runtime[0m[=[4m0[24m]]  [[1m--cpus[0m[=[4m0.0[24m]][m
+[13;1H       [[1m--cpuset-cpus[0m[=[4mCPUSET-CPUS[24m]]  [[1m--cpuset-mems[0m[=[4mCPUSET-MEMS[24m]]  [[1m-d[0m|[1m--de‐[0m[m
+[14;1H[1;1HDOCKER(1)                     Docker User Manuals                    DOCKER(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       docker-run - Create and run a new container from an image[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mdocker[0m  [1mrun[0m  [[1m-a[0m|[1m--attach[0m[=[4m[][24m]]  [[1m--add-host[0m[=[4m[][24m]]  [[1m--annotation[0m[=[4m[][24m]][m
+[8;1H       [[1m--blkio-weight[0m[=[4m[BLKIO-WEIGHT][24m]]          [[1m--blkio-weight[0m[1m[7m-d[27m[0m[1mevice[0m[=[4m[][24m]][m
+[9;1H       [[1m-c[0m|[1m--cpu-shares[0m[=[4m0[24m]]         [[1m--cap-add[0m[=[4m[][24m]]        [[1m--cap[0m[1m[7m-d[27m[0m[1mrop[0m[=[4m[][24m]][m
+[10;1H       [[1m--cgroupns[0m[=[4m[][24m]] [[1m--cgroup-parent[0m[=[4mCGROUP-PATH[24m]] [[1m--cidfile[0m[=[4mCIDFILE[24m]][m
+[11;1H       [[1m--cpu-count[0m[=[4m0[24m]]    [[1m--cpu-percent[0m[=[4m0[24m]]   [[1m--cpu-period[0m[=[4m0[24m]]   [[1m--cpu-[0m[m
+[12;1H       [1mquota[0m[=[4m0[24m]] [[1m--cpu-rt-period[0m[=[4m0[24m]] [[1m--cpu-rt-runtime[0m[=[4m0[24m]]  [[1m--cpus[0m[=[4m0.0[24m]][m
+[13;1H       [[1m--cpuset-cpus[0m[=[4mCPUSET-CPUS[24m]]  [[1m--cpuset-mems[0m[=[4mCPUSET-MEMS[24m]]  [[1m[7m-d[27m[0m|[1m-[0m[1m[7m-d[27m[0m[1me‐[0m[m
+[14;1H       [1mtach[0m] [[1m-[0m[1m[7m-d[27m[0m[1metach-keys[0m[=[4m[][24m]] [[1m-[0m[1m[7m-d[27m[0m[1mevice[0m[=[4m[][24m]]  [[1m-[0m[1m[7m-d[27m[0m[1mevice-cgroup-rule[0m[=[4m[][24m]][m
+       [[1m-[0m[1m[7m-d[27m[0m[1mevice-read-bps[0m[=[4m[][24m]]   [[1m-[0m[1m[7m-d[27m[0m[1mevice-read-iops[0m[=[4m[][24m]]   [[1m-[0m[1m[7m-d[27m[0m[1mevice-write-[0m[m
+       [1mbps[0m[=[4m[][24m]] [[1m-[0m[1m[7m-d[27m[0m[1mevice-write-iops[0m[=[4m[][24m]]  [[1m-[0m[1m[7m-d[27m[0m[1mns[0m[=[4m[][24m]]  [[1m-[0m[1m[7m-d[27m[0m[1mns-option[0m[=[4m[][24m]][m
+       [[1m-[0m[1m[7m-d[27m[0m[1mns-search[0m[=[4m[][24m]]  [[1m-[0m[1m[7m-d[27m[0m[1momainname[0m[=[4mDOMAINNAME[24m]] [[1m-e[0m|[1m--env[0m[=[4m[][24m]] [[1m--en‐[0m[m
+       [1mtrypoint[0m[=[4mENTRYPOINT[24m]]  [[1m--env-file[0m[=[4m[][24m]]   [[1m--expose[0m[=[4m[][24m]]   [[1m--group-[0m[m
+       [1madd[0m[=[4m[][24m]]  [[1m-h[0m|[1m--hostname[0m[=[4mHOSTNAME[24m]]  [[1m--help[0m] [[1m--init[0m] [[1m-i[0m|[1m--interac‐[0m[m
+       [1mtive[0m]   [[1m--ip[0m[=[4mIPv4-ADDRESS[24m]]   [[1m--ip6[0m[=[4mIPv6-ADDRESS[24m]]    [[1m--ipc[0m[=[4mIPC[24m]][m
+[7m Manual page docker-run(1) line 8 (press h for help or q to quit)[27m[K[K/[K       [[1m--isolation[0m[=[4mdefault[24m]]   [[1m--kernel-memory[0m[=[4mKERNEL-MEMORY[24m]]   [[1m-l[0m|[1m--la‐[0m[m
+[7m Manual page docker-run(1) line 9 (press h for help or q to quit)[27m[K[K/[K       [1mbel[0m[=[4m[][24m]]  [[1m--label-file[0m[=[4m[][24m]]   [[1m--link[0m[=[4m[][24m]]   [[1m--link-local-ip[0m[=[4m[][24m]][m
+       [[1m--log[0m[1m[7m-d[27m[0m[1mriver[0m[=[4m[][24m]]  [[1m--log-opt[0m[=[4m[][24m]] [[1m-m[0m|[1m--memory[0m[=[4mMEMORY[24m]] [[1m--mac-ad‐[0m[m
+       [1mdress[0m[=[4mMAC-ADDRESS[24m]]        [[1m--memory-reservation[0m[=[4mMEMORY-RESERVATION[24m]][m
+       [[1m--memory-swap[0m[=[4mLIMIT[24m]]       [[1m--memory-swappiness[0m[=[4mMEMORY-SWAPPINESS[24m]][m
+[7m Manual page docker-run(1) line 13 (press h for help or q to quit)[27m[K[K/[K       [[1m--mount[0m[=[4m[MOUNT][24m]]  [[1m--name[0m[=[4mNAME[24m]]   [[1m--network-alias[0m[=[4m[][24m]]   [[1m--net‐[0m[m
+[7m Manual page docker-run(1) line 14 (press h for help or q to quit)[27m[K[K/[K       [1mwork[0m[=[4m"bridge"[24m]]  [[1m--oom-kill[0m[1m[7m-d[27m[0m[1misable[0m] [[1m--oom-score-adj[0m[=[4m0[24m]] [[1m-P[0m|[1m--pub‐[0m[m
+[7m Manual page docker-run(1) line 15 (press h for help or q to quit)[27m[K[K/[K       [1mlish-all[0m] [[1m-p[0m|[1m--publish[0m[=[4m[][24m]] [[1m--pid[0m[=[4m[PID][24m]] [[1m--userns[0m[=[4m[][24m]]  [[1m--pids-[0m[m
+[7m Manual page docker-run(1) line 16 (press h for help or q to quit)[27m[K[K/[K       [1mlimit[0m[=[4mPIDS_LIMIT[24m]]  [[1m--privileged[0m] [[1m--read-only[0m] [[1m--restart[0m[=[4mRESTART[24m]][m
+[7m Manual page docker-run(1) line 17 (press h for help or q to quit)[27m[K[K/[K       [[1m--rm[0m] [[1m--security-opt[0m[=[4m[][24m]] [[1m--storage-opt[0m[=[4m[][24m]]  [[1m--stop-signal[0m[=[4mSIG‐[24m[m
+       [4mNAL[24m]] [[1m--stop-timeout[0m[=[4mTIMEOUT[24m]] [[1m--shm-size[0m[=[4m[][24m]] [[1m--sig-proxy[0m[=[4mtrue[24m]][m
+       [[1m--sysctl[0m[=[4m[][24m]]     [[1m-t[0m|[1m--tty[0m]     [[1m--tmpfs[0m[=[4m[CONTAINER[24m[4m[7m-D[27m[24m[4mIR[:OPTIONS][24m]][m
+       [[1m-u[0m|[1m--user[0m[=[4mUSER[24m]]  [[1m--ulimit[0m[=[4m[][24m]]  [[1m--uts[0m[=[4m[][24m]] [[1m-v[0m|[1m--volume[0m[=[4m[[HOST-[24m[m
+       [4mDIR:]CONTAINER[24m[4m[7m-D[27m[24m[4mIR[:OPTIONS]][24m]] [[1m--volume[0m[1m[7m-d[27m[0m[1mriver[0m[=[4mDRIVER[24m]]  [[1m--volumes-[0m[m
+       [1mfrom[0m[=[4m[][24m]] [[1m-w[0m|[1m--workdir[0m[=[4mWORKDIR[24m]] IMAGE [COMMAND] [ARG...][m
+[7m Manual page docker-run(1) line 23 (press h for help or q to quit)[27m[K[K/[K[m
+[1mDESCRIPTION[0m[m
+       Run  a process in a new container. [1mdocker[0m [1mrun[0m starts a process with its[m
+       own file system, its own networking, and its own isolated process tree.[m
+[7m Manual page docker-run(1) line 27 (press h for help or q to quit)[27m[K[K/[K       The  IMAGE  which starts the process may define defaults related to the[m
+       process that will be run in the container, the  networking  to  expose,[m
+       and  more, but [1mdocker[0m [1mrun[0m gives final control to the operator or admin‐[m
+       istrator who starts the container  from  the  image.  For  that  reason[m
+       [1mdocker[0m [1mrun[0m has more options than any other Docker command.[m
+[7m Manual page docker-run(1) line 32 (press h for help or q to quit)[27m[K[K/[K[m
+       If the IMAGE is not already loaded then [1mdocker[0m [1mrun[0m will pull the IMAGE,[m
+[7m Manual page docker-run(1) line 34 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       In  foreground  mode (the default when [1m[7m-d[27m[0m is not specified), [1mdocker[0m [1mrun[0m[m
+       can start the process in the container and attach the  console  to  the[m
+       process's  standard input, output, and standard error. It can even pre‐[m
+       tend to be a TTY (this is what most commandline executables expect) and[m
+       pass along signals. The [1m-a[0m option can be set for each of stdin, stdout,[m
+       and stderr.[m
+[m
+       [1m--add-host[0m=[][m
+          Add a custom host-to-IP mapping (host=ip, or host:ip)[m
+[m
+       Add a line to /etc/hosts. The format is hostname=ip, or hostname:ip.[m
+          The [1m--add-host[0m option can be set multiple times.[m
+[m
+[7m Manual page docker-run(1) line 54 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m--blkio-weight[0m[1m[7m-d[27m[0m[1mevice[0m=[][m
+          Block   IO   weight   (relative   device   weight,    format:    [1mDE‐[0m[m
+       [1mVICE_NAME:WEIGHT[0m).[m
+[m
+       [1m-c[0m, [1m--cpu-shares[0m=[4m0[24m[m
+          CPU shares (relative weight)[m
+[m
+       By  default, all containers get the same proportion of CPU cycles. This[m
+       proportion can be  modified  by  changing  the  container's  CPU  share[m
+       weighting relative to the weighting of all other running containers.[m
+[m
+       To modify the proportion from the default of 1024, use the [1m-c[0m or [1m--cpu-[0m[m
+       [1mshares[0m flag to set the weighting to 2 or higher.[m
+[7m Manual page docker-run(1) line 77 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m--cap[0m[1m[7m-d[27m[0m[1mrop[0m=[][m
+          Drop Linux capabilities[m
+[m
+       [1m--cgroupns[0m=""[m
+          Set the cgroup namespace mode for the container.[m
+            [1mhost[0m:    run the container in the host's cgroup namespace[m
+            [1mprivate[0m: run the container in its own private cgroup namespace[m
+            [1m""[0m:       (unset)  use the daemon's default configuration ([1mhost[0m on[m
+       cgroup v1, [1mprivate[0m on cgroup v2)[m
+[m
+       [1m--cgroup-parent[0m=""[m
+          Path to cgroups under which the cgroup for  the  container  will  be[m
+       created. If the path is not absolute, the path is considered to be rel‐[m
+[7m Manual page docker-run(1) line 120 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m[7m-d[27m[0m, [1m-[0m[1m[7m-d[27m[0m[1metach[0m=[4mtrue[24m|[4mfalse[24m[m
+          Detached mode: run the container in the background and print the new[m
+       container ID. The default is [4mfalse[24m.[m
+[m
+       At  any time you can run [1mdocker[0m [1mps[0m in the other shell to view a list of[m
+       the running containers. You can reattach to a detached  container  with[m
+       [1mdocker[0m [1mattach[0m.[m
+[m
+       When  attached  in the tty mode, you can detach from the container (and[m
+       leave it running) using a configurable key sequence.  The  default  se‐[m
+       quence  is  [1mCTRL-p[0m  [1mCTRL-q[0m.   You  configure the key sequence using the[m
+       [1m-[0m[1m[7m-d[27m[0m[1metach-keys[0m option or a configuration file.  See  [1mconfig-json(5)[0m  for[m
+       documentation on using a configuration file.[m
+[7m Manual page docker-run(1) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-run(1) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-[0m[1m[7m-d[27m[0m[1metach-keys[0m=[4mkey[24m[m
+[7m Manual page docker-run(1) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          Override the key sequence for detaching a container; [4mkey[24m is a single[m
+[7m Manual page docker-run(1) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       character from the [a-Z] range, or [1mctrl[0m-[4mvalue[24m, where [4mvalue[24m is  one  of:[m
+[7m Manual page docker-run(1) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1ma-z[0m, [1m@[0m, [1m^[0m, [1m[[0m, [1m,[0m, or [1m_[0m.[m
+[7m Manual page docker-run(1) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-run(1) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-[0m[1m[7m-d[27m[0m[1mevice[0m=[4monhost[24m:[4mincontainer[24m[:[4mmode[24m][m
+[7m Manual page docker-run(1) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          Add  a  host  device  [4monhost[24m  to the container under the [4mincontainer[24m[m
+[7m Manual page docker-run(1) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       name.  Optional [4mmode[24m parameter can be used to  specify  device  permis‐[m
+[7m Manual page docker-run(1) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       sions,  it  is a combination of [1mr[0m (for read), [1mw[0m (for write), and [1mm[0m (for[m
+[7m Manual page docker-run(1) line 208 (press h for help or q to quit)[27m[K[K       [1mmknod[0m(2)).[m
+[m
+       For example, [1m-[0m[1m[7m-d[27m[0m[1mevice=/dev/sdc:/dev/xvdc:rwm[0m will give a container  all[m
+       permissions  for the host device [1m/dev/sdc[0m, seen as [1m/dev/xvdc[0m inside the[m
+       container.[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mevice-cgroup-rule[0m="[4mtype[24m [4mmajor[24m:[4mminor[24m [4mmode[24m"[m
+          Add a rule to the cgroup allowed devices list. The rule is  expected[m
+       to  be in the format specified in the Linux kernel documentation (Docu‐[m
+       mentation/cgroup-v1/devices.txt):[m
+            - [4mtype[24m: [1ma[0m (all), [1mc[0m (char), or [1mb[0m (block);[m
+            - [4mmajor[24m and [4mminor[24m: either a number, or [1m*[0m for all;[m
+            - [4mmode[24m: a composition of [1mr[0m (read), [1mw[0m (write), and [1mm[0m ([1mmknod[0m(2)).[m
+[7m Manual page docker-run(1) line 221 (press h for help or q to quit)[27m[K[K[m
+       Example: [1m-[0m[1m[7m-d[27m[0m[1mevice-cgroup-rule[0m [1m"c[0m [1m1:3[0m [1mmr"[0m: allow for a character  device[m
+       idendified by [1m1:3[0m  to be created and read.[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mevice-read-bps[0m=[][m
+          Limit read rate from a device (e.g. -[7m-d[27mevice-read-bps=/dev/sda:1mb)[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mevice-read-iops[0m=[][m
+          Limit    read    rate    from    a   device   (e.g.   -[7m-d[27mevice-read-[m
+       iops=/dev/sda:1000)[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mevice-write-bps[0m=[][m
+          Limit write rate to a device (e.g. -[7m-d[27mevice-write-bps=/dev/sda:1mb)[m
+[7m Manual page docker-run(1) line 234 (press h for help or q to quit)[27m[K[K[m
+       [1m-[0m[1m[7m-d[27m[0m[1mevice-write-iops[0m=[][m
+          Limit   write   rate   to    a    device    (e.g.    -[7m-d[27mevice-write-[m
+       iops=/dev/sda:1000)[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mns-search[0m=[][m
+          Set  custom DNS search domains (Use -[7m-d[27mns-search=. if you don't wish[m
+       to set the search domain)[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mns-option[0m=[][m
+          Set custom DNS options[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1mns[0m=[][m
+[7m Manual page docker-run(1) line 247 (press h for help or q to quit)[27m[K[K          Set custom DNS servers[m
+[m
+       This option can be used to override the DNS configuration passed to the[m
+       container.  Typically this is necessary when the host DNS configuration[m
+       is invalid for the container (e.g., 127.0.0.1). When this is  the  case[m
+       the [1m-[0m[1m[7m-d[27m[0m[1mns[0m flags is necessary for every run.[m
+[m
+       [1m-[0m[1m[7m-d[27m[0m[1momainname[0m=""[m
+          Container NIS domain name[m
+[m
+       Sets  the  container's NIS domain name (see also [1msetdomainname(2)[0m) that[m
+       is[m
+          available inside the container.[m
+[7m Manual page docker-run(1) line 260 (press h for help or q to quit)[27m[K[K[m
+       [1m-e[0m, [1m--env[0m=[][m
+          Set environment variables[m
+[m
+       This option allows you to specify arbitrary environment variables  that[m
+       are  available for the process that will be launched inside of the con‐[m
+       tainer.[m
+[m
+       [1m--entrypoint[0m=""[m
+          Overwrite the default ENTRYPOINT of the image[m
+[m
+       This option allows you to overwrite the default entrypoint of the image[m
+       that is set in the Dockerfile. The ENTRYPOINT of an image is similar to[m
+[7m Manual page docker-run(1) line 273 (press h for help or q to quit)[27m[K[K       a COMMAND because it specifies what executable to  run  when  the  con‐[m
+       tainer  starts,  but  it is (purposely) more difficult to override. The[m
+       ENTRYPOINT gives a container its default nature or  behavior,  so  that[m
+       when you set an ENTRYPOINT you can run the container as if it were that[m
+       binary, complete with default options, and you can pass in more options[m
+       via  the  COMMAND. But, sometimes an operator may want to run something[m
+       else inside the container, so you can override the  default  ENTRYPOINT[m
+       at  runtime by using a [1m--entrypoint[0m and a string to specify the new EN‐[m
+       TRYPOINT.[m
+[m
+       [1m--env-file[0m=[][m
+          Read in a line delimited file of environment variables[m
+[m
+[7m Manual page docker-run(1) line 286 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       that is set in the Dockerfile. The ENTRYPOINT of an image is similar to[m
+[14;1H[K[7m Manual page docker-run(1) line 285 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       This option allows you to overwrite the default entrypoint of the image[m
+[14;1H[K[7m Manual page docker-run(1) line 284 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[14;1H[K[7m Manual page docker-run(1) line 283 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM          Overwrite the default ENTRYPOINT of the image[m
+[14;1H[K[7m Manual page docker-run(1) line 282 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-run(1) line 283 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--env-file[0m=[][m
+[7m Manual page docker-run(1) line 284 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          Read in a line delimited file of environment variables[m
+[7m Manual page docker-run(1) line 285 (press h for help or q to quit)[27m[K[K[m
+       [1m--expose[0m=[][m
+          Expose a port, or a range of ports (e.g. --expose=3300-3310) informs[m
+       Docker  that  the  container  listens on the specified network ports at[m
+       runtime. Docker uses this information to interconnect containers  using[m
+       links and to set up port redirection on the host system.[m
+[m
+       [1m--group-add[0m=[][m
+          Add additional groups to run as[m
+[m
+       [1m-h[0m, [1m--hostname[0m=""[m
+          Container host name[m
+[m
+[7m Manual page docker-run(1) line 298 (press h for help or q to quit)[27m[K[K       Sets the container host name that is available inside the container.[m
+[m
+       [1m--help[0m[m
+          Print usage statement[m
+[m
+       [1m--init[0m[m
+          Run  an  init  inside  the container that forwards signals and reaps[m
+       processes[m
+[m
+       [1m-i[0m, [1m--interactive[0m=[4mtrue[24m|[4mfalse[24m[m
+          Keep STDIN open even if not attached. The default is [4mfalse[24m.[m
+[m
+       When set to true, keep stdin open even if not attached.[m
+[7m Manual page docker-run(1) line 311 (press h for help or q to quit)[27m[K[K[m
+       [1m--ip[0m=""[m
+          Sets the container's interface IPv4 address (e.g., 172.23.0.9)[m
+[m
+       It can only be used in conjunction with [1m--network[0m for user[7m-d[27mefined net‐[m
+       works[m
+[m
+       [1m--ip6[0m=""[m
+          Sets the container's interface IPv6 address (e.g., 2001:db8::1b99)[m
+[m
+       It can only be used in conjunction with [1m--network[0m for user[7m-d[27mefined net‐[m
+       works[m
+[m
+[7m Manual page docker-run(1) line 324 (press h for help or q to quit)[27m[K[K-[K[7m Manual page docker-run(1) line 324 (press h for help or q to quit)[27m[K[K/[K++[Ktt[K[K[K--[Ktt[K[1;1H[m
+[2;1H       [1m--ip[0m=""[m
+[3;1H          Sets the container's interface IPv4 address (e.g., 172.23.0.9)[m
+[4;1H[m
+[5;1H       It can only be used in conjunction with [1m--network[0m for user-defined net‐[m
+[6;1H       works[m
+[7;1H[m
+[8;1H       [1m--ip6[0m=""[m
+[9;1H          Sets the container's interface IPv6 address (e.g., 2001:db8::1b99)[m
+[10;1H[m
+[11;1H       It can only be used in conjunction with [1m--network[0m for user-defined net‐[m
+[12;1H       works[m
+[13;1H[m
+[14;1H[1;1H[m
+[2;1H       [1m--ip[0m=""[m
+[3;1H          Sets the container's interface IPv4 address (e.g., 172.23.0.9)[m
+[4;1H[m
+[5;1H       It can only be used in conjunction with [1m--network[0m for user-defined net‐[m
+[6;1H       works[m
+[7;1H[m
+[8;1H       [1m--ip6[0m=""[m
+[9;1H          Sets the container's interface IPv6 address (e.g., 2001:db8::1b99)[m
+[10;1H[m
+[11;1H       It can only be used in conjunction with [1m--network[0m for user-defined net‐[m
+[12;1H       works[m
+[13;1H[m
+[14;1H...skipping...
+       [1m--stop[0m[1m[7m-t[27m[0m[1mimeout[0m[m
+         Timeout (in seconds) to stop a container, or [1m-1[0m to disable timeout.[m
+[m
+       The [1m--stop[0m[1m[7m-t[27m[0m[1mimeout[0m flag sets the number of seconds to wait for the con‐[m
+       tainer[m
+         to stop after sending the pre-defined (see [1m--stop-signal[0m) system call[m
+       signal.[m
+         If the container does not exit  after  the  timeout  elapses,  it  is[m
+       forcibly killed[m
+         with a [1mSIGKILL[0m signal.[m
+[m
+       If  [1m--stop[0m[1m[7m-t[27m[0m[1mimeout[0m  is set to [1m-1[0m, no timeout is applied, and the daemon[m
+       will[m
+[7m Manual page docker-run(1) line 739 (press h for help or q to quit)[27m[K[K/[K         wait indefinitely for the container to exit.[m
+[m
+       The default is determined by the daemon, and 10 seconds for Linux  con‐[m
+[7m Manual page docker-run(1) line 742 (press h for help or q to quit)[27m[K[K/[K       tainers,[m
+         and 30 seconds for Windows containers.[m
+[m
+       [1m--shm-size[0m=""[m
+          Size of [1m/dev/shm[0m. The format is [1m<number><unit>[0m.[m
+          [1mnumber[0m  must  be  greater  than  [1m0[0m.   Unit  is optional and can be [1mb[0m[m
+       (bytes), [1mk[0m (kilobytes), [1mm[0m(megabytes), or [1mg[0m (gigabytes).[m
+          If you omit the unit, the system uses bytes. If you  omit  the  size[m
+[7m Manual page docker-run(1) line 750 (press h for help or q to quit)[27m[K[K/[K...skipping...
+          Proxy received signals to the process (non[7m-T[27mTY mode only).  SIGCHLD,[m
+       SIGSTOP, and SIGKILL are not proxied. The default is [4mtrue[24m.[m
+[m
+       [1m--memory-swappiness[0m=""[m
+          Tune  a  container's  memory swappiness behavior. Accepts an integer[m
+       between 0 and 100.[m
+[m
+       [1m[7m-t[27m[0m, [1m-[0m[1m[7m-t[27m[0m[1mty[0m=[4mtrue[24m|[4mfalse[24m[m
+          Allocate a pseudo[7m-T[27mTY. The default is [4mfalse[24m.[m
+[m
+       When set to true Docker can allocate a pseudo[7m-t[27mty  and  attach  to  the[m
+       standard  input of any container. This can be used, for example, to run[m
+       a throwaway interactive shell. The default is false.[m
+[7m Manual page docker-run(1) line 782 (press h for help or q to quit)[27m[K[K/[K[m
+       The [1m[7m-t[27m[0m option is incompatible with 
