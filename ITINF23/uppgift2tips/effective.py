@@ -87,3 +87,9 @@ parser.add_argument("searchterm", nargs="?")
 parser.add_argument("file")
 
 args = parser.parse_args()
+
+
+# Om vi har en funktion som tar rader och format som indata,
+# och ger tillbaka filtrerade rader.
+def filter_lines(lines, format):
+    return [line for line in lines if not format.indicator.match(line)]
