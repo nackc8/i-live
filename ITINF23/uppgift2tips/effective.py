@@ -35,11 +35,11 @@ class Format:
 # Lägg alla formaten i listan med format. Varje rad är en instans av Format.
 formats = [Format()]
 
-"--hash", "-h", "#"
-"--dblslash", "-l", "//"
-"--dbldash", "-d", "--"
-"--percent", "-p", "%%"
-"--apostrophe", "-a", "'"
-"--basic", "-b", "REM|'"
-"--semicolon", "-s", ";"
-"--exclamation", "-e", "!"
+"--hash", "-h", "#", "Filters hash comments."
+"--dblslash", "-l", "//", "Filters double slash comments."
+"--dbldash", "-d", "--", "Filters double dash comments."
+"--percent", "-p", "%%", "Filters percent comments."
+"--apostrophe", "-a", "'", "Filters apostrophe comments."
+"--basic", "-b", "REM|'", "Filters REM or apostrophe comments."
+"--semicolon", "-s", ";", "Filters semicolon comments."
+"--exclamation", "-e", "!", "Filters exclamation comments."
