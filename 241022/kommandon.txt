@@ -5,6 +5,7 @@ docker rmi first:latest # remove
 docker image prune -a # tar bort alla som inte är anslutna till en container
 docker image prune # tar bort alla "dangling" (utan både namn och tagg)
 docker exec -it elastic_shannon bash
+flasks webbsida: https://palletsprojects.com/projects/flask/
 
 Python för en minimal Flask-applikation:
 
