@@ -4301,4 +4301,93 @@ b82455bd436e   first:latest   "flask --app /app/ap…"   41 minutes ago   Up 41 
 8b99d0bd1bf2   gapps          "tail -f /dev/null"      4 weeks ago   Exited (137) 4 weeks ago             gapps
 [?2004h
 [34mi-live/241022[0m [90m241022[36m [0m
- [35m❯[0m (reverse-i-search)`': r': docke[7mr[27m ps -au': man docker-[7mru[27mnn': man docker-[7mrun[27mdocker [7mrun[27m -d --name test first:latest[22P [35m❯[0m docker run[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C first:latest- first:latestp first:latest[C first:latest1 first:latest0 first:latest2 first:
+ [35m❯[0m (reverse-i-search)`': r': docke[7mr[27m ps -au': man docker-[7mru[27mnn': man docker-[7mrun[27mdocker [7mrun[27m -d --name test first:latest[22P [35m❯[0m docker run[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C first:latest- first:latestp first:latest[C first:latest1 first:latest0 first:latest2 first:latest4 first:latestÖ first:latest[1P first:latest: first:latest5 first:latest0 first:latest0 first:latest0 first:latest
+[?2004l4a770fe8fd71c358036a17f1f1dd1a9ec394c27f1c48db56232644769ab11a2f
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+4a770fe8fd71   first:latest   "flask --app /app/ap…"   33 seconds ago   Up 32 seconds   0.0.0.0:1024->5000/tcp, [::]:1024->5000/tcp   test
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+4a770fe8fd71   first:latest   "flask --app /app/ap…"   39 seconds ago   Up 38 seconds   0.0.0.0:1024->5000/tcp, [::]:1024->5000/tcp   test
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker status e[Ktest
+[?2004ldocker: 'status' is not a docker command.
+See 'docker --help'
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker stats[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker stats
+[?2004l[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.00%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.00%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a
