@@ -104,6 +104,6 @@ if args.format:
 else:
     detection_filtered_lines = lines
     for format in formats:
-
+        format_filtered = filter_lines(lines, format)
 
 print(lines)
