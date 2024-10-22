@@ -93,3 +93,9 @@ args = parser.parse_args()
 # och ger tillbaka filtrerade rader.
 def filter_lines(lines, format):
     return [line for line in lines if not format.indicator.match(line)]
+
+
+with open(args.file) as file:
+    lines = file.readlines()
+
+if args.format:
