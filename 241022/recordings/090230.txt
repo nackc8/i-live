@@ -4938,4 +4938,107 @@ docker: Error response from daemon: failed to create task for container: failed 
 [34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
  [35m❯[0m docker build -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[Crun -d --name test -p 1024:5000 first:latest
 [?2004ldocker: Error response from daemon: Conflict. The container name "/test" is already in use by container "9c5158588c32807368e6585fcf77e4fcb1abf68c783b9de7d712d5366da4d5c0". You have to remove (or rename) that container to be able to reuse that name.
-See 'docker run --h
+See 'docker run --help'.
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker container rm
+[?2004l"docker container rm" requires at least 1 argument.
+See 'docker container rm --help'.
+
+Usage:  docker container rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker container rm test 
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker container rm test [K[C[C[C[C[C[C[C[C[C[Crun -d --name test -p 1024:5000 first:latest[C
+[?2004lc0637a0a89428dba591689c19853da8e397cb93161ce664d721fe287db363382
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m (reverse-i-search)`': e': docker run -d --name test -p 1024:5000 first:lat[7me[27mst[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Px': docker [7mex[27mec -it test bash[21P [35m❯[0m docker ex[C
+[?2004l[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [H[2J]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# ps
+[?2004l    PID TTY          TIME CMD
+      7 pts/0    00:00:00 bash
+     15 pts/0    00:00:00 ps
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# ls
+[?2004lapp.py
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# flask ++  -app -ap   /app/app.py 
+[?2004lUsage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such option: -a
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# flask -app /app/app.py --host 0.0.0.0 run
+[?2004lUsage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such option: -a
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [Kflask -app /app/app.py --host 0.0.0.0 run[1@-app /app/app.py --host 0.0.0.0 run-host 0.0.0.0 run
+[?2004lUsage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such option: --host
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [Kflask --app /app/app.py --host 0.0.0.0 run[1P[1@=
+[?2004lUsage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such option: --host
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [Kflask --app /app/app.py --host=0.0.0.0 runr ru[1Pn[1Pn[1Pn0n [1@r[1@u[1@n[1@ [1P[1@(--host=0.0.0.0)
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [Kflask --app /app/app.py run(--host=0.0.0.0)[1P[1P
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K[K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [K]0;root@c0637a0a8942: /approot@c0637a0a8942:/app# [?2004l
+exit
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m2m49s[0m 
+ [31m❯[0m doclker[K[K[K[Kker stop test 
+[?2004ldocker container rm test
+test
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m10s[0m 
+ [35m❯[0m docker container rm test
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m (reverse-i-search)`': b': docker exec -it test [7mb[27mash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu': docker [7mbu[27mild -t first:latest -f Dockerfile.first .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@i': docker [7mbui[27m[1@l': docker [7mbuil[27m[1@d': docker [7mbuild[27m[24P [35m❯[0m docker build
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest           0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.7s (2/2)                                          docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest           0.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (11/12)                                        docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [1/7] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cdac  0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 213B                                          0.0s
+[0m[34m => CACHED [2/7] RUN apt-get update                                        0.0s
+[0m[34m => CACHED [3/7] RUN apt install -y python3                                0.0s
+[0m[34m => CACHED [4/7] RUN apt install -y python3-pip                            0.0s
+[0m[34m => CACHED [5/7] RUN pip3 install Flask --break-system-packages            0.0s
+[0m[34m => CACHED [6/7] WORKDIR /app                                              0.0s
+[0m[34m => [7/7] COPY app.py .                                                    0.0s
+[0m => exporting to image                                                     0.0s
+[34m => => exporting layers                                                    0.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (12/12) FINISHED                               docker:default
+[34m => [internal] load build definition from Dockerfile.first                 0.0s
+[0m[34m => => transferring dockerfile: 370B                                       0.0s
+[0m[34m => [internal] load metadata for docker.io/librar
