@@ -5283,4 +5283,9 @@ See 'docker run --help'.
 [?2004h
 [34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
  [35m❯[0m curl localhost>[K:5000
-[?2004lCall 1[?200
+[?2004lCall 1[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-22 14:19:06+02:00 [COMMAND_EXIT_CODE="0"]
