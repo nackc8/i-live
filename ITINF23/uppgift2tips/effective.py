@@ -50,7 +50,8 @@ formats = [
 parser = argparse.ArgumentParser(
     prog="effective",
     description="Removes comments and blank lines from files.",
-    conflict_resolution="resolve",
+    # Se: https://docs.python.org/3/library/argparse.html#conflict-handler
+    conflict_handler="resolve",
 )
 
 # Optioner som inte får anges tillsammans kan vara i en mutual-
