@@ -11,4 +11,6 @@ WORKDIR /app
 # punkten betyder nu /app
 COPY app.py .
 
-CMD ["flask", "--app", "/app/app.py", "--host", "0.0.0.0", "run"]
+CMD ["sleep 6000"]
+
+#CMD ["flask", "--app", "/app/app.py", "--host", "0.0.0.0", "run"]
