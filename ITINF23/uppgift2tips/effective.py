@@ -53,10 +53,17 @@ parser = argparse.ArgumentParser(
     conflict_resolution="resolve",
 )
 
-# https://docs.python.org/3/library/argparse.html#mutual-exclusion
+# Optioner som inte får anges tillsammans kan vara i en mutual-
+# exclusiongrupp. Uppgiftsbeskrivningen säger att användaren bara
+# får ange ett format, så t.ex. både --hash och --exclamation ska
+# inte vara tillåtet.. (Däremot är det tillåtet att inte ange något
+# format.)
+#
+# Se: https://docs.python.org/3/library/argparse.html#mutual-exclusion
+#
 filter_group = parser.add_mutually_exclusive_group()
 
-
-parser.add_argument("FILE")
+for format in formats:
+    filter_group.add_argument(format.short, format.long, help=format.help)
 
 args = parser.parse_args()
