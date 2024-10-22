@@ -10,7 +10,7 @@ Python för en minimal Flask-applikation:
     from flask import Flask
     app = Flask(__name__)
 
-    x=0
+    x = 0
     @app.route('/')
     def hello_world():
         x = x + 1
