@@ -7,4 +7,4 @@ RUN apt install -y python3
 RUN apt install -y python3-pip
 RUN pip3 install Flask --break-system-packages
 
-CMD ["sleep", "3600"]
+CMD ["flask", "--app", "/app/app.py", "run"]
