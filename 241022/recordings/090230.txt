@@ -2962,4 +2962,133 @@ DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
 [7m Manual page docker-image(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtag(1)[0m[m
 [7m Manual page docker-image(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page docker-image(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KDocker Community                   Sep 2024                         DOCKER(1)[m
-[7m Manual page docker-image(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) l
+[7m Manual page docker-image(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m man docker-image-prune 
+[?2004l[?1049h[22;0;0t[?1h=DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image-prune - Remove unused images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m [1mprune[0m [1m[OPTIONS][0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Remove unused images[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[0m,  [1m--all[0m[=false]       Remove  all  unused images, not just dangling[m
+       ones[m
+[m
+       [1m--filter[0m=      Provide filter values (e.g. "until=")[m
+[7m Manual page docker-image-prune(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-image-prune(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--force[0m[=false]      Do not prompt for confirmation[m
+[7m Manual page docker-image-prune(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-image-prune(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--help[0m[=false]      help for prune[m
+[7m Manual page docker-image-prune(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-image-prune(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page docker-image-prune(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mdocker-image(1)[0m[m
+[7m Manual page docker-image-prune(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-image-prune(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KDocker Community                   Sep 2024                         DOCKER(1)[m
+[7m Manual page docker-image-prune(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7ml page docker-image-prune(1) line 10/25 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7ml page docker-image-prune(1) line 10/25 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7ml page docker-image-prune(1) line 10/25 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7ml page docker-image-prune(1) line 10/25 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/241022[0m [90m241022[36m [33m31s[0m 
+[35m❯[0m man docker-image-prune -a[K[K[K[1Pdocker-image-prune[1Pdocker-image-prune[1Pdocker-image-prune[1Pdocker-image-prune[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -h[H[2J
+[34mi-live/241022[0m [90m241022[36m [33m31s[0m 
+[35m❯[0m docker-image-prune -h
+[?2004lbash: docker-image-prune: command not found
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+[31m❯[0m docker-image-prune -h[K-help[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+[31m❯[0m docker-image-prune --help
+[?2004lbash: docker-image-prune: command not found
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[31m❯[0m docker-image-prune --helph[K-help[C[C[Kdocker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+first        latest    5f97e3317362   3 minutes ago   121MB
+gapps        latest    95207c825bdd   4 weeks ago     1.26GB
+debian       stable    d949355c50ff   6 weeks ago     117MB
+ubuntu       rolling   b1e9cef3f297   7 weeks ago     78.1MB
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m docker prune -y[Ka
+[?2004lunknown shorthand flag: 'a' in -a
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Authenticate to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx
+  compose*    Docker Compose
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default
+                           "/home/kent/.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l,
