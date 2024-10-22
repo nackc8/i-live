@@ -66578,4 +66578,100 @@ Commands:
   shell   Run a shell in the app context.
 [?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# [H[2J]0;root@1b25aca9f299: /root@1b25aca9f299:/# ls
 [?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
-[01;34mboot[0m  [01;34metc[0
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmedia[0m  [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# /app    mkdir /app
+[?2004l[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# cd app/
+[?2004l[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# nano app.py
+[?2004lbash: nano: command not found
+[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# nano app.py[1P[1P[1P[1P[1P[1@ca[1@a[1@t[1@ [1@<[1P[1@>[1@?[1Papp.py <<EOF
+[?2004l[?2004h> [7mfrom flask import Flask[27m
+
+[7mapp = Flask(__name__)[27m
+
+[7mx = 0[27m
+
+
+[7m@app.route("/")[27m
+[7mdef hello_world():[27m
+[7m    x = x + 1[27m
+[7m    return "Call $x"[27m
+[A[A[A[A[A[A[A[A[A[A[A> from flask import Flask
+
+app = Flask(__name__)
+
+x = 0
+
+
+@app.route("/")
+def hello_world():
+    x = x + 1
+    return "Call $x"
+END
+[?2004l[?2004h> 
+[?2004l[?2004h> [H[2J> EOF
+[?2004l[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [H[2J]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# cat app.py 
+[?2004lfrom flask import Flask
+
+app = Flask(__name__)
+
+x = 0
+
+
+@app.route("/")
+def hello_world():
+    x = x + 1
+    return "Call "
+END
+
+[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# cat app.py >app.py <<EOF
+from flask import Flask
+
+app = Flask(__name__)
+
+x = 0@app.route("/")def hello_world():    x = x + 1    return "Call $x"ENDEOF[A[A[A[A[Aroot@1b25aca9f299:/app# [6Pnano app.py
+[K
+[K
+[K
+[K
+[K
+[K[K[K[K[K[K[K[K[K[K[A[A[A[A[A[Aroot@1b25aca9f299:/app# nano app.py[4Pcd app/nano app.pycat >app.py <<EOF
+from flask import Flask
+
+app = Flask(__name__)
+
+x = 0@app.route("/")def hello_world():    x = x + 1    return "Call $x"ENDEOF[A[A[A[A[Aroot@1b25aca9f299:/app# cat [6Papp.py 
+[K
+[K
+[K
+[K
+[K
+[K[K[K[K[K[K[K[K[K[K[A[A[A[A[A[Aroot@1b25aca9f299:/app# cat app.py [Kcat >app.py <<EOF
+[?2004l[?2004h> from flask import Flask
+
+app = Flask(__name__)
+
+x = 0[7m@app.route("/")[27m[7mdef hello_world():[27m[7m    x = x + 1[27m[7m    return "Call $x"[27m@app.route("/")def hello_world():    x = x + 1    return "Call $x"
+[?2004l[?2004h> EOF
+[?2004l[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# less
+[?2004lbash: less: command not found
+[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# [H[2J]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# cat app.py 
+[?2004lfrom flask import Flask
+
+app = Flask(__name__)
+
+x = 0
+
+
+@app.route("/")
+def hello_world():
+    x = x + 1
+    return "Call "
+
+[?2004h]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask [K]0;root@1b25aca9f299: /approot@1b25aca9f299:/app# flask       cd
+[?2004l[?2004h]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [H[2J]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [7mflask --app hello run[27mflask --app hello run[1P[1P[1P[1P[1P[1@/[1@a[1@p[2@p/[6@app.py run
+[?2004l * Serving Flask app '/app/app.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+^C[?2004h]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [K^
