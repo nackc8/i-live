@@ -3488,4 +3488,66 @@ Preparing to unpack .../12-curl_8.5.0-2ubuntu10.4_amd64.deb ...
 7[10;0f[42m[30mProgress: [ 70%][49m[39m [##################################################......................] 87[10;0f[42m[30mProgress: [ 72%][49m[39m [###################################################.....................] 8Setting up libk5crypto3:amd64 (1.20.1-6ubuntu2.1) ...
 7[10;0f[42m[30mProgress: [ 74%][49m[39m [####################################################....................] 87[10;0f[42m[30mProgress: [ 75%][49m[39m [######################################################..................] 8Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2.1) ...
 7[10;0f[42m[30mProgress: [ 77%][49m[39m [#######################################################.................] 87[10;0f[42m[30mProgress: [ 79%][49m[39m [#########################################################...............] 8Setting up publicsuffix (20231001.0357-0.1) ...
-7[10;0f[42m[30mProgress: [ 81%][49m[39m [##########################################################..............] 87[10;0f[42m[30mProgress: [ 83%][49m[39m [###########################################################.............] 8Setting up libgssapi-k
+7[10;0f[42m[30mProgress: [ 81%][49m[39m [##########################################################..............] 87[10;0f[42m[30mProgress: [ 83%][49m[39m [###########################################################.............] 8Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.1) ...
+7[10;0f[42m[30mProgress: [ 85%][49m[39m [#############################################################...........] 87[10;0f[42m[30mProgress: [ 87%][49m[39m [##############################################################..........] 8Setting up libssh-4:amd64 (0.10.6-2build2) ...
+7[10;0f[42m[30mProgress: [ 89%][49m[39m [###############################################################.........] 87[10;0f[42m[30mProgress: [ 91%][49m[39m [#################################################################.......] 8Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.4) ...
+7[10;0f[42m[30mProgress: [ 92%][49m[39m [##################################################################......] 87[10;0f[42m[30mProgress: [ 94%][49m[39m [###################################################################.....] 8Setting up curl (8.5.0-2ubuntu10.4) ...
+7[10;0f[42m[30mProgress: [ 96%][49m[39m [#####################################################################...] 87[10;0f[42m[30mProgress: [ 98%][49m[39m [######################################################################..] 8Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+
+7[0;10r8[1A[J[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# curl locl alhost> :5000
+[?2004l[2024-10-22 08:55:48,465] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/app.py", line 10, in hello_world
+    x = x + 1
+        ^
+UnboundLocalError: cannot access local variable 'x' where it is not associated with a value
+127.0.0.1 - - [22/Oct/2024 08:55:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+<!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# curl localhost:5000  [1Papt install curl    nano
+[?2004l]Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+Suggested packages:
+  hunspell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 282 kB of archives.
+After this operation, 856 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 nano amd64 7.2-2ubuntu0.1 [282 kB]
+[33m1% [1 nano 5260 B/282 kB 2%][0m[33m                            100% [Working][0m              Fetched 282 kB in 1s (527 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;9r8[1ASelecting previously unselected package nano.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17212 files and directories currently installed.)
+Preparing to unpack .../nano_7.2-2ubuntu0.1_amd64.deb ...
+7[10;0f[42m[30mProgress: [  0%][49m[39m [........................................................................] 87[10;0f[42m[30mProgress: [ 20%][49m[39m [##############..........................................................] 8Unpacking nano (7.2-2ubuntu0.1) ...
+7[10;0f[42m[30mProgress: [ 40%][49m[39m [############################............................................] 8Setting up nano (7.2-2ubuntu0.1) ...
+7[10;0f[42m[30mProgress: [ 60%][49m[39m [###########################################.............................] 8update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+7[10;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################...............] 8
+7[0;10r8[1A[J[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# nano app.py 
+[?2004l[?2004h[?1049h[22;0;0t[1;10r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[8;41H(B[0;7m[ Reading... ](B[m[8;39H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2 [31bapp.py [40b [1;93H(B[m[9d(B[0;7m^G(B[m Help[9;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[9;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[10d(B[0;7m^X(B[m Exit[10;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36mfrom[39m(B[m flask (B[0;1m[36mimport[39m(B[m Flask[4dapp = Flask(__name__)[6dx = 0[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H@app.route((B[0;1m[32m"/"[39m(B[m)[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H(B[0;1m[36mdef[34m hello_world[39m(B[m():[?25l[?12l[?25h7[2;7r8
+[1;10r[7;5Hx = x + 1[?25l[?12l[?25h7[2;7r8
+[1;10r[7;5H(B[0;1m[36mreturn[39m(B[m (B[0;1m[32m"Call $x"[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h[?25l[8d[K[?12l[?25h[6;6H[?25l[?12l[?25h[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12
