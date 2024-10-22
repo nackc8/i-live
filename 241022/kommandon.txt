@@ -12,12 +12,13 @@ Python för en minimal Flask-applikation:
 
     from flask import Flask
     app = Flask(__name__)
-
     x = 0
-    @app.route('/')
+
+    @app.route("/")
     def hello_world():
+        global x
         x = x + 1
-        return "Call $x"
+        return f"Call {x}"
 
 docker run -d --name test first:latest
 docker exec -it test bash
