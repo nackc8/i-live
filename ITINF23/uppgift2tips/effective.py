@@ -33,13 +33,13 @@ class Format:
 
 
 # Lägg alla formaten i listan med format. Varje rad är en instans av Format.
-formats = [Format()]
-
-"--hash", "-h", "#", "Filters hash comments."
-"--dblslash", "-l", "//", "Filters double slash comments."
-"--dbldash", "-d", "--", "Filters double dash comments."
-"--percent", "-p", "%%", "Filters percent comments."
-"--apostrophe", "-a", "'", "Filters apostrophe comments."
-"--basic", "-b", "REM|'", "Filters REM or apostrophe comments."
-"--semicolon", "-s", ";", "Filters semicolon comments."
-"--exclamation", "-e", "!", "Filters exclamation comments."
+formats = [
+    Format("--hash", "-h", "#", "Filters hash comments."),
+    Format("--dblslash", "-l", "//", "Filters double slash comments."),
+    Format("--dbldash", "-d", "--", "Filters double dash comments."),
+    Format("--percent", "-p", "%%", "Filters percent comments."),
+    Format("--apostrophe", "-a", "'", "Filters apostrophe comments."),
+    Format("--basic", "-b", "REM|'", "Filters REM or apostrophe comments."),
+    Format("--semicolon", "-s", ";", "Filters semicolon comments."),
+    Format("--exclamation", "-e", "!", "Filters exclamation comments."),
+]
