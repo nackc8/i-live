@@ -2225,4 +2225,109 @@ Start a build
 [0m[34m => => sha256:ff65ddf9395be21bfe1f320b7705e539ee44c105 29.75MB / 29.75MB  1.8s
 [0m[34m => => sha256:99c35190e22d294cdace2783ac55effc69d32896da 6.69kB / 6.69kB  0.0s
 [0m[34m => => extracting sha256:ff65ddf9395be21bfe1f320b7705e539ee44c1053034f80  0.4s
-[0m[34m => [2/2] RUN apt-get update && apt-get install -y apache2     
+[0m[34m => [2/2] RUN apt-get update && apt-get install -y apache2               19.5s
+[0m => exporting to image                                                    0.3s
+ => => exporting layers                                                   0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 24.4s (5/6)                                        docker:default
+[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/2] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  2.3s
+[0m[34m => => resolve docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  0.0s
+[0m[34m => => sha256:5d070ad5f7fe63623cbb99b4fc0fd997f5591303d4b03c 424B / 424B  0.0s
+[0m[34m => => sha256:59ab366372d56772eb54e426183435e6b0642152cb 2.30kB / 2.30kB  0.0s
+[0m[34m => => sha256:ff65ddf9395be21bfe1f320b7705e539ee44c105 29.75MB / 29.75MB  1.8s
+[0m[34m => => sha256:99c35190e22d294cdace2783ac55effc69d32896da 6.69kB / 6.69kB  0.0s
+[0m[34m => => extracting sha256:ff65ddf9395be21bfe1f320b7705e539ee44c1053034f80  0.4s
+[0m[34m => [2/2] RUN apt-get update && apt-get install -y apache2               19.5s
+[0m => exporting to image                                                    0.3s
+[34m => => exporting layers                                                   0.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 24.5s (6/6) FINISHED                               docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest          2.2s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/2] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  2.3s
+[0m[34m => => resolve docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  0.0s
+[0m[34m => => sha256:5d070ad5f7fe63623cbb99b4fc0fd997f5591303d4b03c 424B / 424B  0.0s
+[0m[34m => => sha256:59ab366372d56772eb54e426183435e6b0642152cb 2.30kB / 2.30kB  0.0s
+[0m[34m => => sha256:ff65ddf9395be21bfe1f320b7705e539ee44c105 29.75MB / 29.75MB  1.8s
+[0m[34m => => sha256:99c35190e22d294cdace2783ac55effc69d32896da 6.69kB / 6.69kB  0.0s
+[0m[34m => => extracting sha256:ff65ddf9395be21bfe1f320b7705e539ee44c1053034f80  0.4s
+[0m[34m => [2/2] RUN apt-get update && apt-get install -y apache2               19.5s
+[0m[34m => exporting to image                                                    0.3s
+[0m[34m => => exporting layers                                                   0.3s
+[0m[34m => => writing image sha256:1fe3666264ec2bb09eca87a0c2b2326e642ec96bd492  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                           0.0s
+[0m[?25h[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​​​[36m [33m24s[0m 
+[35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​​​[36m [33m24s[0m 
+[35m❯[0m docker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+first        latest    1fe3666264ec   42 seconds ago   227MB
+gapps        latest    95207c825bdd   4 weeks ago      1.26GB
+<none>       <none>    8b71264163cd   4 weeks ago      1.04GB
+<none>       <none>    4d154f66eb09   4 weeks ago      1.04GB
+<none>       <none>    4cbfcf1dfe27   4 weeks ago      257MB
+<none>       <none>    5d3f7a3fbbab   4 weeks ago      140MB
+<none>       <none>    42bb87746e5c   4 weeks ago      140MB
+<none>       <none>    ddab7ca7b464   4 weeks ago      140MB
+debian       stable    d949355c50ff   6 weeks ago      117MB
+ubuntu       rolling   b1e9cef3f297   7 weeks ago      78.1MB
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​​​[36m [0m
+[35m❯[0m docker rmi first:latest 
+[?2004lUntagged: first:latest
+Deleted: sha256:1fe3666264ec2bb09eca87a0c2b2326e642ec96bd4926647bf0714b844369c49
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m docker imae[Kges[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m docker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+gapps        latest    95207c825bdd   4 weeks ago   1.26GB
+<none>       <none>    8b71264163cd   4 weeks ago   1.04GB
+<none>       <none>    4d154f66eb09   4 weeks ago   1.04GB
+<none>       <none>    4cbfcf1dfe27   4 weeks ago   257MB
+<none>       <none>    5d3f7a3fbbab   4 weeks ago   140MB
+<none>       <none>    42bb87746e5c   4 weeks ago   140MB
+<none>       <none>    ddab7ca7b464   4 weeks ago   140MB
+debian       stable    d949355c50ff   6 weeks ago   117MB
+ubuntu       rolling   b1e9cef3f297   7 weeks ago   78.1MB
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m docker imagesrmi first:latest [C[C[C[C[C[C[C[C[Cbuild -t first:latest .
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                         docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest          0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest          0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest          0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/ubuntu:latest          0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.7s (2/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest          0.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (6/6) FINISHED                                docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 106B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest          0.7s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/2] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cda  0.0s
+[0m[34m => CACHED [2/2] RUN apt-get update && apt-get install -y apache2         0.0s
+[0m[34m => exporting to image                                                    0.0s
+[0m[34m => => exporting layers                                                   0.0s
+[0m[34m => => writing image sha256:1fe3666264ec2bb09eca87a0c2b2326e642ec96bd492  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                 
