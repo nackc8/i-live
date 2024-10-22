@@ -101,5 +101,9 @@ with open(args.file) as file:
 
 if args.format:
     lines = filter_lines(lines, args.format)
+else:
+    detection_filtered_lines = lines
+    for format in formats:
+
 
 print(lines)
