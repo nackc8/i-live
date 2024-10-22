@@ -53,6 +53,9 @@ parser = argparse.ArgumentParser(
     conflict_resolution="resolve",
 )
 
+# https://docs.python.org/3/library/argparse.html#mutual-exclusion
+filter_group = parser.add_mutually_exclusive_group()
+
 
 parser.add_argument("FILE")
 
