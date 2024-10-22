@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt install -y python3
 RUN apt install -y python3-pip
-RUN pip 3 install Flask --break-system-packages
+RUN pip3 install Flask --break-system-packages
 
 WORKDIR /app
 # punkten betyder nu /app
