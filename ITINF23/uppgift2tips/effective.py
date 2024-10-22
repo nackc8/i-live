@@ -109,8 +109,6 @@ else:
             detection_filtered_lines = format_filtered
     lines = detection_filtered_lines
 
-
-if not args.keep:
-    lines = [line for line in lines if line.strip() != ""]
+# Filtrera rader med endast blanktecken om inte --keep har angetts.
 
 print(lines)
