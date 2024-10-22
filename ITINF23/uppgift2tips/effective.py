@@ -67,11 +67,14 @@ for format in formats:
     filter_group.add_argument(
         format.short,
         format.long,
+        # Se: https://docs.python.org/3/library/argparse.html#dest
         # Lagra värdet i variabeln "format". Om inget format anges
         # är den forsatt None. Om ett format anges så...
         dest="format",
+        # Se: https://docs.python.org/3/library/argparse.html#action
         # Lagra ett konstant värde om optionen väljs
         action="store_const",
+        # Se:
         # Det konstanta värdet är Format-objektet.
         const=format,
         help=format.help,
