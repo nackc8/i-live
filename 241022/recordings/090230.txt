@@ -2774,4 +2774,192 @@ ubuntu       rolling   b1e9cef3f297   7 weeks ago   78.1MB
         "RepoDigests": [],
         "Parent": "",
         "Comment": "buildkit.dockerfile.v0",
-        "Created": "2024-10-22T09:43:13.346150436+02:0
+        "Created": "2024-10-22T09:43:13.346150436+02:00",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 121092444,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/64d3af7d67f74eab74cf2bbcab0cf1b1f82bf3dd536cb9e834bf9ebfc4a78149/diff",
+                "MergedDir": "/var/lib/docker/overlay2/x8tbqwtzsorxf7tj395dlubyl/merged",
+                "UpperDir": "/var/lib/docker/overlay2/x8tbqwtzsorxf7tj395dlubyl/diff",
+                "WorkDir": "/var/lib/docker/overlay2/x8tbqwtzsorxf7tj395dlubyl/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:a46a5fb872b554648d9d0262f302b2c1ded46eeb1ef4dc727ecc5274605937af",
+                "sha256:2e26c4bc62ca7a280e560bd0181b916410e0048b2b700c25ac6370b695f85039"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2024-10-22T09:43:13.476169707+02:00"
+        }
+    }
+]
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+[35m❯[0m docker image prune
+[?2004lWARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Deleted Images:
+deleted: sha256:4d154f66eb0906f6a2ccfbd5cdb6dd3f756bebc5b644551fdd8bd267404fd488
+deleted: sha256:42bb87746e5c435e2a53b62c059152a9247521f5e0332c21f8b9238a3e5b7e87
+deleted: sha256:5d3f7a3fbbab9aa4c159dbca43d6af799e63ae3936c6622ea0dbc99e0a702c76
+deleted: sha256:ddab7ca7b464be47b8c2d64cbffa6e8f88d3b2caa2678b6cbdb1370af01d46cf
+deleted: sha256:4cbfcf1dfe27ab32864cd1eaa80dd4a77f0949e15720ca32520a63f840abb503
+deleted: sha256:8b71264163cdaddbfa8ae828f24584ca94132c33b133f73ebc125770f43bd2d7
+deleted: sha256:1fe3666264ec2bb09eca87a0c2b2326e642ec96bd4926647bf0714b844369c49
+
+Total reclaimed space: 0B
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [33m10s[0m 
+[35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[36m [33m10s[0m 
+[35m❯[0m docker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED              SIZE
+first        latest    5f97e3317362   About a minute ago   121MB
+gapps        latest    95207c825bdd   4 weeks ago          1.26GB
+debian       stable    d949355c50ff   6 weeks ago          117MB
+ubuntu       rolling   b1e9cef3f297   7 weeks ago          78.1MB
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m m[Kman doocker-i[K[K[K[K[K[K[Kcker [K-image[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+[35m❯[0m man docker-image
+[?2004l[?1049h[22;0;0t[?1h=DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[1mOPTIONS[0m[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[1mOPTIONS[0m[m
+       [1m-h[0m, [1m--help[0m[=false]      help for image[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[1mOPTIONS[0m[m
+       [1m-h[0m, [1m--help[0m[=false]      help for image[m
+[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[1mOPTIONS[0m[m
+       [1m-h[0m, [1m--help[0m[=false]      help for image[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+DOCKER(1)                    Docker User Manuals                    DOCKER(1)[m
+[m
+[1mNAME[0m[m
+       docker-image - Manage images[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mdocker[0m [1mimage[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       Manage images[m
+[m
+[1mOPTIONS[0m[m
+       [1m-h[0m, [1m--help[0m[=false]      help for image[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       [1mdocker(1)[0m,  [1mdocker-image-build(1)[0m, [1mdocker-image-history(1)[0m, [1mdocker-im‐[0m[m
+[7m Manual page docker-image(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mage-import(1)[0m, [1mdocker-image-inspect(1)[0m, [1mdocker-image-load(1)[0m,  [1mdocker-[0m[m
+[7m Manual page docker-image(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mimage-ls(1)[0m,  [1mdocker-image-prune(1)[0m,  [1mdocker-image-pull(1)[0m, [1mdocker-im‐[0m[m
+[7m Manual page docker-image(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mage-push(1)[0m, [1mdocker-image-rm(1)[0m,  [1mdocker-image-save(1)[0m,  [1mdocker-image-[0m[m
+[7m Manual page docker-image(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mtag(1)[0m[m
+[7m Manual page docker-image(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page docker-image(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KDocker Community                   Sep 2024                         DOCKER(1)[m
+[7m Manual page docker-image(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) line 7/22 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page docker-image(1) l
