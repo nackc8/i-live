@@ -20,4 +20,4 @@ Python för en minimal Flask-applikation:
         return "Call $x"
 
 docker run -d --name test first:latest
-
+docker exec -it test bash
