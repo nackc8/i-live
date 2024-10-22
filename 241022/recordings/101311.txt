@@ -66674,4 +66674,12 @@ def hello_world():
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 [33mPress CTRL+C to quit[0m
-^C[?2004h]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [K^
+^C[?2004h]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [K^C[?2004l[?2004h[?2004l
+[?2004h]0;root@1b25aca9f299: ~root@1b25aca9f299:~# [?2004l
+exit
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m19m18s[0m 
+ [31m❯[0m [?2004l
+exit
+
+Script done on 2024-10-22 10:34:16+02:00 [COMMAND_EXIT_CODE="130"]
