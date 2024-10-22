@@ -81,4 +81,6 @@ for format in formats:
         help=format.help,
     )
 
+parser.add_argument("searchterm", nargs="?")
+
 args = parser.parse_args()
