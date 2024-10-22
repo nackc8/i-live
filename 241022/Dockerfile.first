@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y tree
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt install -y python3
 
 CMD ["sleep", "3600"]

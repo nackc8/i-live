@@ -65383,4 +65383,128 @@ Preparing to unpack .../ca-certificates_20240203_all.deb ...
 7[13;0f[42m[30mProgress: [ 63%][49m[39m [################################....................] 87[13;0f[42m[30mProgress: [ 65%][49m[39m [#################################...................] 8Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2) ...
 7[13;0f[42m[30mProgress: [ 66%][49m[39m [##################################..................] 87[13;0f[42m[30mProgress: [ 68%][49m[39m [###################################.................] 8Setting up tzdata (2024a-3ubuntu1.1) ...
 7[13;0f[42m[30mProgress: [ 69%][49m[39m [###################################.................] 8debconf: unable to initialize frontend: Dialog
-debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.p
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent
+configuration questions will narrow this down by presenting a list of
+cities, representing the time zones in which they are located.
+
+  1. Africa      4. Arctic    7. Australia  10. Pacific
+  2. America     5. Asia      8. Europe     11. Etc
+  3. Antarctica  6. Atlantic  9. Indian
+Geographic area: 
+
+Geographic area: 
+
+Geographic area: 
+
+Geographic area: 
+
+Geographic area: 8
+
+Please select the city or region corresponding to your time zone.
+
+  1. Amsterdam    17. Guernsey     33. Monaco      49. Stockholm
+  2. Andorra      18. Helsinki     34. Moscow      50. Tallinn
+  3. Astrakhan    19. Isle_of_Man  35. Nicosia     51. Tirane
+  4. Athens       20. Istanbul     36. Oslo        52. Tiraspol
+  5. Belfast      21. Jersey       37. Paris       53. Ulyanovsk
+  6. Belgrade     22. Kaliningrad  38. Podgorica   54. Vaduz
+  7. Berlin       23. Kirov        39. Prague      55. Vatican
+[More]  q
+
+  8. Bratislava   24. Kyiv         40. Riga        56. Vienna
+  9. Brussels     25. Lisbon       41. Rome        57. Vilnius
+  10. Bucharest   26. Ljubljana    42. Samara      58. Volgograd
+  11. Budapest    27. London       43. San_Marino  59. Warsaw
+  12. Busingen    28. Luxembourg   44. Sarajevo    60. Zagreb
+  13. Chisinau    29. Madrid       45. Saratov     61. Zurich
+  14. Copenhagen  30. Malta        46. Simferopol
+  15. Dublin      31. Mariehamn    47. Skopje
+  16. Gibraltar   32. Minsk        48. Sofia
+Time zone: 
+
+Time zone: 
+
+Time zone: 
+
+Time zone: 
+
+Time zone: 
+
+Time zone: 
+
+Time zone: 
+Use of uninitialized value $_[1] in join or string at /usr/share/perl5/Debconf/DbDriver/Stack.pm line 112, <STDIN> line 12.
+
+Current default time zone: 'Europe/'
+Local time is now:      Tue Oct 22 08:21:43 UTC 2024.
+Universal Time is now:  Tue Oct 22 08:21:43 UTC 2024.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Use of uninitialized value $val in substitution (s///) at /usr/share/perl5/Debconf/Format/822.pm line 84, <GEN6> line 4.
+Use of uninitialized value $val in concatenation (.) or string at /usr/share/perl5/Debconf/Format/822.pm line 85, <GEN6> line 4.
+7[13;0f[42m[30mProgress: [ 71%][49m[39m [####################################................] 8Setting up netbase (6.4) ...
+7[13;0f[42m[30mProgress: [ 72%][49m[39m [#####################################...............] 87[13;0f[42m[30mProgress: [ 74%][49m[39m [######################################..............] 8Setting up openssl (3.0.13-0ubuntu3.4) ...
+7[13;0f[42m[30mProgress: [ 75%][49m[39m [#######################################.............] 87[13;0f[42m[30mProgress: [ 77%][49m[39m [########################################............] 8Setting up readline-common (8.2-4build1) ...
+7[13;0f[42m[30mProgress: [ 78%][49m[39m [########################################............] 87[13;0f[42m[30mProgress: [ 80%][49m[39m [#########################################...........] 8Setting up ca-certificates (20240203) ...
+7[13;0f[42m[30mProgress: [ 82%][49m[39m [##########################################..........] 8debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+146 added, 0 removed; done.
+7[13;0f[42m[30mProgress: [ 83%][49m[39m [###########################################.........] 8Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.2) ...
+7[13;0f[42m[30mProgress: [ 85%][49m[39m [############################################........] 87[13;0f[42m[30mProgress: [ 87%][49m[39m [#############################################.......] 8Setting up python3.12 (3.12.3-1ubuntu0.2) ...
+7[13;0f[42m[30mProgress: [ 88%][49m[39m [#############################################.......] 87[13;0f[42m[30mProgress: [ 90%][49m[39m [##############################################......] 8Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+7[13;0f[42m[30mProgress: [ 91%][49m[39m [###############################################.....] 87[13;0f[42m[30mProgress: [ 93%][49m[39m [################################################....] 8Setting up python3 (3.12.3-0ubuntu2) ...
+7[13;0f[42m[30mProgress: [ 94%][49m[39m [################################################....] 8running python rtupdate hooks for python3.12...
+running python post-rtupdate hooks for python3.12...
+7[13;0f[42m[30mProgress: [ 96%][49m[39m [#################################################...] 8Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+Processing triggers for ca-certificates (20240203) ...
+7[13;0f[42m[30mProgress: [ 97%][49m[39m [##################################################..] 8Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+7[13;0f[42m[30mProgress: [ 99%][49m[39m [###################################################.] 8
+7[0;13r8[1A[J[1;33mW: [0mOperation was interrupted before it could finish[0m
+[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# [7mexport DEBIAN_FRONTEND=noninteractive[27mexport DEBIAN_FRONTEND=noninteractive
+[?2004l[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# [Kexport DEBIAN_FRONTEND=noninteractive[15Papt install -y python3
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 5%Reading state information... Done
+python3 is already the newest version (3.12.3-0ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# sudo apt prune      urge python3
+[?2004lbash: sudo: command not found
+[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# sudo apt purge python3 [1P[1P[1P[1P[1P
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 82%Reading package lists... 82%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 5%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib
+  libreadline8t64 libsqlite3-0 media-types netbase python3-minimal
+  python3.12 python3.12-minimal readline-common tzdata
+Use 'apt autoremove' to remove them.
+The following packages will be REMOVED:
+  python3*
+0 upgraded, 0 newly installed, 1 to remove and 3 not upgraded.
+After this operation, 82.9 kB disk space will be freed.
+Do you want to continue? [Y/n] 
+
+7[0;12r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6212 files and directories currently installed.)
+Removing python3 (3.12.3-0ubuntu2) ...
+7[13;0f[42m[30mProgress: [  0%][49m[39m [....................................................] 87[13;0f[42m[30mProgress: [ 20%][49m[39m [##########..........................................] 87[13;0f[42m[30mProgress: [ 40%][49m[39m [####################................................] 87[13;0f[42m[30mProgress: [ 60%][49m[39m [###############################.....................] 8(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6191 files and directories currently installed.)
+Purging configuration files for python3 (3.12.3-0ubuntu2) ...
+7[13;0f[42m[30mProgress: [ 80%][49m[39m [#########################################...........] 8
+7[0;13r8[1A[J[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# apt purge python3[5@sudo apt purge python3apt install -y python3export DEBIAN_FRONTEND=noninteractive
+[?2004l[?2004h]0;root@1b25aca9f299: /root@1b25aca9f299:/# [Kex
