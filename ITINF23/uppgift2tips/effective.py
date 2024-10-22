@@ -100,3 +100,6 @@ with open(args.file) as file:
 # Lägg in hantering om det blir fel här med try..except runt with-delen ovan
 
 if args.format:
+    lines = filter_lines(lines, args.format)
+
+print(lines)
