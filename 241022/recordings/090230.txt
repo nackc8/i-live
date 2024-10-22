@@ -3550,4 +3550,37 @@ update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz bec
 [1;10r[7;1H@app.route((B[0;1m[32m"/"[39m(B[m)[?25l[?12l[?25h7[2;7r8
 [1;10r[7;1H(B[0;1m[36mdef[34m hello_world[39m(B[m():[?25l[?12l[?25h7[2;7r8
 [1;10r[7;5Hx = x + 1[?25l[?12l[?25h7[2;7r8
-[1;10r[7;5H(B[0;1m[36mreturn[39m(B[m (B[0;1m[32m"Call $x"[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h[?25l[8d[K[?12l[?25h[6;6H[?25l[?12l[?25h[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12
+[1;10r[7;5H(B[0;1m[36mreturn[39m(B[m (B[0;1m[32m"Call $x"[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h[?25l[8d[K[?12l[?25h[6;6H[?25l[?12l[?25h[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5;19H[?25l[?12l[?25h[6d[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h+[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h[7d[?25l[?12l[?25h[6;14H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5;19H[?25l[?12l[?25h[6d[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5;19H[?25l[1;54H(B[0;7m*[93G(B[m[6d[K[7;5Hx = x + 1[K[A[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h    g[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hb[?25l[?12l[?25ha[?25l[?12l[?25h[5G(B[0;1m[36mglobal[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h x[?25l[?12l[?25h[7d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;7r8M[1;10r[2;1Hx = 0[?25l[?12l[?25h7[2;7r8M[1;10r[2;1H[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h7[2;8r8[8d
+[1;10r[7;5H(B[0;1m[36mglobal[39m(B[m x[?25l[?12l[?25h7[2;8r8[8d
+[1;10r[7;5Hx = x + 1[?25l[?12l[?25h7[2;8r8[8d
+[1;10r[7;5H(B[0;1m[36mreturn[39m(B[m (B[0;1m[32m"Call $x"[39m(B[m[?25l[?12l[?25h7[2;8r8[8d
+[1;10r[7;1H[?25l[?12l[?25h[?25l[8d(B[0;7mSave modified buffer? [71b [9;1H Y(B[m Yes[K[10d(B[0;7m N(B[m No  [10;16H (B[0;7m^C(B[m Cancel[K[8;23H[?12l[?25h[?25l[9d(B[0;7m^G(B[m Help[9;24H(B[0;7mM-D(B[m DOS Format[9;47H(B[0;7mM-A(B[m Append[9;70H(B[0;7mM-B(B[m Backup File[10d(B[0;7m^C(B[m Cancel[17G [6b(B[0;7mM-M(B[m Mac Format[10;47H(B[0;7mM-P(B[m Prepend[10;70H(B[0;7m^T(B[m Browse[8d(B[0;7mFile Name to Write: app.py(B[m[?12l[?25h[?25l[8;40H[1K (B[0;7m[ Writing... ](B[m[K[1;54H(B[0;7m [93G(B[m[8;39H(B[0;7m[ Wrote 12 lines ](B[m[J[10d[?12l[?25h[10;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# ps -e
+[?2004l    PID TTY          TIME CMD
+      1 ?        00:00:00 sleep
+     12 pts/0    00:00:00 bash
+     22 pts/0    00:00:00 flask
+    190 pts/0    00:00:00 ps
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# kill flask
+[?2004lbash: kill: flask: arguments must be process or job IDs
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# kill flask[1@-[1@9[1@ flask     22
+[?2004l[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# kill -9 22flask[5Pps -e
+[?2004l    PID TTY          TIME CMD
+      1 ?        00:00:00 sleep
+     12 pts/0    00:00:00 bash
+    191 pts/0    00:00:00 ps
+[1]+  Killed                  flask --app /app/app.py run
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# 
+[?2004l[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# cat app.py 
+[?2004lfrom flask import Flask
+
+app = Flask(__name__)
+
+x = 0
+
+
+@app.route("/")
+def hello_world():
+    global x
+    x = x + 1
+    return "Call $x"
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# [H[2J]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# cat app.py [6Pps -ekill -9 22flask[5Pps -enano app.py apt install nanocurl localhost:50
