@@ -5041,4 +5041,59 @@ test
 [0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (12/12) FINISHED                               docker:default
 [34m => [internal] load build definition from Dockerfile.first                 0.0s
 [0m[34m => => transferring dockerfile: 370B                                       0.0s
-[0m[34m => [internal] load metadata for docker.io/librar
+[0m[34m => [internal] load metadata for docker.io/library/ubuntu:latest           0.7s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [1/7] FROM docker.io/library/ubuntu:latest@sha256:99c35190e22d294cdac  0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 213B                                          0.0s
+[0m[34m => CACHED [2/7] RUN apt-get update                                        0.0s
+[0m[34m => CACHED [3/7] RUN apt install -y python3                                0.0s
+[0m[34m => CACHED [4/7] RUN apt install -y python3-pip                            0.0s
+[0m[34m => CACHED [5/7] RUN pip3 install Flask --break-system-packages            0.0s
+[0m[34m => CACHED [6/7] WORKDIR /app                                              0.0s
+[0m[34m => [7/7] COPY app.py .                                                    0.0s
+[0m[34m => exporting to image                                                     0.1s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:7d33fd332536056cc55b26cde4740dcc502bdff2260ae  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                            0.0s
+[0m[?25h[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m (reverse-i-search)`': r': docker build -t first:latest -f Dockerfile.fi[7mr[27mst .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu': docker [7mru[27mn -d --name test -p 1024:5000 first:latest[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n': docker [7mrun[27m[22P [35m❯[0m docker run[C[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker run -d --name test -p 1024:5000 first:latest[C[C[C[C[C[C[C[C[C[C[C
+[?2004l1e48db19306904f354674e5ef99e6d6b0b8a6b319c2cc596442f47c6a36fd7c6
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m curl localhost>[K:5[K1024
+[?2004lcurl: (56) Recv failure: Connection reset by peer
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m curl localhost:1024[1P:1024[1P:1024[1P:1024[1P:1024[1P:1024[1P:1024[1P:1024[1P:1024[1P:10241:10242:10247:1024.:10240:1024.:10240:1024.:10241:1024
+[?2004lcurl: (56) Recv failure: Connection reset by peer
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker log test[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker log test
+[?2004ldocker: 'log' is not a docker command.
+See 'docker --help'
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker log tests test[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker logs test
+[?2004l[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND        CREATED          STATUS          PORTS                                         NAMES
+1e48db193069   first:latest   "sleep 6000"   59 seconds ago   Up 58 seconds   0.0.0.0:1024->5000/tcp, [::]:1024->5000/tcp   test
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker stop test 
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [33m10s[0m 
+ [35m❯[0m docker stop test ps[Klogs test[1P tests testps[Kstop test ^C
