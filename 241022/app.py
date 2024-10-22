@@ -7,5 +7,6 @@ x = 0
 
 @app.route("/")
 def hello_world():
+    global x
     x = x + 1
-    return "Call $x"
+    return f"Call {x}"

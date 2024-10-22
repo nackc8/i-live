@@ -3583,4 +3583,36 @@ def hello_world():
     global x
     x = x + 1
     return "Call $x"
-[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# [H[2J]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# cat app.py [6Pps -ekill -9 22flask[5Pps -enano app.py apt install nanocurl localhost:50
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# [H[2J]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# cat app.py [6Pps -ekill -9 22flask[5Pps -enano app.py apt install nanocurl localhost:50[1Papt install curljobs[K[2Pbgflask --app /app/app.py run
+[?2004l * Serving Flask app '/app/app.py'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+^Z
+[1]+  Stopped                 flask --app /app/app.py run
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# bg
+[?2004l[1]+ flask --app /app/app.py run &
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# [H[2J]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# ps -e   
+[?2004l    PID TTY          TIME CMD
+     12 pts/0    00:00:00 bash
+    193 pts/0    00:00:00 flask
+    194 pts/0    00:00:00 ps
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# (reverse-i-search)`': [K([8@failed reverse-i-search)`v': (failed reverse-i-search)`': [K(reverse-i-search)`c': [7mc[27mat app.py u': [7mcu[27mrl localhost:50[1@r': [7mcur[27m[1@l': [7mcurl[27m[2P]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# curlcurl localhost:5000
+[?2004l127.0.0.1 - - [22/Oct/2024 08:58:42] "GET / HTTP/1.1" 200 -
+Call $x[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# (reverse-i-search)`': [Kk': flas[7mk[27m --app /app/app.py run[16Pi': [7mki[27mll -9 22^C[?2004l[?2004h[?2004l
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# ps
+[?2004l    PID TTY          TIME CMD
+     12 pts/0    00:00:00 bash
+    193 pts/0    00:00:00 flask
+    197 pts/0    00:00:00 ps
+[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# kull    kill -9 193
+[?2004l[?2004h]0;root@67fb47cdcfa5: /approot@67fb47cdcfa5:/app# nano app.py 
+[?2004l[?2004h[?1049h[22;0;0t[1;10r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[8;41H(B[0;7m[ Reading... ](B[m[8;39H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 7.2 [31bapp.py [40b [1;93H(B[m[9d(B[0;7m^G(B[m Help[9;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[9;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[10d(B[0;7m^X(B[m Exit[10;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36mfrom[39m(B[m flask (B[0;1m[36mimport[39m(B[m Flask[4dapp = Flask(__name__)[6dx = 0[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H@app.route((B[0;1m[32m"/"[39m(B[m)[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H(B[0;1m[36mdef[34m hello_world[39m(B[m():[?25l[?12l[?25h7[2;7r8
+[1;10r[7;5H(B[0;1m[36mglobal[39m(B[m x[?25l[?12l[?25h7[2;7r8
+[1;10r[7;5Hx = x + 1[?25l[?12l[?25h7[2;7r8
+[1;10r[7;5H(B[0;1m[36mreturn[39m(B[m (B[0;1m[32m"Call $x"[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h7[2;7r8
+[1;10r[7;1H[?25l[?12l[?25h[?25l[?12l[?25h[6;21H[?25l[?12l[?25h[?25l[8d[K[?12l[?25h[6;19H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;54H(B[0;7m*[93G(B[m[?12l[?25h[6;12Hf(B[0;1m[32m"Call $x"[6;13H[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h(B[0;1m[32mx"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[32m{x"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h(B[0;1m[32m}"[39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[7d[?25l[?12l[?25h[?25l[8d(B[0;7mSave modified buffer? [71b [9;1H Y(B[m Yes[K[10d(B[0;7m N(
