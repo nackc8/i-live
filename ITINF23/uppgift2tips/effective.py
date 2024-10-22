@@ -71,10 +71,10 @@ for format in formats:
         # Lagra värdet i variabeln "format". Om inget format anges
         # är den forsatt None. Om ett format anges så...
         dest="format",
-        # Se: https://docs.python.org/3/library/argparse.html#action
+        # Se: "store_const" i https://docs.python.org/3/library/argparse.html#action
+        #     som beskriver både "store_const" och "const".
         # Lagra ett konstant värde om optionen väljs
         action="store_const",
-        # Se:
         # Det konstanta värdet är Format-objektet.
         const=format,
         help=format.help,
