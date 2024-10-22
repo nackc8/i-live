@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Om vi har följande tabell för formaten (jag har korrigerat ett fel jag
+# gjorde i den, men det är inte viktigt)
+#
 # | Long^1          | Short^2 | Indicator^3     | Används i                  |
 # | --------------- | ------- | --------------- | -------------------------- |
 # | `--hash`        | `-h`    | `#`             | [Bash][1], [Python][2]     |
