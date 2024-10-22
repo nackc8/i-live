@@ -18,6 +18,7 @@
 # Ett sätt att representera en rad i tabellen kan vara med en klass:
 
 import re
+import argparse
 
 
 class Format:
@@ -45,3 +46,5 @@ formats = [
     Format("--semicolon", "-s", ";", "Filters semicolon comments."),
     Format("--exclamation", "-e", "!", "Filters exclamation comments."),
 ]
+
+parser =
