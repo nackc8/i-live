@@ -112,4 +112,8 @@ else:
 
 print(lines)
 
+if not args.keep:
+    lines = [line for line in lines if line.strip() == ""]
+
 print(args)
+print(lines)
