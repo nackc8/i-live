@@ -1,3 +1,5 @@
 docker build -t first:latest .
 docker images # lista
 docker rmi first:latest # remove
+docker image prune -a # tar bort alla som inte är anslutna till en container
+docker image prune # tar bort alla "dangling" . TODO: Vad menas med dangling?
