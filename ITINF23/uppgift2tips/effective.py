@@ -15,5 +15,14 @@
 # | `--exclamation` | `-e`    | `!`             | [Fortran][13]              |
 
 
+# Ett sätt att representera en rad i tabellen kan vara med en klass:
+
+import re
+
+
 class Format:
-    def __init__(self, )
+    def __init__(self, long, short, indicator, help):
+        self.long = long
+        self.short = short
+        self.indicator = re.compile(f"^\s*{indicator}")
+        self.help = help
