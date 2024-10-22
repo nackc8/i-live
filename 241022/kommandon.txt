@@ -2,7 +2,7 @@
 docker build -t first:latest .
 docker build -t first:latest -f Dockerfile.first . # . är build context därifrån COPY osv tar saker, -f är valfri Dockerfile
 docker images # lista
-docker rmi first:latest # remove
+docker rmi first:latest # remove imagen
 docker image prune -a # tar bort alla som inte är anslutna till en container
 docker image prune # tar bort alla "dangling" (utan både namn och tagg)
 docker exec -it elastic_shannon bash
