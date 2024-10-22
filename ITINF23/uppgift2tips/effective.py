@@ -105,5 +105,10 @@ else:
     detection_filtered_lines = lines
     for format in formats:
         format_filtered = filter_lines(lines, format)
+        if len(format_filtered) < len(detection_filtered_lines):
+            detection_filtered_lines = format_filtered
+    lines = detection_filtered_lines
+
+if args.keep
 
 print(lines)
