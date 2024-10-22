@@ -24,5 +24,9 @@ class Format:
     def __init__(self, long, short, indicator, help):
         self.long = long
         self.short = short
+        # Vi gör om "indikatorn" (som # eller //) till ett reguljärt uttryck
+        # som säger: början på raden kan inledas med vita tecken, sedan
+        # kommer indikatorn. Då har vi ett regex-objekt som vi kan använda
+        # för att matcha rader.
         self.indicator = re.compile(f"^\s*{indicator}")
         self.help = help
