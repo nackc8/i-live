@@ -82,6 +82,6 @@ for format in formats:
     )
 
 parser.add_argument("searchterm", nargs="?")
-parser.add_argument("file", type=argparse.FileType("r"))
+parser.add_argument("file")
 
 args = parser.parse_args()
