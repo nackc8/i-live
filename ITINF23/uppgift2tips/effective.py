@@ -50,6 +50,7 @@ formats = [
 parser = argparse.ArgumentParser(
     prog="effective",
     description="Removes comments and blank lines from files.",
+    conflict_resolution="resolve",
 )
 
 
