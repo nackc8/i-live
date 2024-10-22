@@ -18,3 +18,6 @@ Python för en minimal Flask-applikation:
     def hello_world():
         x = x + 1
         return "Call $x"
+
+docker run -d --name test first:latest
+
