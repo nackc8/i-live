@@ -8,6 +8,7 @@ RUN apt install -y python3-pip
 RUN pip3 install Flask --break-system-packages
 
 WORKDIR /app
-COPY app.py . # punkten betyder nu /app
+# punkten betyder nu /app
+COPY app.py .
 
 CMD ["flask", "--app", "/app/app.py", "run"]
