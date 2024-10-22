@@ -4,3 +4,11 @@ docker images # lista
 docker rmi first:latest # remove
 docker image prune -a # tar bort alla som inte är anslutna till en container
 docker image prune # tar bort alla "dangling" (utan både namn och tagg)
+
+Python för en minimal Flask-applikation:
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
