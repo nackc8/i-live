@@ -3805,4 +3805,93 @@ Run 'docker container COMMAND --help' for more information on a command.
 [?2004ltest
 [?2004h
 [34mi-live/241022[0m [90m241022[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker images
+[?2004lREPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+first        latest    518feb516c91   23 minutes ago   569MB
+<none>       <none>    192426e27c88   42 minutes ago   569MB
+<none>       <none>    7df6e6f45b2d   42 minutes ago   569MB
+<none>       <none>    5f97e3317362   2 hours ago      121MB
+<none>       <none>    0ceb7481f6d2   2 hours ago      121MB
+gapps        latest    95207c825bdd   4 weeks ago      1.26GB
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ins[K[Knspect first:latest [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker inspect first:latest 
+[?2004l[
+    {
+        "Id": "sha256:518feb516c917c6175ca895494b25a4357d3e93b5fdf356ee3e4194b520894b0",
+        "RepoTags": [
+            "first:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-10-22T11:02:07.570395484+02:00",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive"
+            ],
+            "Cmd": [
+                "flask",
+                "--app",
+                "/app/app.py",
+                "run"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 568758592,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/u8j5m9od05mqsfwesx7rzee8c/diff:/var/lib/docker/overlay2/og6ztons2k4sh1gwgb5xh0ocf/diff:/var/lib/docker/overlay2/qkujt0jkfkxhbri5rdabmh35n/diff:/var/lib/docker/overlay2/z3l3qlh2q0pp5eq5o1jp5zy7m/diff:/var/lib/docker/overlay2/jav7se9abolzr6bruc0m69oag/diff:/var/lib/docker/overlay2/64d3af7d67f74eab74cf2bbcab0cf1b1f82bf3dd536cb9e834bf9ebfc4a78149/diff",
+                "MergedDir": "/var/lib/docker/overlay2/z6b9ldok5wpn4abkngntclt75/merged",
+                "UpperDir": "/var/lib/docker/overlay2/z6b9ldok5wpn4abkngntclt75/diff",
+                "WorkDir": "/var/lib/docker/overlay2/z6b9ldok5wpn4abkngntclt75/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:a46a5fb872b554648d9d0262f302b2c1ded46eeb1ef4dc727ecc5274605937af",
+                "sha256:798af8bd34cb019f832d95e83aa33d5feb2aaf3037db6475e62608a4ec87639b",
+                "sha256:d47715d471e0f121d653e6cb5b92807a710425fe3a81a438ce63b4631d6f1adf",
+                "sha256:57f1d2e36bd157ab6516b28b7ebb9c25b3a8a710f19b266d6a2f87bf1eec5a59",
+                "sha256:8154e11e3cc3f30f5a797319bb2e3ac2aada77d429984bbb3d1f8e02ca475240",
+                "sha256:0a0ad39dfca06635b92c793fed3a63c1e5fd2126d76782a8dc83852e826c449a",
+                "sha256:85cb57baf56e4640c23f0db19a17d9fc7ebdcb6d3a4c15937a85b918e733802a"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2024-10-22T11:02:07.616136583+02:00"
+        }
+    }
+]
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0
