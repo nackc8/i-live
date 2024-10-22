@@ -29,3 +29,6 @@ Ctrl + Z
 bg
 
 docker container rm test
+
+# 1024 på värddatorn, 5000 på containern
+docker run -d --name test -p 1024:5000 first:latest

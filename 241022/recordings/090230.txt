@@ -4248,4 +4248,57 @@ b82455bd436e   first:latest   "flask --app /app/ap…"   2 minutes ago   Up 2 mi
        standard  input of any container. This can be used, for example, to run[m
        a throwaway interactive shell. The default is false.[m
 [7m Manual page docker-run(1) line 782 (press h for help or q to quit)[27m[K[K/[K[m
-       The [1m[7m-t[27m[0m option is incompatible with 
+       The [1m[7m-t[27m[0m option is incompatible with a redirection of the  docker  client[m
+       standard input.[m
+[m
+       [1m-[0m[1m[7m-t[27m[0m[1mmpfs[0m=[] Create a tmpfs mount[m
+[m
+       Mount  a temporary filesystem ([1mtmpfs[0m) mount into a container, for exam‐[m
+[7m Manual page docker-run(1) line 789 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m56s[0m 
+ [35m❯[0m man docker-run[C[C[C[Kdocker run[K[K[K[K[K[K[K[K[K[Kman git config[1Pconfig+config[1Pconfig-config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                     Git Manual                     GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin[m ] [--show-scope] [-z|--null] <name> [<value> [<value-pattern>]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add <name> <value>[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all [m <name> <value> [<value-pattern>][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope][m  [-z|--null] [--fixed-value] --get <name> [<value-pattern>][m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34mi-live/241022[0m [90m241022[36m [33m3s[0m 
+ [35m❯[0m man git-config[C[C[C[C[C[C[Cdocker-run[C[C[C[5Pdocker psrun -d --name test first:latest[C[C[C[C[C[C[C[C[C[Cps[K[C[C[Cman docker-run[C[C[C[C[C[C[Cgit-config[C[C[C[K[H[2J
+[34mi-live/241022[0m [90m241022[36m [33m3s[0m 
+ [35m❯[0m docker status
+[?2004ldocker: 'status' is not a docker command.
+See 'docker --help'
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [31m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [31m❯[0m docker status[C[C[Cman git-config[K[C[C[Cdocker status[K[K[K[K[K[Kps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS     NAMES
+b82455bd436e   first:latest   "flask --app /app/ap…"   41 minutes ago   Up 41 minutes             test
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker stop firstÖ[K[K[K[K[K[K[K test
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [33m10s[0m 
+ [35m❯[0m docker conmt[K[Ktainer rm test
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker pås[K[Ks +[K-a[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker ps -a
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED       STATUS                     PORTS     NAMES
+9e1d19b58582   192426e27c88   "flask --app /app/ap…"   3 hours ago   Exited (137) 3 hours ago             quirky_sanderson
+1b25aca9f299   0ceb7481f6d2   "sleep 3600"             4 hours ago   Exited (137) 3 hours ago             elastic_shannon
+3ce500d32163   5f97e3317362   "/bin/bash"              4 hours ago   Exited (0) 4 hours ago               optimistic_swanson
+8b99d0bd1bf2   gapps          "tail -f /dev/null"      4 weeks ago   Exited (137) 4 weeks ago             gapps
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m (reverse-i-search)`': r': docke[7mr[27m ps -au': man docker-[7mru[27mnn': man docker-[7mrun[27mdocker [7mrun[27m -d --name test first:latest[22P [35m❯[0m docker run[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C first:latest- first:latestp first:latest[C first:latest1 first:latest0 first:latest2 first:
