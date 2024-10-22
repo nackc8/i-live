@@ -64,6 +64,13 @@ parser = argparse.ArgumentParser(
 filter_group = parser.add_mutually_exclusive_group()
 
 for format in formats:
-    filter_group.add_argument(format.short, format.long, help=format.help)
+    filter_group.add_argument(
+        format.short,
+        format.long,
+        dest="format",
+        action="store_const",
+        const=format,
+        help=format.help,
+    )
 
 args = parser.parse_args()
