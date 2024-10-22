@@ -1,3 +1,4 @@
+# Nedan söker efter ./Dockerfile
 docker build -t first:latest .
 docker build -t first:latest -f Dockerfile.first . # . är build context därifrån COPY osv tar saker, -f är valfri Dockerfile
 docker images # lista
