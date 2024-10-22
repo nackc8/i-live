@@ -3746,4 +3746,63 @@ ERROR: failed to solve: dockerfile parse error on line 18: unknown instruction: 
 [0m[34m => CACHED [3/7] RUN apt install -y python3                                              0.0s
 [0m[34m => CACHED [4/7] RUN apt install -y python3-pip                                          0.0s
 [0m[34m => CACHED [5/7] RUN pip3 install Flask --break-system-packages                          0.0s
-[0m[34m => CACHED [6/7] WOR
+[0m[34m => CACHED [6/7] WORKDIR /app                                                            0.0s
+[0m[34m => [7/7] COPY app.py .                                                                  0.0s
+[0m[34m => exporting to image                                                                   0.1s
+[0m[34m => => exporting layers                                                                  0.0s
+[0m[34m => => writing image sha256:518feb516c917c6175ca895494b25a4357d3e93b5fdf356ee3e4194b520  0.0s
+[0m[34m => => naming to docker.io/library/first:latest                                          0.0s
+[0m[?25h[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker build -t first:latest -f Dockerfile.first .[C[C[C[K(reverse-i-search)`': r': docker build -t first:latest -f Dockerfile.fi[7mr[27mst .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pu': docker [7mru[27mn -d --name test first:latest[1@n': docker [7mrun[27m[22P [35m❯[0m docker run[C[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker run -d --name test first:latest[C[C[C[C[C[C[C[C[C[C[C
+[?2004ldocker: Error response from daemon: Conflict. The container name "/test" is already in use by container "67fb47cdcfa5fd75757cc2fcc669f45e9a7dd6b5e7ec826d50af3a6a1f21a86e". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker stop test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [31m❯[0m docker container
+[?2004l
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Execute a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Create and run a new container from an image
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker containerrun -d --name test first:latest[C[C[C[C[C[C[C[C[C[Ccontainer[K rm test [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker container rm test 
+[?2004ltest
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [
