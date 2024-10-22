@@ -4390,4 +4390,161 @@ See 'docker --help'
 [2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
 4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
 [2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
-4a
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.01%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O    PIDS
+4a770fe8fd71   test      0.02%     20.18MiB / 15.33GiB   0.13%     6.05kB / 0B   0B / 4.1kB   1
+^C[2J[HCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O   BLOCK I/O   PIDS
+4a770fe8fd71   test      --        -- / --             --        --        --          --
+context canceled
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m23s[0m 
+ [31m❯[0m curel[K[Kl lc[Kocalhost:1024[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m23s[0m 
+ [31m❯[0m curl localhost:1024
+[?2004lcurl: (56) Recv failure: Connection reset by peer
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [31m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+4a770fe8fd71   first:latest   "flask --app /app/ap…"   3 minutes ago   Up 3 minutes   0.0.0.0:1024->5000/tcp, [::]:1024->5000/tcp   test
+[?2004h
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m (reverse-i-search)`': e': dock[7me[27mr psx': docker [7mex[27mec -it test bash[1@e': docker [7mexe[27m[1@c': docker [7mexec[27m[23P [35m❯[0m docker exec[C[H[2J
+[34mi-live/241022[0m [90m241022[36m [0m
+ [35m❯[0m docker exec -it test bash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# 
+[?2004l[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# apt install curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  krb5-locales libcurl4t64 libgssapi-krb5-2 libk5crypto3 libkeyutils1
+  libkrb5-3 libkrb5support0 libnghttp2-14 libpsl5t64 librtmp1 libssh-4
+  publicsuffix
+Suggested packages:
+  krb5-doc krb5-user
+The following NEW packages will be installed:
+  curl krb5-locales libcurl4t64 libgssapi-krb5-2 libk5crypto3 libkeyutils1
+  libkrb5-3 libkrb5support0 libnghttp2-14 libpsl5t64 librtmp1 libssh-4
+  publicsuffix
+0 upgraded, 13 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1700 kB of archives.
+After this operation, 4835 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-locales all 1.20.1-6ubuntu2.1 [14.0 kB]
+[33m1% [1 krb5-locales 13.6 kB/14.0 kB 97%][0m[33m                                       2% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.1 [33.6 kB]
+[33m2% [2 libkrb5support0 2486 B/33.6 kB 7%][0m[33m                                        5% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.1 [81.7 kB]
+[33m5% [3 libk5crypto3 3293 B/81.7 kB 4%][0m[33m                                     11% [Waiting for headers][0m                         Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
+[33m11% [4 libkeyutils1 1760 B/9490 B 19%][0m[33m                                      13% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.1 [347 kB]
+[33m13% [5 libkrb5-3 306 B/347 kB 0%][0m[33m                                 31% [Waiting for headers][0m                         Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.1 [143 kB]
+[33m31% [6 libgssapi-krb5-2 16.4 kB/143 kB 11%][0m[33m                                           39% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.1 [74.3 kB]
+[33m39% [7 libnghttp2-14 10.8 kB/74.3 kB 15%][0m[33m                                         44% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+[33m44% [8 libpsl5t64 3886 B/57.1 kB 7%][0m[33m                                    48% [Waiting for headers][0m                         Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+[33m49% [9 publicsuffix 10.2 kB/129 kB 8%][0m[33m                                      56% [Waiting for headers][0m                         Get:10 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
+[33m56% [10 librtmp1 12.8 kB/56.3 kB 23%][0m[33m                                     60% [Waiting for headers][0m                         Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+[33m61% [11 libssh-4 21.7 kB/188 kB 12%][0m[33m                                    70% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.4 [341 kB]
+[33m72% [12 libcurl4t64 35.2 kB/341 kB 10%][0m[33m                                       88% [Waiting for headers][0m                         Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.4 [227 kB]
+[33m89% [13 curl 29.6 kB/227 kB 13%][0m[33m                                100% [Working][0m              Fetched 1700 kB in 1s (2345 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;11r8[1ASelecting previously unselected package krb5-locales.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 17125 files and directories currently installed.)
+Preparing to unpack .../00-krb5-locales_1.20.1-6ubuntu2.1_all.deb ...
+7[12;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[12;0f[42m[30mProgress: [  2%][49m[39m [#.........................................................] 8Unpacking krb5-locales (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [  4%][49m[39m [##........................................................] 8Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../01-libkrb5support0_1.20.1-6ubuntu2.1_amd64.deb ...
+7[12;0f[42m[30mProgress: [  6%][49m[39m [###.......................................................] 8Unpacking libkrb5support0:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 8Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../02-libk5crypto3_1.20.1-6ubuntu2.1_amd64.deb ...
+7[12;0f[42m[30mProgress: [  9%][49m[39m [#####.....................................................] 8Unpacking libk5crypto3:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../03-libkeyutils1_1.6.3-3build1_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 13%][49m[39m [#######...................................................] 8Unpacking libkeyutils1:amd64 (1.6.3-3build1) ...
+7[12;0f[42m[30mProgress: [ 15%][49m[39m [########..................................................] 8Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../04-libkrb5-3_1.20.1-6ubuntu2.1_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 17%][49m[39m [#########.................................................] 8Unpacking libkrb5-3:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 19%][49m[39m [##########................................................] 8Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../05-libgssapi-krb5-2_1.20.1-6ubuntu2.1_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 21%][49m[39m [############..............................................] 8Unpacking libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 23%][49m[39m [#############.............................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../06-libnghttp2-14_1.59.0-1ubuntu0.1_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 25%][49m[39m [##############............................................] 8Unpacking libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+7[12;0f[42m[30mProgress: [ 26%][49m[39m [###############...........................................] 8Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../07-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 28%][49m[39m [################..........................................] 8Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[12;0f[42m[30mProgress: [ 30%][49m[39m [#################.........................................] 8Selecting previously unselected package publicsuffix.
+Preparing to unpack .../08-publicsuffix_20231001.0357-0.1_all.deb ...
+7[12;0f[42m[30mProgress: [ 32%][49m[39m [##################........................................] 8Unpacking publicsuffix (20231001.0357-0.1) ...
+7[12;0f[42m[30mProgress: [ 34%][49m[39m [###################.......................................] 8Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 36%][49m[39m [####################......................................] 8Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[12;0f[42m[30mProgress: [ 38%][49m[39m [#####################.....................................] 8Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../10-libssh-4_0.10.6-2build2_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 40%][49m[39m [######################....................................] 8Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+7[12;0f[42m[30mProgress: [ 42%][49m[39m [########################..................................] 8Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../11-libcurl4t64_8.5.0-2ubuntu10.4_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 43%][49m[39m [#########################.................................] 8Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.4) ...
+7[12;0f[42m[30mProgress: [ 45%][49m[39m [##########################................................] 8Selecting previously unselected package curl.
+Preparing to unpack .../12-curl_8.5.0-2ubuntu10.4_amd64.deb ...
+7[12;0f[42m[30mProgress: [ 47%][49m[39m [###########################...............................] 8Unpacking curl (8.5.0-2ubuntu10.4) ...
+7[12;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Setting up libkeyutils1:amd64 (1.6.3-3build1) ...
+7[12;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 87[12;0f[42m[30mProgress: [ 53%][49m[39m [##############################............................] 8Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[12;0f[42m[30mProgress: [ 55%][49m[39m [###############################...........................] 87[12;0f[42m[30mProgress: [ 57%][49m[39m [################################..........................] 8Setting up libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+7[12;0f[42m[30mProgress: [ 58%][49m[39m [#################################.........................] 87[12;0f[42m[30mProgress: [ 60%][49m[39m [###################################.......................] 8Setting up krb5-locales (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 62%][49m[39m [####################################......................] 87[12;0f[42m[30mProgress: [ 64%][49m[39m [#####################################.....................] 8Setting up libkrb5support0:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 66%][49m[39m [######################################....................] 87[12;0f[42m[30mProgress: [ 68%][49m[39m [#######################################...................] 8Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[12;0f[42m[30mProgress: [ 70%][49m[39m [########################################..................] 87[12;0f[42m[30mProgress: [ 72%][49m[39m [#########################################.................] 8Setting up libk5crypto3:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 74%][49m[39m [##########################################................] 87[12;0f[42m[30mProgress: [ 75%][49m[39m [###########################################...............] 8Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 77%][49m[39m [############################################..............] 87[12;0f[42m[30mProgress: [ 79%][49m[39m [#############################################.............] 8Setting up publicsuffix (20231001.0357-0.1) ...
+7[12;0f[42m[30mProgress: [ 81%][49m[39m [###############################################...........] 87[12;0f[42m[30mProgress: [ 83%][49m[39m [################################################..........] 8Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.1) ...
+7[12;0f[42m[30mProgress: [ 85%][49m[39m [#################################################.........] 87[12;0f[42m[30mProgress: [ 87%][49m[39m [##################################################........] 8Setting up libssh-4:amd64 (0.10.6-2build2) ...
+7[12;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 87[12;0f[42m[30mProgress: [ 91%][49m[39m [####################################################......] 8Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.4) ...
+7[12;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 87[12;0f[42m[30mProgress: [ 94%][49m[39m [######################################################....] 8Setting up curl (8.5.0-2ubuntu10.4) ...
+7[12;0f[42m[30mProgress: [ 96%][49m[39m [#######################################################...] 87[12;0f[42m[30mProgress: [ 98%][49m[39m [########################################################..] 8Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+
+7[0;12r8[1A[J[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# [H[2J]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# curl localhost:5000
+[?2004lCall 1[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# 
+[?2004l[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# 
+[?2004l[?2004h]0;root@4a770fe8fd71: /approot@4a770fe8fd71:/app# [?2004l
+exit
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m33s[0m 
+ [35m❯[0m [H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [33m33s[0m 
+ [35m❯[0m ls
+[?2004lapp.py	Dockerfile.first  kommandon.txt  recordings
+[?2004h
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ps[H[2J
+[34mi-live/241022[0m [90m241022[38;5;218m*​[36m [0m
+ [35m❯[0m docker ps
+[?2004lCONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+4a770fe8fd71   first:latest   "flask --app /app/ap…"   4 minutes ago   Up 4 minutes   0.0.0.0:1024->5000/tcp, [::]:1024->5000/tcp   test
+[?2004h
+[34mi-live/241022[0m [90m2410
