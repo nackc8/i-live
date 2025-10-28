@@ -562,4 +562,123 @@ kent       85547   54520  0 11:05 pts/3    00:00:00 less
 [16;1H[K:[K[K [KESCESC[KOO[KAA[K[HMroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
 [16;1H[K:[K[K [KESCESC[KOO[KAA[K[HMroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
 [16;1H[K:[K[K [KESCESC[KOO[KAA[K[HMUID          PID    PPID  C STIME TTY          TIME CMD
-[16;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K/[Kss[Koo[Kuu[Krr[Kcc[Kee[Kmm[Kee[K[1
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K/[Kss[Koo[Kuu[Krr[Kcc[Kee[Kmm[Kee[K[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/[7msourceme[27m.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K/[K55[K44[K55[K22[K00[K[1;1Hkent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+[2;1Hroot       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+[3;1Hkent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+[4;1Hkent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+[5;1Hkent       85547   54520  0 11:05 pts/3    00:00:00 less
+[6;1H[1m~[0m
+[16;1H[1;1Hkent       84545   [7m54520[27m  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+[2;1Hroot       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+[3;1Hkent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+[4;1Hkent       85546   [7m54520[27m  0 11:05 pts/3    00:00:00 ps -ef
+[5;1Hkent       85547   [7m54520[27m  0 11:05 pts/3    00:00:00 less
+[6;1H[1m~[0m
+[16;1H[K[7m(END)[27m[K[K[H[2J[HMroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[HMroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[HMroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[HMroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[HMroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[HMroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[HMroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[HMroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[HMroot           6       2  0 09:00 ?        00:00:00 [netns]
+[HMroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[HMroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[HMroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[HMroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[HMroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[HMUID          PID    PPID  C STIME TTY          TIME CMD
+[16;1H[K:[K[K/[K55[K44[K55[K22[K00[K[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H...skipping...
+kent       [7m54520[27m   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+:[K[K [KESCESC[KOO[KAA
