@@ -681,4 +681,57 @@ root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
 root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
 root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
 root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
-:[K[K [KESCESC[KOO[KAA
+:[K[K [KESCESC[KOO[KAA[K[HMs/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HMkent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Document[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM01352.txt --timing=recordings/101352_timing.txt
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HMkent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/1[16;1H[K:[K[K/[K:[K[K/[K55[K44[K55[K22[K00[K[1;1Hkent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/1 [2;1H01352.txt --timing=recordings/101352_timing.txt
+[3;1Hkent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Document [4;1Hs/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+[5;1Hkent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+[6;1Hroot       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+[7;1Hroot       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+[8;1Hroot       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+[9;1Hroot       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+[10;1Hroot       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+[11;1Hroot       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+[12;1Hroot       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+[13;1Hroot       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+[14;1Hroot       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+[15;1Hroot       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+[16;1H[1;1Hkent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/1 [2;1H01352.txt --timing=recordings/101352_timing.txt
+[3;1Hkent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Document [4;1Hs/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+[5;1Hkent       [7m54520[27m   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+[6;1Hroot       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+[7;1Hroot       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+[8;1Hroot       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+[9;1Hroot       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+[10;1Hroot       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+[11;1Hroot       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+[12;1Hroot       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+[13;1Hroot       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+[14;1Hroot       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+[15;1Hroot       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+[16;1Hroot       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+:[K[K/[K...skipping...
+kent       84545   [7m54520[27m  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   [7m54520[27m  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   [7m54520[27m  0 11:05 pts/3    00:00:00 less
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[94mITINF24/lektion02
+(B[m$ jobs[H[2J[94mITINF24/lektion02
+(B[m$ jobs
+[?2004l[1]+  Stopped                 bash source/sourceme.sh
+[?2004h[94mITINF24/lektion02
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2
