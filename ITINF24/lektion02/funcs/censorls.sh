@@ -1,3 +1,3 @@
 censorls() {
-	echo "I be called!"
+	echo "I be called! Oh yeah!"
 }
