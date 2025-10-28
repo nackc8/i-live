@@ -821,4 +821,86 @@ Stopp
 [?2004ltotal 4
 -rw-r--r-- 1 k**t k**t 46 Oct 28 11:22 censorls.sh
 [?2004h[94mITINF24/lektion02/funcs
-(B[m$ censorls -l[K[K[K[K[K[K[K[K[K[K[K
+(B[m$ censorls -l[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion02/funcs
+(B[m$ source censorls.sh [C[C[8Pcensorls -l[C[Csource censorls.sh 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls 
+[?2004lcensorls.sh
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ censorls [H[2J[94mITINF24/lektion02/funcs
+(B[m$ censorls [C[C[K.-[K/boo[K[K[K[K[Kcd.[K ../se[K[Ktext_search/
+[?2004l[?2004h[94mITINF24/lektion02/text_search
+(B[m$ [H[2J[94mITINF24/lektion02/text_search
+(B[m$ ls
+[?2004lbooksearch  textfil.txt
+[?2004h[94mITINF24/lektion02/text_search
+(B[m$ [H[2J[94mITINF24/lektion02/text_search
+(B[m$ ./booksearch textfil.txt 
+[?2004lbooken satan från borlänge är intressant.
+[?2004h[94mITINF24/lektion02/text_search
+(B[m$ ./booksearch textfil.txt [H[2J[94mITINF24/lektion02/text_search
+(B[m$ ./booksearch textfil.txt 
+[?2004lbooken satan från borlänge är intressant.
+boken satan från stockholm är intressant.
+booooooooooooken satan från västerås är intressant.
+[?2004h[94mITINF24/lektion02/text_search
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion02/text_search
+(B[m$ man grep
+[?2004l[?1049h[22;0;0t[?1h=GREP(1)                   User Commands                  GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match[m
+       patterns[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTION[24m...] [4mPATTERNS[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-e[0m [4mPATTERNS[24m ... [[4mFILE[24m...][m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GREP(1)                   User Commands                  GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match[m
+       patterns[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTION[24m...] [4mPATTERNS[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-e[0m [4mPATTERNS[24m ... [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-f[0m [4mPATTERN_FILE[24m ... [[4mFILE[24m...][m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GREP(1)                   User Commands                  GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match[m
+       patterns[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTION[24m...] [4mPATTERNS[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-e[0m [4mPATTERNS[24m ... [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-f[0m [4mPATTERN_FILE[24m ... [[4mFILE[24m...][m
+[m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GREP(1)                   User Commands                  GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match[m
+       patterns[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTION[24m...] [4mPATTERNS[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-e[0m [4mPATTERNS[24m ... [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-f[0m [4mPATTERN_FILE[24m ... [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page grep(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GREP(1)                   User Commands                  GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match[m
+       patterns[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTION[24m...] [4mPATTERNS[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-e[0m [4mPATTERNS[24m ... [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTION[24m...] [1m-f[0m [4mPATTERN_FILE[24m ... [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m
