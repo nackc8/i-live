@@ -89,4 +89,36 @@ I welcome all 4 of you!
 (B[m$ bash[H[2J[94mITINF24/lektion02/args
 (B[m$ bash sour[K[K[K[K[K[K[K[K[Kcdd[K ../source/
 [?2004l[?2004h[94mITINF24/lektion02/source
-(B[m$
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh 
+[?2004l[?2004h[94mITINF24/lektion02/source
+(B[m$ ech [Ko $X
+[?2004l
+[?2004h[94mITINF24/lektion02/source
+(B[m$ echo $X[C[Cbash sourceme.sh [H[2J[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh 
+[?2004lJag körs!
+[?2004h[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh [C[C[10Pecho $X
+[?2004l
+[?2004h[94mITINF24/lektion02/source
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ source sourceme.sh 
+[?2004lJag körs!
+[?2004h[94mITINF24/lektion02/source
+(B[m$ source sourceme.sh [C[C[12Pecho $X
+[?2004l123
+[?2004h[94mITINF24/lektion02/source
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ code ~/.bashrc
+[?2004l[?2004h[94mITINF24/lektion02/source
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ code ~/.bashrc[C[C[C[C[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrcs ~/.bashrco ~/.bashrcu ~/.bashrcr ~/.bashrcc ~/.bashrce ~/.bashrc[H[2J[94mITINF24/lektion02/source
+(B[m$ source ~/.bashrc[C[C[C[C[C[C[C[C
+[?2004l[?2004h
+[1;36mITINF24/lektion02/source[0m on [1;35m 251028[0m 
+[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [H[2J
+[1;36mITINF24/lektion02/source[0m on [1;35m 251028[0m 
+[1;32m❯[0m [?2004l
+exit
+
+Script done on 2025-10-28 10:13:45+01:00 [COMMAND_EXIT_CODE="0"]

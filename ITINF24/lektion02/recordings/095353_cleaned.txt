@@ -1,0 +1,137 @@
+Script started on 2025-10-28 09:54:02+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="63" LINES="9"]
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ ls
+agenda.md  args  recordings
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ cd args/
+ITINF24/lektion02/args
+$ ITINF24/lektion02/args
+$ ls
+skriptmall
+ITINF24/lektion02/args
+$ bash skriptmall 
+Hello
+ITINF24/lektion02/args
+$ ITINF24/lektion02/args
+$ chmod ax skriptmall 
+ITINF24/lektion02/args
+$ ls -l 
+total 4
+-rwxr-xr-x 1 kent kent 24 Oct 28 09:54 skriptmall
+ITINF24/lektion02/args
+$ ITINF24/lektion02/args
+$ ./greeter Bosse
+Hello Bosse
+ITINF24/lektion02/args
+$ ./greeter BossKentITINF24/lektion02/args
+$ ./greeter Kent
+Hello Bosse
+ITINF24/lektion02/args
+$ ./greeter KentITINF24/lektion02/args
+$ ./greeter Kent
+Hello Kent
+ITINF24/lektion02/args
+$ ./greeter KentITINF24/lektion02/args
+$ ./greeter Kent Emmanuel
+Hello Kent
+ITINF24/lektion02/args
+$ ./greeter Kent EmmanuelITINF24/lektion02/args
+$ ./greeter Kent Emmanue2
+Hello Kent
+Hello Emmanuel
+ITINF24/lektion02/args
+$ ./greeter2 Kent Emmanue3ITINF24/lektion02/args
+$ ./greeter3 Kent Emmanue
+Hello Kent
+Hello Kent
+ITINF24/lektion02/args
+$ ./greeter3 Kent EmmanuelITINF24/lektion02/args
+$ ./greeter3 Kent Emmanuel
+Hello Kent
+Hello Emmanuel
+ITINF24/lektion02/args
+$ ./greeter3 Kent Emmanuel Johan ErikITINF24/lektion02/args
+$ ./greeter3 Kent Emmanuel Johan Erik
+Hello Kent
+Hello Emmanuel
+Hello Johan
+Hello Erik
+ITINF24/lektion02/args
+$ ITINF24/lektion02/args
+$ ./argpassthrough -l
+total 16
+-rwxr-xr-x 1 kent kent 21 Oct 28 10:02 argpassthrough
+-rwxr-xr-x 1 kent kent 29 Oct 28 09:56 greeter
+-rwxr-xr-x 1 kent kent 45 Oct 28 09:57 greeter2
+-rwxr-xr-x 1 kent kent 51 Oct 28 10:01 greeter3
+ITINF24/lektion02/args
+$ ./argpassthrough -l re
+cording../recordings/ITINF24/lektion02/args
+$ ./argpassthrough -l ../recordings/
+total 0
+-rw-r--r-- 1 kent kent 0 Oct 28 09:54 095353_timing.txt
+-rw-r--r-- 1 kent kent 0 Oct 28 09:54 095353.txt
+ITINF24/lektion02/args
+e': ./greeter3 Kent Emmanuel Johan Erikgh -l ../recordings
+$ ./greeter3 Kent Emmanuel Johan Eriketer3 Kent Emmanuel Johan Erik
+4ITINF24/lektion02/args
+$ ./greeter4 Kent Emmanuel Johan Eri
+Hello Kent
+Hello Emmanuel
+Hello Johan
+Hello Erik
+I welcome all 4 of you!
+ITINF24/lektion02/args
+$ ITINF24/lektion02/args
+$ echo $X
+
+ITINF24/lektion02/args
+$ bashITINF24/lektion02/args
+$ bash sour
+
+
+
+
+
+
+
+cd ../s
+ource/
+ITINF24/lektion02/source
+$ ITINF24/lektion02/source
+$ bash sourceme.sh 
+ITINF24/lektion02/source
+$ echo $X
+
+ITINF24/lektion02/source
+bash sourceme.sh ITINF24/lektion02/source
+$ bash sourceme.sh 
+Jag körs!
+ITINF24/lektion02/source
+echo $Xsourceme.sh 
+
+ITINF24/lektion02/source
+$ ITINF24/lektion02/source
+$ source sourceme.sh 
+Jag körs!
+ITINF24/lektion02/source
+echo $Xe sourceme.sh 
+123
+ITINF24/lektion02/source
+$ ITINF24/lektion02/source
+$ code ~/.bashr
+c
+ITINF24/lektion02/source
+$ code ~/.bashr ~/.bashr ~/.bashr ~/.bashr ~/.bashr
+s ~/.bashro ~/.bashru ~/.bashrr ~/.bashrc ~/.bashre ~/.bashrITINF24/lektion02/source
+$ source ~/.bashr
+
+ITINF24/lektion02/source on  251028 
+❯ 
+ITINF24/lektion02/source on  251028 
+❯ 
+exit
+
+Script done on 2025-10-28 10:13:45+01:00 [COMMAND_EXIT_CODE="0"]
