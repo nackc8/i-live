@@ -11,5 +11,5 @@
   - hur **argument** hanteras i funktioner (`$#`, `$1`, `$2`, …) ✓
   - hur **exitkoder** används för att indikera framgång eller fel. ✓
   - kontrollinstruktioner som if, for etc. ✓
-  - hur man skriver och anropar **funktioner** i Bash 
+  - hur man skriver och anropar **funktioner** i Bash
   - source, att sourca in filer, .bashrc
