@@ -1,2 +1,0 @@
-echo Hej
-echo Hopp
