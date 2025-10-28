@@ -1,3 +1,5 @@
 #!/bin/bash
 
-grep -E '*' "$1"
+# Sök efter EXAKT detta
+
+grep -F '*' "$1"
