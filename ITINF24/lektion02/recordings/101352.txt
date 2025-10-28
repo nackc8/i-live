@@ -1,0 +1,186 @@
+Script started on 2025-10-28 10:14:03+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="63" LINES="12"]
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ ls
+[?2004lagenda.md  args  recordings  skriptmall  source
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ X=123
+[?2004l[?2004h[94mITINF24/lektion02
+(B[m$ echo "Jag k;rs[K[K[Körs!
+[?2004l[?2004h> Ä[KÄ[K"
+[?2004lJag körs!
+
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ bash source/sourceme.sh 
+[?2004lJag körs!
+Stopp^Z
+[1]+  Stopped                 bash source/sourceme.sh
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ jobs
+[?2004l[1]+  Stopped                 bash source/sourceme.sh
+[?2004h[94mITINF24/lektion02
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ ps -e | less
+[?2004l[?1049h[22;0;0t[?1h=    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+:[K[K [KESCESC[KOO[KBB[K     18 ?        00:00:00 cpuhp/0
+:[K[K [KESCESC[KOO[KBB[K     19 ?        00:00:00 cpuhp/1
+:[K[K [KESCESC[KOO[KBB[K     20 ?        00:00:00 migration/1
+:[K[K [KESCESC[KOO[KBB[K     21 ?        00:00:00 ksoftirqd/1
+:[K[K [KESCESC[KOO[KBB[K     23 ?        00:00:00 kworker/1:0H-events_highpri
+:[K[K [KESCESC[KOO[KBB[K     24 ?        00:00:00 cpuhp/2
+:[K[K [KESCESC[KOO[KBB[K     25 ?        00:00:00 migration/2
+:[K[K [KESCESC[KOO[KBB[K     26 ?        00:00:00 ksoftirqd/2
+:[K[K [KESCESC[KOO[KBB[K     28 ?        00:00:00 kworker/2:0H-events_highpri
+:[K[K [KESCESC[KOO[KBB[K     29 ?        00:00:00 cpuhp/3
+:[K[K [KESCESC[KOO[KBB[K     30 ?        00:00:00 migration/3
+:[K[K [KESCESC[KOO[KBB[K     31 ?        00:00:00 ksoftirqd/3
+:[K[K [KESCESC[KOO[KAA[K[HM     13 ?        00:00:00 rcu_tasks_trace_kthread
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     12 ?        00:00:00 rcu_tasks_rude_kthread
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     11 ?        00:00:00 rcu_tasks_kthread
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     10 ?        00:00:00 mm_percpu_wq
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      8 ?        00:00:00 kworker/0:0H-events_highpri
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      6 ?        00:00:00 netns
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      5 ?        00:00:00 slub_flushwq
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      4 ?        00:00:00 rcu_par_gp
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      3 ?        00:00:00 rcu_gp
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      2 ?        00:00:00 kthreadd
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM      1 ?        00:00:01 systemd
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    PID TTY          TIME CMD
+[16;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K/[Kss[Koo[Kuu[Krr[Kcc[Kee[Kmm[Kee[K[1;1H    PID TTY          TIME CMD
+[2;1H      1 ?        00:00:01 systemd
+[3;1H      2 ?        00:00:00 kthreadd
+[4;1H      3 ?        00:00:00 rcu_gp
+[5;1H      4 ?        00:00:00 rcu_par_gp
+[6;1H      5 ?        00:00:00 slub_flushwq
+[7;1H      6 ?        00:00:00 netns
+[8;1H      8 ?        00:00:00 kworker/0:0H-events_highpri
+[9;1H     10 ?        00:00:00 mm_percpu_wq
+[10;1H     11 ?        00:00:00 rcu_tasks_kthread
+[11;1H     12 ?        00:00:00 rcu_tasks_rude_kthread
+[12;1H     13 ?        00:00:00 rcu_tasks_trace_kthread
+[13;1H     14 ?        00:00:00 ksoftirqd/0
+[14;1H     15 ?        00:00:14 rcu_preempt
+[15;1H     16 ?        00:00:00 migration/0
+[16;1H[1;1H    PID TTY          TIME CMD
+[2;1H      1 ?        00:00:01 systemd
+[3;1H      2 ?        00:00:00 kthreadd
+[4;1H      3 ?        00:00:00 rcu_gp
+[5;1H      4 ?        00:00:00 rcu_par_gp
+[6;1H      5 ?        00:00:00 slub_flushwq
+[7;1H      6 ?        00:00:00 netns
+[8;1H      8 ?        00:00:00 kworker/0:0H-events_highpri
+[9;1H     10 ?        00:00:00 mm_percpu_wq
+[10;1H     11 ?        00:00:00 rcu_tasks_kthread
+[11;1H     12 ?        00:00:00 rcu_tasks_rude_kthread
+[12;1H     13 ?        00:00:00 rcu_tasks_trace_kthread
+[13;1H     14 ?        00:00:00 ksoftirqd/0
+[14;1H     15 ?        00:00:14 rcu_preempt
+[15;1H     16 ?        00:00:00 migration/0
+[16;1H[K[7mPattern not found  (press RETURN)[27m[16;1H[K[K [KESCESC[KESCESC[K:[K[K[?1l>[?1049l[23;0;0t[?2004h[94mITINF24/lektion02
+(B[m$ ps -e | less[1@f
+[?2004l[?1049h[22;0;0t[?1h=UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init  splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp ]
+root           5       2  0 09:00 ?        00:00:00 [slub_flush wq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0: 0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_ wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_ :[K[H[2J[H[H[2J[HUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init s plash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushw q]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0 H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_w q]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_k thread]
+:[K[H[2J[H[H[2J[HUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init sp lash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq ]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H -events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq ]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kt hread]
+:[K[H[2J[H[H[2J[HUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init spl ash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H- events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kth read]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rud e_kthread]
+:[K[H[2J[H[H[2J[HUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+:[K[K/[Kss[Koo[Kuu[Krr[Kcc[Kee[Kmm[Kee[K[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H[1;1HUID          PID    PPID  C STIME TTY          TIME CMD
+[2;1Hroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+[3;1Hroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+[4;1Hroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+[5;1Hroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+[6;1Hroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+[7;1Hroot           6       2  0 09:00 ?        00:00:00 [netns]
+[8;1Hroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+[9;1Hroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+[10;1Hroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+[11;1Hroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+[12;1Hroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+[13;1Hroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+[14;1Hroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+[15;1Hroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+[16;1H...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/[7msourceme[27m.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker
