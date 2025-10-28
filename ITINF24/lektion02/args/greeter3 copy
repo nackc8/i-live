@@ -1,5 +1,0 @@
-#!/bin/bash
-
-for name; do
-	echo Hello "$name"
-done
