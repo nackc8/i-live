@@ -1,0 +1,2 @@
+echo Hej
+echo Hopp
