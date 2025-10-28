@@ -12,4 +12,5 @@
   - hur **exitkoder** används för att indikera framgång eller fel. ✓
   - kontrollinstruktioner som if, for etc. ✓
   - hur man skriver och anropar **funktioner** i Bash
-  - source, att sourca in filer, .bashrc
+  - source, att sourca in filer, .bashrc ✓
+  - sökning regex
