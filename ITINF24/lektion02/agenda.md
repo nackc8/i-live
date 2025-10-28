@@ -1,8 +1,14 @@
-## Inför uppgiften
+## Dagens agenda
+
+- Det som ni vill gå igenom.
 
 - Gå igenom avsnitten om **Bash-programmering** från Linux 1-kursen.
-- Fördjupa dig särskilt i:
+
+- Titta särskilt på:
+  - variabler, miljövariabler
+  - kontrollinstruktioner som if, for etc.
   - hur man skriver och anropar **funktioner** i Bash,
+  - source
   - hur **argument** hanteras i funktioner (`$#`, `$1`, `$2`, …),
   - skillnaden mellan **stdout** och **stderr**, samt hur man skriver till respektive ström,
   - hur **exitkoder** används för att indikera framgång eller fel.
