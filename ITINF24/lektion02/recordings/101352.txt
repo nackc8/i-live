@@ -734,4 +734,91 @@ kent       85547   [7m54520[27m  0 11:05 pts/3    00:00:00 less
 (B[m$ jobs
 [?2004l[1]+  Stopped                 bash source/sourceme.sh
 [?2004h[94mITINF24/lektion02
-(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ fg
+[?2004lbash source/sourceme.sh
+
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ echo [K[K[K[K[Kunset X
+[?2004l[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ echo $XX$X:$X[1P$X $Xi$Xs$X $X[C[C
+[?2004lX is
+[?2004h[94mITINF24/lektion02
+(B[m$ echo X is $X[C[C[5Punset X[C[Cfg[Kjobs[C[Cps -ef | less[1P[C[C[C[C[C[C[C[C[C[8Pjobs[C[Cbash source/sourceme.sh 
+[?2004lJag körs!
+Stopp
+[?2004h[94mITINF24/lektion02
+(B[m$ echo $X[K[K[K[K[K[K[Kbash source/sourceme.sh [C[C[12Pecho X is $X
+[?2004lX is
+[?2004h[94mITINF24/lektion02
+(B[m$ echo X is $X[C[Cbash source/sourceme.sh [H[2J[94mITINF24/lektion02
+(B[m$ bash source/sourceme.sh [1P[1P[1P[1P[1@s[1@p[1@r[1P[1P[1@o[1@u[1@r[1@c[1@e
+[?2004lJag körs!
+Stopp
+[?2004h[94mITINF24/lektion02
+(B[m$ echo $X
+[?2004l999
+[?2004h[94mITINF24/lektion02
+(B[m$ echo $X[C[Csource source/sourceme.sh [C[C[14Pecho X is $X[C[Cbash source/sourceme.sh [H[2J[94mITINF24/lektion02
+(B[m$ bash source/sourceme.sh ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion02
+(B[m$ echo $X[C[Csource source/sourceme.sh [C[C[14Pecho X is $X[C[Cbash source/sourceme.sh [C[C[12Pecho X is $X[C[C[5Punset X[C[Cfg[Kjobs[C[Cps -ef | less[H[2J[94mITINF24/lektion02
+(B[m$ ps -ef | less[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion02
+(B[m$ [K(B[m$ cd funcs/
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ [H[2J[94mITINF24/lektion02/funcs
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ [H[2J[94mITINF24/lektion02/funcs
+(B[m$ bash censorls.sh 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls
+[?2004lbash: censorls: command not found
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls[H[2J[94mITINF24/lektion02/funcs
+(B[m$ censorls[C[Cbash censorls.sh [C[C[1P[1P[1P[1P[1@s[1@o[1@u[1@r[1@c[1@e
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ source censorls.sh [C[C[11Pcensorls
+[?2004lI be called!
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls
+[?2004lI be called!
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ [H[2J[94mITINF24/lektion02/funcs
+(B[m$ censorls[C[Csource censorls.sh 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ source censorls.sh [C[C[11Pcensorls
+[?2004lI be called! Oh yeah!
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ unset cesnr[K[K[Knsorls
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ unset censorls[C[C[6Pcensorls
+[?2004lbash: censorls: command not found
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls[H[2J[94mITINF24/lektion02/funcs
+(B[m$ censorls /egtc[K[Kt[K[Ktc/ssh
+[?2004lbash: censorls: command not found
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls /etc/ssh iejo eoijeoei^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ [H[2J[94mITINF24/lektion02/funcs
+(B[m$ source censorls.sh 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls -l
+[?2004ltotal 4
+-rw-r--r-- 1 kent kent 24 Oct 28 11:21 censorls.sh
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls -l[C[Csource censorls.sh [H[2J[94mITINF24/lektion02/funcs
+(B[m$ source censorls.sh 
+[?2004l[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls [H[2J[94mITINF24/lektion02/funcs
+(B[m$ censorls -l
+[?2004ltotal 4
+-rw-r--r-- 1 k**t k**t 46 Oct 28 11:22 censorls.sh
+[?2004h[94mITINF24/lektion02/funcs
+(B[m$ censorls -l[K[K[K[K[K[K[K[K[K[K[K
