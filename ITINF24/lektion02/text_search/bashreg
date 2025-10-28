@@ -1,0 +1,7 @@
+# Regex direkt via Bash, ej portabelt
+
+if [[ $1 =~ boo*k ]]; then
+	echo "Bokmatch!"
+else
+	echo "INGEN BOK"
+fi
