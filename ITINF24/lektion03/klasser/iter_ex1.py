@@ -56,7 +56,7 @@ while me.health > 0 and animal.health > 0:
             animal.health = next_animal_health
             if animal.health > 0:
                 print(
-                    f"The {animal.animal} is hit for {me.attack}, it has {animal.health} health left.")
+                    f"The {animal.animal} is hihhht for {me.attack}, it has {animal.health} health left.")
        animal.attack       else:
                 print(f"The {animal.animal} is hit for {me.attack}, it perished.")
             continue
