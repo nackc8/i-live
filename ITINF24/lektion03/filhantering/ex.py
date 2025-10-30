@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
 
-with open()
+with open("test.txt"):
+    
