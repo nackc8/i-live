@@ -40,8 +40,8 @@ animal = random.choice(animals)
 
 print(f"You encounter a wild {animal.animal}")
 while me.health > 0 and animal.health > 0:
-    print(f"Your health is {me.health}, the animals health is {animal['health']}")
-    print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
+    print(f"Your health is {me.health}, the animals health is {animal.health}")
+    print(f"Your attack is {me.attack}, the animals attack is {animal.attack}")
 
     action = ""
     while not (action == "a" or action == "f"):
@@ -56,10 +56,9 @@ while me.health > 0 and animal.health > 0:
             animal.health = next_animal_health
             if animal.health > 0:
                 print(
-                    f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left."
-                )
-            else:
-                print(f"The {animal.animal} is hit for {me['attack']}, it perished.")
+                    f"The {animal.animal} is hit for {me.attack}, it has {animal.health} health left."
+       animal.attack       else:
+                print(f"The {animal.animal} is hit for {me.attack}, it perished.")
             continue
         else:
             print("You missed!")
@@ -75,7 +74,7 @@ while me.health > 0 and animal.health > 0:
                 f"You're hit for {animal['attack']}, you have {me.health} health left."
             )
         else:
-            print(f"The {animal.animal} is hit for {me['attack']}, you are dead.")
+            print(f"The {animal.animal} is hit for {me.attack}, you are dead.")
             continue
 
     else:
