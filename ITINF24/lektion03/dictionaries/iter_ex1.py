@@ -37,9 +37,15 @@ while me["health"] > 0 and animal["health"] > 0:
             next_animal_health = animal["health"]
             next_animal_health -= me["attack"]
             animal["health"] = next_animal_health
-            print(
-                f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
-            )
+            if animal['health'] > 0
+                print(
+                    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+                )
+            else:
+                print(
+                    f"The {animal['animal']} is hit for {me['attack']}, it perished."
+                )
+
         else:
             print("You missed!")
     break
