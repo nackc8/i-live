@@ -19,4 +19,6 @@ animals = [
 
 me = {"attack": 15, "health": 40, "sound": "hej!"}
 
-animal = random.
+animal = random.choice(animals)
+
+while me["health"]
