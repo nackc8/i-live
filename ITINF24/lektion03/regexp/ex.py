@@ -18,4 +18,6 @@ import re
 # (^|[^a-zA-Z]+)[bB]($|[^a-zA-Z]+)
 #                 \__ utbytt mot riktig kod
 
-# re.compile()
+# r-sträng, behåller alla tecken som de är skrivna
+ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[^a-zA-Z]+)")
+
