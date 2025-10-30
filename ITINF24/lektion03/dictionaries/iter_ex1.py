@@ -33,7 +33,7 @@ while me["health"] > 0 and animal["health"] > 0:
         success = True if random.randint(1, 100) > 50 else False
         if success:
             print(me["sound"])
-            animal["health"] -= me["attack"]
+            animal = animal["health"] - me["attack"]
             print(
                 f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
             )
