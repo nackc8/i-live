@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
 )
 
 if __name__ == "__main__":
-    parser.parse_args()
+    parser.parse_args([])
 
 # - Definiera argument och flaggor med `ArgumentParser()`
 
