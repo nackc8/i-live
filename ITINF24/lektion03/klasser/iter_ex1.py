@@ -39,8 +39,8 @@ me = Me(15, 40, "Hej!")
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal.animal}")
-while mehealth > 0 and animal["health"] > 0:
-    print(f"Your health is {me['health']}, the animals health is {animal['health']}")
+while me.health > 0 and animal.health > 0:
+    print(f"Your health is {me.health}, the animals health is {animal['health']}")
     print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
 
     action = ""
@@ -51,10 +51,10 @@ while mehealth > 0 and animal["health"] > 0:
         success = True if random.randint(1, 100) > 50 else False
         if success:
             print(me["sound"])
-            next_animal_health = animal["health"]
+            next_animal_health = animal.health
             next_animal_health -= me["attack"]
-            animal["health"] = next_animal_health
-            if animal["health"] > 0:
+            animal.health = next_animal_health
+            if animal.health > 0:
                 print(
                     f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left."
                 )
@@ -72,7 +72,7 @@ while mehealth > 0 and animal["health"] > 0:
         me["health"] = next_me_health
         if me["health"] > 0:
             print(
-                f"You're hit for {animal['attack']}, you have {me['health']} health left."
+                f"You're hit for {animal['attack']}, you have {me.health} health left."
             )
         else:
             print(f"The {animal.animal} is hit for {me['attack']}, you are dead.")
@@ -81,10 +81,10 @@ while mehealth > 0 and animal["health"] > 0:
     else:
         print(f"The {animal.animal} missed!")
 
-if action == "f":
-    success_flee = True if random.randint(1, 100) > 50 else False
-    if success_flee:
-        print("You cowardly ran away!")
-        break
+    if action == "f":
+        success_flee = True if random.randint(1, 100) > 50 else False
+        if success_flee:
+            print("You cowardly ran away!")
+            break
 
 print("Game over")
