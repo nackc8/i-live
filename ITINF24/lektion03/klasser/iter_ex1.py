@@ -27,18 +27,18 @@ class Me:
 # armadillo    5            100         "Piiiiip!"
 
 animals = [
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
-    {"animal": "giraffe", "attack": 40, "health": 50, "sound": "..."},
-    {"animal": "monkey", "attack": 60, "health": 40, "sound": "Oh oh ah ah"},
-    {"animal": "pinguin", "attack": 10, "health": 10, "sound": "Meek! Meek!"},
-    {"animal": "armadillo", "attack": 5, "health": 100, "sound": "Piiiiip!"},
+    Animal("donkey", 20, 80, "Ihhohhh"),
+    Animal("giraffe", 40, 50, "..."),
+    Animal("monkey", 60, 40, "Oh oh ah ah"),
+    Animal("pinguin", 10, 10, "Meek! Meek!"),
+    Animal("armadillo", 5, 100, "Piiiiip!"),
 ]
 
 name = ""
 while name == "":
     name = input("What is your name? ")
 
-me = {"name": name, "attack": 15, "health": 40, "sound": "hej!"}
+me = Me(name, 15, 40, "hej!")
 
 animal = random.choice(animals)
 
