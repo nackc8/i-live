@@ -17,8 +17,8 @@ animals = [
     {"animal": "armadillo", "attack": 5, "health": 100, "sound": "Piiiiip!"},
 ]
 
-name=""
-while name == ""
+name = ""
+while name == "":
     name = input("What is your name? ")
 
 me = {"name": name, "attack": 15, "health": 40, "sound": "hej!"}
@@ -26,8 +26,10 @@ me = {"name": name, "attack": 15, "health": 40, "sound": "hej!"}
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal['animal']}")
-print(f"{animal["name"]}'s health is {me['health']}, its health is {animal['health']}")
-print(f"{me["name"]}'s attack is {me['attack']}, the animals attack is {animal['attack']}")
+print(f"{animal['name']}'s health is {me['health']}, its health is {animal['health']}")
+print(
+    f"{me['name']}'s attack is {me['attack']}, the animals attack is {animal['attack']}"
+)
 
 tried_to_flee = False
 while me["health"] > 0 and animal["health"] > 0:
@@ -48,7 +50,9 @@ while me["health"] > 0 and animal["health"] > 0:
                         f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
                     )
                 else:
-                    print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
+                    print(
+                        f"The {animal['animal']} is hit for {me['attack']}, it perished."
+                    )
                     continue
             else:
                 print(me["name"] + " missed!")
@@ -73,7 +77,8 @@ while me["health"] > 0 and animal["health"] > 0:
         tried_to_flee = True
         success_flee = True if random.randint(1, 100) > 50 else False
         if success_flee:
-            print(f"{me["name"]} cowardly ran away!")
+            print(f"{me['name']} cowardly ran away!")
             break
+    tried_to_flee = False
 
 print("Game over")
