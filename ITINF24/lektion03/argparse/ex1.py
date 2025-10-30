@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument("filename")
 
 if __name__ == "__main__":
-    parser.parse_args(sys.argv)
+    parser.parse_args()
 
 # - Definiera argument och flaggor med `ArgumentParser()`
 
