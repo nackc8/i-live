@@ -24,5 +24,5 @@ ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[a-zA-Z]+)")
 with open("test.txt") as file:
     content = file.read()
 
-    match = re.search(ord_re, content)
-    print(match)
+    for match in re.findall(ord_re, content):
+        print(match)
