@@ -25,4 +25,4 @@ with open("test.txt") as file:
     content = file.read()
 
     for match in re.findall(ord_re, content):
-        print(match)
+        print(match.groups[0])
