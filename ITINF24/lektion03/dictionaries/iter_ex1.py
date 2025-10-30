@@ -21,8 +21,6 @@ me = {"attack": 15, "health": 40, "sound": "hej!"}
 
 animal = random.choice(animals)
 
-print(animal)
-
 print(f"You encounter a wild {animal['animal']}")
 while me["health"] > 0 and animal["health"] > 0:
     print(f"Your health is {me['health']}, the animals health is {animal['health']}")
@@ -35,11 +33,11 @@ while me["health"] > 0 and animal["health"] > 0:
         success = True if random.randint(1, 100) > 50 else False
         if success:
             print(me["sound"])
-            ah = int(animal["health"])
-            ma = int(me["attack"])
-            print("ah", ah)
-            print("ma", ma)
-            animal = ah - ma
+            # ah = int(animal["health"])
+            # ma = int(me["attack"])
+            # print("ah", ah)
+            # print("ma", ma)
+            # animal = ah - ma
             print(
                 f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
             )
