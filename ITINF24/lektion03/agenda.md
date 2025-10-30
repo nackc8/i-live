@@ -16,6 +16,12 @@
 
     - Använda objekt och attribut
 
+- **Fel och utskrift**
+
+    - Skriva till `stderr` med `print(msg, file=sys.stderr)`
+
+    - Avsluta program med `sys.exit(kod)`
+
 - **Reguljära uttryck (`re`)**
 
     - Skapa mönster med `re.compile()`
@@ -29,15 +35,3 @@
     - Ömsesidigt uteslutande grupper (`add_mutually_exclusive_group()`)
 
     - Booleska flaggor och positionella argument
-
-- **Filhantering**
-
-    - Öppna filer med `with open()`
-
-    - Läsa innehåll radvis
-
-- **Fel och utskrift**
-
-    - Skriva till `stderr` med `print(msg, file=sys.stderr)`
-
-    - Avsluta program med `sys.exit(kod)`
