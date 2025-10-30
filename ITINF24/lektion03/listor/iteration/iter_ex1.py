@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
 
-print("Hej")
+animals = ["donkey", "giraffe", "monkey", "pinguin", "armadillo"]
+
