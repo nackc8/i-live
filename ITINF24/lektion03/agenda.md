@@ -2,7 +2,7 @@
 
 - **Listor**
 
-    - Skapa, iterera och filtrera element
+    - Skapa ✓, iterera ✓ och filtrera element ✓
 
     - Listkomprehension och `len()`
 
