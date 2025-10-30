@@ -2,6 +2,23 @@
 
 import random
 
+
+class Animal:
+    def __init__(self, animal, attack, health, sound):
+        self.animal = animal
+        self.attack = attack
+        self.health = health
+        self.sound = sound
+
+
+class Me:
+    def __init__(self, name, attack, health, sound):
+        self.name = name
+        self.attack = attack
+        self.health = health
+        self.sound = sound
+
+
 # Animal       Attack       Health      Sound
 # donkey       20           80          "Ihhohhh"
 # giraffe      40           50          "..."
