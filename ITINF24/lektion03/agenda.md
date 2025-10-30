@@ -4,7 +4,7 @@
 
     - Skapa ✓, iterera ✓ och filtrera element ✓
 
-    - Listkomprehension ✓ och `len()`
+    - Listkomprehension ✓ och `len()` ✓
 
 - **Dictionaries**
 
