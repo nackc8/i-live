@@ -33,8 +33,8 @@ while me["health"] > 0 and animal["health"] > 0:
         success = True if random.randint(1, 100) > 50 else False
         if success:
             print(me["sound"])
-            ah = animal["health"]
-            ma = me["attack"]
+            ah = int(animal["health"])
+            ma = int(me["attack"])
             print("ah", ah)
             print("ma", ma)
             animal = ah - ma
