@@ -31,26 +31,27 @@ print(f"{me["name"]}'s attack is {me['attack']}, the animals attack is {animal['
 
 tried_to_flee = False
 while me["health"] > 0 and animal["health"] > 0:
-    action = ""
-    while not (action == "a" or action == "f"):
-        action = input("Attack or flee (a/f)? ")
+    if not tried_to_flee:
+        action = ""
+        while not (action == "a" or action == "f"):
+            action = input("Attack or flee (a/f)? ")
 
-    if action.lower() == "a":
-        success = True if random.randint(1, 100) > 50 else False
-        if success:
-            print(me["name"] + ": " + me["sound"])
-            next_animal_health = animal["health"]
-            next_animal_health -= me["attack"]
-            animal["health"] = next_animal_health
-            if animal["health"] > 0:
-                print(
-                    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
-                )
+        if action.lower() == "a":
+            success = True if random.randint(1, 100) > 50 else False
+            if success:
+                print(me["name"] + ": " + me["sound"])
+                next_animal_health = animal["health"]
+                next_animal_health -= me["attack"]
+                animal["health"] = next_animal_health
+                if animal["health"] > 0:
+                    print(
+                        f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+                    )
+                else:
+                    print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
+                    continue
             else:
-                print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
-                continue
-        else:
-            print(me["name"] + " missed!")
+                print(me["name"] + " missed!")
 
     animal_success = True if random.randint(1, 100) > 50 else False
     if animal_success:
