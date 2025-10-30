@@ -2,6 +2,6 @@
 
 animals = ["donkey", "giraffe", "monkey", "pinguin", "armadillo"]
 
-good_animals = animals
+good_animals = [animal for animal in animals]
 
 print(good_animals)
