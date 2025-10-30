@@ -29,6 +29,7 @@ print(f"You encounter a wild {animal['animal']}")
 print(f"{animal["name"]}'s health is {me['health']}, its health is {animal['health']}")
 print(f"{me["name"]}'s attack is {me['attack']}, the animals attack is {animal['attack']}")
 
+tried_to_flee = False
 while me["health"] > 0 and animal["health"] > 0:
     action = ""
     while not (action == "a" or action == "f"):
