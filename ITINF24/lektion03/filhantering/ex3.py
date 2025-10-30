@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 # Vi använder en Path, for att kolla undersöka saker
-filename = Path("test.txt")
+filename = Path("testmissing.txt")
 
 if not filename.exists():
     print(f"The file '{filename}' does not exist", file=sys.stderr)
