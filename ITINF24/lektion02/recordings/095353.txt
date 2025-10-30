@@ -1,0 +1,124 @@
+Script started on 2025-10-28 09:54:02+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="63" LINES="9"]
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ ls
+[?2004lagenda.md  args  recordings
+[?2004h[94mITINF24/lektion02
+(B[m$ [H[2J[94mITINF24/lektion02
+(B[m$ cd args/
+[?2004l[?2004h[94mITINF24/lektion02/args
+(B[m$ [H[2J[94mITINF24/lektion02/args
+(B[m$ ls
+[?2004lskriptmall
+[?2004h[94mITINF24/lektion02/args
+(B[m$ bash skriptmall 
+[?2004lHello
+[?2004h[94mITINF24/lektion02/args
+(B[m$ [H[2J[94mITINF24/lektion02/args
+(B[m$ chmod +[Ka+[C[Cx skriptmall 
+[?2004l[?2004h[94mITINF24/lektion02/args
+(B[m$ ls -l 
+[?2004ltotal 4
+-rwxr-xr-x 1 kent kent 24 Oct 28 09:54 skriptmall
+[?2004h[94mITINF24/lektion02/args
+(B[m$ [H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter Bosse
+[?2004lHello Bosse
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter Bosse[K[K[K[K[KKent[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent
+[?2004lHello Bosse
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent
+[?2004lHello Kent
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent Emmanuel
+[?2004lHello Kent
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent Emmanuel[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter Kent Emmanuel[1@2
+[?2004lHello Kent
+Hello Emmanuel
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter2 Kent Emmanuel[1P[1@3[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter3 Kent Emmanuel[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lHello Kent
+Hello Kent
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter3 Kent Emmanuel[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter3 Kent Emmanuel
+[?2004lHello Kent
+Hello Emmanuel
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./greeter3 Kent Emmanuel Johan Erik[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter3 Kent Emmanuel Johan Erik
+[?2004lHello Kent
+Hello Emmanuel
+Hello Johan
+Hello Erik
+[?2004h[94mITINF24/lektion02/args
+(B[m$ [H[2J[94mITINF24/lektion02/args
+(B[m$ ./argpassthrough -l [K
+[?2004ltotal 16
+-rwxr-xr-x 1 kent kent 21 Oct 28 10:02 argpassthrough
+-rwxr-xr-x 1 kent kent 29 Oct 28 09:56 greeter
+-rwxr-xr-x 1 kent kent 45 Oct 28 09:57 greeter2
+-rwxr-xr-x 1 kent kent 51 Oct 28 10:01 greeter3
+[?2004h[94mITINF24/lektion02/args
+(B[m$ ./argpassthrough -l recordings[K[K[K[K[K[K[K[K[K[K../recordings/[H[2J[94mITINF24/lektion02/args
+(B[m$ ./argpassthrough -l ../recordings/
+[?2004ltotal 0
+-rw-r--r-- 1 kent kent 0 Oct 28 09:54 095353_timing.txt
+-rw-r--r-- 1 kent kent 0 Oct 28 09:54 095353.txt
+[?2004h[94mITINF24/lektion02/args
+(B[m$ (reverse-i-search)`': g': ./argpassthrough -l ../recordin[7mg[27ms/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr': ./[7mgr[27meeter3 Kent Emmanuel Johan Erik[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e': ./[7mgre[27m[Cfailed reverse-i-search)`gret': ./greeter3 Kent Emmanuel Johan Erik[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26P(B[m$ ./greeter3 Kent Emmanuel Johan Erik
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@4[H[2J[94mITINF24/lektion02/args
+(B[m$ ./greeter4 Kent Emmanuel Johan Erik[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lHello Kent
+Hello Emmanuel
+Hello Johan
+Hello Erik
+I welcome all 4 of you!
+[?2004h[94mITINF24/lektion02/args
+(B[m$ [H[2J[94mITINF24/lektion02/args
+(B[m$ echo $X
+[?2004l
+[?2004h[94mITINF24/lektion02/args
+(B[m$ bash[H[2J[94mITINF24/lektion02/args
+(B[m$ bash sour[K[K[K[K[K[K[K[K[Kcdd[K ../source/
+[?2004l[?2004h[94mITINF24/lektion02/source
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh 
+[?2004l[?2004h[94mITINF24/lektion02/source
+(B[m$ ech [Ko $X
+[?2004l
+[?2004h[94mITINF24/lektion02/source
+(B[m$ echo $X[C[Cbash sourceme.sh [H[2J[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh 
+[?2004lJag körs!
+[?2004h[94mITINF24/lektion02/source
+(B[m$ bash sourceme.sh [C[C[10Pecho $X
+[?2004l
+[?2004h[94mITINF24/lektion02/source
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ source sourceme.sh 
+[?2004lJag körs!
+[?2004h[94mITINF24/lektion02/source
+(B[m$ source sourceme.sh [C[C[12Pecho $X
+[?2004l123
+[?2004h[94mITINF24/lektion02/source
+(B[m$ [H[2J[94mITINF24/lektion02/source
+(B[m$ code ~/.bashrc
+[?2004l[?2004h[94mITINF24/lektion02/source
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ code ~/.bashrc[C[C[C[C[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrcs ~/.bashrco ~/.bashrcu ~/.bashrcr ~/.bashrcc ~/.bashrce ~/.bashrc[H[2J[94mITINF24/lektion02/source
+(B[m$ source ~/.bashrc[C[C[C[C[C[C[C[C
+[?2004l[?2004h
+[1;36mITINF24/lektion02/source[0m on [1;35m 251028[0m 
+[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [K[1;32m❯[0m [H[2J
+[1;36mITINF24/lektion02/source[0m on [1;35m 251028[0m 
+[1;32m❯[0m [?2004l
+exit
+
+Script done on 2025-10-28 10:13:45+01:00 [COMMAND_EXIT_CODE="0"]

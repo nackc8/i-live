@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>101352.txt</title>
+</head>
+<body>
+<pre>Script started on 2025-10-28 10:14:03+01:00 [TERM=&quot;xterm-256color&quot; TTY=&quot;/dev/pts/0&quot; COLUMNS=&quot;63&quot; LINES=&quot;12&quot;]
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">">ITINF24/lektion02
+</span>$ ls
+agenda.md  args  recordings  skriptmall  source
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+</span>$ X=123
+<span style="color:#5c5cff;">ITINF24/lektion02
+</span>$ echo &quot;Jag k;rörs!
+&gt; ��&quot;
+Jag körs!
+
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+</span>$ bash source/sourceme.sh 
+Jag körs!
+Stopp^Z
+[1]+  Stopped                 bash source/sourceme.sh
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+</span>$ jobs
+[1]+  Stopped                 bash source/sourceme.sh
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">">ITINF24/lektion02
+</span>$ ps -e | less
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+     18 ?        00:00:00 cpuhp/0
+     19 ?        00:00:00 cpuhp/1
+     20 ?        00:00:00 migration/1
+     21 ?        00:00:00 ksoftirqd/1
+     23 ?        00:00:00 kworker/1:0H-events_highpri
+     24 ?        00:00:00 cpuhp/2
+     25 ?        00:00:00 migration/2
+     26 ?        00:00:00 ksoftirqd/2
+     28 ?        00:00:00 kworker/2:0H-events_highpri
+     29 ?        00:00:00 cpuhp/3
+     30 ?        00:00:00 migration/3
+     31 ?        00:00:00 ksoftirqd/3
+M     13 ?        00:00:00 rcu_tasks_trace_kthread
+M     12 ?        00:00:00 rcu_tasks_rude_kthread
+M     11 ?        00:00:00 rcu_tasks_kthread
+M     10 ?        00:00:00 mm_percpu_wq
+M      8 ?        00:00:00 kworker/0:0H-events_highpri
+M      6 ?        00:00:00 netns
+M      5 ?        00:00:00 slub_flushwq
+M      4 ?        00:00:00 rcu_par_gp
+M      3 ?        00:00:00 rcu_gp
+M      2 ?        00:00:00 kthreadd
+M      1 ?        00:00:01 systemd
+M    PID TTY          TIME CMD
+ ESESCOA
+ ESESCOA
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+<span style="color:#000000;background-color:#000000;"> ESESCESESC found  (press RETURN)</span><span style="color:#000000;background-color:#000000;">
+
+
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF24/lektion02
+</span>$ ps -e | lesf
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/<span style="color:#000000;background-color:#000000;">sourceme</span><span style="color:#000000;background-color:#000000;">.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="color:#000000;background-color:#000000;">Mroot       84235       2  0 11:04 ?        00:00:00 [kworker/7:1-events]
+<span style="color:#000000;background-color:#000000;">Mient]OAspan style="color:#000000;background-color:#000000;">(END)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       83561       2  0 11:02 ?        00:00:00 [kworker/0:2-events]<span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       83472       2  0 11:02 ?        00:00:00 [kworker/6:0]</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       83458       2  0 11:02 ?        00:00:00 [kworker/1:0-mm_percpu_wq]style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       83242       2  0 11:02 ?        00:00:00 [kworker/u25:4+i915_flip] style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       82048       2  0 11:00 ?        00:00:00 [kworker/8:2-mm_percpu_wq]style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M027-170045.450000="color:#000000;background-color:#000000;">(END)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       80833       2  0 10:58 ?        00:00:00 [kworker/u24:4-kcryptd/253:0]yp="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">Mroot       80706       2  0 10:58 ?        00:00:00 [kworker/5:1-mm_percpu_wq]
+<span style="color:#000000;background-color:#000000;">Mroot       80551       2  0 10:58 ?        00:00:00 [kworker/2:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       80498       2  0 10:58 ?        00:00:01 [kworker/7:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       79789       2  0 10:57 ?        00:00:01 [kworker/u25:2-rb_allocator]
+<span style="color:#000000;background-color:#000000;">Mroot       79690       2  0 10:56 ?        00:00:00 [kworker/3:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       79574       2  0 10:56 ?        00:00:00 [kworker/0:1-events]
+<span style="color:#000000;background-color:#000000;">Mroot       79529       2  0 10:56 ?        00:00:00 [kworker/6:1-events]
+<span style="color:#000000;background-color:#000000;">Mroot       78184       2  0 10:54 ?        00:00:00 [kworker/8:1-events]
+<span style="color:#000000;background-color:#000000;">Mroot       77596       2  0 10:53 ?        00:00:00 [kworker/10:1-mm_percpu_wq]
+<span style="color:#000000;background-color:#000000;">Mroot       76763       2  0 10:51 ?        00:00:00 [kworker/11:2]
+<span style="color:#000000;background-color:#000000;">Mroot       76479       2  0 10:51 ?        00:00:00 [kworker/9:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       76386       2  0 10:51 ?        00:00:00 [kworker/6:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       76259       2  0 10:51 ?        00:00:00 [kworker/2:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+<span style="color:#000000;background-color:#000000;">Mroot       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+<span style="color:#000000;background-color:#000000;">Mroot       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+<span style="color:#000000;background-color:#000000;">Mroot       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+<span style="color:#000000;background-color:#000000;">Mroot       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+<span style="color:#000000;background-color:#000000;">Mroot       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+<span style="color:#000000;background-color:#000000;">Mroot       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+<span style="color:#000000;background-color:#000000;">Mroot       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+<span style="color:#000000;background-color:#000000;">Mroot       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+<span style="color:#000000;background-color:#000000;">Mkent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+<span style="color:#000000;background-color:#000000;">Ms/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+<span style="color:#000000;background-color:#000000;">M01352.txt --timing=recordings/101352_timing.txt0:00 /bin/bash /shared/kent/Document
+<span style="color:#000000;background-color:#000000;">Mles/educator/present_dot_bashrc14 pts/0    00:00:00 script -q --return recordings/1
+<span style="color:#000000;background-color:#000000;">Mroot       49573       2  0 10:08 ?        00:00:02 [kworker/u24:9-kcryptd/253:0]fi
+<span style="color:#000000;background-color:#000000;">Mroot       42010       2  0 09:57 ?        00:00:02 [kworker/u24:6-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot       40939       2  0 09:55 ?        00:00:03 [kworker/u24:5-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot       34539       2  0 09:47 ?        00:00:03 [kworker/u24:7-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot       29635       2  0 09:38 ?        00:00:00 [kworker/1:2-events]
+<span style="color:#000000;background-color:#000000;">Mroot       23702       2  0 09:30 ?        00:00:03 [kworker/u24:3-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mode-ipc --clientProcessId=7032
+<span style="color:#000000;background-color:#000000;">M7-170045.4500002    7032  0 09:23 ?        00:00:00 /usr/share/code/code /usr/share
+<span style="color:#000000;background-color:#000000;">M-170045.45000046    4954  0 09:22 ?        00:00:09 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M27-170045.450000    4954  0 09:22 ?        00:00:21 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M170045.450000171    4954  0 09:22 ?        00:00:21 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Mtocommit --wait-branch54  0 09:15 ?        00:00:37 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Mser/1000/keyring/.ssh017  0 09:13 pts/2    00:00:00 /bin/bash .profiles/educator/au
+<span style="color:#000000;background-color:#000000;">MRendererForSitePerProcess --variations-seed-version /usr/bin/ssh-agent -D -a /run/u
+<span style="color:#000000;background-color:#000000;">MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+<span style="color:#000000;background-color:#000000;">MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+<span style="color:#000000;background-color:#000000;">MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+<span style="color:#000000;background-color:#000000;">MoteSCOA     6990    6843  0 09:13 ?        00:00:05 /proc/self/exe --type=utility -
+<span style="color:#000000;background-color:#000000;">Mled,SpareRendererForSitePerProcess --variations-seed-versionre/code/code --type=zyg
+<span style="color:#000000;background-color:#000000;">Mote --no-zygote-sandbox3  0 09:13 ?        00:00:01 /proc/self/exe --type=utility -
+<span style="color:#000000;background-color:#000000;">MionSCOA     6903    6869  4 09:13 ?        00:04:49 /usr/share/code/code --type=zyg
+<span style="color:#000000;background-color:#000000;">MoteSCOA     6887    3826  0 09:13 ?        00:00:00 /usr/share/code/chrome_crashpad426c-871
+<span style="color:#000000;background-color:#000000;">MoteSCOA     6872    6870  0 09:13 ?        00:00:00 /usr/share/code/code --type=zyg
+<span style="color:#000000;background-color:#000000;">Mote --no-zygote-sandbox3  0 09:13 ?        00:00:00 /usr/share/code/code --type=zyg
+<span style="color:#000000;background-color:#000000;">Mkent        6843    3826  0 09:13 ?        00:00:39 /usr/share/code/code .-type=zyg
+<span style="color:#000000;background-color:#000000;">Mroot        6544       2  0 09:13 ?        00:00:18 [kworker/u25:0-hci0]
+<span style="color:#000000;background-color:#000000;">Mroot        6206       2  0 09:12 ?        00:00:07 [kworker/u24:1-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mner :1.6 /org/gtk/gvfs/exec_spaw/0
+<span style="color:#000000;background-color:#000000;">Mication-service4    3881  0 09:12 ?        00:00:00 /usr/libexec/gvfsd-trash --spaw
+<span style="color:#000000;background-color:#000000;">Mroot        5890       2  0 09:06 ?        00:00:00 [kworker/11:0-mm_percpu_wq]appl
+<span style="color:#000000;background-color:#000000;">M-170045.450000
+<span style="color:#000000;background-color:#000000;">Med-version=20251027-170045.450000 ?        00:00:01 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M7-170045.4500006    4931  0 09:01 ?        00:00:00 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M-170045.45000046    4954  0 09:01 ?        00:00:00 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Meed-version=20251027-170045.450000?        00:00:00 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Mkent        5164    3826  0 09:01 ?        00:00:00 /usr/libexec/ibus-x11rome --typ
+<span style="color:#000000;background-color:#000000;">Mseed-version=20251027-170045.450000
+<span style="color:#000000;background-color:#000000;">Md-version=20251027-170045.4500001 ?        00:00:01 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Meed-version=20251027-170045.450000?        00:00:01 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Mkent        5050    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-xsettings--typ
+<span style="color:#000000;background-color:#000000;">Mions-seed-version=20251027-170045.450000
+<span style="color:#000000;background-color:#000000;">Mns-seed-version=20251027-170045.450000     00:00:00 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M4 -listenfd 5 -displayfd 6 -initfd 7       00:00:31 /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M170045.450000003    4087  1 09:01 ?        00:01:33 /usr/bin/Xwayland :0 -rootless 
+<span style="color:#000000;background-color:#000000;">M4-2c5c9dbd066b, --change-stack-guard-on-fork=enable /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M4-2c5c9dbd066b, --change-stack-guard-on-fork=enable /opt/google/chrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">M0de8f2-a765-4c3c-90f4-2c5c9dbd066b, --change-stack-guard-on-fork=enablechrome --typ
+<span style="color:#000000;background-color:#000000;">M=141.0.7390.122 --initial-client-fd=4 --shared-client-connectionchrome/chrome --typ
+<span style="color:#000000;background-color:#000000;">Mhared-client-connection6  0 09:01 ?        00:00:00 /opt/google/chrome/chrome_crash
+<span style="color:#000000;background-color:#000000;">Mkent        4938    4931  0 09:01 ?        00:00:00 catt/google/chrome/chrome_crash
+<span style="color:#000000;background-color:#000000;">Mkent        4937    4931  0 09:01 ?        00:00:00 cat
+<span style="color:#000000;background-color:#000000;">Mkent        4931    4087  1 09:01 ?        00:01:18 /opt/google/chrome/chrome
+<span style="color:#000000;background-color:#000000;">Mroot        4806       1  0 09:01 ?        00:00:01 /usr/libexec/fwupd/fwupd
+<span style="color:#000000;background-color:#000000;">MtionCOA
+<span style="color:#000000;background-color:#000000;">Mec/xdg-desktop-portal-kde 0 09:01 ?        00:00:00 /usr/sbin/uuidd --socket-activa
+<span style="color:#000000;background-color:#000000;">M-gtkCOA     4731    3826  0 09:01 ?        00:00:00 /usr/lib/x86_64-linux-gnu/libex
+<span style="color:#000000;background-color:#000000;">Man-tray     4687    3826  0 09:01 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+<span style="color:#000000;background-color:#000000;">Mkent        4674    3826  0 09:01 ?        00:00:00 /usr/libexec/bluetooth/obexduem
+<span style="color:#000000;background-color:#000000;">M-gnomeA
+<span style="color:#000000;background-color:#000000;">Mfsname=portal,auto_unmount,subtype=portal -- /run/user/1000/docc/xdg-desktop-portal
+<span style="color:#000000;background-color:#000000;">MlSESCOA     4622    4617  0 09:01 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,
+<span style="color:#000000;background-color:#000000;">Mkent        4604    3826  0 09:01 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+<span style="color:#000000;background-color:#000000;">Mkent        4570    4358  0 09:01 ?        00:00:00 /usr/libexec/ibus-engine-simple
+<span style="color:#000000;background-color:#000000;">Mkent        4510    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-printer
+<span style="color:#000000;background-color:#000000;">Mhell/org.gnome.ScreenSaver
+<span style="color:#000000;background-color:#000000;">Mkent        4455    3826  0 09:01 ?        00:00:00 /usr/libexec/ibus-portalgnome-s
+<span style="color:#000000;background-color:#000000;">M3SESCOA
+<span style="color:#000000;background-color:#000000;">MotifyOA     4450    4358  0 09:01 ?        00:00:01 /usr/libexec/ibus-extension-gtk
+<span style="color:#000000;background-color:#000000;">Mkent        4446    4358  0 09:01 ?        00:00:00 /usr/libexec/ibus-dconftility-n
+<span style="color:#000000;background-color:#000000;">Mication-service
+<span style="color:#000000;background-color:#000000;">Man-applet   4443    4063  0 09:01 ?        00:00:06 /usr/bin/gnome-software --gappl
+<span style="color:#000000;background-color:#000000;">Mkent        4404    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-wacombin/bluem
+<span style="color:#000000;background-color:#000000;">Mkent        4400    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-usb-protection
+<span style="color:#000000;background-color:#000000;">Mkent        4398    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-sound
+<span style="color:#000000;background-color:#000000;">Mkent        4391    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-smartcard
+<span style="color:#000000;background-color:#000000;">Mkent        4389    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-sharing
+<span style="color:#000000;background-color:#000000;">MoxySCOA
+<span style="color:#000000;background-color:#000000;">Mkent        4386    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-rfkillsaver-pr
+<span style="color:#000000;background-color:#000000;">MtionsOA
+<span style="color:#000000;background-color:#000000;">Mkent        4381    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-power-notifica
+<span style="color:#000000;background-color:#000000;">Mkent        4377    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-media-keys
+<span style="color:#000000;background-color:#000000;">Mver/evolution-alarm-notify
+<span style="color:#000000;background-color:#000000;">Mkent        4371    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-keyboardta-ser
+<span style="color:#000000;background-color:#000000;">Mkent        4368    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-housekeeping
+<span style="color:#000000;background-color:#000000;">Mkent        4362    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-datetime
+<span style="color:#000000;background-color:#000000;">Mkent        4360    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-color
+<span style="color:#000000;background-color:#000000;">MsableOA
+<span style="color:#000000;background-color:#000000;">Mkent        4356    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-a11y-settingsi
+<span style="color:#000000;background-color:#000000;">Mnel disable $([ &quot;$XDG_SESSION_TYPE&quot; = &quot;x11&quot; ] &amp;&amp; echo &quot;--xim&quot;)
+<span style="color:#000000;background-color:#000000;">M--use-gnome-session 3826  0 09:01 ?        00:00:00 sh -c /usr/bin/ibus-daemon --pa
+<span style="color:#000000;background-color:#000000;">Mhell/org.gnome.Shell.Notifications?        00:00:00 /usr/libexec/at-spi2-registryd 
+<span style="color:#000000;background-color:#000000;">Mook-factory 4331    3826  0 09:01 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-s
+<span style="color:#000000;background-color:#000000;">Mkent        4303    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfsd-metadataessb
+<span style="color:#000000;background-color:#000000;">M-factory
+<span style="color:#000000;background-color:#000000;">Mkent        4279    3826  0 09:01 ?        00:00:00 /usr/libexec/dconf-serviceendar
+<span style="color:#000000;background-color:#000000;">Megistry
+<span style="color:#000000;background-color:#000000;">Mar-server   4271    3826  0 09:01 ?        00:00:00 /usr/libexec/evolution-source-r
+<span style="color:#000000;background-color:#000000;">MreESCOA     4264    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-shell-calend
+<span style="color:#000000;background-color:#000000;">Mdress=unix:path=/run/user/1000/at-spi/bus  00:00:00 /usr/libexec/xdg-permission-sto
+<span style="color:#000000;background-color:#000000;">Mkent        4087    3826  5 09:01 ?        00:06:29 /usr/bin/gnome-shell --config-f
+<span style="color:#000000;background-color:#000000;">Mr --launch-immediately
+<span style="color:#000000;background-color:#000000;">Mry --systemd-service --session=gnome       00:00:00 /usr/libexec/at-spi-bus-launche
+<span style="color:#000000;background-color:#000000;">MnitorOA     4063    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-session-bina
+<span style="color:#000000;background-color:#000000;">Mopenssh_agent053    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-afc-volume-mo
+<span style="color:#000000;background-color:#000000;">M--monitor   4049    3826  0 09:01 ?        00:00:00 ssh-agent -D -a /run/user/1000/
+<span style="color:#000000;background-color:#000000;">MceESCOA     4046    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-session-ctl 
+<span style="color:#000000;background-color:#000000;">M/user/1000/gcr39    3826  0 09:01 ?        00:00:00 /usr/libexec/goa-identity-servi
+<span style="color:#000000;background-color:#000000;">Mkent        4007    3826  0 09:01 ?        00:00:00 /usr/libexec/goa-daemonent /run
+<span style="color:#000000;background-color:#000000;">MnitorOA
+<span style="color:#000000;background-color:#000000;">MnitorOA     3999    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-goa-volume-mo
+<span style="color:#000000;background-color:#000000;">Me-monitor   3981    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-mo
+<span style="color:#000000;background-color:#000000;">MryESCOA     3977    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volum
+<span style="color:#000000;background-color:#000000;">Mn /usr/bin/gnome-session  0 09:01 tty2     00:00:00 /usr/libexec/gnome-session-bina
+<span style="color:#000000;background-color:#000000;">Me-monitor   3954    3812  0 09:01 tty2     00:00:00 /usr/libexec/gdm-wayland-sessio
+<span style="color:#000000;background-color:#000000;">Mkent        3944    3826  0 09:01 ?        00:00:00 /usr/libexec/tracker-miner-fs-3
+<span style="color:#000000;background-color:#000000;">Mer/1000/gvfs -f
+<span style="color:#000000;background-color:#000000;">Mkent        3881    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/us
+<span style="color:#000000;background-color:#000000;">M--address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+<span style="color:#000000;background-color:#000000;">Mx-lnx.x86_64-235.4.5905/dropbox01 ?        00:00:00 /usr/bin/dbus-daemon --session 
+<span style="color:#000000;background-color:#000000;">M-foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyringo
+<span style="color:#000000;background-color:#000000;">Mkent        3864    3826  0 09:01 ?        00:00:00 /usr/bin/pipewire-pulsedaemon -
+<span style="color:#000000;background-color:#000000;">Mkent        3863    3826  0 09:01 ?        00:00:00 /usr/bin/wireplumber
+<span style="color:#000000;background-color:#000000;">Mkent        3860    3826  0 09:01 ?        00:00:00 /usr/bin/pipewire
+<span style="color:#000000;background-color:#000000;">Mkent        3827    3826  0 09:01 ?        00:00:00 (sd-pam)
+<span style="color:#000000;background-color:#000000;">Mkent        3826       1  0 09:01 ?        00:00:03 /lib/systemd/systemd --user
+<span style="color:#000000;background-color:#000000;">Msword]A
+<span style="color:#000000;background-color:#000000;">MDebian-+    3720       1  0 09:01 ?        00:00:00 /usr/sbin/exim4 -bd -q30mdm-pas
+<span style="color:#000000;background-color:#000000;">Mroot        3451       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3450       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3449       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3448       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3447       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3446       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3445       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3444       2  0 09:01 ?        00:00:00 [nfsd]
+<span style="color:#000000;background-color:#000000;">Mroot        3179       2  0 09:01 ?        00:00:00 [lockd]
+<span style="color:#000000;background-color:#000000;">Mstatd       3147       1  0 09:01 ?        00:00:00 /sbin/rpc.statd
+<span style="color:#000000;background-color:#000000;">Mroot        3145       1  0 09:01 ?        00:00:00 /usr/sbin/rpc.mountd
+<span style="color:#000000;background-color:#000000;">Mtainerd=/run/containerd/containerd.sock
+<span style="color:#000000;background-color:#000000;">Mroot        3122       1  0 09:01 ?        00:00:00 /usr/sbin/cups-browsed:// --con
+<span style="color:#000000;background-color:#000000;">Mcolord      2718       1  0 09:01 ?        00:00:00 /usr/libexec/colord
+<span style="color:#000000;background-color:#000000;">Mgeoclue     2694       1  0 09:01 ?        00:00:02 /usr/libexec/geoclue
+<span style="color:#000000;background-color:#000000;">Mroot        2620       1  0 09:01 ?        00:00:00 /usr/libexec/upowerd
+<span style="color:#000000;background-color:#000000;">Mroot        2608       2  0 09:01 ?        00:00:00 [krfcommd]
+<span style="color:#000000;background-color:#000000;">Mlibvirt_leaseshelper
+<span style="color:#000000;background-color:#000000;">Mlibvirt_leaseshelper2603  0 09:01 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/
+<span style="color:#000000;background-color:#000000;">Mrtkit       2315       1  0 09:01 ?        00:00:00 /usr/libexec/rtkit-daemonfile=/
+<span style="color:#000000;background-color:#000000;">Mroot        2301       2  0 09:01 ?        00:00:00 [iprt-VBoxTscThread]
+<span style="color:#000000;background-color:#000000;">Mroot        2300       2  0 09:01 ?        00:00:00 [iprt-VBoxWQueue]
+<span style="color:#000000;background-color:#000000;">Mroot        2005       1  0 09:01 ?        00:00:00 /usr/sbin/gdm3
+<span style="color:#000000;background-color:#000000;">Mer] 0 of 10-100 startups
+<span style="color:#000000;background-color:#000000;">Mroot        1948       1  0 09:01 ?        00:00:07 /usr/bin/containerdd -D [listen
+<span style="color:#000000;background-color:#000000;">M641SCOA
+<span style="color:#000000;background-color:#000000;">Mroot        1935       1  0 09:01 ?        00:00:00 /usr/sbin/cupsd -led --state=/v
+<span style="color:#000000;background-color:#000000;">Mroot        1921       1  0 09:01 ?        00:00:00 /usr/libexec/boltd
+<span style="color:#000000;background-color:#000000;">Mroot        1920       1  0 09:01 ?        00:00:00 /usr/sbin/ModemManager
+<span style="color:#000000;background-color:#000000;">MIR=/run/wpa_supplicant GROUP=netdev
+<span style="color:#000000;background-color:#000000;">Mroot        1873       2  0 09:01 ?        00:00:00 [psimon]a_supplicant -u -s -O D
+<span style="color:#000000;background-color:#000000;">MaemonOA
+<span style="color:#000000;background-color:#000000;">Mavahi       1820    1781  0 09:01 ?        00:00:00 avahi-daemon: chroot helperno-d
+<span style="color:#000000;background-color:#000000;">Mroot        1811       1  0 09:01 ?        00:00:00 /usr/libexec/udisks2/udisksd
+<span style="color:#000000;background-color:#000000;">Mroot        1809       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-machined
+<span style="color:#000000;background-color:#000000;">Mroot        1805       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-logind
+<span style="color:#000000;background-color:#000000;">Mroot        1802       1  0 09:01 ?        00:00:00 /usr/libexec/switcheroo-control
+<span style="color:#000000;background-color:#000000;">Mroot        1799       1  0 09:01 ?        00:00:00 /usr/sbin/smartd -n
+<span style="color:#000000;background-color:#000000;">MmonSCOA
+<span style="color:#000000;background-color:#000000;">MdebugOA     1796       1  0 09:01 ?        00:00:00 /usr/libexec/power-profiles-dae
+<span style="color:#000000;background-color:#000000;">Mroot        1791       1  0 09:01 ?        00:00:00 /usr/libexec/low-memory-monitor
+<span style="color:#000000;background-color:#000000;">M-address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+<span style="color:#000000;background-color:#000000;">Mroot        1786       1  0 09:01 ?        00:00:00 /usr/sbin/cron -fmon --system -
+<span style="color:#000000;background-color:#000000;">MhdESCOA
+<span style="color:#000000;background-color:#000000;">Mal]SCOA     1784       1  0 09:01 ?        00:00:00 /usr/libexec/bluetooth/bluetoot
+<span style="color:#000000;background-color:#000000;">Mroot        1776       1  0 09:01 ?        00:00:00 /usr/libexec/accounts-daemonloc
+<span style="color:#000000;background-color:#000000;">Mroot        1771       1  0 09:01 ?        00:00:00 /usr/sbin/nfsdcld
+<span style="color:#000000;background-color:#000000;">Mroot        1770       1  0 09:01 ?        00:00:00 /usr/sbin/rpc.idmapd
+<span style="color:#000000;background-color:#000000;">Mroot        1768       1  0 09:01 ?        00:00:00 /usr/sbin/blkmapd
+<span style="color:#000000;background-color:#000000;">Msystemd+    1764       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-timesyncd
+<span style="color:#000000;background-color:#000000;">M_rpc        1760       1  0 09:01 ?        00:00:00 /sbin/rpcbind -f -w
+<span style="color:#000000;background-color:#000000;">Mroot        1727       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+<span style="color:#000000;background-color:#000000;">Mroot        1726       2  0 09:01 ?        00:00:00 [jbd2/dm-1-8]
+<span style="color:#000000;background-color:#000000;">Mroot        1718       2  0 09:01 ?        00:00:00 [dmcrypt_write/253:1]
+<span style="color:#000000;background-color:#000000;">Mroot        1717       2  0 09:01 ?        00:00:00 [kcryptd/253:1]
+<span style="color:#000000;background-color:#000000;">Mroot        1716       2  0 09:01 ?        00:00:00 [kcryptd_io/253:]
+<span style="color:#000000;background-color:#000000;">Mroot        1715       2  0 09:01 ?        00:00:00 [kdmflush/253:1]
+<span style="color:#000000;background-color:#000000;">Mroot        1578       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+<span style="color:#000000;background-color:#000000;">Mroot        1577       2  0 09:01 ?        00:00:00 [jbd2/nvme0n1p5-8]
+<span style="color:#000000;background-color:#000000;">Mroot        1495       2  0 09:01 ?        00:00:00 [irq/191-AudioDSP]
+<span style="color:#000000;background-color:#000000;">Mroot        1483       2  0 09:01 ?        00:00:14 [kworker/u25:1-hci0]
+<span style="color:#000000;background-color:#000000;">Mroot        1468       2  0 09:01 ?        00:00:00 [irq/190-iwlwifi:exception]
+<span style="color:#000000;background-color:#000000;">Mroot        1467       2  0 09:01 ?        00:00:02 [irq/189-iwlwifi:queue_12]
+<span style="color:#000000;background-color:#000000;">Mroot        1466       2  0 09:01 ?        00:00:03 [irq/188-iwlwifi:queue_11]
+<span style="color:#000000;background-color:#000000;">Mroot        1465       2  0 09:01 ?        00:00:01 [irq/187-iwlwifi:queue_10]
+<span style="color:#000000;background-color:#000000;">Mroot        1464       2  0 09:01 ?        00:00:08 [irq/186-iwlwifi:queue_9]
+<span style="color:#000000;background-color:#000000;">Mroot        1463       2  0 09:01 ?        00:00:05 [irq/185-iwlwifi:queue_8]
+<span style="color:#000000;background-color:#000000;">Mroot        1462       2  0 09:01 ?        00:00:04 [irq/184-iwlwifi:queue_7]
+<span style="color:#000000;background-color:#000000;">Mroot        1461       2  0 09:01 ?        00:00:03 [irq/183-iwlwifi:queue_6]
+<span style="color:#000000;background-color:#000000;">Mroot        1460       2  0 09:01 ?        00:00:05 [irq/182-iwlwifi:queue_5]
+<span style="color:#000000;background-color:#000000;">Mroot        1459       2  0 09:01 ?        00:00:02 [irq/181-iwlwifi:queue_4]
+<span style="color:#000000;background-color:#000000;">Mroot        1458       2  0 09:01 ?        00:00:03 [irq/180-iwlwifi:queue_3]
+<span style="color:#000000;background-color:#000000;">Mroot        1457       2  0 09:01 ?        00:00:02 [irq/179-iwlwifi:queue_2]
+<span style="color:#000000;background-color:#000000;">Mroot        1455       2  0 09:01 ?        00:00:11 [irq/178-iwlwifi:queue_1]
+<span style="color:#000000;background-color:#000000;">Mroot        1454       2  0 09:01 ?        00:00:12 [irq/177-iwlwifi:default_queue]
+<span style="color:#000000;background-color:#000000;">Mroot        1411       2  0 09:01 ?        00:00:00 [cfg80211]
+<span style="color:#000000;background-color:#000000;">Mroot        1410       2  0 09:01 ?        00:00:00 [irq/176-mei_me]
+<span style="color:#000000;background-color:#000000;">Mroot        1409       2  0 09:01 ?        00:00:00 [watchdogd]
+<span style="color:#000000;background-color:#000000;">Mroot        1229       2  0 09:01 ?        00:00:00 [xprtiod]
+<span style="color:#000000;background-color:#000000;">Mroot        1228       2  0 09:01 ?        00:00:00 [rpciod]
+<span style="color:#000000;background-color:#000000;">Mroot        1224       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-udevd
+<span style="color:#000000;background-color:#000000;">Mroot        1223       2  0 09:01 ?        00:00:05 [kworker/u24:10-kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot        1209       1  0 09:01 ?        00:00:03 /lib/systemd/systemd-journald
+<span style="color:#000000;background-color:#000000;">Mroot        1148       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+<span style="color:#000000;background-color:#000000;">Mroot        1147       2  0 09:01 ?        00:00:00 [jbd2/dm-0-8]
+<span style="color:#000000;background-color:#000000;">Mroot         621       2  0 09:00 ?        00:00:00 [dmcrypt_write/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot         620       2  0 09:00 ?        00:00:00 [kcryptd/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot         619       2  0 09:00 ?        00:00:00 [kcryptd_io/253:]
+<span style="color:#000000;background-color:#000000;">Mroot         618       2  0 09:00 ?        00:00:00 [kdmflush/253:0]
+<span style="color:#000000;background-color:#000000;">Mroot         361       2  0 09:00 ?        00:00:00 [raid5wq]
+<span style="color:#000000;background-color:#000000;">Mroot         351       2  0 09:00 ?        00:00:00 [md]
+<span style="color:#000000;background-color:#000000;">Mroot         340       2  0 09:00 ?        00:00:00 [card0-crtc3]
+<span style="color:#000000;background-color:#000000;">Mroot         339       2  0 09:00 ?        00:00:00 [card0-crtc2]
+<span style="color:#000000;background-color:#000000;">Mroot         338       2  0 09:00 ?        00:00:00 [card0-crtc1]
+<span style="color:#000000;background-color:#000000;">Mroot         337       2  0 09:00 ?        00:00:00 [card0-crtc0]
+<span style="color:#000000;background-color:#000000;">Mroot         330       2  0 09:00 ?        00:00:00 [irq/161-ELAN050B:00]
+<span style="color:#000000;background-color:#000000;">Mroot         327       2  0 09:00 ?        00:00:00 [nvme-delete-wq]
+<span style="color:#000000;background-color:#000000;">Mroot         326       2  0 09:00 ?        00:00:00 [nvme-reset-wq]
+<span style="color:#000000;background-color:#000000;">Mroot         325       2  0 09:00 ?        00:00:00 [nvme-wq]
+<span style="color:#000000;background-color:#000000;">Mroot         240       2  0 09:00 ?        00:00:00 [cryptd]
+<span style="color:#000000;background-color:#000000;">Mroot         220       2  0 09:00 ?        00:00:00 [kworker/5:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         219       2  0 09:00 ?        00:00:00 [kworker/3:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         218       2  0 09:00 ?        00:00:00 [kworker/7:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         217       2  0 09:00 ?        00:00:00 [kworker/6:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         216       2  0 09:00 ?        00:00:00 [kworker/1:1H-kblockd]
+<span style="color:#000000;background-color:#000000;">Mroot         215       2  0 09:00 ?        00:00:01 [kworker/9:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         214       2  0 09:00 ?        00:00:01 [kworker/8:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         213       2  0 09:00 ?        00:00:00 [kworker/10:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         212       2  0 09:00 ?        00:00:00 [kworker/11:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         188       2  0 09:00 ?        00:00:00 [kworker/4:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         137       2  0 09:00 ?        00:00:00 [zswap-shrink]
+<span style="color:#000000;background-color:#000000;">Mroot         132       2  0 09:00 ?        00:00:00 [kstrp]
+<span style="color:#000000;background-color:#000000;">Mroot         127       2  0 09:00 ?        00:00:00 [ipv6_addrconf]
+<span style="color:#000000;background-color:#000000;">Mroot         126       2  0 09:00 ?        00:00:00 [kworker/2:1H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot         125       2  0 09:00 ?        00:00:00 [mld]
+<span style="color:#000000;background-color:#000000;">Mroot         123       2  0 09:00 ?        00:00:00 [hfi-updates]
+<span style="color:#000000;background-color:#000000;">Mroot         122       2  0 09:00 ?        00:00:00 [hwrng]
+<span style="color:#000000;background-color:#000000;">Mroot         121       2  0 09:00 ?        00:00:00 [acpi_thermal_pm]
+<span style="color:#000000;background-color:#000000;">Mroot         120       2  0 09:00 ?        00:00:00 [irq/125-pciehp]
+<span style="color:#000000;background-color:#000000;">Mroot         119       2  0 09:00 ?        00:00:00 [irq/124-pciehp]
+<span style="color:#000000;background-color:#000000;">Mroot         117       2  0 09:00 ?        00:00:00 [kthrotld]
+<span style="color:#000000;background-color:#000000;">Mroot         111       2  0 09:00 ?        00:00:00 [kswapd0]
+<span style="color:#000000;background-color:#000000;">Mroot         110       2  0 09:00 ?        00:00:00 [kworker/0:1H-kblockd]
+<span style="color:#000000;background-color:#000000;">Mroot          98       2  0 09:00 ?        00:00:00 [devfreq_wq]
+<span style="color:#000000;background-color:#000000;">Mroot          97       2  0 09:00 ?        00:00:00 [edac-poller]
+<span style="color:#000000;background-color:#000000;">Mroot          96       2  0 09:00 ?        00:00:00 [tpm_dev_wq]
+<span style="color:#000000;background-color:#000000;">Mroot          95       2  0 09:00 ?        00:00:00 [blkcg_punt_bio]
+<span style="color:#000000;background-color:#000000;">Mroot          94       2  0 09:00 ?        00:00:00 [kblockd]
+<span style="color:#000000;background-color:#000000;">Mroot          93       2  0 09:00 ?        00:00:00 [kintegrityd]
+<span style="color:#000000;background-color:#000000;">Mroot          92       2  0 09:00 ?        00:00:00 [khugepaged]
+<span style="color:#000000;background-color:#000000;">Mroot          91       2  0 09:00 ?        00:00:00 [ksmd]
+<span style="color:#000000;background-color:#000000;">Mroot          90       2  0 09:00 ?        00:00:00 [kcompactd0]
+<span style="color:#000000;background-color:#000000;">Mroot          89       2  0 09:00 ?        00:00:00 [writeback]
+<span style="color:#000000;background-color:#000000;">Mroot          88       2  0 09:00 ?        00:00:00 [oom_reaper]
+<span style="color:#000000;background-color:#000000;">Mroot          87       2  0 09:00 ?        00:00:00 [khungtaskd]
+<span style="color:#000000;background-color:#000000;">Mroot          86       2  0 09:00 ?        00:00:00 [kauditd]
+<span style="color:#000000;background-color:#000000;">Mroot          85       2  0 09:00 ?        00:00:00 [inet_frag_wq]
+<span style="color:#000000;background-color:#000000;">Mroot          84       2  0 09:00 ?        00:00:00 [kdevtmpfs]
+<span style="color:#000000;background-color:#000000;">Mroot          73       2  0 09:00 ?        00:00:00 [kworker/11:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          71       2  0 09:00 ?        00:00:00 [ksoftirqd/11]
+<span style="color:#000000;background-color:#000000;">Mroot          70       2  0 09:00 ?        00:00:00 [migration/11]
+<span style="color:#000000;background-color:#000000;">Mroot          69       2  0 09:00 ?        00:00:00 [cpuhp/11]
+<span style="color:#000000;background-color:#000000;">Mroot          68       2  0 09:00 ?        00:00:00 [kworker/10:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          66       2  0 09:00 ?        00:00:00 [ksoftirqd/10]
+<span style="color:#000000;background-color:#000000;">Mroot          65       2  0 09:00 ?        00:00:00 [migration/10]
+<span style="color:#000000;background-color:#000000;">Mroot          64       2  0 09:00 ?        00:00:00 [cpuhp/10]
+<span style="color:#000000;background-color:#000000;">Mroot          63       2  0 09:00 ?        00:00:00 [kworker/9:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          61       2  0 09:00 ?        00:00:00 [ksoftirqd/9]
+<span style="color:#000000;background-color:#000000;">Mroot          60       2  0 09:00 ?        00:00:00 [migration/9]
+<span style="color:#000000;background-color:#000000;">Mroot          59       2  0 09:00 ?        00:00:00 [cpuhp/9]
+<span style="color:#000000;background-color:#000000;">Mroot          58       2  0 09:00 ?        00:00:00 [kworker/8:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          56       2  0 09:00 ?        00:00:00 [ksoftirqd/8]
+<span style="color:#000000;background-color:#000000;">Mroot          55       2  0 09:00 ?        00:00:00 [migration/8]
+<span style="color:#000000;background-color:#000000;">Mroot          54       2  0 09:00 ?        00:00:00 [cpuhp/8]
+<span style="color:#000000;background-color:#000000;">Mroot          53       2  0 09:00 ?        00:00:00 [kworker/7:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          51       2  0 09:00 ?        00:00:00 [ksoftirqd/7]
+<span style="color:#000000;background-color:#000000;">Mroot          50       2  0 09:00 ?        00:00:00 [migration/7]
+<span style="color:#000000;background-color:#000000;">Mroot          49       2  0 09:00 ?        00:00:00 [cpuhp/7]
+<span style="color:#000000;background-color:#000000;">Mroot          48       2  0 09:00 ?        00:00:00 [kworker/6:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          46       2  0 09:00 ?        00:00:00 [ksoftirqd/6]
+<span style="color:#000000;background-color:#000000;">Mroot          45       2  0 09:00 ?        00:00:00 [migration/6]
+<span style="color:#000000;background-color:#000000;">Mroot          44       2  0 09:00 ?        00:00:00 [cpuhp/6]
+<span style="color:#000000;background-color:#000000;">Mroot          43       2  0 09:00 ?        00:00:00 [kworker/5:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          41       2  0 09:00 ?        00:00:00 [ksoftirqd/5]
+<span style="color:#000000;background-color:#000000;">Mroot          40       2  0 09:00 ?        00:00:00 [migration/5]
+<span style="color:#000000;background-color:#000000;">Mroot          39       2  0 09:00 ?        00:00:00 [cpuhp/5]
+<span style="color:#000000;background-color:#000000;">Mroot          38       2  0 09:00 ?        00:00:00 [kworker/4:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          36       2  0 09:00 ?        00:00:00 [ksoftirqd/4]
+<span style="color:#000000;background-color:#000000;">Mroot          35       2  0 09:00 ?        00:00:00 [migration/4]
+<span style="color:#000000;background-color:#000000;">Mroot          34       2  0 09:00 ?        00:00:00 [cpuhp/4]
+<span style="color:#000000;background-color:#000000;">Mroot          33       2  0 09:00 ?        00:00:00 [kworker/3:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          31       2  0 09:00 ?        00:00:00 [ksoftirqd/3]
+<span style="color:#000000;background-color:#000000;">Mroot          30       2  0 09:00 ?        00:00:00 [migration/3]
+<span style="color:#000000;background-color:#000000;">Mroot          29       2  0 09:00 ?        00:00:00 [cpuhp/3]
+<span style="color:#000000;background-color:#000000;">Mroot          28       2  0 09:00 ?        00:00:00 [kworker/2:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          26       2  0 09:00 ?        00:00:00 [ksoftirqd/2]
+<span style="color:#000000;background-color:#000000;">Mroot          25       2  0 09:00 ?        00:00:00 [migration/2]
+<span style="color:#000000;background-color:#000000;">Mroot          24       2  0 09:00 ?        00:00:00 [cpuhp/2]
+<span style="color:#000000;background-color:#000000;">Mroot          23       2  0 09:00 ?        00:00:00 [kworker/1:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot          21       2  0 09:00 ?        00:00:00 [ksoftirqd/1]
+<span style="color:#000000;background-color:#000000;">Mroot          20       2  0 09:00 ?        00:00:00 [migration/1]
+<span style="color:#000000;background-color:#000000;">Mroot          19       2  0 09:00 ?        00:00:00 [cpuhp/1]
+<span style="color:#000000;background-color:#000000;">Mroot          18       2  0 09:00 ?        00:00:00 [cpuhp/0]
+<span style="color:#000000;background-color:#000000;">Mroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+<span style="color:#000000;background-color:#000000;">Mroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+<span style="color:#000000;background-color:#000000;">Mroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+<span style="color:#000000;background-color:#000000;">Mroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+<span style="color:#000000;background-color:#000000;">Mroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+<span style="color:#000000;background-color:#000000;">Mroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+<span style="color:#000000;background-color:#000000;">Mroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+<span style="color:#000000;background-color:#000000;">Mroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+<span style="color:#000000;background-color:#000000;">Mroot           6       2  0 09:00 ?        00:00:00 [netns]
+<span style="color:#000000;background-color:#000000;">Mroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+<span style="color:#000000;background-color:#000000;">Mroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+<span style="color:#000000;background-color:#000000;">Mroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+<span style="color:#000000;background-color:#000000;">Mroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+<span style="color:#000000;background-color:#000000;">Mroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+<span style="color:#000000;background-color:#000000;">MUID          PID    PPID  C STIME TTY          TIME CMD
+<span style="color:#000000;background-color:#000000;"> ESESCOA
+<span style="color:#000000;background-color:#000000;"> ESESCOA
+<span style="color:#000000;background-color:#000000;"> ESESCOA
+<span style="color:#000000;background-color:#000000;">UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/</span><span style="color:#000000;background-color:#000000;">sourceme</span><span style="color:#000000;background-color:#000000;">.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="color:#000000;background-color:#000000;">kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">~</span>
+kent       84545   <span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:05 pts/3    00:00:00 less
+</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">~</span>
+<span style="color:#000000;background-color:#000000;">Mroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+Mroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+Mroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+Mroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+Mroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+Mroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+Mroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+Mroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+Mroot           6       2  0 09:00 ?        00:00:00 [netns]
+Mroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+Mroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+Mroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+Mroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+Mroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+MUID          PID    PPID  C STIME TTY          TIME CMD
+<span style="color:#000000;background-color:#000000;">UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+<span style="color:#000000;background-color:#000000;">Ms/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+<span style="color:#000000;background-color:#000000;">M01352.txt --timing=recordings/101352_timing.txt0:00 /bin/bash /shared/kent/Document
+<span style="color:#000000;background-color:#000000;">kent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/101352.txt --timing=recordings/101352_timing.txt
+kent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Documents/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+kent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+kent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/101352.txt --timing=recordings/101352_timing.txt
+kent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Documents/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+kent       </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+<span style="color:#000000;background-color:#000000;">...skipping...
+kent       84545   </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   </span><span style="color:#000000;background-color:#000000;">54520</span><span style="color:#000000;background-color:#000000;">  0 11:05 pts/3    00:00:00 less
+</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="font-weight:bold;color:#7f7f7f;">~</span>
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF24/lektion02
+<span style="color:#5c5cff;">or:#5c5cff;">ITINF24/lektion02
+</span>$ jobs
+[1]+  Stopped                 bash source/sourceme.sh
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">">ITINF24/lektion02
+</span>$ fg
+bash source/sourceme.sh
+
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+$ echounset X
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02
+</span>$ echo $X$:$$ $i$s$ $
+
+X is
+<span style="color:#5c5cff;">ITINF24/lektion02
+bash source/sourceme.sh 
+Jag körs!
+Stopp
+<span style="color:#5c5cff;">ITINF24/lektion02
+</span>$ echo $
+
+echo X is $Xsourceme.sh 
+X is
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;"> style="color:#5c5cff;">ITINF24/lektion02
+</span>$ bash source/sourceme.sh
+spource
+Jag körs!
+Stopp
+<span style="color:#5c5cff;">ITINF24/lektion02
+</span>$ echo $X
+999
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;"> style="color:#5c5cff;">ITINF24/lektion02
+</span>$ bash source/sourceme.sh ^C
+<span style="color:#5c5cff;">ITINF24/lektion02
+<span style="color:#5c5cff;">or:#5c5cff;">ITINF24/lektion02
+</span>$ ps -ef | les
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ^C
+<span style="color:#5c5cff;">ITINF24/lektion02
+$ cd funcs/
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02/funcs
+</span>$ 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ bash censorls.sh 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls
+bash: censorls: command not found
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">"color:#5c5cff;">ITINF24/lektion02/funcs
+bash censorls.shs
+source
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+censorls source censorls.sh 
+I be called!
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls
+I be called!
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02/funcs
+source censorls.sh 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+censorls source censorls.sh 
+I be called! Oh yeah!
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ unset cesnnsorls
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+censorls unset censorls
+bash: censorls: command not found
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">"color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls /egttc/ssh
+bash: censorls: command not found
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls /etc/ssh iejo eoijeoei^C
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02/funcs
+</span>$ source censorls.sh 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls -l
+total 4
+-rw-r--r-- 1 kent kent 24 Oct 28 11:21 censorls.sh
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">e="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ source censorls.sh 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls -l
+total 4
+-rw-r--r-- 1 k**t k**t 46 Oct 28 11:22 censorls.sh
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls -
+
+
+
+
+
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+source censorls.sh sorls.sh 
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+</span>$ censorls 
+censorls.sh
+<span style="color:#5c5cff;">ITINF24/lektion02/funcs
+<span style="color:#5c5cff;">:#5c5cff;">ITINF24/lektion02/funcs
+./boan>$ censorls 
+o
+
+
+
+
+
+
+
+cd ../se
+text_search/
+<span style="color:#5c5cff;">ITINF24/lektion02/text_search
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02/text_search
+</span>$ ls
+booksearch  textfil.txt
+<span style="color:#5c5cff;">ITINF24/lektion02/text_search
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion02/text_search
+</span>$ ./booksearch textfil.txt 
+booken satan från borlänge är intressant.
+<span style="color:#5c5cff;">ITINF24/lektion02/text_search
+<span style="color:#5c5cff;">.txt <span style="color:#5c5cff;">ITINF24/lektion02/text_search
+</span>$ ./booksearch textfil.txt 
+booken satan från borlänge är intressant.
+boken satan från stockholm är intressant.
+booooooooooooken satan från västerås är intressant.
+<span style="color:#5c5cff;">ITINF24/lektion02/text_search
+<span style="color:#5c5cff;">">ITINF24/lektion02/text_search
+</span>$ man grep
+GREP(1)                   User Commands                  GREP(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="text-decoration:underline;">PATTERNS</span> [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-e</span> <span style="text-decoration:underline;">PATTERNS</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+<span style="color:#000000;background-color:#000000;"> Manual page grep(1) line 1 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">...skipping...
+GREP(1)                   User Commands                  GREP(1)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="text-decoration:underline;">PATTERNS</span> [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-e</span> <span style="text-decoration:underline;">PATTERNS</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-f</span> <span style="text-decoration:underline;">PATTERN_FILE</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+<span style="color:#000000;background-color:#000000;"> Manual page grep(1) line 1 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">...skipping...
+GREP(1)                   User Commands                  GREP(1)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="text-decoration:underline;">PATTERNS</span> [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-e</span> <span style="text-decoration:underline;">PATTERNS</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-f</span> <span style="text-decoration:underline;">PATTERN_FILE</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+
+<span style="color:#000000;background-color:#000000;"> Manual page grep(1) line 1 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">...skipping...
+GREP(1)                   User Commands                  GREP(1)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="text-decoration:underline;">PATTERNS</span> [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-e</span> <span style="text-decoration:underline;">PATTERNS</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-f</span> <span style="text-decoration:underline;">PATTERN_FILE</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+<span style="color:#000000;background-color:#000000;"> Manual page grep(1) line 1 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">...skipping...
+GREP(1)                   User Commands                  GREP(1)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="text-decoration:underline;">PATTERNS</span> [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-e</span> <span style="text-decoration:underline;">PATTERNS</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> [<span style="text-decoration:underline;">OPTION</span>...] <span style="font-weight:bold;color:#7f7f7f;">-f</span> <span style="text-decoration:underline;">PATTERN_FILE</span> ... [<span style="text-decoration:underline;">FILE</span>...]
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">grep</span> searches for <span style="text-decoration:underline;">PATTERNS</span> in each <span style="text-decoration:underline;">FILE</span>.  <span style="text-decoration:underline;">PATTERNS</span> is one
+<span style="color:#000000;background-color:#000000;">       or  more  patterns  separated  by newline characters, and</span> style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">grep</span> prints each line that matches a pattern.   Typically
+<span style="color:#000000;background-color:#000000;">       </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">PATTERNS</span><span style="color:#000000;background-color:#000000;">  should  be  quoted when </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">grep</span> is used in a shell
+<span style="color:#000000;background-color:#000000;">       command.</span>ine 4 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;"></span>Bpage grep(1) line 5 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       A </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">FILE</span><span style="color:#000000;background-color:#000000;"> of “</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">-</span>” stands for standard input.  If no  <span style="text-decoration:underline;">FILE</span>  is
+<span style="color:#000000;background-color:#000000;">       given,  recursive searches examine the working directory,</span> style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       and nonrecursive searches read standard input.</span>/span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;"></span>Bpage grep(1) line 9 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       Debian also includes the variant  programs  </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">egrep</span>,  <span style="font-weight:bold;color:#7f7f7f;">fgrep</span>
+<span style="color:#000000;background-color:#000000;">       and  </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">rgrep</span>.   These  programs  are  the  same as <span style="font-weight:bold;color:#7f7f7f;">grep</span> <span style="font-weight:bold;color:#7f7f7f;">-E</span>,
+<span style="color:#000000;background-color:#000000;">       </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">grep</span> <span style="font-weight:bold;color:#7f7f7f;">-F</span>, and <span style="font-weight:bold;color:#7f7f7f;">grep</span> <span style="font-weight:bold;color:#7f7f7f;">-r</span>, respectively.  These  variants  are
+<span style="color:#000000;background-color:#000000;">       deprecated  upstream,  but  Debian  provides for backward</span>n style="color:#000000;background-color:#000000;">
+       compatibility. For portability reasons, it is recommended
+       to  avoid  the  variant  programs,  and use <span style="font-weight:bold;color:#7f7f7f;">grep</span> with the
+       related option instead.
+
+<span style="font-weight:bold;color:#7f7f7f;">OPTIONS</span>
+   <span style="font-weight:bold;color:#7f7f7f;">Generic</span> <span style="font-weight:bold;color:#7f7f7f;">Program</span> <span style="font-weight:bold;color:#7f7f7f;">Information</span>
+       <span style="font-weight:bold;color:#7f7f7f;">--help</span> Output a usage message and exit.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-V</span>, <span style="font-weight:bold;color:#7f7f7f;">--version</span>
+              Output the version number of <span style="font-weight:bold;color:#7f7f7f;">grep</span> and exit.
+
+   <span style="font-weight:bold;color:#7f7f7f;">Pattern</span> <span style="font-weight:bold;color:#7f7f7f;">Syntax</span>
+<span style="color:#000000;background-color:#000000;">       </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">-E</span>, <span style="font-weight:bold;color:#7f7f7f;">--extended-regexp</span>
+<span style="color:#000000;background-color:#000000;">              Interpret </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">PATTERNS</span><span style="color:#000000;background-color:#000000;"> as extended regular expressions</span>
+              (EREs, see below).
+
+       <span style="font-weight:bold;color:#7f7f7f;">-F</span>, <span style="font-weight:bold;color:#7f7f7f;">--fixed-strings</span>
+              Interpret  <span style="text-decoration:underline;">PATTERNS</span>  as fixed strings, not regular
+              expressions.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-G</span>, <span style="font-weight:bold;color:#7f7f7f;">--basic-regexp</span>
+              Interpret <span style="text-decoration:underline;">PATTERNS</span> as  basic  regular  expressions
+              (BREs, see below).  This is the default.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-P</span>, <span style="font-weight:bold;color:#7f7f7f;">--perl-regexp</span>
+              Interpret   <span style="text-decoration:underline;">PATTERNS</span>  as  Perl-compatible  regular
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF24/lektion02/text_searchbackground-color:#000000;">
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion02/text_search
+</span>$ ./starsearch textfil.txt 
+grep: warning: * at start of expression
+booken satan från borlänge är intressant.
+youtube är både bra och dåligt
+boken satan från stockholm är intressa
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->

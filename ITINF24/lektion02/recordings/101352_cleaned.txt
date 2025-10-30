@@ -1,0 +1,1016 @@
+Script started on 2025-10-28 10:14:03+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="63" LINES="12"]
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ ITINF24/lektion02
+$ ls
+agenda.md  args  recordings  skriptmall  source
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ X=123
+ITINF24/lektion02
+$ echo "Jag k;rörs!
+> ��"
+Jag körs!
+
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ bash source/sourceme.sh 
+Jag körs!
+Stopp^Z
+[1]+  Stopped                 bash source/sourceme.sh
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ jobs
+[1]+  Stopped                 bash source/sourceme.sh
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ ps -e | less
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+     18 ?        00:00:00 cpuhp/0
+     19 ?        00:00:00 cpuhp/1
+     20 ?        00:00:00 migration/1
+     21 ?        00:00:00 ksoftirqd/1
+     23 ?        00:00:00 kworker/1:0H-events_highpri
+     24 ?        00:00:00 cpuhp/2
+     25 ?        00:00:00 migration/2
+     26 ?        00:00:00 ksoftirqd/2
+     28 ?        00:00:00 kworker/2:0H-events_highpri
+     29 ?        00:00:00 cpuhp/3
+     30 ?        00:00:00 migration/3
+     31 ?        00:00:00 ksoftirqd/3
+M     13 ?        00:00:00 rcu_tasks_trace_kthread
+M     12 ?        00:00:00 rcu_tasks_rude_kthread
+M     11 ?        00:00:00 rcu_tasks_kthread
+M     10 ?        00:00:00 mm_percpu_wq
+M      8 ?        00:00:00 kworker/0:0H-events_highpri
+M      6 ?        00:00:00 netns
+M      5 ?        00:00:00 slub_flushwq
+M      4 ?        00:00:00 rcu_par_gp
+M      3 ?        00:00:00 rcu_gp
+M      2 ?        00:00:00 kthreadd
+M      1 ?        00:00:01 systemd
+M    PID TTY          TIME CMD
+ ESESCOA
+ ESESCOA
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 slub_flushwq
+      6 ?        00:00:00 netns
+      8 ?        00:00:00 kworker/0:0H-events_highpri
+     10 ?        00:00:00 mm_percpu_wq
+     11 ?        00:00:00 rcu_tasks_kthread
+     12 ?        00:00:00 rcu_tasks_rude_kthread
+     13 ?        00:00:00 rcu_tasks_trace_kthread
+     14 ?        00:00:00 ksoftirqd/0
+     15 ?        00:00:14 rcu_preempt
+     16 ?        00:00:00 migration/0
+ ESESCESESC found  (press RETURN)
+
+
+>ITINF24/lektion02
+$ ps -e | lesf
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+:UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+Mroot       84235       2  0 11:04 ?        00:00:00 [kworker/7:1-events]
+Mient]OA
+Mroot       83561       2  0 11:02 ?        00:00:00 [kworker/0:2-events]power_effic
+Mroot       83472       2  0 11:02 ?        00:00:00 [kworker/6:0]
+Mroot       83458       2  0 11:02 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+Mroot       83242       2  0 11:02 ?        00:00:00 [kworker/u25:4+i915_flip]
+Mroot       82048       2  0 11:00 ?        00:00:00 [kworker/8:2-mm_percpu_wq]
+M027-170045.450000
+Mroot       80833       2  0 10:58 ?        00:00:00 [kworker/u24:4-kcryptd/253:0]yp
+Mroot       80706       2  0 10:58 ?        00:00:00 [kworker/5:1-mm_percpu_wq]
+Mroot       80551       2  0 10:58 ?        00:00:00 [kworker/2:2-events]
+Mroot       80498       2  0 10:58 ?        00:00:01 [kworker/7:2-events]
+Mroot       79789       2  0 10:57 ?        00:00:01 [kworker/u25:2-rb_allocator]
+Mroot       79690       2  0 10:56 ?        00:00:00 [kworker/3:0-events]
+Mroot       79574       2  0 10:56 ?        00:00:00 [kworker/0:1-events]
+Mroot       79529       2  0 10:56 ?        00:00:00 [kworker/6:1-events]
+Mroot       78184       2  0 10:54 ?        00:00:00 [kworker/8:1-events]
+Mroot       77596       2  0 10:53 ?        00:00:00 [kworker/10:1-mm_percpu_wq]
+Mroot       76763       2  0 10:51 ?        00:00:00 [kworker/11:2]
+Mroot       76479       2  0 10:51 ?        00:00:00 [kworker/9:2-events]
+Mroot       76386       2  0 10:51 ?        00:00:00 [kworker/6:2-events]
+Mroot       76259       2  0 10:51 ?        00:00:00 [kworker/2:0-events]
+Mroot       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+Mroot       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+Mroot       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+Mroot       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+Mroot       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+Mroot       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+Mroot       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+Mroot       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+Mroot       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+Mroot       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+Mroot       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+Mroot       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+Mroot       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+Mroot       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+Mkent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+Ms/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+M01352.txt --timing=recordings/101352_timing.txt0:00 /bin/bash /shared/kent/Document
+Mles/educator/present_dot_bashrc14 pts/0    00:00:00 script -q --return recordings/1
+Mroot       49573       2  0 10:08 ?        00:00:02 [kworker/u24:9-kcryptd/253:0]fi
+Mroot       42010       2  0 09:57 ?        00:00:02 [kworker/u24:6-kcryptd/253:0]
+Mroot       40939       2  0 09:55 ?        00:00:03 [kworker/u24:5-kcryptd/253:0]
+Mroot       34539       2  0 09:47 ?        00:00:03 [kworker/u24:7-kcryptd/253:0]
+Mroot       29635       2  0 09:38 ?        00:00:00 [kworker/1:2-events]
+Mroot       23702       2  0 09:30 ?        00:00:03 [kworker/u24:3-kcryptd/253:0]
+Mode-ipc --clientProcessId=7032
+M7-170045.4500002    7032  0 09:23 ?        00:00:00 /usr/share/code/code /usr/share
+M-170045.45000046    4954  0 09:22 ?        00:00:09 /opt/google/chrome/chrome --typ
+M27-170045.450000    4954  0 09:22 ?        00:00:21 /opt/google/chrome/chrome --typ
+M170045.450000171    4954  0 09:22 ?        00:00:21 /opt/google/chrome/chrome --typ
+Mtocommit --wait-branch54  0 09:15 ?        00:00:37 /opt/google/chrome/chrome --typ
+Mser/1000/keyring/.ssh017  0 09:13 pts/2    00:00:00 /bin/bash .profiles/educator/au
+MRendererForSitePerProcess --variations-seed-version /usr/bin/ssh-agent -D -a /run/u
+MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+MareRendererForSitePerProcess --variations-seed-versionroc/self/exe --type=utility -
+MoteSCOA     6990    6843  0 09:13 ?        00:00:05 /proc/self/exe --type=utility -
+Mled,SpareRendererForSitePerProcess --variations-seed-versionre/code/code --type=zyg
+Mote --no-zygote-sandbox3  0 09:13 ?        00:00:01 /proc/self/exe --type=utility -
+MionSCOA     6903    6869  4 09:13 ?        00:04:49 /usr/share/code/code --type=zyg
+MoteSCOA     6887    3826  0 09:13 ?        00:00:00 /usr/share/code/chrome_crashpad
+MoteSCOA     6872    6870  0 09:13 ?        00:00:00 /usr/share/code/code --type=zyg
+Mote --no-zygote-sandbox3  0 09:13 ?        00:00:00 /usr/share/code/code --type=zyg
+Mkent        6843    3826  0 09:13 ?        00:00:39 /usr/share/code/code .-type=zyg
+Mroot        6544       2  0 09:13 ?        00:00:18 [kworker/u25:0-hci0]
+Mroot        6206       2  0 09:12 ?        00:00:07 [kworker/u24:1-kcryptd/253:0]
+Mner :1.6 /org/gtk/gvfs/exec_spaw/0
+Mication-service4    3881  0 09:12 ?        00:00:00 /usr/libexec/gvfsd-trash --spaw
+Mroot        5890       2  0 09:06 ?        00:00:00 [kworker/11:0-mm_percpu_wq]appl
+M-170045.450000
+Med-version=20251027-170045.450000 ?        00:00:01 /opt/google/chrome/chrome --typ
+M7-170045.4500006    4931  0 09:01 ?        00:00:00 /opt/google/chrome/chrome --typ
+M-170045.45000046    4954  0 09:01 ?        00:00:00 /opt/google/chrome/chrome --typ
+Meed-version=20251027-170045.450000?        00:00:00 /opt/google/chrome/chrome --typ
+Mkent        5164    3826  0 09:01 ?        00:00:00 /usr/libexec/ibus-x11rome --typ
+Mseed-version=20251027-170045.450000
+Md-version=20251027-170045.4500001 ?        00:00:01 /opt/google/chrome/chrome --typ
+Meed-version=20251027-170045.450000?        00:00:01 /opt/google/chrome/chrome --typ
+Mkent        5050    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-xsettings--typ
+Mions-seed-version=20251027-170045.450000
+Mns-seed-version=20251027-170045.450000     00:00:00 /opt/google/chrome/chrome --typ
+M4 -listenfd 5 -displayfd 6 -initfd 7       00:00:31 /opt/google/chrome/chrome --typ
+M170045.450000003    4087  1 09:01 ?        00:01:33 /usr/bin/Xwayland :0 -rootless 
+M4-2c5c9dbd066b, --change-stack-guard-on-fork=enable /opt/google/chrome/chrome --typ
+M4-2c5c9dbd066b, --change-stack-guard-on-fork=enable /opt/google/chrome/chrome --typ
+M0de8f2-a765-4c3c-90f4-2c5c9dbd066b, --change-stack-guard-on-fork=enablechrome --typ
+M=141.0.7390.122 --initial-client-fd=4 --shared-client-connectionchrome/chrome --typ
+Mhared-client-connection6  0 09:01 ?        00:00:00 /opt/google/chrome/chrome_crash
+Mkent        4938    4931  0 09:01 ?        00:00:00 catt/google/chrome/chrome_crash
+Mkent        4937    4931  0 09:01 ?        00:00:00 cat
+Mkent        4931    4087  1 09:01 ?        00:01:18 /opt/google/chrome/chrome
+Mroot        4806       1  0 09:01 ?        00:00:01 /usr/libexec/fwupd/fwupd
+MtionCOA
+Mec/xdg-desktop-portal-kde 0 09:01 ?        00:00:00 /usr/sbin/uuidd --socket-activa
+M-gtkCOA     4731    3826  0 09:01 ?        00:00:00 /usr/lib/x86_64-linux-gnu/libex
+Man-tray     4687    3826  0 09:01 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+Mkent        4674    3826  0 09:01 ?        00:00:00 /usr/libexec/bluetooth/obexduem
+M-gnomeA
+Mfsname=portal,auto_unmount,subtype=portal -- /run/user/1000/docc/xdg-desktop-portal
+MlSESCOA     4622    4617  0 09:01 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,
+Mkent        4604    3826  0 09:01 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+Mkent        4570    4358  0 09:01 ?        00:00:00 /usr/libexec/ibus-engine-simple
+Mkent        4510    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-printer
+Mhell/org.gnome.ScreenSaver
+Mkent        4455    3826  0 09:01 ?        00:00:00 /usr/libexec/ibus-portalgnome-s
+M3SESCOA
+MotifyOA     4450    4358  0 09:01 ?        00:00:01 /usr/libexec/ibus-extension-gtk
+Mkent        4446    4358  0 09:01 ?        00:00:00 /usr/libexec/ibus-dconftility-n
+Mication-service
+Man-applet   4443    4063  0 09:01 ?        00:00:06 /usr/bin/gnome-software --gappl
+Mkent        4404    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-wacombin/bluem
+Mkent        4400    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-usb-protection
+Mkent        4398    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-sound
+Mkent        4391    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-smartcard
+Mkent        4389    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-sharing
+MoxySCOA
+Mkent        4386    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-rfkillsaver-pr
+MtionsOA
+Mkent        4381    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-power-notifica
+Mkent        4377    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-media-keys
+Mver/evolution-alarm-notify
+Mkent        4371    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-keyboardta-ser
+Mkent        4368    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-housekeeping
+Mkent        4362    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-datetime
+Mkent        4360    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-color
+MsableOA
+Mkent        4356    3826  0 09:01 ?        00:00:00 /usr/libexec/gsd-a11y-settingsi
+Mnel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+M--use-gnome-session 3826  0 09:01 ?        00:00:00 sh -c /usr/bin/ibus-daemon --pa
+Mhell/org.gnome.Shell.Notifications?        00:00:00 /usr/libexec/at-spi2-registryd 
+Mook-factory 4331    3826  0 09:01 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-s
+Mkent        4303    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfsd-metadataessb
+M-factory
+Mkent        4279    3826  0 09:01 ?        00:00:00 /usr/libexec/dconf-serviceendar
+Megistry
+Mar-server   4271    3826  0 09:01 ?        00:00:00 /usr/libexec/evolution-source-r
+MreESCOA     4264    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-shell-calend
+Mdress=unix:path=/run/user/1000/at-spi/bus  00:00:00 /usr/libexec/xdg-permission-sto
+Mkent        4087    3826  5 09:01 ?        00:06:29 /usr/bin/gnome-shell --config-f
+Mr --launch-immediately
+Mry --systemd-service --session=gnome       00:00:00 /usr/libexec/at-spi-bus-launche
+MnitorOA     4063    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-session-bina
+Mopenssh_agent053    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-afc-volume-mo
+M--monitor   4049    3826  0 09:01 ?        00:00:00 ssh-agent -D -a /run/user/1000/
+MceESCOA     4046    3826  0 09:01 ?        00:00:00 /usr/libexec/gnome-session-ctl 
+M/user/1000/gcr39    3826  0 09:01 ?        00:00:00 /usr/libexec/goa-identity-servi
+Mkent        4007    3826  0 09:01 ?        00:00:00 /usr/libexec/goa-daemonent /run
+MnitorOA
+MnitorOA     3999    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-goa-volume-mo
+Me-monitor   3981    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-mo
+MryESCOA     3977    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volum
+Mn /usr/bin/gnome-session  0 09:01 tty2     00:00:00 /usr/libexec/gnome-session-bina
+Me-monitor   3954    3812  0 09:01 tty2     00:00:00 /usr/libexec/gdm-wayland-sessio
+Mkent        3944    3826  0 09:01 ?        00:00:00 /usr/libexec/tracker-miner-fs-3
+Mer/1000/gvfs -f
+Mkent        3881    3826  0 09:01 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/us
+M--address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Mx-lnx.x86_64-235.4.5905/dropbox01 ?        00:00:00 /usr/bin/dbus-daemon --session 
+M-foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyringo
+Mkent        3864    3826  0 09:01 ?        00:00:00 /usr/bin/pipewire-pulsedaemon -
+Mkent        3863    3826  0 09:01 ?        00:00:00 /usr/bin/wireplumber
+Mkent        3860    3826  0 09:01 ?        00:00:00 /usr/bin/pipewire
+Mkent        3827    3826  0 09:01 ?        00:00:00 (sd-pam)
+Mkent        3826       1  0 09:01 ?        00:00:03 /lib/systemd/systemd --user
+Msword]A
+MDebian-+    3720       1  0 09:01 ?        00:00:00 /usr/sbin/exim4 -bd -q30mdm-pas
+Mroot        3451       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3450       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3449       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3448       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3447       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3446       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3445       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3444       2  0 09:01 ?        00:00:00 [nfsd]
+Mroot        3179       2  0 09:01 ?        00:00:00 [lockd]
+Mstatd       3147       1  0 09:01 ?        00:00:00 /sbin/rpc.statd
+Mroot        3145       1  0 09:01 ?        00:00:00 /usr/sbin/rpc.mountd
+Mtainerd=/run/containerd/containerd.sock
+Mroot        3122       1  0 09:01 ?        00:00:00 /usr/sbin/cups-browsed:// --con
+Mcolord      2718       1  0 09:01 ?        00:00:00 /usr/libexec/colord
+Mgeoclue     2694       1  0 09:01 ?        00:00:02 /usr/libexec/geoclue
+Mroot        2620       1  0 09:01 ?        00:00:00 /usr/libexec/upowerd
+Mroot        2608       2  0 09:01 ?        00:00:00 [krfcommd]
+Mlibvirt_leaseshelper
+Mlibvirt_leaseshelper2603  0 09:01 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/
+Mrtkit       2315       1  0 09:01 ?        00:00:00 /usr/libexec/rtkit-daemonfile=/
+Mroot        2301       2  0 09:01 ?        00:00:00 [iprt-VBoxTscThread]
+Mroot        2300       2  0 09:01 ?        00:00:00 [iprt-VBoxWQueue]
+Mroot        2005       1  0 09:01 ?        00:00:00 /usr/sbin/gdm3
+Mer] 0 of 10-100 startups
+Mroot        1948       1  0 09:01 ?        00:00:07 /usr/bin/containerdd -D [listen
+M641SCOA
+Mroot        1935       1  0 09:01 ?        00:00:00 /usr/sbin/cupsd -led --state=/v
+Mroot        1921       1  0 09:01 ?        00:00:00 /usr/libexec/boltd
+Mroot        1920       1  0 09:01 ?        00:00:00 /usr/sbin/ModemManager
+MIR=/run/wpa_supplicant GROUP=netdev
+Mroot        1873       2  0 09:01 ?        00:00:00 [psimon]a_supplicant -u -s -O D
+MaemonOA
+Mavahi       1820    1781  0 09:01 ?        00:00:00 avahi-daemon: chroot helperno-d
+Mroot        1811       1  0 09:01 ?        00:00:00 /usr/libexec/udisks2/udisksd
+Mroot        1809       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-machined
+Mroot        1805       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-logind
+Mroot        1802       1  0 09:01 ?        00:00:00 /usr/libexec/switcheroo-control
+Mroot        1799       1  0 09:01 ?        00:00:00 /usr/sbin/smartd -n
+MmonSCOA
+MdebugOA     1796       1  0 09:01 ?        00:00:00 /usr/libexec/power-profiles-dae
+Mroot        1791       1  0 09:01 ?        00:00:00 /usr/libexec/low-memory-monitor
+M-address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+Mroot        1786       1  0 09:01 ?        00:00:00 /usr/sbin/cron -fmon --system -
+MhdESCOA
+Mal]SCOA     1784       1  0 09:01 ?        00:00:00 /usr/libexec/bluetooth/bluetoot
+Mroot        1776       1  0 09:01 ?        00:00:00 /usr/libexec/accounts-daemonloc
+Mroot        1771       1  0 09:01 ?        00:00:00 /usr/sbin/nfsdcld
+Mroot        1770       1  0 09:01 ?        00:00:00 /usr/sbin/rpc.idmapd
+Mroot        1768       1  0 09:01 ?        00:00:00 /usr/sbin/blkmapd
+Msystemd+    1764       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-timesyncd
+M_rpc        1760       1  0 09:01 ?        00:00:00 /sbin/rpcbind -f -w
+Mroot        1727       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+Mroot        1726       2  0 09:01 ?        00:00:00 [jbd2/dm-1-8]
+Mroot        1718       2  0 09:01 ?        00:00:00 [dmcrypt_write/253:1]
+Mroot        1717       2  0 09:01 ?        00:00:00 [kcryptd/253:1]
+Mroot        1716       2  0 09:01 ?        00:00:00 [kcryptd_io/253:]
+Mroot        1715       2  0 09:01 ?        00:00:00 [kdmflush/253:1]
+Mroot        1578       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+Mroot        1577       2  0 09:01 ?        00:00:00 [jbd2/nvme0n1p5-8]
+Mroot        1495       2  0 09:01 ?        00:00:00 [irq/191-AudioDSP]
+Mroot        1483       2  0 09:01 ?        00:00:14 [kworker/u25:1-hci0]
+Mroot        1468       2  0 09:01 ?        00:00:00 [irq/190-iwlwifi:exception]
+Mroot        1467       2  0 09:01 ?        00:00:02 [irq/189-iwlwifi:queue_12]
+Mroot        1466       2  0 09:01 ?        00:00:03 [irq/188-iwlwifi:queue_11]
+Mroot        1465       2  0 09:01 ?        00:00:01 [irq/187-iwlwifi:queue_10]
+Mroot        1464       2  0 09:01 ?        00:00:08 [irq/186-iwlwifi:queue_9]
+Mroot        1463       2  0 09:01 ?        00:00:05 [irq/185-iwlwifi:queue_8]
+Mroot        1462       2  0 09:01 ?        00:00:04 [irq/184-iwlwifi:queue_7]
+Mroot        1461       2  0 09:01 ?        00:00:03 [irq/183-iwlwifi:queue_6]
+Mroot        1460       2  0 09:01 ?        00:00:05 [irq/182-iwlwifi:queue_5]
+Mroot        1459       2  0 09:01 ?        00:00:02 [irq/181-iwlwifi:queue_4]
+Mroot        1458       2  0 09:01 ?        00:00:03 [irq/180-iwlwifi:queue_3]
+Mroot        1457       2  0 09:01 ?        00:00:02 [irq/179-iwlwifi:queue_2]
+Mroot        1455       2  0 09:01 ?        00:00:11 [irq/178-iwlwifi:queue_1]
+Mroot        1454       2  0 09:01 ?        00:00:12 [irq/177-iwlwifi:default_queue]
+Mroot        1411       2  0 09:01 ?        00:00:00 [cfg80211]
+Mroot        1410       2  0 09:01 ?        00:00:00 [irq/176-mei_me]
+Mroot        1409       2  0 09:01 ?        00:00:00 [watchdogd]
+Mroot        1229       2  0 09:01 ?        00:00:00 [xprtiod]
+Mroot        1228       2  0 09:01 ?        00:00:00 [rpciod]
+Mroot        1224       1  0 09:01 ?        00:00:00 /lib/systemd/systemd-udevd
+Mroot        1223       2  0 09:01 ?        00:00:05 [kworker/u24:10-kcryptd/253:0]
+Mroot        1209       1  0 09:01 ?        00:00:03 /lib/systemd/systemd-journald
+Mroot        1148       2  0 09:01 ?        00:00:00 [ext4-rsv-conver]
+Mroot        1147       2  0 09:01 ?        00:00:00 [jbd2/dm-0-8]
+Mroot         621       2  0 09:00 ?        00:00:00 [dmcrypt_write/253:0]
+Mroot         620       2  0 09:00 ?        00:00:00 [kcryptd/253:0]
+Mroot         619       2  0 09:00 ?        00:00:00 [kcryptd_io/253:]
+Mroot         618       2  0 09:00 ?        00:00:00 [kdmflush/253:0]
+Mroot         361       2  0 09:00 ?        00:00:00 [raid5wq]
+Mroot         351       2  0 09:00 ?        00:00:00 [md]
+Mroot         340       2  0 09:00 ?        00:00:00 [card0-crtc3]
+Mroot         339       2  0 09:00 ?        00:00:00 [card0-crtc2]
+Mroot         338       2  0 09:00 ?        00:00:00 [card0-crtc1]
+Mroot         337       2  0 09:00 ?        00:00:00 [card0-crtc0]
+Mroot         330       2  0 09:00 ?        00:00:00 [irq/161-ELAN050B:00]
+Mroot         327       2  0 09:00 ?        00:00:00 [nvme-delete-wq]
+Mroot         326       2  0 09:00 ?        00:00:00 [nvme-reset-wq]
+Mroot         325       2  0 09:00 ?        00:00:00 [nvme-wq]
+Mroot         240       2  0 09:00 ?        00:00:00 [cryptd]
+Mroot         220       2  0 09:00 ?        00:00:00 [kworker/5:1H-events_highpri]
+Mroot         219       2  0 09:00 ?        00:00:00 [kworker/3:1H-events_highpri]
+Mroot         218       2  0 09:00 ?        00:00:00 [kworker/7:1H-events_highpri]
+Mroot         217       2  0 09:00 ?        00:00:00 [kworker/6:1H-events_highpri]
+Mroot         216       2  0 09:00 ?        00:00:00 [kworker/1:1H-kblockd]
+Mroot         215       2  0 09:00 ?        00:00:01 [kworker/9:1H-events_highpri]
+Mroot         214       2  0 09:00 ?        00:00:01 [kworker/8:1H-events_highpri]
+Mroot         213       2  0 09:00 ?        00:00:00 [kworker/10:1H-events_highpri]
+Mroot         212       2  0 09:00 ?        00:00:00 [kworker/11:1H-events_highpri]
+Mroot         188       2  0 09:00 ?        00:00:00 [kworker/4:1H-events_highpri]
+Mroot         137       2  0 09:00 ?        00:00:00 [zswap-shrink]
+Mroot         132       2  0 09:00 ?        00:00:00 [kstrp]
+Mroot         127       2  0 09:00 ?        00:00:00 [ipv6_addrconf]
+Mroot         126       2  0 09:00 ?        00:00:00 [kworker/2:1H-events_highpri]
+Mroot         125       2  0 09:00 ?        00:00:00 [mld]
+Mroot         123       2  0 09:00 ?        00:00:00 [hfi-updates]
+Mroot         122       2  0 09:00 ?        00:00:00 [hwrng]
+Mroot         121       2  0 09:00 ?        00:00:00 [acpi_thermal_pm]
+Mroot         120       2  0 09:00 ?        00:00:00 [irq/125-pciehp]
+Mroot         119       2  0 09:00 ?        00:00:00 [irq/124-pciehp]
+Mroot         117       2  0 09:00 ?        00:00:00 [kthrotld]
+Mroot         111       2  0 09:00 ?        00:00:00 [kswapd0]
+Mroot         110       2  0 09:00 ?        00:00:00 [kworker/0:1H-kblockd]
+Mroot          98       2  0 09:00 ?        00:00:00 [devfreq_wq]
+Mroot          97       2  0 09:00 ?        00:00:00 [edac-poller]
+Mroot          96       2  0 09:00 ?        00:00:00 [tpm_dev_wq]
+Mroot          95       2  0 09:00 ?        00:00:00 [blkcg_punt_bio]
+Mroot          94       2  0 09:00 ?        00:00:00 [kblockd]
+Mroot          93       2  0 09:00 ?        00:00:00 [kintegrityd]
+Mroot          92       2  0 09:00 ?        00:00:00 [khugepaged]
+Mroot          91       2  0 09:00 ?        00:00:00 [ksmd]
+Mroot          90       2  0 09:00 ?        00:00:00 [kcompactd0]
+Mroot          89       2  0 09:00 ?        00:00:00 [writeback]
+Mroot          88       2  0 09:00 ?        00:00:00 [oom_reaper]
+Mroot          87       2  0 09:00 ?        00:00:00 [khungtaskd]
+Mroot          86       2  0 09:00 ?        00:00:00 [kauditd]
+Mroot          85       2  0 09:00 ?        00:00:00 [inet_frag_wq]
+Mroot          84       2  0 09:00 ?        00:00:00 [kdevtmpfs]
+Mroot          73       2  0 09:00 ?        00:00:00 [kworker/11:0H-events_highpri]
+Mroot          71       2  0 09:00 ?        00:00:00 [ksoftirqd/11]
+Mroot          70       2  0 09:00 ?        00:00:00 [migration/11]
+Mroot          69       2  0 09:00 ?        00:00:00 [cpuhp/11]
+Mroot          68       2  0 09:00 ?        00:00:00 [kworker/10:0H-events_highpri]
+Mroot          66       2  0 09:00 ?        00:00:00 [ksoftirqd/10]
+Mroot          65       2  0 09:00 ?        00:00:00 [migration/10]
+Mroot          64       2  0 09:00 ?        00:00:00 [cpuhp/10]
+Mroot          63       2  0 09:00 ?        00:00:00 [kworker/9:0H-events_highpri]
+Mroot          61       2  0 09:00 ?        00:00:00 [ksoftirqd/9]
+Mroot          60       2  0 09:00 ?        00:00:00 [migration/9]
+Mroot          59       2  0 09:00 ?        00:00:00 [cpuhp/9]
+Mroot          58       2  0 09:00 ?        00:00:00 [kworker/8:0H-events_highpri]
+Mroot          56       2  0 09:00 ?        00:00:00 [ksoftirqd/8]
+Mroot          55       2  0 09:00 ?        00:00:00 [migration/8]
+Mroot          54       2  0 09:00 ?        00:00:00 [cpuhp/8]
+Mroot          53       2  0 09:00 ?        00:00:00 [kworker/7:0H-events_highpri]
+Mroot          51       2  0 09:00 ?        00:00:00 [ksoftirqd/7]
+Mroot          50       2  0 09:00 ?        00:00:00 [migration/7]
+Mroot          49       2  0 09:00 ?        00:00:00 [cpuhp/7]
+Mroot          48       2  0 09:00 ?        00:00:00 [kworker/6:0H-events_highpri]
+Mroot          46       2  0 09:00 ?        00:00:00 [ksoftirqd/6]
+Mroot          45       2  0 09:00 ?        00:00:00 [migration/6]
+Mroot          44       2  0 09:00 ?        00:00:00 [cpuhp/6]
+Mroot          43       2  0 09:00 ?        00:00:00 [kworker/5:0H-events_highpri]
+Mroot          41       2  0 09:00 ?        00:00:00 [ksoftirqd/5]
+Mroot          40       2  0 09:00 ?        00:00:00 [migration/5]
+Mroot          39       2  0 09:00 ?        00:00:00 [cpuhp/5]
+Mroot          38       2  0 09:00 ?        00:00:00 [kworker/4:0H-events_highpri]
+Mroot          36       2  0 09:00 ?        00:00:00 [ksoftirqd/4]
+Mroot          35       2  0 09:00 ?        00:00:00 [migration/4]
+Mroot          34       2  0 09:00 ?        00:00:00 [cpuhp/4]
+Mroot          33       2  0 09:00 ?        00:00:00 [kworker/3:0H-events_highpri]
+Mroot          31       2  0 09:00 ?        00:00:00 [ksoftirqd/3]
+Mroot          30       2  0 09:00 ?        00:00:00 [migration/3]
+Mroot          29       2  0 09:00 ?        00:00:00 [cpuhp/3]
+Mroot          28       2  0 09:00 ?        00:00:00 [kworker/2:0H-events_highpri]
+Mroot          26       2  0 09:00 ?        00:00:00 [ksoftirqd/2]
+Mroot          25       2  0 09:00 ?        00:00:00 [migration/2]
+Mroot          24       2  0 09:00 ?        00:00:00 [cpuhp/2]
+Mroot          23       2  0 09:00 ?        00:00:00 [kworker/1:0H-events_highpri]
+Mroot          21       2  0 09:00 ?        00:00:00 [ksoftirqd/1]
+Mroot          20       2  0 09:00 ?        00:00:00 [migration/1]
+Mroot          19       2  0 09:00 ?        00:00:00 [cpuhp/1]
+Mroot          18       2  0 09:00 ?        00:00:00 [cpuhp/0]
+Mroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+Mroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+Mroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+Mroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+Mroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+Mroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+Mroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+Mroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+Mroot           6       2  0 09:00 ?        00:00:00 [netns]
+Mroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+Mroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+Mroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+Mroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+Mroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+MUID          PID    PPID  C STIME TTY          TIME CMD
+ ESESCOA
+ ESESCOA
+ ESESCOA
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+~
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+~
+Mroot          16       2  0 09:00 ?        00:00:00 [migration/0]
+Mroot          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+Mroot          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+Mroot          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+Mroot          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+Mroot          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+Mroot          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+Mroot           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+Mroot           6       2  0 09:00 ?        00:00:00 [netns]
+Mroot           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+Mroot           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+Mroot           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+Mroot           2       0  0 09:00 ?        00:00:00 [kthreadd]
+Mroot           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+MUID          PID    PPID  C STIME TTY          TIME CMD
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 09:00 ?        00:00:01 /sbin/init splash
+root           2       0  0 09:00 ?        00:00:00 [kthreadd]
+root           3       2  0 09:00 ?        00:00:00 [rcu_gp]
+root           4       2  0 09:00 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 09:00 ?        00:00:00 [slub_flushwq]
+root           6       2  0 09:00 ?        00:00:00 [netns]
+root           8       2  0 09:00 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 09:00 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 09:00 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 09:00 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 09:00 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 09:00 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 09:00 ?        00:00:14 [rcu_preempt]
+root          16       2  0 09:00 ?        00:00:00 [migration/0]
+...skipping...
+kent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+Ms/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+M01352.txt --timing=recordings/101352_timing.txt0:00 /bin/bash /shared/kent/Document
+kent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/101352.txt --timing=recordings/101352_timing.txt
+kent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Documents/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+kent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+kent       54518   54079  0 10:14 pts/0    00:00:00 script -q --return recordings/101352.txt --timing=recordings/101352_timing.txt
+kent       54519   54518  0 10:14 pts/3    00:00:00 /bin/bash /shared/kent/Documents/nackademin/infra/i-live/.profiles/educator/bash_noprofile_norc -i
+kent       54520   54519  0 10:14 pts/3    00:00:00 bash --noprofile --norc -i
+root       56679       2  0 10:17 ?        00:00:01 [kworker/u24:11-i915]
+root       58072       2  0 10:19 ?        00:00:00 [kworker/4:1-events]
+root       66563       2  0 10:34 ?        00:00:00 [kworker/9:0]
+root       66910       2  0 10:34 ?        00:00:01 [kworker/u24:2-i915]
+root       66913       2  0 10:35 ?        00:00:03 [kworker/u25:3-i915_flip]
+root       72324       2  0 10:44 ?        00:00:00 [kworker/3:1]
+root       72423       2  0 10:44 ?        00:00:00 [kworker/1:1-events]
+root       72518       2  0 10:44 ?        00:00:01 [kworker/u24:0-kcryptd/253:0]
+root       72831       2  0 10:45 ?        00:00:00 [kworker/0:0-events]
+root       72920       2  0 10:45 ?        00:00:00 [kworker/7:0-events]
+root       73553       2  0 10:46 ?        00:00:00 [kworker/5:2]
+root       74589       2  0 10:48 ?        00:00:00 [kworker/10:2-events]
+root       75048       2  0 10:49 ?        00:00:00 [kworker/8:0-events]
+root       75281       2  0 10:49 ?        00:00:00 [kworker/4:0-events]
+...skipping...
+kent       84545   54520  0 11:04 pts/3    00:00:00 bash source/sourceme.sh
+root       84654       2  0 11:04 ?        00:00:00 [kworker/10:0]
+kent       85506    7693  0 11:05 pts/2    00:00:00 sleep 5
+kent       85546   54520  0 11:05 pts/3    00:00:00 ps -ef
+kent       85547   54520  0 11:05 pts/3    00:00:00 less
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+>ITINF24/lektion02
+$ jobsITINF24/lektion02
+$ jobs
+[1]+  Stopped                 bash source/sourceme.sh
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ fg
+bash source/sourceme.sh
+
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ echounset X
+ITINF24/lektion02
+$ ITINF24/lektion02
+$ echo $X$:$$ $i$s$ $
+
+X is
+ITINF24/lektion02
+bash source/sourceme.sh 
+Jag körs!
+Stopp
+ITINF24/lektion02
+$ echo $
+
+echo X is $Xsourceme.sh 
+X is
+ITINF24/lektion02
+bash source/sourceme.sh ITINF24/lektion02
+$ bash source/sourceme.sh
+spource
+Jag körs!
+Stopp
+ITINF24/lektion02
+$ echo $X
+999
+ITINF24/lektion02
+bash source/sourceme.sh ITINF24/lektion02
+$ bash source/sourceme.sh ^C
+ITINF24/lektion02
+ps -ef | lessITINF24/lektion02
+$ ps -ef | les
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ^C
+ITINF24/lektion02
+$ cd funcs/
+ITINF24/lektion02/funcs
+$ ITINF24/lektion02/funcs
+$ 
+ITINF24/lektion02/funcs
+$ 
+ITINF24/lektion02/funcs
+$ 
+ITINF24/lektion02/funcs
+$ bash censorls.sh 
+ITINF24/lektion02/funcs
+$ censorls
+bash: censorls: command not found
+ITINF24/lektion02/funcs
+$ censorlsITINF24/lektion02/funcs
+bash censorls.sh
+source
+ITINF24/lektion02/funcs
+censorls censorls.sh 
+I be called!
+ITINF24/lektion02/funcs
+$ censorls
+I be called!
+ITINF24/lektion02/funcs
+$ ITINF24/lektion02/funcs
+source censorls.sh 
+ITINF24/lektion02/funcs
+censorls censorls.sh 
+I be called! Oh yeah!
+ITINF24/lektion02/funcs
+$ unset cesnnsorls
+ITINF24/lektion02/funcs
+censorlscensorls
+bash: censorls: command not found
+ITINF24/lektion02/funcs
+$ censorlsITINF24/lektion02/funcs
+$ censorls /egttc/ssh
+bash: censorls: command not found
+ITINF24/lektion02/funcs
+$ censorls /etc/ssh iejo eoijeoei^C
+ITINF24/lektion02/funcs
+$ ITINF24/lektion02/funcs
+$ source censorls.sh 
+ITINF24/lektion02/funcs
+$ censorls -l
+total 4
+-rw-r--r-- 1 kent kent 24 Oct 28 11:21 censorls.sh
+ITINF24/lektion02/funcs
+source censorls.sh ITINF24/lektion02/funcs
+$ source censorls.sh 
+ITINF24/lektion02/funcs
+$ censorls ITINF24/lektion02/funcs
+$ censorls -l
+total 4
+-rw-r--r-- 1 k**t k**t 46 Oct 28 11:22 censorls.sh
+ITINF24/lektion02/funcs
+$ censorls -
+
+
+
+
+
+ITINF24/lektion02/funcs
+source censorls.sh h 
+ITINF24/lektion02/funcs
+$ censorls 
+censorls.sh
+ITINF24/lektion02/funcs
+$ censorls ITINF24/lektion02/funcs
+./bonsorls 
+o
+
+
+
+
+
+
+
+cd ../se
+text_search/
+ITINF24/lektion02/text_search
+$ ITINF24/lektion02/text_search
+$ ls
+booksearch  textfil.txt
+ITINF24/lektion02/text_search
+$ ITINF24/lektion02/text_search
+$ ./booksearch textfil.txt 
+booken satan från borlänge är intressant.
+ITINF24/lektion02/text_search
+$ ./booksearch textfil.txt ITINF24/lektion02/text_search
+$ ./booksearch textfil.txt 
+booken satan från borlänge är intressant.
+boken satan från stockholm är intressant.
+booooooooooooken satan från västerås är intressant.
+ITINF24/lektion02/text_search
+$ ITINF24/lektion02/text_search
+$ man grep
+GREP(1)                   User Commands                  GREP(1)
+
+NAME
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+ Manual page grep(1) line 1 (press h for help or q to quit)...skipping...
+GREP(1)                   User Commands                  GREP(1)
+
+NAME
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+ Manual page grep(1) line 1 (press h for help or q to quit)...skipping...
+GREP(1)                   User Commands                  GREP(1)
+
+NAME
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+
+ Manual page grep(1) line 1 (press h for help or q to quit)...skipping...
+GREP(1)                   User Commands                  GREP(1)
+
+NAME
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+
+DESCRIPTION
+ Manual page grep(1) line 1 (press h for help or q to quit)...skipping...
+GREP(1)                   User Commands                  GREP(1)
+
+NAME
+       grep,  egrep,  fgrep,  rgrep  -  print  lines  that match
+       patterns
+
+SYNOPSIS
+       grep [OPTION...] PATTERNS [FILE...]
+       grep [OPTION...] -e PATTERNS ... [FILE...]
+       grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+
+DESCRIPTION
+       grep searches for PATTERNS in each FILE.  PATTERNS is one
+       or  more  patterns  separated  by newline characters, and
+       grep prints each line that matches a pattern.   Typically
+       PATTERNS  should  be  quoted when grep is used in a shell
+       command.ep(1) line 4 (press h for help or q to quit)
+ ESESCOBpage grep(1) line 5 (press h for help or q to quit)
+       A FILE of “-” stands for standard input.  If no  FILE  is
+       given,  recursive searches examine the working directory,
+       and nonrecursive searches read standard input. quit)
+ ESESCOBpage grep(1) line 9 (press h for help or q to quit)
+       Debian also includes the variant  programs  egrep,  fgrep
+       and  rgrep.   These  programs  are  the  same as grep -E,
+       grep -F, and grep -r, respectively.  These  variants  are
+       deprecated  upstream,  but  Debian  provides for backward
+       compatibility. For portability reasons, it is recommended
+       to  avoid  the  variant  programs,  and use grep with the
+       related option instead.
+
+OPTIONS
+   Generic Program Information
+       --help Output a usage message and exit.
+
+       -V, --version
+              Output the version number of grep and exit.
+
+   Pattern Syntax
+       -E, --extended-regexp (press h for help or q to quit)
+              Interpret PATTERNS as extended regular expressions
+              (EREs, see below).
+
+       -F, --fixed-strings
+              Interpret  PATTERNS  as fixed strings, not regular
+              expressions.
+
+       -G, --basic-regexp
+              Interpret PATTERNS as  basic  regular  expressions
+              (BREs, see below).  This is the default.
+
+       -P, --perl-regexp
+              Interpret   PATTERNS  as  Perl-compatible  regular
+>ITINF24/lektion02/text_searchpress h for help or q to quit)
+$ ./starsearch textfil.txt ITINF24/lektion02/text_search
+$ ./starsearch textfil.txt 
+grep: warning: * at start of expression
+booken satan från borlänge är intressant.
+youtube är både bra och dåligt
+boken satan från stockholm är intressa

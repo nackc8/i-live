@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Skickar vidare allt!
+docker run -p8080:80 --name "fincont$RANDOM" "$@"

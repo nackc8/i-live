@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Sök efter EXAKT detta
+
+grep -F '*' "$1"
