@@ -18,10 +18,11 @@ import re
 # (^|[^a-zA-Z]+)[bB]($|[a-zA-Z]+)
 #                 \__ utbytt mot riktig kod
 
-# r-sträng, behåller alla tecken som de är skrivna
-ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[a-zA-Z]+)")
-
 # Sätt det vi vill ha inom en grupp
+# (^|[^a-zA-Z]+)([bB]($|[a-zA-Z]+))
+#               \__ start         \___ slut på vill-ha-gruppen
+
+# r-sträng, behåller alla tecken som de är skrivna
 ord_re = re.compile(r"(^|[^a-zA-Z]+)([bB]($|[a-zA-Z]+))")
 
 # Jättebra kontrollsida: https://regex101.com/
