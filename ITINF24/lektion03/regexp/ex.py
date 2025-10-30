@@ -21,3 +21,6 @@ import re
 # r-sträng, behåller alla tecken som de är skrivna
 ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[^a-zA-Z]+)")
 
+with open("test.txt") as file:
+    content = file.readlines()
+    print(content)
