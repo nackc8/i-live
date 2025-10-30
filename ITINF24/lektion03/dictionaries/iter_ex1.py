@@ -21,6 +21,8 @@ me = {"attack": 15, "health": 40, "sound": "hej!"}
 
 animal = random.choice(animals)
 
+print(animal)
+
 print(f"You encounter a wild {animal['animal']}")
 while me["health"] > 0 and animal["health"] > 0:
     print(f"Your health is {me['health']}, the animals health is {animal['health']}")
