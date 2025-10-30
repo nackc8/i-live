@@ -3,6 +3,7 @@
 # stringmod ([-u|--uppercase] | [-l|--lowercase]) FILE
 
 import argparse
+import sys
 
 parser = argparse.ArgumentParser(
     prog="stringmod",
@@ -13,7 +14,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument("filename")
 
 if __name__ == "__main__":
-    parser.parse_args([])
+    parser.parse_args(sys.argv)
 
 # - Definiera argument och flaggor med `ArgumentParser()`
 
