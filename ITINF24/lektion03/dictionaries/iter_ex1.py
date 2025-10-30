@@ -22,6 +22,7 @@ me = {"attack": 15, "health": 40, "sound": "hej!"}
 animal = random.choice(animals)
 
 while me["health"] > 0 and animal["health"] > 0:
+    print("Attack or flee (a/f)? ")
     print(me)
     print(animal)
     break
