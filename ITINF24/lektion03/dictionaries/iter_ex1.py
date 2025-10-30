@@ -29,7 +29,10 @@ while me["health"] > 0 and animal["health"] > 0:
     while not (action == "a" or action == "f"):
         action = input("Attack or flee (a/f)? ")
 
-    
+    if action == "a":
+        success = True if random.randint(1, 100) > 50 else False
+        if success:
+            
 
     print(me)
     print(animal)
