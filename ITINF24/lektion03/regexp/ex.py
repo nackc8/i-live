@@ -9,8 +9,11 @@ import re
 # (^|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
 #  \__ utbytt mot riktig kod
 
-# (^|[^a-z])b(sist på raden|tecken som inte är a-z)
-#  \__ utbytt mot riktig kod
+# (^|[^a-z]+)b(sist på raden|[^a-z]+)
+#      \__ utbytt mot riktig kod \__ utbytt mot riktig kod
+
+# (^|[^a-z]+)b(sist på raden|[^a-z]+)
+#      \__ utbytt mot riktig kod \__ utbytt mot riktig kod
 
 
 # re.compile()
