@@ -8,9 +8,9 @@
 # armadillo    5            100         "Piiiiip!"
 
 animals = [
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
-    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    {"animal": "donkey",    "attack": 20, "health": 80 , "sound": "Ihhohhh"},
+    {"animal": "giraffe",   "attack": 40, "health": 50 , "sound": "Ihhohhh"},
+    {"animal": "monkey",    "attack": 60, "health": 40 , "sound": "Ihhohhh"},
+    {"animal": "pinguin",   "attack": 10, "health": 10 , "sound": "Ihhohhh"},
+    {"animal": "armadillo", "attack": 5 , "health": 100, "sound": "Ihhohhh"},
     ]
