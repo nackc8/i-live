@@ -12,7 +12,7 @@
 
 - **Klasser**
 
-    - Skapa enkla klasser med `__init__`
+    - Skapa enkla klasser med `__init__` ✓
 
     - Använda objekt och attribut
 
