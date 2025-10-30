@@ -3,6 +3,6 @@
 animals = ["donkey", "giraffe", "monkey", "pinguin", "armadillo"]
 
 for animal in animals:
-    if animal:
-        break
+    if "e" in animal:
+        continue
     print("Me love", animal)
