@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # stringmod ([-u|--uppercase] | [-l|--lowercase]) FILE
-# Klart:         Ja          Nej     Ja           Ja
+# Klart:         Redan       Nej     Redan        Redan
 
 import argparse
 import sys
@@ -29,8 +29,4 @@ parser.add_argument(
 if __name__ == "__main__":
     parser.parse_args()
 
-# - Definiera argument och flaggor med `ArgumentParser()`
-
 # - Ömsesidigt uteslutande grupper (`add_mutually_exclusive_group()`)
-
-# - Booleska flaggor och positionella argument
