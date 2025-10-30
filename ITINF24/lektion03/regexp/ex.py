@@ -23,4 +23,6 @@ ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[^a-zA-Z]+)")
 
 with open("test.txt") as file:
     content = file.readlines()
+
+    re.search(ord_re, content)
     print(content)
