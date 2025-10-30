@@ -23,6 +23,7 @@ animal = random.choice(animals)
 
 while me["health"] > 0 and animal["health"] > 0:
     # TODO: Info innan
+    print(f"You encounter a wild {animal['animal']}")
 
     action = ""
     while not (action == "a" or action == "f"):
