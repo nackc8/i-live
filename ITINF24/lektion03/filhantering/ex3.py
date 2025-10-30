@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-filename = Path("")
+filename = Path("test.txt")
 
 with open(filename) as file:
     content = file.readlines()
