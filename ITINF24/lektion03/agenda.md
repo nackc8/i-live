@@ -14,7 +14,7 @@
 
     - Skapa enkla klasser med `__init__` ✓
 
-    - Använda objekt och attribut
+    - Använda objekt och attribut ✓
 
 - **Fel och utskrift**
 
