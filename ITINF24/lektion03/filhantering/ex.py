@@ -4,4 +4,4 @@ with open("test.txt") as file:
     content = file.read()
     content = content.splitlines()
     print(content)
-    print(f"Oj! Den var {len(content)} tecken lång")
+    print(f"Oj! Den var {len(content)} rader lång")
