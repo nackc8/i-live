@@ -68,7 +68,7 @@ while me["health"] > 0 and animal["health"] > 0:
     else:
         print(f"The {animal['animal']} missed!")
 
-    if action == "f":
+    if action.lower() == "f":
         success_flee = True if random.randint(1, 100) > 50 else False
         if success_flee:
             print(f"{me["name"]} cowardly ran away!")
