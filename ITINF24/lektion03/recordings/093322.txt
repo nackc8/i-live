@@ -1,0 +1,421 @@
+Script started on 2025-10-30 09:33:30+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="65" LINES="12"]
+[?2004h[94mITINF24/lektion03
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ ls
+[?2004lagenda.md  dictionaries      filhantering  klasser  recordings
+argparse   fel_och_utskrift  funktioner    listor   regexp
+[?2004h[94mITINF24/lektion03
+(B[m$ cd listor/
+[?2004l[?2004h[94mITINF24/lektion03/listor
+(B[m$ [H[2J[94mITINF24/lektion03/listor
+(B[m$ ls
+[?2004lfiltrering  iteration
+[?2004h[94mITINF24/lektion03/listor
+(B[m$ cd iteration/
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004liter_ex1.py
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ chmod +x iter_ex1.py 
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ./iter_ex1.py 
+[?2004lHej
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004liter_ex1.py  iter_ex2.py  iter_ex3.py  iter_ex4.py  iter_ex5.py
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ python[K[K[K[K[K[Kcd ..
+[?2004l[?2004h[94mITINF24/lektion03/listor
+(B[m$ [H[2J[94mITINF24/lektion03/listor
+(B[m$ ls
+[?2004lfiltrering  iteration
+[?2004h[94mITINF24/lektion03/listor
+(B[m$ cd ..
+[?2004l[?2004h[94mITINF24/lektion03
+(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ ls
+[?2004lagenda.md  dictionaries      filhantering  klasser  recordings
+argparse   fel_och_utskrift  funktioner    listor   regexp
+[?2004h[94mITINF24/lektion03
+(B[m$ cd dictionaries/
+[?2004l[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ls
+[?2004liter_ex1.py
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ c[K./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [C[C[K./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lAttack or flee (a/f)? 
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Attack or flee (a/f)? f
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Attack or flee (a/f)? a
+hej!
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 38, in <module>
+    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+           ~~~~~~^^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Attack or flee (a/f)? a
+hej!
+ah 80
+ma 15
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 42, in <module>
+    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+           ~~~~~~^^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+You encounter a wild donkey
+Your health is 40, the animals health is 80
+Attack or flee (a/f)? ^[[A^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 32, in <module>
+    if action == "a":
+                 ^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 31, in <module>
+    action = input("Attack or flee (a/f)? ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 39, the animals health is 100
+Your attack is 14, the animals attack is 5
+Attack or flee (a/f)? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 35, in <module>
+    action = input("Attack or flee (a/f)? ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+hej!
+The monkey is hit for 15, it has 40 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Your attack is 15, the animals attack is 40
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+hej!
+95
+The armadillo is hit for 15, it has 100 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+hej!
+35
+The monkey is hit for 15, it has 35 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 35, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 14, the animals attack is 10
+Attack or flee (a/f)? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 33, in <module>
+    action = input("Attack or flee (a/f)? ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py l[K[H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+hej!
+The donkey is hit for 15, it has 80 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has 10 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has 10 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Your attack is 15, the animals attack is 40
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+hej!
+The armadillo is hit for 15, it has 85 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 85, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Your attack is 15, the animals attack is 40
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+hej!
+The monkey is hit for 15, it has 25 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 25, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has -5 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': -5, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+You missed!
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [K(B[m$ ./iter_ex1.py [K(B[m$ ./iter_ex1.py [K(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has -5 health left.
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+hej!
+The donkey is hit for 15, it has 65 health left.
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+hej!
+The armadillo is hit for 15, it has 85 health left.
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+You missed!
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 40
+    if animal['health'] > 0
+                           ^
+SyntaxError: expected ':'
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+hej!
+The armadillo is hit for 15, it has 85 health left.
+You missed!
+Your health is 40, the animals health is 85
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? ^L  ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 31, in <module>
+    action = input("Attack or flee (a/f)? ")
+          
