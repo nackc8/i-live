@@ -35,6 +35,7 @@ while me["health"] > 0 and animal["health"] > 0:
         if success:
             print(me["sound"])
             updated = animal["health"] - 5
+            print(updated)
             # ah = int(animal["health"])
             # ma = int(me["attack"])
             # print("ah", ah)
