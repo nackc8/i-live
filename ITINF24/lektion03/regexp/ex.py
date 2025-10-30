@@ -3,7 +3,7 @@
 import re
 
 # psuedokod för regex som matchar ord på b:
-# (först på raden|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
+# (först på raden|tecken som inte är a-z)b(sist på raden|tecken som är a-z)
 # mer och mer till riktig kod.
 
 # (^|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
