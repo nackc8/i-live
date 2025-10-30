@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import random
+
 # Animal       Attack       Health      Sound
 # donkey       20           80          "Ihhohhh"
 # giraffe      40           50          "..."
@@ -17,3 +19,4 @@ animals = [
 
 me = {"attack": 15, "health": 40, "sound": "hej!"}
 
+animal = random.
