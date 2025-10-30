@@ -233,4 +233,99 @@ The monkey is hit for 15, it has 35 health left.
 [?2004lYou encounter a wild donkey
 Your health is 40, the animals health is 80
 Your attack is 15, the animals attack is 20
-Attack or flee (a/f)?
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Your attack is 15, the animals attack is 60
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 14, the animals attack is 10
+Attack or flee (a/f)? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 33, in <module>
+    action = input("Attack or flee (a/f)? ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py l[K[H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Your attack is 15, the animals attack is 20
+Attack or flee (a/f)? a
+hej!
+The donkey is hit for 15, it has 80 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has 10 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+hej!
+The pinguin is hit for 15, it has 10 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Your attack is 15, the animals attack is 40
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Your attack is 15, the animals attack is 5
+Attack or flee (a/f)? a
+hej!
+The armadillo is hit for 15, it has 85 health left.
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 85, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Your attack is 15

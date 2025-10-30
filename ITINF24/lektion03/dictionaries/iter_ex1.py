@@ -36,7 +36,7 @@ while me["health"] > 0 and animal["health"] > 0:
             print(me["sound"])
             next_animal_health = animal["health"]
             next_animal_health -= me["attack"]
-            # animal["health"] = updated
+            animal["health"] = next_animal_health
             # print(updated)
             # ah = int(animal["health"])
             # ma = int(me["attack"])
