@@ -55,3 +55,6 @@
     - Skriva till `stderr` med `print(msg, file=sys.stderr)`
 
     - Avsluta program med `sys.exit(kod)`
+
+
+Flytta filtrering till rätt katalog
