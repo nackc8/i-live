@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
-parser.add_argument("filename")
+parser.add_argument("filename", help="The filename to read and transform")
 
 if __name__ == "__main__":
     parser.parse_args()
