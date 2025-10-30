@@ -24,9 +24,9 @@
 
 - **Filhantering**
 
-    - Öppna filer med `with open()`
+    - Öppna filer med `with open()` ✓
 
-    - Läsa innehåll radvis
+    - Läsa innehåll radvis ✓
 
 - **Reguljära uttryck (`re`)**
 
