@@ -73,4 +73,70 @@ argparse   fel_och_utskrift  funktioner    listor   regexp
 [?2004h[94mITINF24/lektion03/dictionaries
 (B[m$ [H[2J[94mITINF24/lektion03/dictionaries
 (B[m$ ./iter_ex1.py 
-[?2004lYou encounter a w
+[?2004lYou encounter a wild giraffe
+Your health is 40, the animals health is 50
+Attack or flee (a/f)? f
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild monkey
+Your health is 40, the animals health is 40
+Attack or flee (a/f)? a
+hej!
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 38, in <module>
+    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+           ~~~~~~^^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild donkey
+Your health is 40, the animals health is 80
+Attack or flee (a/f)? a
+hej!
+ah 80
+ma 15
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 42, in <module>
+    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
+           ~~~~~~^^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'animal': 'donkey', 'attack': 20, 'health': 80, 'sound': 'Ihhohhh'}
+You encounter a wild donkey
+Your health is 40, the animals health is 80
+Attack or flee (a/f)? ^[[A^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion03/dictionaries/./iter_ex1.py", line 32, in <module>
+    if action == "a":
+                 ^^^^^
+KeyboardInterrupt
+
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild armadillo
+Your health is 40, the animals health is 100
+Attack or flee (a/f)? a
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'armadillo', 'attack': 5, 'health': 100, 'sound': 'Piiiiip!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a wild pinguin
+Your health is 40, the animals health is 10
+Your attack is 15, the animals attack is 10
+Attack or flee (a/f)? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/

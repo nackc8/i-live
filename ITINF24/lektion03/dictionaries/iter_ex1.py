@@ -24,6 +24,7 @@ animal = random.choice(animals)
 print(f"You encounter a wild {animal['animal']}")
 while me["health"] > 0 and animal["health"] > 0:
     print(f"Your health is {me['health']}, the animals health is {animal['health']}")
+    print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
 
     action = ""
     while not (action == "a" or action == "f"):
