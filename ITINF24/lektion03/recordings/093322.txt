@@ -1,0 +1,76 @@
+Script started on 2025-10-30 09:33:30+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="65" LINES="12"]
+[?2004h[94mITINF24/lektion03
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ ls
+[?2004lagenda.md  dictionaries      filhantering  klasser  recordings
+argparse   fel_och_utskrift  funktioner    listor   regexp
+[?2004h[94mITINF24/lektion03
+(B[m$ cd listor/
+[?2004l[?2004h[94mITINF24/lektion03/listor
+(B[m$ [H[2J[94mITINF24/lektion03/listor
+(B[m$ ls
+[?2004lfiltrering  iteration
+[?2004h[94mITINF24/lektion03/listor
+(B[m$ cd iteration/
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004liter_ex1.py
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ chmod +x iter_ex1.py 
+[?2004l[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ./iter_ex1.py 
+[?2004lHej
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ ls
+[?2004liter_ex1.py  iter_ex2.py  iter_ex3.py  iter_ex4.py  iter_ex5.py
+[?2004h[94mITINF24/lektion03/listor/iteration
+(B[m$ [H[2J[94mITINF24/lektion03/listor/iteration
+(B[m$ python[K[K[K[K[K[Kcd ..
+[?2004l[?2004h[94mITINF24/lektion03/listor
+(B[m$ [H[2J[94mITINF24/lektion03/listor
+(B[m$ ls
+[?2004lfiltrering  iteration
+[?2004h[94mITINF24/lektion03/listor
+(B[m$ cd ..
+[?2004l[?2004h[94mITINF24/lektion03
+(B[m$ [H[2J[94mITINF24/lektion03
+(B[m$ ls
+[?2004lagenda.md  dictionaries      filhantering  klasser  recordings
+argparse   fel_och_utskrift  funktioner    listor   regexp
+[?2004h[94mITINF24/lektion03
+(B[m$ cd dictionaries/
+[?2004l[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ls
+[?2004liter_ex1.py
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ c[K./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py [C[C[K./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'monkey', 'attack': 60, 'health': 40, 'sound': 'Oh oh ah ah'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004l{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'giraffe', 'attack': 40, 'health': 50, 'sound': '...'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./iter_ex1.py [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lAttack or flee (a/f)? 
+{'attack': 15, 'health': 40, 'sound': 'hej!'}
+{'animal': 'pinguin', 'attack': 10, 'health': 10, 'sound': 'Meek! Meek!'}
+[?2004h[94mITINF24/lektion03/dictionaries
+(B[m$ [H[2J[94mITINF24/lektion03/dictionaries
+(B[m$ ./iter_ex1.py 
+[?2004lYou encounter a w
