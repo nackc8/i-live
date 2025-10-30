@@ -8,9 +8,9 @@
 
 - **Dictionaries**
 
-    - Lagra nyckel–värde-par
+    - Lagra nyckel–värde-par ✓
 
-    - Iterera över nycklar och värden
+    - Iterera över nycklar och värden TODO: Senare
 
 - **Klasser**
 
