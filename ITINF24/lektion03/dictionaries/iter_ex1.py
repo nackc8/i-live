@@ -44,6 +44,8 @@ while me["health"] > 0 and animal["health"] > 0:
             else:
                 print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
                 continue
+        else:
+            print("You missed!")
 
     animal_success = True if random.randint(1, 100) > 50 else False
     if animal_success:
