@@ -21,8 +21,11 @@ import re
 # r-sträng, behåller alla tecken som de är skrivna
 ord_re = re.compile(r"(^|[^a-zA-Z]+)[bB]($|[a-zA-Z]+)")
 
+# Sätt det vi vill ha inom en grupp
+ord_re = re.compile(r"(^|[^a-zA-Z]+)([bB]($|[a-zA-Z]+))")
+
 with open("test.txt") as file:
     content = file.read()
 
     for match in re.findall(ord_re, content):
-        print(match)
+        print(match[1])
