@@ -64,7 +64,6 @@ while me["health"] > 0 and animal["health"] > 0:
         else:
             print(f"The {animal['animal']} is hit for {me['attack']}, you are dead.")
             continue
-
     else:
         print(f"The {animal['animal']} missed!")
 
