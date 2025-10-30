@@ -22,10 +22,10 @@ me = {"attack": 15, "health": 40, "sound": "hej!"}
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal['animal']}")
-while me["health"] > 0 and animal["health"] > 0:
-    print(f"Your health is {me['health']}, the animals health is {animal['health']}")
-    print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
+print(f"Your health is {me['health']}, the animals health is {animal['health']}")
+print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
 
+while me["health"] > 0 and animal["health"] > 0:
     action = ""
     while not (action == "a" or action == "f"):
         action = input("Attack or flee (a/f)? ")
