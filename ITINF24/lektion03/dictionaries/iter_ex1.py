@@ -29,6 +29,8 @@ while me["health"] > 0 and animal["health"] > 0:
     while not (action == "a" or action == "f"):
         action = input("Attack or flee (a/f)? ")
 
+    
+
     print(me)
     print(animal)
     break
