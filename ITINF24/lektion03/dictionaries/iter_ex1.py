@@ -37,14 +37,12 @@ while me["health"] > 0 and animal["health"] > 0:
             next_animal_health = animal["health"]
             next_animal_health -= me["attack"]
             animal["health"] = next_animal_health
-            if animal['health'] > 0
+            if animal["health"] > 0:
                 print(
                     f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
                 )
             else:
-                print(
-                    f"The {animal['animal']} is hit for {me['attack']}, it perished."
-                )
+                print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
                 continue
 
     animal_success = True if random.randint(1, 100) > 50 else False
@@ -53,14 +51,12 @@ while me["health"] > 0 and animal["health"] > 0:
         next_me_health = me["health"]
         next_me_health -= animal["attack"]
         me["health"] = next_me_health
-        if me['health'] > 0:
+        if me["health"] > 0:
             print(
                 f"You're hit for {animal['attack']}, you have {me['health']} health left."
             )
         else:
-            print(
-                f"The {animal['animal']} is hit for {me['attack']}, you are dead."
-            )
+            print(f"The {animal['animal']} is hit for {me['attack']}, you are dead.")
             continue
 
     else:
