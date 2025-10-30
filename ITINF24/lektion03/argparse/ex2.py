@@ -13,13 +13,16 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename", help="The filename to read and transform")
-parser.add_argument(
+
+transformation = parser.add_mutually_exclusive_group()
+
+transformation.add_argument(
     "-l",
     "--lowercase",
     action="store_true",
     help="Transform the file contents to lowercase",
 )
-parser.add_argument(
+transformation.add_argument(
     "-u",
     "--uppercase",
     action="store_true",
