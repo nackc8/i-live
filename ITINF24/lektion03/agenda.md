@@ -22,12 +22,6 @@
 
     - Skillnad mellan `match()` (början av sträng) och `search()` (var som helst)
 
-- **Funktioner**
-
-    - Skriva egna funktioner som tar parametrar och returnerar värden
-
-    - Undvika sidoeffekter och hålla logiken ren
-
 - **argparse**
 
     - Definiera argument och flaggor med `ArgumentParser()`
@@ -41,8 +35,6 @@
     - Öppna filer med `with open()`
 
     - Läsa innehåll radvis
-
-    - Fånga fel med `try/except`
 
 - **Fel och utskrift**
 
