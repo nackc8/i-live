@@ -15,4 +15,8 @@ import re
 # (^|[^a-z]+)b($|[^a-z]+)
 #              \__ utbytt mot riktig kod
 
+# (^|[^a-z]+)b($|[^a-z]+)
+#              \__ utbytt mot riktig kod
+
+
 # re.compile()
