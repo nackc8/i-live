@@ -28,7 +28,7 @@ animal = random.choice(animals)
 print(f"You encounter a wild {animal['animal']}")
 print(f"{me['name']}'s health is {me['health']} with attack {me['attack']}")
 print(
-    f"{me['name']}'s attack is {me['attack']}, the animals attack is {animal['attack']}"
+    f"The {animal['animal']}'s attack is {animal['attack']}, the animals attack is {animal['attack']}"
 )
 
 tried_to_flee = False
