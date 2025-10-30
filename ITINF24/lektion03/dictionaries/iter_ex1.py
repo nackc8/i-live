@@ -42,7 +42,4 @@ while me["health"] > 0 and animal["health"] > 0:
             )
         else:
             print("You missed!")
-
-    print(me)
-    print(animal)
     break
