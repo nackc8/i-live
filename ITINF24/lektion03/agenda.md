@@ -10,23 +10,17 @@
 
     - Lagra nyckel–värde-par ✓
 
-    - Iterera över nycklar och värden TODO: Senare
-
 - **Klasser**
 
     - Skapa enkla klasser med `__init__`
 
     - Använda objekt och attribut
 
-    - `__repr__` för utskrift och felsökning
-
 - **Reguljära uttryck (`re`)**
 
     - Skapa mönster med `re.compile()`
 
     - Skillnad mellan `match()` (början av sträng) och `search()` (var som helst)
-
-    - Använd `re.sub()` eller listfiltrering för att ta bort matchningar
 
 - **Funktioner**
 
@@ -55,6 +49,3 @@
     - Skriva till `stderr` med `print(msg, file=sys.stderr)`
 
     - Avsluta program med `sys.exit(kod)`
-
-
-Flytta filtrering till rätt katalog

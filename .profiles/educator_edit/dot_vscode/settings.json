@@ -1,6 +1,6 @@
 {
   "explorer.excludeGitIgnore": false,
-  "workbench.colorTheme": "Abyss",
+  "workbench.colorTheme": "Default High Contrast",
   "terminal.integrated.profiles.linux": {
     "BashPresentation": {
       "args": ["--rcfile", "./.profiles/educator/present_dot_bashrc"],

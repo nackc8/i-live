@@ -65,10 +65,10 @@ while me["health"] > 0 and animal["health"] > 0:
         me["health"] = next_me_health
         if me["health"] > 0:
             print(
-                f"You're hit for {animal['attack']}, you have {me['health']} health left."
+                f"{me['name']} is hit for {animal['attack']}, you have {me['health']} health left."
             )
         else:
-            print(f"The {animal['animal']} is hit for {me['attack']}, you are dead.")
+            print(f"{me['name']} is hit for {me['attack']}, it resulted in death.")
             continue
     else:
         print(f"The {animal['animal']} missed!")
