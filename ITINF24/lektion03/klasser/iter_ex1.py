@@ -56,7 +56,8 @@ while mehealth > 0 and animal["health"] > 0:
             animal["health"] = next_animal_health
             if animal["health"] > 0:
                 print(
-                    f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left.")
+                    f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left."
+                )
             else:
                 print(f"The {animal.animal} is hit for {me['attack']}, it perished.")
             continue
@@ -75,15 +76,15 @@ while mehealth > 0 and animal["health"] > 0:
             )
         else:
             print(f"The {animal.animal} is hit for {me['attack']}, you are dead.")
-      contue
+            continue
 
     else:
         print(f"The {animal.animal} missed!")
 
-f acti == "f":
-        success_flee = True if random.randint(1, 100) > 50 else False
-        if success_flee:
-            print("You cowardly ran away!")
-            break
+if action == "f":
+    success_flee = True if random.randint(1, 100) > 50 else False
+    if success_flee:
+        print("You cowardly ran away!")
+        break
 
 print("Game over")
