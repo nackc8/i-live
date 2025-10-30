@@ -30,9 +30,9 @@
 
 - **Reguljära uttryck (`re`)**
 
-    - Skapa mönster med `re.compile()`
+    - Skapa mönster med `re.compile()` ✓
 
-    - Skillnad mellan `match()` (början av sträng) och `search()` (var som helst)
+    - Skillnad mellan `match()` (början av sträng) och `search()` (var som helst) ✓
 
 - **argparse**
 
