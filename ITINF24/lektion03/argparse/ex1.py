@@ -10,6 +10,9 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
+if __name__ == "__main__":
+    
+
 # - Definiera argument och flaggor med `ArgumentParser()`
 
 # - Ömsesidigt uteslutande grupper (`add_mutually_exclusive_group()`)
