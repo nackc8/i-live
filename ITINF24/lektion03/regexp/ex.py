@@ -2,4 +2,7 @@
 
 import re
 
-re.compile()
+# psuedokod för regex som matchar ord på b
+# (först på raden|mellanslag)b
+
+# re.compile()
