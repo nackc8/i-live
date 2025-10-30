@@ -43,7 +43,7 @@ me = Me(name, 15, 40, "hej!")
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal.animal}")
-print(f"{me['name']}'s health is {me['health']} with attack {me['attack']}")
+print(f"{me.name}'s health is {me['health']} with attack {me['attack']}")
 print(
     f"The {animal.animal}'s health is {animal['health']}, with attack {animal['attack']}"
 )
@@ -94,7 +94,7 @@ while me["health"] > 0 and animal["health"] > 0:
         tried_to_flee = True
         success_flee = True if random.randint(1, 100) > 50 else False
         if success_flee:
-            print(f"{me['name']} cowardly ran away!")
+            print(f"{me.name} cowardly ran away!")
             break
     tried_to_flee = False
 
