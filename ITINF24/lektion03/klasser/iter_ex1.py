@@ -18,6 +18,13 @@ class Animal:
         self.sound = sound
 
 
+class Me:
+    def __init__(self, attack, health, sound):
+        self.attack = attack
+        self.health = health
+        self.sound = sound
+
+
 animals = [
     {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
     {"animal": "giraffe", "attack": 40, "health": 50, "sound": "..."},
