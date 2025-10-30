@@ -2,6 +2,13 @@
 
 # stringmod ([-u|--uppercase] | [-l|--lowercase]) FILE
 
+import argparse
+
+parser = argparse.ArgumentParser(
+    prog="stringmod",
+    description="Modifies a text file and prints the result",
+    epilog="Text at the bottom of help",
+)
 
 # - Definiera argument och flaggor med `ArgumentParser()`
 
