@@ -9,7 +9,7 @@ import sys
 parser = argparse.ArgumentParser(
     prog="stringmod",
     description="Modifies a text file and prints the result",
-    epilog="Text at the bottom of help",
+    epilog="Only one transformation allowed",
 )
 
 parser.add_argument("filename", help="The filename to read and transform")
