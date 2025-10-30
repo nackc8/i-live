@@ -35,6 +35,8 @@ while me["health"] > 0 and animal["health"] > 0:
             print(me["sound"])
             ah = animal["health"]
             ma = me["attack"]
+            print("ah", ah)
+            print("ma", ma)
             animal = ah - ma
             print(
                 f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
