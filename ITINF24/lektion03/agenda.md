@@ -18,9 +18,9 @@
 
 - **Fel och utskrift**
 
-    - Skriva till `stderr` med `print(msg, file=sys.stderr)`
+    - Skriva till `stderr` med `print(msg, file=sys.stderr)`  ✓
 
-    - Avsluta program med `sys.exit(kod)`
+    - Avsluta program med `sys.exit(kod)` ✓
 
 - **Filhantering**
 
