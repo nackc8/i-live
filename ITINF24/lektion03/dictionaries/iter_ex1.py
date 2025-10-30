@@ -7,4 +7,10 @@
 # pinguin      10           10          "Meek! Meek!"
 # armadillo    5            100         "Piiiiip!"
 
-donkey = {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"}
+animals = [
+    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
+    ]
