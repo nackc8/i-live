@@ -12,7 +12,9 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename", help="The filename to read and transform")
-parser.add_argument("-l", help="Transform the file contents to lowercase")
+parser.add_argument(
+    "-l", action="store_true", help="Transform the file contents to lowercase"
+)
 
 if __name__ == "__main__":
     parser.parse_args()
