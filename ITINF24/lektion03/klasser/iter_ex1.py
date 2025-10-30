@@ -43,9 +43,9 @@ me = Me(name, 15, 40, "hej!")
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal.animal}")
-print(f"{me.name}'s health is {me['health']} with attack {me['attack']}")
+print(f"{me.name}'s health is {me.health} with attack {me.attack}")
 print(
-    f"The {animal.animal}'s health is {animal['health']}, with attack {animal['attack']}"
+    f"The {animal.animal}'s health is {animal.health}, with attack {animal['attack']}"
 )
 
 tried_to_flee = False
@@ -64,12 +64,10 @@ while me["health"] > 0 and animal["health"] > 0:
                 animal["health"] = next_animal_health
                 if animal["health"] > 0:
                     print(
-                        f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left."
+                        f"The {animal.animal} is hit for {me.attack}, it has {animal.health} health left."
                     )
                 else:
-                    print(
-                        f"The {animal.animal} is hit for {me['attack']}, it perished."
-                    )
+                    print(f"The {animal.animal} is hit for {me.attack}, it perished.")
                     continue
             else:
                 print(me["name"] + " missed!")
@@ -82,10 +80,10 @@ while me["health"] > 0 and animal["health"] > 0:
         me["health"] = next_me_health
         if me["health"] > 0:
             print(
-                f"You're hit for {animal['attack']}, you have {me['health']} health left."
+                f"You're hit for {animal['attack']}, you have {me.health} health left."
             )
         else:
-            print(f"The {animal.animal} is hit for {me['attack']}, you are dead.")
+            print(f"The {animal.animal} is hit for {me.attack}, you are dead.")
             continue
     else:
         print(f"The {animal.animal} missed!")
