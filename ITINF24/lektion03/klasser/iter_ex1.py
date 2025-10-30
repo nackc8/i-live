@@ -9,8 +9,14 @@ import random
 # pinguin      10           10          "Meek! Meek!"
 # armadillo    5            100         "Piiiiip!"
 
+
 class Animal:
-    def __init__()
+    def __init__(self, animal, attack, health, sound):
+        self.animal = animal
+        self.attack = attack
+        self.health = health
+        self.sound = sound
+
 
 animals = [
     {"animal": "donkey", "attack": 20, "health": 80, "sound": "Ihhohhh"},
