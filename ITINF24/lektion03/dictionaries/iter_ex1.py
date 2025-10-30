@@ -24,8 +24,8 @@ animal = random.choice(animals)
 while me["health"] > 0 and animal["health"] > 0:
     # TODO: Info innan
 
-    
-    action = input("Attack or flee (a/f)? ")
+    while action == "a" or action == "f":
+        action = input("Attack or flee (a/f)? ")
 
     print(me)
     print(animal)
