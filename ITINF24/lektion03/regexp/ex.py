@@ -2,9 +2,15 @@
 
 import re
 
-# psuedokod för regex som matchar ord på b
-# (först på raden|mellanslag)b(sist på raden|tecken som inte är a-z)
+# psuedokod för regex som matchar ord på b:
+# (först på raden|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
 # mer och mer till riktig kod.
-# (^| )b(sist på raden|tecken som inte är a-z)
+
+# (^|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
+#  \__ utbytt mot riktig kod
+
+# (^|tecken som inte är a-z)b(sist på raden|tecken som inte är a-z)
+#  \__ utbytt mot riktig kod
+
 
 # re.compile()
