@@ -17,13 +17,17 @@ animals = [
     {"animal": "armadillo", "attack": 5, "health": 100, "sound": "Piiiiip!"},
 ]
 
-me = {"attack": 15, "health": 40, "sound": "hej!"}
+name=""
+while name == ""
+    name = input("What is your name? ")
+
+me = {"name": name, "attack": 15, "health": 40, "sound": "hej!"}
 
 animal = random.choice(animals)
 
 print(f"You encounter a wild {animal['animal']}")
-print(f"Your health is {me['health']}, the animals health is {animal['health']}")
-print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
+print(f"{animal["name"]}'s health is {me['health']}, its health is {animal['health']}")
+print(f"{me["name"]}'s attack is {me['attack']}, the animals attack is {animal['attack']}")
 
 while me["health"] > 0 and animal["health"] > 0:
     action = ""
