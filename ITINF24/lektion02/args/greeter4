@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for name; do
+	echo Hello "$name"
+done
+
+echo "I welcome all $# of you!"
