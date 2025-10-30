@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
-parser.add_argument("FILE",)
+parser.add_argument("filename")
 
 if __name__ == "__main__":
     parser.parse_args([])
