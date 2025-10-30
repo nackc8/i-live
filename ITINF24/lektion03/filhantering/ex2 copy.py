@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-Path
+from pathlib import Path
 
-filename = "test.txt"
+filename = Path("")
 
 with open(filename) as file:
     content = file.readlines()
