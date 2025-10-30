@@ -34,7 +34,8 @@ while me["health"] > 0 and animal["health"] > 0:
         success = True if random.randint(1, 100) > 50 else False
         if success:
             print(me["sound"])
-            animal["health"] = animal["health"] - 5
+            next_animal_health = animal["health"]
+            next_animal_health -= me["attack"]
             # animal["health"] = updated
             # print(updated)
             # ah = int(animal["health"])
