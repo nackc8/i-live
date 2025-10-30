@@ -2,6 +2,6 @@
 
 with open("test.txt") as file:
     content = file.read()
-    content.splitlines()
+    content = content.splitlines()
     print(content)
     print(f"Oj! Den var {len(content)} tecken lång")
