@@ -22,6 +22,12 @@
 
     - Avsluta program med `sys.exit(kod)`
 
+- **Filhantering**
+
+    - Öppna filer med `with open()`
+
+    - Läsa innehåll radvis
+
 - **Reguljära uttryck (`re`)**
 
     - Skapa mönster med `re.compile()`
