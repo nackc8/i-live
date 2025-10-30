@@ -38,8 +38,8 @@ me = Me(15, 40, "Hej!")
 
 animal = random.choice(animals)
 
-print(f"You encounter a wild {animal['animal']}")
-while me["health"] > 0 and animal["health"] > 0:
+print(f"You encounter a wild {animal.animal}")
+while me.health > 0 and animal["health"] > 0:
     print(f"Your health is {me['health']}, the animals health is {animal['health']}")
     print(f"Your attack is {me['attack']}, the animals attack is {animal['attack']}")
 
@@ -56,11 +56,10 @@ while me["health"] > 0 and animal["health"] > 0:
             animal["health"] = next_animal_health
             if animal["health"] > 0:
                 print(
-                    f"The {animal['animal']} is hit for {me['attack']}, it has {animal['health']} health left."
-                )
-            else:
-                print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
-                continue
+                    f"The {animal.animal} is hit for {me['attack']}, it has {animal['health']} health left."
+    .                  else:
+                print(f"The {animal.animal} is hit for {me['attack']}, it perished.")
+    .      ntinue
         else:
             print("You missed!")
 
@@ -75,13 +74,13 @@ while me["health"] > 0 and animal["health"] > 0:
                 f"You're hit for {animal['attack']}, you have {me['health']} health left."
             )
         else:
-            print(f"The {animal['animal']} is hit for {me['attack']}, you are dead.")
-            continue
+            print(f"The {animal.animal} is hit for {me['attack']}, you are dead.")
+    .  contue
 
     else:
-        print(f"The {animal['animal']} missed!")
+        print(f"The {animal.animal} missed!")
 
-    if action == "f":
+.f acti == "f":
         success_flee = True if random.randint(1, 100) > 50 else False
         if success_flee:
             print("You cowardly ran away!")
