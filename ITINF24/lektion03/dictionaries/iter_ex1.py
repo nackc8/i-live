@@ -14,3 +14,6 @@ animals = [
     {"animal": "pinguin", "attack": 10, "health": 10, "sound": "Meek! Meek!"},
     {"animal": "armadillo", "attack": 5, "health": 100, "sound": "Piiiiip!"},
 ]
+
+me = {"attack": 15, "health": 40, "sound": "hej!"}
+
