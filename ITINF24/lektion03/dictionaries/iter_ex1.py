@@ -37,7 +37,7 @@ while me["health"] > 0 and animal["health"] > 0:
     if action == "a":
         success = True if random.randint(1, 100) > 50 else False
         if success:
-            print(me["sound"])
+            print(me["name"] + ": " + me["sound"])
             next_animal_health = animal["health"]
             next_animal_health -= me["attack"]
             animal["health"] = next_animal_health
@@ -49,7 +49,7 @@ while me["health"] > 0 and animal["health"] > 0:
                 print(f"The {animal['animal']} is hit for {me['attack']}, it perished.")
                 continue
         else:
-            print("You missed!")
+            print(me["name"] + " missed!")
 
     animal_success = True if random.randint(1, 100) > 50 else False
     if animal_success:
