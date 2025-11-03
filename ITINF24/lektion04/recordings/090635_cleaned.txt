@@ -1,0 +1,30 @@
+Script started on 2025-11-03 09:06:40+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="65" LINES="12"]
+ITINF24/lektion04
+$ git diff
+diff --git a/.profiles/educator_present/dot_vscode/settings.json b/.profiles/educator_present/dot_vscode/settings.json
+index 2ce5713..46e64e3 100644
+--- a/.profiles/educator_present/dot_vscode/settings.json
++++ b/.profiles/educator_present/dot_vscode/settings.json
+@@ -104,7 +104,7 @@
+   "terminal.integrated.suggest.quickSuggestions": {
+     "arguments": "off"
+   },
+-  "window.zoomLevel": 4,
++  "window.zoomLevel": 3,
+...skipping...
+diff --git a/.profiles/educator_present/dot_vscode/settings.json b/.profiles/educator_present/dot_vscode/settings.json
+index 2ce5713..46e64e3 100644
+--- a/.profiles/educator_present/dot_vscode/settings.json
++++ b/.profiles/educator_present/dot_vscode/settings.json
+@@ -104,7 +104,7 @@
+   "terminal.integrated.suggest.quickSuggestions": {
+     "arguments": "off"
+   },
+-  "window.zoomLevel": 4,
++  "window.zoomLevel": 3,
+>ITINF24/lektion04
+$ ITINF24/lektion04
+$ 
+exit
+
+Script done on 2025-11-03 09:07:00+01:00 [COMMAND_EXIT_CODE="0"]
