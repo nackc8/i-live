@@ -360,4 +360,34 @@ Cmdlet          Get-ItemPropertyValue
 Cmdlet          Get-Job                                       
 Cmdlet          Get-Location                                  
 Cmdlet          Get-MarkdownOption                            
-Cmdlet       
+Cmdlet          Get-Member                                    
+Cmdlet          Get-Module                                    
+Cmdlet          Get-Package                                   
+Cmdlet          Get-PackageProvider                           
+Cmdlet          Get-PackageSource                             
+Cmdlet          Get-PfxCertificate                            
+Cmdlet          Get-Process                                   
+Cmdlet          Get-PSBreakpoint                              
+Cmdlet          Get-PSCallStack                               
+Cmdlet          Get-PSDrive                                   
+Cmdlet          Get-PSHostProcessInfo                         
+Cmdlet          Get-PSProvider                                
+Cmdlet          Get-PSReadLineKeyHandler                      
+Cmdlet          Get-PSReadLineOption                          
+Cmdlet          Get-PSResourceRepository                      
+Cmdlet          Get-PSScriptFileInfo                          
+Cmdlet          Get-PSSession                                 
+Cmdlet          Get-Random                                    
+Cmdlet          Get-Runspace                                  
+Cmdlet          Get-RunspaceDebug                             
+Cmdlet          Get-SecureRandom                              
+Cmdlet          Get-TimeZone                                  
+Cmdlet          Get-TraceSource                               
+Cmdlet          Get-TypeData                                  
+Cmdlet          Get-UICulture                                 
+Cmdlet          Get-Unique                                    
+Cmdlet          Get-Uptime                                    
+Cmdlet          Get-Variable                                  
+Cmdlet          Get-Verb                                      
+
+[6nPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [?1h[6n[2J[?25l[1;1HPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [6n[?25l[2;7H[39;49m[0m[2;7H[?12l[?25h[6n[?12l[?25h[6n[?25l[2;7H[0m[93mG[0m[97;2;3met-Command -Verb Get[0m[39;49m[0m[2;8H[?12l[?25h[6n[?25l[2;7H[0m[93mGe[0m[97;2;3mt-Command -Verb Get[0m[39;49m[0m[2;9H[?12l[?25h[6n[?25l[2;7H[0m[93mGet[0m[97;2;3m-Command -Verb Get[0m[39;49m[0m[2;10H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-[0m[97;2;3mCommand -Verb Get[0m[39;49m[0m[2;11H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-H[0m[97;2;3melp ./effective.ps1 -Verbose[0m[39;49m[0m[2;12H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-He[0m[97;2;3mlp ./effective.ps1 -Verbose[0m[39;49m[0m[2;13H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Hel[0m[97;2;3mp ./effective.ps1 -Verbose[0m[39;49m[0m[2;14H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[97;2;3m ./effective.ps1 -Verbose[0m[39;49m[0m[2;15H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[97;2;3m./effective.ps1 -Verbose[0m[39;49m[0m[2;16H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mG[0m[97;2;3met-Command[0m[39;49m             [0m[2;17H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGe[0m[97;2;3mt-Command[0m[39;49m[0m[2;18H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet[0m[97;2;3m-Command[0m[39;49m[0m[2;19H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-[0m[97;2;3mCommand[0m[39;49m[0m[2;20H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-P[0m[97;2;3mrocess -Online[0m[39;49m[0m[2;21H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Pr[0m[97;2;3mocess -Online[0m[39;49m[0m[2;22H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Pro[0m[97;2;3mcess -Online[0m[39;49m[0m[2;23H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Proc[0m[97;2;3mess -Online[0m[39;49m[0m[2;24H[?12l[?25h[6n[?25l[2;7H[0m[93mGet-Help[0m[39;49m [0m[37mGet-Proce[0m[97;2;3mss -Online[0m[39;49m[0m[2;25H[?12l[?25h[6n[?25l[2;7H[0m[93mGe
