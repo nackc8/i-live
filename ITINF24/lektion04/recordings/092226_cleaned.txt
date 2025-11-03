@@ -1,0 +1,1993 @@
+Script started on 2025-11-03 09:22:26+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="63" LINES="12"]
+ITINF24/lektion04
+$ pwsh
+=PowerShell 7.4.5
+
+   A new PowerShell stable release is available: v7.5.4 
+   Upgrade now, or check out the release page at:       
+     https://aka.ms/PowerShell-Release?tag=v7.5.4       
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Git push -fGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Command -Noun Alias          Get-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun Alias
+
+CommandType     Name
+-----------     ----                                          
+Alias           Get-PSResource                                
+Function        cd..                                          
+Function        cd\                                           
+Function        cd~                                           
+Function        Clear-Host                                    
+Function        Compress-Archive                              
+Function        exec                                          
+Function        Expand-Archive                                
+Function        Find-Command                                  
+Function        Find-DSCResource                              
+Function        Find-Module                                   
+Function        Find-RoleCapability                           
+Function        Find-Script                                   
+Function        Get-CredsFromCredentialProvider               
+Function        Get-InstalledModule                           
+Function        Get-InstalledScript                           
+Function        Get-PSRepository                              
+Function        help                                          
+Function        Import-PSGetRepository                        
+Function        Install-Module                                
+Function        Install-Script                                
+Function        New-ScriptFileInfo                            
+Function        oss                                           
+Function        Pause                                         
+Function        prompt                                        
+Function        PSConsoleHostReadLine                         
+Function        Publish-Module                                
+Function        Publish-Script                                
+Function        Register-PSRepository                         
+Function        Save-Module                                   
+Function        Save-Script                                   
+Function        Set-PSRepository                              
+Function        TabExpansion2                                 
+Function        Test-ScriptFileInfo                           
+Function        Uninstall-Module                              
+Function        Uninstall-Script                              
+Function        Unregister-PSRepository                       
+Function        Update-Module                                 
+Function        Update-ModuleManifest                         
+Function        Update-Script                                 
+Function        Update-ScriptFileInfo                         
+Cmdlet          Add-Content                                   
+Cmdlet          Add-History                                   
+Cmdlet          Add-Member                                    
+Cmdlet          Add-Type                                      
+Cmdlet          Clear-Content                                 
+Cmdlet          Clear-History                                 
+Cmdlet          Clear-Item                                    
+Cmdlet          Clear-ItemProperty                            
+Cmdlet          Clear-Variable                                
+Cmdlet          Compare-Object                                
+Cmdlet          Convert-Path                                  
+Cmdlet          ConvertFrom-Csv                               
+Cmdlet          ConvertFrom-Json                              
+Cmdlet          ConvertFrom-Markdown                          
+Cmdlet          ConvertFrom-SecureString                      
+Cmdlet          ConvertFrom-StringData                        
+Cmdlet          ConvertTo-Csv                                 
+Cmdlet          ConvertTo-Html                                
+Cmdlet          ConvertTo-Json                                
+Cmdlet          ConvertTo-SecureString                        
+Cmdlet          ConvertTo-Xml                                 
+Cmdlet          Copy-Item                                     
+Cmdlet          Copy-ItemProperty                             
+Cmdlet          Debug-Job                                     
+Cmdlet          Debug-Process                                 
+Cmdlet          Debug-Runspace                                
+Cmdlet          Disable-ExperimentalFeature                   
+Cmdlet          Disable-PSBreakpoint                          
+Cmdlet          Disable-RunspaceDebug                         
+Cmdlet          Enable-ExperimentalFeature                    
+Cmdlet          Enable-PSBreakpoint                           
+Cmdlet          Enable-RunspaceDebug                          
+Cmdlet          Enter-PSHostProcess                           
+Cmdlet          Enter-PSSession                               
+Cmdlet          Exit-PSHostProcess                            
+Cmdlet          Exit-PSSession                                
+Cmdlet          Export-Alias                                  
+Cmdlet          Export-Clixml                                 
+Cmdlet          Export-Csv                                    
+Cmdlet          Export-FormatData                             
+Cmdlet          Export-ModuleMember                           
+Cmdlet          Export-PSSession                              
+Cmdlet          Find-Package                                  
+Cmdlet          Find-PackageProvider                          
+Cmdlet          Find-PSResource                               
+Cmdlet          ForEach-Object                                
+Cmdlet          Format-Custom                                 
+Cmdlet          Format-Hex                                    
+Cmdlet          Format-List                                   
+Cmdlet          Format-Table                                  
+Cmdlet          Format-Wide                                   
+Cmdlet          Get-Alias                                     
+Cmdlet          Get-ChildItem                                 
+Cmdlet          Get-Clipboard                                 
+Cmdlet          Get-CmsMessage                                
+Cmdlet          Get-Command                                   
+Cmdlet          Get-Content                                   
+Cmdlet          Get-Credential                                
+Cmdlet          Get-Culture                                   
+Cmdlet          Get-Date                                      
+Cmdlet          Get-Error                                     
+Cmdlet          Get-Event                                     
+Cmdlet          Get-EventSubscriber                           
+Cmdlet          Get-ExecutionPolicy                           
+Cmdlet          Get-ExperimentalFeature                       
+Cmdlet          Get-FileHash                                  
+Cmdlet          Get-FormatData                                
+Cmdlet          Get-Help                                      
+Cmdlet          Get-History                                   
+Cmdlet          Get-Host                                      
+Cmdlet          Get-InstalledPSResource                       
+Cmdlet          Get-Item                                      
+Cmdlet          Get-ItemProperty                              
+Cmdlet          Get-ItemPropertyValue                         
+Cmdlet          Get-Job                                       
+Cmdlet          Get-Location                                  
+Cmdlet          Get-MarkdownOption                            
+Cmdlet          Get-Member                                    
+Cmdlet          Get-Module                                    
+Cmdlet          Get-Package                                   
+Cmdlet          Get-PackageProvider                           
+Cmdlet          Get-PackageSource                             
+Cmdlet          Get-PfxCertificate                            
+Cmdlet          Get-Process                                   
+Cmdlet          Get-PSBreakpoint                              
+Cmdlet          Get-PSCallStack                               
+Cmdlet          Get-PSDrive                                   
+Cmdlet          Get-PSHostProcessInfo                         
+Cmdlet          Get-PSProvider                                
+Cmdlet          Get-PSReadLineKeyHandler                      
+Cmdlet          Get-PSReadLineOption                          
+Cmdlet          Get-PSResourceRepository                      
+Cmdlet          Get-PSScriptFileInfo                          
+Cmdlet          Get-PSSession                                 
+Cmdlet          Get-Random                                    
+Cmdlet          Get-Runspace                                  
+Cmdlet          Get-RunspaceDebug                             
+Cmdlet          Get-SecureRandom                              
+Cmdlet          Get-TimeZone                                  
+Cmdlet          Get-TraceSource                               
+Cmdlet          Get-TypeData                                  
+Cmdlet          Get-UICulture                                 
+Cmdlet          Get-Unique                                    
+Cmdlet          Get-Uptime                                    
+Cmdlet          Get-Variable                                  
+Cmdlet          Get-Verb                                      
+Cmdlet          Group-Object                                  
+Cmdlet          Import-Alias                                  
+Cmdlet          Import-Clixml                                 
+Cmdlet          Import-Csv                                    
+Cmdlet          Import-LocalizedData                          
+Cmdlet          Import-Module                                 
+Cmdlet          Import-PackageProvider                        
+Cmdlet          Import-PowerShellDataFile                     
+Cmdlet          Import-PSSession                              
+Cmdlet          Install-Package                               
+Cmdlet          Install-PackageProvider                       
+Cmdlet          Install-PSResource                            
+Cmdlet          Invoke-Command                                
+Cmdlet          Invoke-Expression                             
+Cmdlet          Invoke-History                                
+Cmdlet          Invoke-Item                                   
+Cmdlet          Invoke-RestMethod                             
+Cmdlet          Invoke-WebRequest                             
+Cmdlet          Join-Path                                     
+Cmdlet          Join-String                                   
+Cmdlet          Measure-Command                               
+Cmdlet          Measure-Object                                
+Cmdlet          Move-Item                                     
+Cmdlet          Move-ItemProperty                             
+Cmdlet          New-Alias                                     
+Cmdlet          New-Event                                     
+Cmdlet          New-Guid                                      
+Cmdlet          New-Item                                      
+Cmdlet          New-ItemProperty                              
+Cmdlet          New-Module                                    
+Cmdlet          New-ModuleManifest                            
+Cmdlet          New-Object                                    
+Cmdlet          New-PSDrive                                   
+Cmdlet          New-PSRoleCapabilityFile                      
+Cmdlet          New-PSScriptFileInfo                          
+Cmdlet          New-PSSession                                 
+Cmdlet          New-PSSessionConfigurationFile                
+Cmdlet          New-PSSessionOption                           
+Cmdlet          New-PSTransportOption                         
+Cmdlet          New-TemporaryFile                             
+Cmdlet          New-TimeSpan                                  
+Cmdlet          New-Variable                                  
+Cmdlet          Out-Default                                   
+Cmdlet          Out-File                                      
+Cmdlet          Out-Host                                      
+Cmdlet          Out-Null                                      
+Cmdlet          Out-String                                    
+Cmdlet          Pop-Location                                  
+Cmdlet          Protect-CmsMessage                            
+Cmdlet          Publish-PSResource                            
+Cmdlet          Push-Location                                 
+Cmdlet          Read-Host                                     
+Cmdlet          Receive-Job                                   
+Cmdlet          Register-ArgumentCompleter                    
+Cmdlet          Register-EngineEvent                          
+Cmdlet          Register-ObjectEvent                          
+Cmdlet          Register-PackageSource                        
+Cmdlet          Register-PSResourceRepository                 
+Cmdlet          Remove-Alias                                  
+Cmdlet          Remove-Event                                  
+Cmdlet          Remove-Item                                   
+Cmdlet          Remove-ItemProperty                           
+Cmdlet          Remove-Job                                    
+Cmdlet          Remove-Module                                 
+Cmdlet          Remove-PSBreakpoint                           
+Cmdlet          Remove-PSDrive                                
+Cmdlet          Remove-PSReadLineKeyHandler                   
+Cmdlet          Remove-PSSession                              
+Cmdlet          Remove-TypeData                               
+Cmdlet          Remove-Variable                               
+Cmdlet          Rename-Item                                   
+Cmdlet          Rename-ItemProperty                           
+Cmdlet          Resolve-Path                                  
+Cmdlet          Restart-Computer                              
+Cmdlet          Save-Help                                     
+Cmdlet          Save-Package                                  
+Cmdlet          Save-PSResource                               
+Cmdlet          Select-Object                                 
+Cmdlet          Select-String                                 
+Cmdlet          Select-Xml                                    
+Cmdlet          Send-MailMessage                              
+Cmdlet          Set-Alias                                     
+Cmdlet          Set-Clipboard                                 
+Cmdlet          Set-Content                                   
+Cmdlet          Set-Date                                      
+Cmdlet          Set-ExecutionPolicy                           
+Cmdlet          Set-Item                                      
+Cmdlet          Set-ItemProperty                              
+Cmdlet          Set-Location                                  
+Cmdlet          Set-MarkdownOption                            
+Cmdlet          Set-PackageSource                             
+Cmdlet          Set-PSBreakpoint                              
+Cmdlet          Set-PSDebug                                   
+Cmdlet          Set-PSReadLineKeyHandler                      
+Cmdlet          Set-PSReadLineOption                          
+Cmdlet          Set-PSResourceRepository                      
+Cmdlet          Set-StrictMode                                
+Cmdlet          Set-TraceSource                               
+Cmdlet          Set-Variable                                  
+Cmdlet          Show-Markdown                                 
+Cmdlet          Sort-Object                                   
+Cmdlet          Split-Path                                    
+Cmdlet          Start-Job                                     
+Cmdlet          Start-Process                                 
+Cmdlet          Start-Sleep                                   
+Cmdlet          Start-ThreadJob                               
+Cmdlet          Start-Transcript                              
+Cmdlet          Stop-Computer                                 
+Cmdlet          Stop-Job                                      
+Cmdlet          Stop-Process                                  
+Cmdlet          Stop-Transcript                               
+Cmdlet          Switch-Process                                
+Cmdlet          Tee-Object                                    
+Cmdlet          Test-Connection                               
+Cmdlet          Test-Json                                     
+Cmdlet          Test-ModuleManifest                           
+Cmdlet          Test-Path                                     
+Cmdlet          Test-PSScriptFileInfo                         
+Cmdlet          Trace-Command                                 
+Cmdlet          Unblock-File                                  
+Cmdlet          Uninstall-Package                             
+Cmdlet          Uninstall-PSResource                          
+Cmdlet          Unprotect-CmsMessage                          
+Cmdlet          Unregister-Event                              
+Cmdlet          Unregister-PackageSource                      
+Cmdlet          Unregister-PSResourceRepository               
+Cmdlet          Update-FormatData                             
+Cmdlet          Update-Help                                   
+Cmdlet          Update-List                                   
+Cmdlet          Update-PSModuleManifest                       
+Cmdlet          Update-PSResource                             
+Cmdlet          Update-PSScriptFileInfo                       
+Cmdlet          Update-TypeData                               
+Cmdlet          Wait-Debugger                                 
+Cmdlet          Wait-Event                                    
+Cmdlet          Wait-Job                                      
+Cmdlet          Wait-Process                                  
+Cmdlet          Where-Object                                  
+Cmdlet          Write-Debug                                   
+Cmdlet          Write-Error                                   
+Cmdlet          Write-Host                                    
+Cmdlet          Write-Information                             
+Cmdlet          Write-Output                                  
+Cmdlet          Write-Progress                                
+Cmdlet          Write-Verbose                                 
+Cmdlet          Write-Warning                                 
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-CommandGet-Command -Noun AliasGet-Command &          Get-Command -Noun AliasGet-Command *          Get-Command **Get-Command * Get-Command -Noun AliasGet-Command -Noun AliasGet-Command -          
+Get-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun AliasGet-Command -Noun J    Get-Command -Noun JSGet-Command -Noun JSOGet-Command -Noun JSON
+
+CommandType     Name
+-----------     ----                                          
+Cmdlet          ConvertFrom-Json                              
+Cmdlet          ConvertTo-Json                                
+Cmdlet          Test-Json                                     
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Noun JSONGet-Command -Noun JSONGet-Command -Noun JSONGet-Command -Noun JSONGet-Command -Noun JSONPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Noun JSONGet-Command -Noun P   Get-Command -Noun PrGet-Command -Noun ProGet-Command -Noun ProcGet-Command -Noun ProceGet-Command -Noun ProcesGet-Command -Noun Process
+
+CommandType     Name
+-----------     ----                                          
+Cmdlet          Debug-Process                                 
+Cmdlet          Get-Process                                   
+Cmdlet          Start-Process                                 
+Cmdlet          Stop-Process                                  
+Cmdlet          Switch-Process                                
+Cmdlet          Wait-Process                                  
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun ProcessGet-Command -Noun S      Get-Command -Noun SeGet-Command -Noun SerGet-Command -Noun ServGet-Command -Noun ServiGet-Command -Noun ServicGet-Command -Noun ServicePS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Noun Service
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Noun ServiceGet-Command -Nou Service Get-Command -No Service Get-Command -N Service Get-Command - Service Get-Command -V ServiceGet-Command -Ve ServiceGet-Command -Ver ServiceGet-Command -Vern ServiceGet-Command -Ver Service Get-Command -Verb ServiceGet-Command -Verb Servic Get-Command -Verb Servi Get-Command -Verb Serv Get-Command -Verb Ser Get-Command -Verb Se Get-Command -Verb S Get-Command -Verb  Get-Command -Verb GGet-Command -Verb GeGet-Command -Verb Get
+
+CommandType     Name
+-----------     ----                                          
+Alias           Get-PSResource                                
+Function        Get-CredsFromCredentialProvider               
+Function        Get-InstalledModule                           
+Function        Get-InstalledScript                           
+Function        Get-PSRepository                              
+Cmdlet          Get-Alias                                     
+Cmdlet          Get-ChildItem                                 
+Cmdlet          Get-Clipboard                                 
+Cmdlet          Get-CmsMessage                                
+Cmdlet          Get-Command                                   
+Cmdlet          Get-Content                                   
+Cmdlet          Get-Credential                                
+Cmdlet          Get-Culture                                   
+Cmdlet          Get-Date                                      
+Cmdlet          Get-Error                                     
+Cmdlet          Get-Event                                     
+Cmdlet          Get-EventSubscriber                           
+Cmdlet          Get-ExecutionPolicy                           
+Cmdlet          Get-ExperimentalFeature                       
+Cmdlet          Get-FileHash                                  
+Cmdlet          Get-FormatData                                
+Cmdlet          Get-Help                                      
+Cmdlet          Get-History                                   
+Cmdlet          Get-Host                                      
+Cmdlet          Get-InstalledPSResource                       
+Cmdlet          Get-Item                                      
+Cmdlet          Get-ItemProperty                              
+Cmdlet          Get-ItemPropertyValue                         
+Cmdlet          Get-Job                                       
+Cmdlet          Get-Location                                  
+Cmdlet          Get-MarkdownOption                            
+Cmdlet          Get-Member                                    
+Cmdlet          Get-Module                                    
+Cmdlet          Get-Package                                   
+Cmdlet          Get-PackageProvider                           
+Cmdlet          Get-PackageSource                             
+Cmdlet          Get-PfxCertificate                            
+Cmdlet          Get-Process                                   
+Cmdlet          Get-PSBreakpoint                              
+Cmdlet          Get-PSCallStack                               
+Cmdlet          Get-PSDrive                                   
+Cmdlet          Get-PSHostProcessInfo                         
+Cmdlet          Get-PSProvider                                
+Cmdlet          Get-PSReadLineKeyHandler                      
+Cmdlet          Get-PSReadLineOption                          
+Cmdlet          Get-PSResourceRepository                      
+Cmdlet          Get-PSScriptFileInfo                          
+Cmdlet          Get-PSSession                                 
+Cmdlet          Get-Random                                    
+Cmdlet          Get-Runspace                                  
+Cmdlet          Get-RunspaceDebug                             
+Cmdlet          Get-SecureRandom                              
+Cmdlet          Get-TimeZone                                  
+Cmdlet          Get-TraceSource                               
+Cmdlet          Get-TypeData                                  
+Cmdlet          Get-UICulture                                 
+Cmdlet          Get-Unique                                    
+Cmdlet          Get-Uptime                                    
+Cmdlet          Get-Variable                                  
+Cmdlet          Get-Verb                                      
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Command -Verb GetGet-Command -Verb GetGet-Command -Verb GetGet-Command -Verb GetGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Help ./effective.ps1 -VerboseGet-Help Get-Command             Get-Help Get-CommandGet-Help Get-CommandGet-Help Get-CommandGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -Online
+
+NAME
+    Get-Process
+    
+SYNOPSIS
+    Gets the processes that are running on the local computer.
+    
+    
+SYNTAX
+    Get-Process [[-Name] <System.String[]>] 
+    [-FileVersionInfo] [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -Id <System.Int32[]> 
+    [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -InputObject 
+    <System.Diagnostics.Process[]> [-Module] 
+    [<CommonParameters>]
+    
+    Get-Process -Id <System.Int32[]> -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process [[-Name] <System.String[]>] -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process -IncludeUserName -InputObject 
+    <System.Diagnostics.Process[]> [<CommonParameters>]
+    
+    
+DESCRIPTION
+    The `Get-Process` cmdlet gets the processes on a local 
+    computer.
+    
+    Without parameters, this cmdlet gets all of the processes 
+    on the local computer. You can also specify a particular 
+    process by process name or process ID (PID) or pass a 
+    process object through the pipeline to this cmdlet.
+    
+    By default, this cmdlet returns a process object that has 
+    detailed information about the process and supports 
+    methods that let you start and stop the process. You can 
+    also use the parameters of the `Get-Process` cmdlet to 
+    get file version information for the program that runs in 
+    the process and to get the modules that the process 
+    loaded.
+    
+
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/mod
+    ule/microsoft.powershell.management/get-process?view=power
+    shell-7.3&WT.mc_id=ps-gethelp
+    Debug-Process 
+    Get-Process 
+    Start-Process 
+    Stop-Process 
+    Wait-Process 
+
+REMARKS
+    To see the examples, type: "Get-Help Get-Process 
+    -Examples"
+    For more information, type: "Get-Help Get-Process 
+    -Detailed"
+    For technical information, type: "Get-Help Get-Process 
+    -Full"
+    For online help, type: "Get-Help Get-Process -Online"
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-ProcessGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlinePS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -Online
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Opening in existing browser session.
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -Online
+
+NAME
+    Get-Process
+    
+SYNOPSIS
+    Gets the processes that are running on the local computer.
+    
+    
+SYNTAX
+    Get-Process [[-Name] <System.String[]>] 
+    [-FileVersionInfo] [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -Id <System.Int32[]> 
+    [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -InputObject 
+    <System.Diagnostics.Process[]> [-Module] 
+    [<CommonParameters>]
+    
+    Get-Process -Id <System.Int32[]> -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process [[-Name] <System.String[]>] -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process -IncludeUserName -InputObject 
+    <System.Diagnostics.Process[]> [<CommonParameters>]
+    
+    
+DESCRIPTION
+    The `Get-Process` cmdlet gets the processes on a local 
+    computer.
+    
+    Without parameters, this cmdlet gets all of the processes 
+    on the local computer. You can also specify a particular 
+    process by process name or process ID (PID) or pass a 
+    process object through the pipeline to this cmdlet.
+    
+    By default, this cmdlet returns a process object that has 
+    detailed information about the process and supports 
+    methods that let you start and stop the process. You can 
+    also use the parameters of the `Get-Process` cmdlet to 
+    get file version information for the program that runs in 
+    the process and to get the modules that the process 
+    loaded.
+    
+
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/mod
+    ule/microsoft.powershell.management/get-process?view=power
+    shell-7.3&WT.mc_id=ps-gethelp
+    Debug-Process 
+    Get-Process 
+    Start-Process 
+    Stop-Process 
+    Wait-Process 
+
+REMARKS
+    To see the examples, type: "Get-Help Get-Process 
+    -Examples"
+    For more information, type: "Get-Help Get-Process 
+    -Detailed"
+    For technical information, type: "Get-Help Get-Process 
+    -Full"
+    For online help, type: "Get-Help Get-Process -Online"
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-ProcessPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -Online
+
+NAME
+    Get-Process
+    
+SYNOPSIS
+    Gets the processes that are running on the local computer.
+    
+    
+SYNTAX
+    Get-Process [[-Name] <System.String[]>] 
+    [-FileVersionInfo] [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -Id <System.Int32[]> 
+    [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -InputObject 
+    <System.Diagnostics.Process[]> [-Module] 
+    [<CommonParameters>]
+    
+    Get-Process -Id <System.Int32[]> -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process [[-Name] <System.String[]>] -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process -IncludeUserName -InputObject 
+    <System.Diagnostics.Process[]> [<CommonParameters>]
+    
+    
+DESCRIPTION
+    The `Get-Process` cmdlet gets the processes on a local 
+    computer.
+    
+    Without parameters, this cmdlet gets all of the processes 
+    on the local computer. You can also specify a particular 
+    process by process name or process ID (PID) or pass a 
+    process object through the pipeline to this cmdlet.
+    
+    By default, this cmdlet returns a process object that has 
+    detailed information about the process and supports 
+    methods that let you start and stop the process. You can 
+    also use the parameters of the `Get-Process` cmdlet to 
+    get file version information for the program that runs in 
+    the process and to get the modules that the process 
+    loaded.
+    
+
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/mod
+    ule/microsoft.powershell.management/get-process?view=power
+    shell-7.3&WT.mc_id=ps-gethelp
+    Debug-Process 
+    Get-Process 
+    Start-Process 
+    Stop-Process 
+    Wait-Process 
+
+REMARKS
+    To see the examples, type: "Get-Help Get-Process 
+    -Examples"
+    For more information, type: "Get-Help Get-Process 
+    -Detailed"
+    For technical information, type: "Get-Help Get-Process 
+    -Full"
+    For online help, type: "Get-Help Get-Process -Online"
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-ProcessGet-Help Get-Process -OnlineGet-Help Get-Process -OnlineGet-Help Get-Process -F     Get-Help Get-Process -FuGet-Help Get-Process -FulGet-Help Get-Process -FullPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -Full
+
+NAME
+    Get-Process
+    
+SYNOPSIS
+    Gets the processes that are running on the local computer.
+    
+    
+SYNTAX
+    Get-Process [[-Name] <System.String[]>] 
+    [-FileVersionInfo] [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -Id <System.Int32[]> 
+    [-Module] [<CommonParameters>]
+    
+    Get-Process [-FileVersionInfo] -InputObject 
+    <System.Diagnostics.Process[]> [-Module] 
+    [<CommonParameters>]
+    
+    Get-Process -Id <System.Int32[]> -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process [[-Name] <System.String[]>] -IncludeUserName 
+    [<CommonParameters>]
+    
+    Get-Process -IncludeUserName -InputObject 
+    <System.Diagnostics.Process[]> [<CommonParameters>]
+    
+    
+DESCRIPTION
+    The `Get-Process` cmdlet gets the processes on a local 
+    computer.
+    
+    Without parameters, this cmdlet gets all of the processes 
+    on the local computer. You can also specify a particular 
+    process by process name or process ID (PID) or pass a 
+    process object through the pipeline to this cmdlet.
+    
+    By default, this cmdlet returns a process object that has 
+    detailed information about the process and supports 
+    methods that let you start and stop the process. You can 
+    also use the parameters of the `Get-Process` cmdlet to 
+    get file version information for the program that runs in 
+    the process and to get the modules that the process 
+    loaded.
+    
+
+PARAMETERS
+    -FileVersionInfo 
+    <System.Management.Automation.SwitchParameter>
+        Indicates that this cmdlet gets the file version 
+        information for the program that runs in the process.
+        
+        On Windows Vista and later versions of Windows, you 
+        must open PowerShell with the **Run as 
+        administrator** option to use this parameter on 
+        processes that you do not own.
+        
+        Using this parameter is equivalent to getting the 
+        MainModule.FileVersionInfo property of each process 
+        object. When you use this parameter, `Get-Process` 
+        returns a FileVersionInfo object 
+        System.Diagnostics.FileVersionInfo , not a process 
+        object. So, you cannot pipe the output of the command 
+        to a cmdlet that expects a process object, such as 
+        `Stop-Process`.
+        
+        Required?                    false
+        Position?                    named
+        Default value                False
+        Accept pipeline input?       False
+        Accept wildcard characters?  false
+        
+    -Id <System.Int32[]>
+        Specifies one or more processes by process ID (PID). 
+        To specify multiple IDs, use commas to separate the 
+        IDs. To find the PID of a process, type `Get-Process`.
+        
+        Required?                    true
+        Position?                    named
+        Default value                None
+        Accept pipeline input?       True (ByPropertyName)
+        Accept wildcard characters?  false
+        
+    -IncludeUserName 
+    <System.Management.Automation.SwitchParameter>
+        Indicates that the UserName value of the Process 
+        object is returned with results of the command.
+        
+        Required?                    true
+        Position?                    named
+        Default value                False
+        Accept pipeline input?       False
+        Accept wildcard characters?  false
+        
+    -InputObject <System.Diagnostics.Process[]>
+        Specifies one or more process objects. Enter a 
+        variable that contains the objects, or type a command 
+        or expression that gets the objects.
+        
+        Required?                    true
+        Position?                    named
+        Default value                None
+        Accept pipeline input?       True (ByValue)
+        Accept wildcard characters?  false
+        
+    -Module <System.Management.Automation.SwitchParameter>
+        Indicates that this cmdlet gets the modules that have 
+        been loaded by the processes.
+        
+        On Windows Vista and later versions of Windows, you 
+        must open PowerShell with the **Run as 
+        administrator** option to use this parameter on 
+        processes that you do not own.
+        
+        This parameter is equivalent to getting the Modules 
+        property of each process object. When you use this 
+        parameter, this cmdlet returns a ProcessModule object 
+        System.Diagnostics.ProcessModule , not a process 
+        object. So, you cannot pipe the output of the command 
+        to a cmdlet that expects a process object, such as 
+        `Stop-Process`.
+        
+        When you use both the Module and FileVersionInfo 
+        parameters in the same command, this cmdlet returns a 
+        FileVersionInfo object with information about the 
+        file version of all modules.
+        
+        Required?                    false
+        Position?                    named
+        Default value                False
+        Accept pipeline input?       False
+        Accept wildcard characters?  false
+        
+    -Name <System.String[]>
+        Specifies one or more processes by process name. You 
+        can type multiple process names (separated by commas) 
+        and use wildcard characters. The parameter name 
+        (`Name`) is optional.
+        
+        Required?                    false
+        Position?                    0
+        Default value                None
+        Accept pipeline input?       True (ByPropertyName)
+        Accept wildcard characters?  true
+        
+    <CommonParameters>
+        This cmdlet supports the common parameters: Verbose, 
+    Debug,
+        ErrorAction, ErrorVariable, WarningAction, 
+    WarningVariable,
+        OutBuffer, PipelineVariable, and OutVariable. For 
+    more information, see
+        about_CommonParameters 
+    (https://go.microsoft.com/fwlink/?LinkID=113216). 
+    
+INPUTS
+    System.Diagnostics.Process
+        You can pipe a process object to this cmdlet.
+    
+    
+OUTPUTS
+    System.Diagnostics.Process
+        By default, this cmdlet returns a 
+        System.Diagnostics.Process object.
+    
+    System.Diagnostics.FileVersionInfo
+        If you use the FileVersionInfo parameter, this cmdlet 
+        returns a FileVersionInfo object.
+    
+    System.Diagnostics.ProcessModule
+        If you use the Module parameter, without the 
+        FileVersionInfo parameter, this cmdlet returns a 
+        ProcessModule object.
+    
+    
+NOTES
+    
+    
+        PowerShell includes the following aliases for 
+        `Get-Process`:
+        
+        - All platforms:   - `gps` - Windows:   - `ps`
+        
+        On computers that are running a 64-bit version of 
+        Windows, the 64-bit version of PowerShell gets only 
+        64-bit process modules and the 32-bit version of 
+        PowerShell gets only 32-bit process modules.
+        
+        To get process information from a remote computer, 
+        use the `Invoke-Command` cmdlet. For more 
+        information, see Invoke-Command 
+        (xref:Microsoft.PowerShell.Core.Invoke-Command).
+        
+        You can use the properties and methods of the Windows 
+        Management Instrumentation (WMI) Win32_Process object 
+        in PowerShell. For information, see Win32_Process 
+        (/windows/win32/cimwin32prov/win32-process).
+        
+        The default display of a process is a table that 
+        includes the following columns. For a description of 
+        all of the properties of process objects, see Process 
+        Properties (/dotnet/api/system.diagnostics.process).
+        
+        - Handles : The number of handles that the process 
+        has opened. - NPM(K) : The amount of non-paged memory 
+        that the process is using, in kilobytes. - PM(K) : 
+        The amount of pageable memory that the process is 
+        using, in kilobytes. - WS(K) : The size of the 
+        working set of the process, in kilobytes. The working 
+        set consists of   the pages of memory that were 
+        recently referenced by the process. - VM(M) : The 
+        amount of virtual memory that the process is using, 
+        in megabytes. Virtual memory   includes storage in 
+        the paging files on disk. - CPU(s) : The amount of 
+        processor time that the process has used on all 
+        processors, in seconds. - ID : The process ID (PID) 
+        of the process. - ProcessName : The name of the 
+        process. For explanations of the concepts related to 
+        processes,   see the Glossary in Help and Support 
+        Center and the Help for Task Manager.
+        
+        You can also use the built-in alternate views of the 
+        processes available with `Format-Table`, such as 
+        StartTime and Priority , and you can design your own 
+        views.
+    
+    Example 1: Get a list of all active processes on the 
+    local computer
+    
+    Get-Process
+    
+    This command gets a list of all active processes running 
+    on the local computer. For a definition of each column, 
+    see the Notes (#notes)section.
+    Example 2: Get all available data about one or more 
+    processes
+    
+    Get-Process winword, explorer | Format-List *
+    
+    This command gets all available data about the Winword 
+    and Explorer processes on the computer. It uses the Name 
+    parameter to specify the processes, but it omits the 
+    optional parameter name. The pipeline operator (`|`) 
+    passes the data to the `Format-List` cmdlet, which 
+    displays all available properties (`*`) of the Winword 
+    and Explorer process objects.
+    
+    You can also identify the processes by their process IDs. 
+    For instance, `Get-Process -Id 664, 2060`.
+    Example 3: Get all processes with a working set greater 
+    than a specified size
+    
+    Get-Process | Where-Object {$_.WorkingSet -gt 20000000}
+    
+    This command gets all processes that have a working set 
+    greater than 20 MB. It uses the `Get-Process` cmdlet to 
+    get all running processes. The pipeline operator (`|`) 
+    passes the process objects to the `Where-Object` cmdlet, 
+    which selects only the object with a value greater than 
+    20,000,000 bytes for the WorkingSet property. WorkingSet 
+    is one of many properties of process objects. To see all 
+    of the properties, type `Get-Process | Get-Member`. By 
+    default, the values of all amount properties are in 
+    bytes, even though the default display lists them in 
+    kilobytes and megabytes.
+    Example 4: List processes on the computer in groups based 
+    on priority
+    
+    $A = Get-Process
+    $A | Get-Process | Format-Table -View priority
+    
+    These commands list the processes on the computer in 
+    groups based on their priority class. The first command 
+    gets all the processes on the computer and then stores 
+    them in the `$A` variable.
+    
+    The second command pipes the Process object stored in the 
+    `$A` variable to the `Get-Process` cmdlet, then to the 
+    `Format-Table` cmdlet, which formats the processes by 
+    using the Priority view.
+    
+    The Priority view, and other views, are defined in the 
+    PS1XML format files in the PowerShell home directory 
+    (`$pshome`).
+    Example 5: Add a property to the standard Get-Process 
+    output display
+    
+    Get-Process pwsh | Format-Table `
+        @{Label = "NPM(K)"; Expression = {[int]($_.NPM / 
+    1024)}},
+        @{Label = "PM(K)"; Expression = {[int]($_.PM / 
+    1024)}},
+        @{Label = "WS(K)"; Expression = {[int]($_.WS / 
+    1024)}},
+        @{Label = "VM(M)"; Expression = {[int]($_.VM / 1MB)}},
+        @{Label = "CPU(s)"; Expression = {if ($_.CPU) 
+    {$_.CPU.ToString("N")}}},
+        Id, ProcessName, StartTime -AutoSize
+    
+    NPM(K)  PM(K)  WS(K)   VM(M) CPU(s)    Id ProcessName 
+    StartTime
+    ------  -----  -----   ----- ------    -- ----------- 
+    ---------
+       143 239540 259384 2366162 22.73  12720 pwsh        
+    12/5/2022 3:21:51 PM
+       114  61776 104588 2366127 11.45  18336 pwsh        
+    12/5/2022 7:30:53 AM
+       156  77924  82060 2366185 10.47  18812 pwsh        
+    12/5/2022 7:30:52 AM
+        85  48216 115192 2366074 1.14   24428 pwsh        
+    12/8/2022 9:14:15 AM
+    
+    This example retrieves processes from the local computer. 
+    The retrieved processes are piped to the `Format-Table` 
+    command that adds the StartTime property to the standard 
+    `Get-Process` output display.
+    ------- Example 6: Get version information for a process 
+    -------
+    
+    Get-Process pwsh -FileVersionInfo
+    
+    ProductVersion   FileVersion      FileName
+    --------------   -----------      --------
+    6.1.2            6.1.2            C:\Program 
+    Files\PowerShell\6\pwsh.exe
+    
+    This command uses the FileVersionInfo parameter to get 
+    the version information for the `pwsh.exe` file that is 
+    the main module for the PowerShell process.
+    
+    To run this command with processes that you do not own on 
+    Windows Vista and later versions of Windows, you must 
+    open PowerShell with the Run as administrator option.
+    --- Example 7: Get modules loaded with the specified 
+    process ---
+    
+    Get-Process SQL* -Module
+    
+    This command uses the Module parameter to get the modules 
+    that have been loaded by the process. This command gets 
+    the modules for the processes that have names that begin 
+    with `SQL`.
+    
+    To run this command on Windows Vista and later versions 
+    of Windows with processes that you do not own, you must 
+    start PowerShell with the Run as administrator option.
+    ------------ Example 8: Find the owner of a process 
+    ------------
+    
+    Get-Process pwsh -IncludeUserName
+    
+    Handles      WS(K)   CPU(s)     Id UserName            
+    ProcessName
+    -------      -----   ------     -- --------            
+    -----------
+        782     132080     2.08   2188 DOMAIN01\user01     
+    pwsh
+    
+    This command shows how to find the owner of a process. On 
+    Windows, the IncludeUserName parameter requires elevated 
+    user rights ( Run as Administrator ). The output reveals 
+    that the owner is `Domain01\user01`.
+    Example 9: Use an automatic variable to identify the 
+    process hosting the current session
+    
+    Get-Process pwsh
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21     105.95       4.33    1192  10 pwsh
+        79    83.81     117.61       2.16   10580  10 pwsh
+    
+    Get-Process -Id $PID
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21      77.53       4.39    1192  10 pwsh
+    
+    These commands show how to use the `$PID` automatic 
+    variable to identify the process that is hosting the 
+    current PowerShell session. You can use this method to 
+    distinguish the host process from other PowerShell 
+    processes that you might want to stop or close.
+    
+    The first command gets all of the PowerShell processes in 
+    the current session.
+    
+    The second command gets the PowerShell process that is 
+    hosting the current session.
+    Example 10: Get all processes that have a main window 
+    title and display them in a table
+    
+    Get-Process | Where-Object {$_.mainWindowTitle} | 
+    Format-Table Id, Name, mainWindowtitle -AutoSize
+    
+    This command gets all the processes that have a main 
+    window title, and it displays them in a table with the 
+    process ID and the process name.
+    
+    The mainWindowTitle property is just one of many useful 
+    properties of the Process object that `Get-Process` 
+    returns. To view all of the properties, pipe the results 
+    of a `Get-Process` command to the `Get-Member` cmdlet 
+    `Get-Process | Get-Member`.
+    
+RELATED LINKS
+    Online Version: https://learn.microsoft.com/powershell/mod
+    ule/microsoft.powershell.management/get-process?view=power
+    shell-7.3&WT.mc_id=ps-gethelp
+    Debug-Process 
+    Get-Process 
+    Start-Process 
+    Stop-Process 
+    Wait-Process 
+
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -FullGet-Help Get-Process -FullGet-Help Get-Process -FullGet-Help Get-Process -FullGet-Help Get-Process -FullGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -Examples
+
+NAME
+    Get-Process
+    
+SYNOPSIS
+    Gets the processes that are running on the local computer.
+    
+    
+    Example 1: Get a list of all active processes on the 
+    local computer
+    
+    Get-Process
+    
+    This command gets a list of all active processes running 
+    on the local computer. For a definition of each column, 
+    see the Notes (#notes)section.
+    Example 2: Get all available data about one or more 
+    processes
+    
+    Get-Process winword, explorer | Format-List *
+    
+    This command gets all available data about the Winword 
+    and Explorer processes on the computer. It uses the Name 
+    parameter to specify the processes, but it omits the 
+    optional parameter name. The pipeline operator (`|`) 
+    passes the data to the `Format-List` cmdlet, which 
+    displays all available properties (`*`) of the Winword 
+    and Explorer process objects.
+    
+    You can also identify the processes by their process IDs. 
+    For instance, `Get-Process -Id 664, 2060`.
+    Example 3: Get all processes with a working set greater 
+    than a specified size
+    
+    Get-Process | Where-Object {$_.WorkingSet -gt 20000000}
+    
+    This command gets all processes that have a working set 
+    greater than 20 MB. It uses the `Get-Process` cmdlet to 
+    get all running processes. The pipeline operator (`|`) 
+    passes the process objects to the `Where-Object` cmdlet, 
+    which selects only the object with a value greater than 
+    20,000,000 bytes for the WorkingSet property. WorkingSet 
+    is one of many properties of process objects. To see all 
+    of the properties, type `Get-Process | Get-Member`. By 
+    default, the values of all amount properties are in 
+    bytes, even though the default display lists them in 
+    kilobytes and megabytes.
+    Example 4: List processes on the computer in groups based 
+    on priority
+    
+    $A = Get-Process
+    $A | Get-Process | Format-Table -View priority
+    
+    These commands list the processes on the computer in 
+    groups based on their priority class. The first command 
+    gets all the processes on the computer and then stores 
+    them in the `$A` variable.
+    
+    The second command pipes the Process object stored in the 
+    `$A` variable to the `Get-Process` cmdlet, then to the 
+    `Format-Table` cmdlet, which formats the processes by 
+    using the Priority view.
+    
+    The Priority view, and other views, are defined in the 
+    PS1XML format files in the PowerShell home directory 
+    (`$pshome`).
+    Example 5: Add a property to the standard Get-Process 
+    output display
+    
+    Get-Process pwsh | Format-Table `
+        @{Label = "NPM(K)"; Expression = {[int]($_.NPM / 
+    1024)}},
+        @{Label = "PM(K)"; Expression = {[int]($_.PM / 
+    1024)}},
+        @{Label = "WS(K)"; Expression = {[int]($_.WS / 
+    1024)}},
+        @{Label = "VM(M)"; Expression = {[int]($_.VM / 1MB)}},
+        @{Label = "CPU(s)"; Expression = {if ($_.CPU) 
+    {$_.CPU.ToString("N")}}},
+        Id, ProcessName, StartTime -AutoSize
+    
+    NPM(K)  PM(K)  WS(K)   VM(M) CPU(s)    Id ProcessName 
+    StartTime
+    ------  -----  -----   ----- ------    -- ----------- 
+    ---------
+       143 239540 259384 2366162 22.73  12720 pwsh        
+    12/5/2022 3:21:51 PM
+       114  61776 104588 2366127 11.45  18336 pwsh        
+    12/5/2022 7:30:53 AM
+       156  77924  82060 2366185 10.47  18812 pwsh        
+    12/5/2022 7:30:52 AM
+        85  48216 115192 2366074 1.14   24428 pwsh        
+    12/8/2022 9:14:15 AM
+    
+    This example retrieves processes from the local computer. 
+    The retrieved processes are piped to the `Format-Table` 
+    command that adds the StartTime property to the standard 
+    `Get-Process` output display.
+    ------- Example 6: Get version information for a process 
+    -------
+    
+    Get-Process pwsh -FileVersionInfo
+    
+    ProductVersion   FileVersion      FileName
+    --------------   -----------      --------
+    6.1.2            6.1.2            C:\Program 
+    Files\PowerShell\6\pwsh.exe
+    
+    This command uses the FileVersionInfo parameter to get 
+    the version information for the `pwsh.exe` file that is 
+    the main module for the PowerShell process.
+    
+    To run this command with processes that you do not own on 
+    Windows Vista and later versions of Windows, you must 
+    open PowerShell with the Run as administrator option.
+    --- Example 7: Get modules loaded with the specified 
+    process ---
+    
+    Get-Process SQL* -Module
+    
+    This command uses the Module parameter to get the modules 
+    that have been loaded by the process. This command gets 
+    the modules for the processes that have names that begin 
+    with `SQL`.
+    
+    To run this command on Windows Vista and later versions 
+    of Windows with processes that you do not own, you must 
+    start PowerShell with the Run as administrator option.
+    ------------ Example 8: Find the owner of a process 
+    ------------
+    
+    Get-Process pwsh -IncludeUserName
+    
+    Handles      WS(K)   CPU(s)     Id UserName            
+    ProcessName
+    -------      -----   ------     -- --------            
+    -----------
+        782     132080     2.08   2188 DOMAIN01\user01     
+    pwsh
+    
+    This command shows how to find the owner of a process. On 
+    Windows, the IncludeUserName parameter requires elevated 
+    user rights ( Run as Administrator ). The output reveals 
+    that the owner is `Domain01\user01`.
+    Example 9: Use an automatic variable to identify the 
+    process hosting the current session
+    
+    Get-Process pwsh
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21     105.95       4.33    1192  10 pwsh
+        79    83.81     117.61       2.16   10580  10 pwsh
+    
+    Get-Process -Id $PID
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21      77.53       4.39    1192  10 pwsh
+    
+    These commands show how to use the `$PID` automatic 
+    variable to identify the process that is hosting the 
+    current PowerShell session. You can use this method to 
+    distinguish the host process from other PowerShell 
+    processes that you might want to stop or close.
+    
+    The first command gets all of the PowerShell processes in 
+    the current session.
+    
+    The second command gets the PowerShell process that is 
+    hosting the current session.
+    Example 10: Get all processes that have a main window 
+    title and display them in a table
+    
+    Get-Process | Where-Object {$_.mainWindowTitle} | 
+    Format-Table Id, Name, mainWindowtitle -AutoSize
+    
+    This command gets all the processes that have a main 
+    window title, and it displays them in a table with the 
+    process ID and the process name.
+    
+    The mainWindowTitle property is just one of many useful 
+    properties of the Process object that `Get-Process` 
+    returns. To view all of the properties, pipe the results 
+    of a `Get-Process` command to the `Get-Member` cmdlet 
+    `Get-Process | Get-Member`.
+
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> q PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> alias echoalias echoalias echoalias echoalias echo
+
+CommandType     Name
+-----------     ----                                          
+Alias           ? -> Where-Object                             
+Alias           % -> ForEach-Object                           
+Alias           cd -> Set-Location                            
+Alias           chdir -> Set-Location                         
+Alias           clc -> Clear-Content                          
+Alias           clhy -> Clear-History                         
+Alias           cli -> Clear-Item                             
+Alias           clp -> Clear-ItemProperty                     
+Alias           cls -> Clear-Host                             
+Alias           clv -> Clear-Variable                         
+Alias           copy -> Copy-Item                             
+Alias           cpi -> Copy-Item                              
+Alias           cvpa -> Convert-Path                          
+Alias           dbp -> Disable-PSBreakpoint                   
+Alias           del -> Remove-Item                            
+Alias           dir -> Get-ChildItem                          
+Alias           ebp -> Enable-PSBreakpoint                    
+Alias           echo -> Write-Output                          
+Alias           epal -> Export-Alias                          
+Alias           epcsv -> Export-Csv                           
+Alias           erase -> Remove-Item                          
+Alias           etsn -> Enter-PSSession                       
+Alias           exsn -> Exit-PSSession                        
+Alias           fc -> Format-Custom                           
+Alias           fhx -> Format-Hex                             
+Alias           fl -> Format-List                             
+Alias           foreach -> ForEach-Object                     
+Alias           ft -> Format-Table                            
+Alias           fw -> Format-Wide                             
+Alias           gal -> Get-Alias                              
+Alias           gbp -> Get-PSBreakpoint                       
+Alias           gc -> Get-Content                             
+Alias           gcb -> Get-Clipboard                          
+Alias           gci -> Get-ChildItem                          
+Alias           gcm -> Get-Command                            
+Alias           gcs -> Get-PSCallStack                        
+Alias           gdr -> Get-PSDrive                            
+Alias           gerr -> Get-Error                             
+Alias           ghy -> Get-History                            
+Alias           gi -> Get-Item                                
+Alias           gjb -> Get-Job                                
+Alias           gl -> Get-Location                            
+Alias           gm -> Get-Member                              
+Alias           gmo -> Get-Module                             
+Alias           gp -> Get-ItemProperty                        
+Alias           gps -> Get-Process                            
+Alias           gpv -> Get-ItemPropertyValue                  
+Alias           group -> Group-Object                         
+Alias           gsn -> Get-PSSession                          
+Alias           gtz -> Get-TimeZone                           
+Alias           gu -> Get-Unique                              
+Alias           gv -> Get-Variable                            
+Alias           h -> Get-History                              
+Alias           history -> Get-History                        
+Alias           icm -> Invoke-Command                         
+Alias           iex -> Invoke-Expression                      
+Alias           ihy -> Invoke-History                         
+Alias           ii -> Invoke-Item                             
+Alias           ipal -> Import-Alias                          
+Alias           ipcsv -> Import-Csv                           
+Alias           ipmo -> Import-Module                         
+Alias           irm -> Invoke-RestMethod                      
+Alias           iwr -> Invoke-WebRequest                      
+Alias           md -> mkdir                                   
+Alias           measure -> Measure-Object                     
+Alias           mi -> Move-Item                               
+Alias           move -> Move-Item                             
+Alias           mp -> Move-ItemProperty                       
+Alias           nal -> New-Alias                              
+Alias           ndr -> New-PSDrive                            
+Alias           ni -> New-Item                                
+Alias           nmo -> New-Module                             
+Alias           nsn -> New-PSSession                          
+Alias           nv -> New-Variable                            
+Alias           oh -> Out-Host                                
+Alias           popd -> Pop-Location                          
+Alias           pushd -> Push-Location                        
+Alias           pwd -> Get-Location                           
+Alias           r -> Invoke-History                           
+Alias           rbp -> Remove-PSBreakpoint                    
+Alias           rcjb -> Receive-Job                           
+Alias           rcsn -> Receive-PSSession                     
+Alias           rd -> Remove-Item                             
+Alias           rdr -> Remove-PSDrive                         
+Alias           ren -> Rename-Item                            
+Alias           ri -> Remove-Item                             
+Alias           rjb -> Remove-Job                             
+Alias           rmo -> Remove-Module                          
+Alias           rni -> Rename-Item                            
+Alias           rnp -> Rename-ItemProperty                    
+Alias           rp -> Remove-ItemProperty                     
+Alias           rsn -> Remove-PSSession                       
+Alias           rv -> Remove-Variable                         
+Alias           rvpa -> Resolve-Path                          
+Alias           sajb -> Start-Job                             
+Alias           sal -> Set-Alias                              
+Alias           saps -> Start-Process                         
+Alias           sbp -> Set-PSBreakpoint                       
+Alias           scb -> Set-Clipboard                          
+Alias           select -> Select-Object                       
+Alias           set -> Set-Variable                           
+Alias           si -> Set-Item                                
+Alias           sl -> Set-Location                            
+Alias           sls -> Select-String                          
+Alias           sp -> Set-ItemProperty                        
+Alias           spjb -> Stop-Job                              
+Alias           spps -> Stop-Process                          
+Alias           sv -> Set-Variable                            
+Alias           type -> Get-Content                           
+Alias           where -> Where-Object                         
+Alias           wjb -> Wait-Job                               
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Write-Output "Hej från PowerShell"We                                WerWe Write-Output "Hej från PowerShell"Wh                                WheWherwherewhere-where-Owhere- where-oWhere-ObjectWhere-Objec Where-Obje Where-Obj Where-Ob Where-O Where- Where Wher Whe Wh Write-Output "Hej från PowerShell"                                  PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Hostecho $Hostecho $Hostecho $Hostecho $Host> echo `    > echo `
+>> >> H>> He>> Hej>> Hejs>> Hejsa>> Hejsan>> Hejsan`
+Hejsan`
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo `
+>> Hejsan`      
+echo `
+>> Hejsan`alias 
+echo `
+>> Hejsan`alias 
+Get-Help Get-Process -Examplesalias                         echo `
+>> Hejsan`      
+echo $Hostecho $Hostecho $Hostecho $Hostecho $Hostecho H    echo Heecho H echo $Hostecho H    echo Heecho Hejecho Hejsecho Hejsaecho Hejsanecho Hejsan`
+Hejsan`
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo Hejsan`> echo Hejsan `> echo Hejsan `
+>> >> H>> Ho>> Hop>> Hopp>> Hopps>> Hoppsa>> Hoppsan>> Hoppsan > >> Hoppsan `> >> Hoppsan `
+>> >> S>> Sv>> Svj>> Svjs>> Svj >> Sv >> Sve>> Svej>> Svejs>> Svejsa>> Svejsan
+Hejsan
+Hoppsan
+Svejsan
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> \ Get-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Help Get-Process -Examples               Get-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -Examples                              PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> nano $PROFILE.AllUsersCurrentHostnN                               nNonNo nNo nN nano $PROFILE.AllUsersCurrentHostnN                               nano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHostnano $PROFILE.AllUsersCurrentHost
+>=0;xit     ^R Read File^\ Replace  ^U Paste    ^J JustifyPowerShell_profile.ps1        
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo Hejsan`echo Hejsan`echo Hejsan`echo Hejsan`echo Hejsan`echo $Host  echo $Hostecho $Hostecho $Hostecho $Host
+
+Name             : ConsoleHost
+Version          : 7.4.5
+InstanceId       : 5086353f-9fdf-4393-9ce8-bc44c5e467cf
+UI               : System.Management.Automation.Internal.Host.
+                   InternalHostUserInterface
+CurrentCulture   : en-US
+CurrentUICulture : en-US
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleCol
+                   orProxy
+DebuggerEnabled  : True
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.Loca
+                   lRunspace
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Hostecho $Host.echo $Host.Decho $Host.Deecho $Host.Debecho $Host.Debuecho $Host.Debugecho $Host.Debuggecho $Host.Debuggeecho $Host.Debuggerecho $Host.DebuggerEecho $Host.DebuggerEnecho $Host.DebuggerEnaecho $Host.DebuggerEnabecho $Host.DebuggerEnablecho $Host.DebuggerEnableecho $Host.DebuggerEnabledPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Host.DebuggerEnabled
+True
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabledecho $Host.DebuggerEnabled
+
+Name             : ConsoleHost
+Version          : 7.4.5
+InstanceId       : 5086353f-9fdf-4393-9ce8-bc44c5e467cf
+UI               : System.Management.Automation.Internal.Host.
+                   InternalHostUserInterface
+CurrentCulture   : en-US
+CurrentUICulture : en-US
+PrivateData      : Microsoft.PowerShell.ConsoleHost+ConsoleCol
+                   orProxy
+DebuggerEnabled  : True
+IsRunspacePushed : False
+Runspace         : System.Management.Automation.Runspaces.Loca
+                   lRunspace
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Hostecho $Hostecho $Hostecho $Hostecho $Hostecho $Host> echo ${   echo ${#echo ${#Vecho ${#Vrecho ${#V echo ${#Vaecho ${#Varecho ${#Variecho ${#Variaecho ${#Variabecho ${#Variablecho ${#Variable> echo ${#Variable}> echo ${#Variable echo ${#Variabl echo ${#Variab echo ${#Varia echo ${#Vari echo ${#Var echo ${#Va echo ${#V echo ${# echo ${ > echo $Hostecho $Hostecho $Hostecho $Hostecho $Hostecho $Host          $minObjekt.Ålder$v              $va$v $minObjekt.Ålder$minObjekt.Ålder$minObjekt.Ålder$minObjekt.Ålder$minv           $minva$minvar$minvar > $minvar =$minvar = $minvar = "$minvar = "H$minvar = "He$minvar = "Hej$minvar = "Hejs$minvar = "Hejsa$minvar = "Hejsan> $minvar = "Hejsan"
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $minvar = "Hejsan"$minvar = "Hejsan"$minvar = "Hejsan"$minvar = "Hejsan"$minvar           > $minvar.
+Length                Substring             
+Clone                 ToBoolean             
+CompareTo             ToByte                
+Contains              ToChar                
+CopyTo                ToCharArray           
+EndsWith              ToDateTime            
+EnumerateRunes        ToDecimal             
+Equals                ToDouble              
+GetEnumerator         ToInt16               
+GetHashCode           ToInt32               
+GetPinnableReference  ToInt64               
+GetType               ToLower               
+GetTypeCode           ToLowerInvariant      
+IndexOf               ToSByte               
+IndexOfAny            ToSingle              
+Insert                ToString              
+IsNormalized          ToType                
+LastIndexOf           ToUInt16              
+LastIndexOfAny        ToUInt32              
+Normalize             ToUInt64              
+PadLeft               ToUpper               
+PadRight              ToUpperInvariant      
+Remove                Trim                  
+Replace               TrimEnd               
+ReplaceLineEndings    TrimStart             
+Split                 TryCopyTo             
+StartsWith            Chars                 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $minvar.> $minvar.S$minvar.Si$minvar.Sin$minvar.Sinb$minvar.Sin $minvar.Si $minvar.S $minvar.Si$minvar.Sib$minvar.Si $minvar.S $minvar.Su$minvar.Sub> $minvar.Substring($minvar.Substring(0$minvar.Substring(0,$minvar.Substring(0,2> $minvar.Substring(0,2)
+He
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $minvar.Substring(0,2)$Env:Greeting = "Howdy"$Env:Greeting = "Howdy"$Env:Greeting = "Howdy"> $Env.                  > $Env.V$Env.Va$Env.V > $Env. > $Env.C$Env.Ca$Env.Car$Env.Car > $Env.Car =$Env.Car = $Env.Car = "$Env.Car = "F$Env.Car = "Fo$Env.Car = "For$Env.Car = "Ford> $Env.Car = "Ford"
+InvalidOperation: The property 'Car' cannot be found on this object. Verify that the property exists and can be set.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $Env.Car = "Ford"$EnvCar = "Ford" $Env:Car = "Ford"PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $Env:Car = "Ford"
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> bashbashbah bahsbah bashbashbash
+
+i-live/ITINF24/lektion04 on  251103 
+❯ echo $Car
+Ford
+
+i-live/ITINF24/lektion04 on  251103 
+❯ echo $CaAR
+
+
+i-live/ITINF24/lektion04 on  251103 
+❯ 
+i-live/ITINF24/lektion04 on  251103 
+❯ pronintenv | grep -i car
+Car=Ford
+
+i-live/ITINF24/lektion04 on  251103 
+❯ exit
+exit
+=0;
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo $Hostecho $Hostecho $Hostecho $Hostecho $Host> echo "    echo "$echo "$Eecho "$Enecho "$Envecho "$Env?echo "$Env echo "$Env:echo "$Env:Cecho "$Env:Caecho "$Env:Car> echo "$Env:Car"
+Ford
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> echo "$Env:Car"echo "J$Env:Car"echo "$Env:Car" echo "M$Env:Car"echo "Me$Env:Car"echo "Me $Env:Car"echo "Me l$Env:Car"echo "Me lo$Env:Car"echo "Me lov$Env:Car"echo "Me love$Env:Car"echo "Me love $Env:Car"
+Me love Ford
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Help Get-Process -ExamplesGet-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }
+
+ NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI ProcessName
+ ------    -----      -----     ------      --  -- -----------
+      0     0.00       4.24       0.00    3819 …17 (sd-pam)
+      0     0.00      11.00       0.07    1794 …94 accounts-d…
+      0     0.00       0.00       0.00     121   0 acpi_therm…
+      0     0.00       9.49       0.03    4070 …39 at-spi-bus…
+      0     0.00       9.28       0.12    4241 …39 at-spi2-re…
+      0     0.00       3.42       0.51    8550 …50 autocommit
+      0     0.00       0.36       0.00    1830 …98 avahi-daem…
+      0     0.00      10.47     204.78    1798 …98 avahi-daem…
+      0     0.00       6.35       0.02   18672 …72 bash
+      0     0.00       3.74       0.00   18909 …08 bash
+      0     0.00       3.22       0.00   18908 …08 bash_nopro…
+      0     0.00       0.00       0.00      95   0 blkcg_punt…
+      0     0.00       0.17       0.00    1784 …84 blkmapd
+      0     0.00      52.78       0.33    4320 …39 blueman-ap…
+      0     0.00      40.90       4.01    4672 …39 blueman-tr…
+      0     0.00       6.38       0.03    1801 …01 bluetoothd
+      0     0.00       9.20       0.03    1912 …12 boltd
+      0     0.00       0.00       0.00     338   0 card0-crtc0
+      0     0.00       0.00       0.00     339   0 card0-crtc1
+      0     0.00       0.00       0.00     340   0 card0-crtc2
+      0     0.00       0.00       0.00     341   0 card0-crtc3
+      0     0.00       0.86       0.00    4919 …71 cat
+      0     0.00       0.87       0.00    4920 …71 cat
+      0     0.00       0.00       0.00    1424   0 cfg80211
+      0     0.00     433.52      52.93    4914 …71 chrome
+      0     0.00     216.20      29.85    4977 …71 chrome
+      0     0.00     133.02       7.46    4983 …71 chrome
+      0     0.00      58.75       0.32    5017 …71 chrome
+      0     0.00      81.50       0.30    5328 …71 chrome
+      0     0.00     189.83       3.52    5164 …71 chrome --t…
+      0     0.00     127.79       0.60    5171 …71 chrome --t…
+      0     0.00     170.18      13.84    5178 …71 chrome --t…
+      0     0.00     142.20       1.80    5183 …71 chrome --t…
+      0     0.00     103.58       0.04   57135 …71 chrome --t…
+      0     0.00     112.64       0.09    5282 …71 chrome --t…
+      0     0.00     139.53       0.78    5317 …71 chrome --t…
+      0     0.00     211.43       3.79    5399 …71 chrome --t…
+      0     0.00     547.62     121.21    5784 …71 chrome --t…
+      0     0.00     153.38       0.63    5813 …71 chrome --t…
+      0     0.00     212.32       9.90    5824 …71 chrome --t…
+      0     0.00     384.46      18.26   42723 …71 chrome --t…
+      0     0.00      76.77       0.02   42800 …71 chrome --t…
+      0     0.00      62.29       0.01    4931 …71 chrome --t…
+      0     0.00      19.68       0.06    4933 …71 chrome --t…
+      0     0.00      62.54       0.01    4930 …71 chrome --t…
+      0     0.00       3.62       0.00    4922 …21 chrome_cra…
+      0     0.00       1.63       0.00    4924 …23 chrome_cra…
+      0     0.00       3.38       0.00    8210 …09 chrome_cra…
+      0     0.00     201.90      29.18    8166 …66 code
+      0     0.00      48.89       0.01    8192 …66 code
+      0     0.00      48.85       0.01    8193 …66 code
+      0     0.00      12.73       0.00    8195 …66 code
+      0     0.00     149.87     425.37    8226 …66 code
+      0     0.00      74.21       0.56    8234 …66 code
+      0     0.00     285.33     300.87    8279 …66 code
+      0     0.00     114.18       2.78    8295 …66 code
+      0     0.00     105.84       3.49    8296 …66 code
+      0     0.00     672.03      27.00    8322 …66 code
+      0     0.00     119.15      15.53    8518 …66 code
+      0     0.00      82.41       0.33    8663 …66 code
+      0     0.00      18.36       0.10    2715 …15 colord
+      0     0.00      53.93       4.82    1942 …42 containerd
+      0     0.00       0.00       0.00      18   0 cpuhp/0
+      0     0.00       0.00       0.00      19   0 cpuhp/1
+      0     0.00       0.00       0.00      64   0 cpuhp/10
+      0     0.00       0.00       0.00      69   0 cpuhp/11
+      0     0.00       0.00       0.00      24   0 cpuhp/2
+      0     0.00       0.00       0.00      29   0 cpuhp/3
+      0     0.00       0.00       0.00      34   0 cpuhp/4
+      0     0.00       0.00       0.00      39   0 cpuhp/5
+      0     0.00       0.00       0.00      44   0 cpuhp/6
+      0     0.00       0.00       0.00      49   0 cpuhp/7
+      0     0.00       0.00       0.00      54   0 cpuhp/8
+      0     0.00       0.00       0.00      59   0 cpuhp/9
+      0     0.00       2.67       0.00    1803 …03 cron
+      0     0.00       0.00       0.00     240   0 cryptd
+      0     0.00      16.43       0.06    3113 …13 cups-brows…
+      0     0.00       9.70       0.02    1927 …27 cupsd
+      0     0.00       5.29       0.00    1970 …27 dbus
+      0     0.00       4.81       0.00   27008 …27 dbus
+      0     0.00       6.34       0.00   27009 …27 dbus
+      0     0.00       7.53       1.82    1805 …05 dbus-daemon
+      0     0.00       6.75       0.44    3861 …61 dbus-daemon
+      0     0.00       5.43       4.29    4077 …39 dbus-daemon
+      0     0.00       6.50       0.17    4155 …55 dconf-serv…
+      0     0.00       0.00       0.00      99   0 devfreq_wq
+      0     0.00       0.00       0.38     621   0 dmcrypt_wr…
+      0     0.00       0.00       0.06    1734   0 dmcrypt_wr…
+      0     0.00       0.51       0.00    2602 …01 dnsmasq
+      0     0.00       0.51       0.00    2603 …01 dnsmasq
+      0     0.00      88.97       0.59    3114 …14 dockerd
+      0     0.00   1,222.66     211.23    3860 …60 dropbox
+      0     0.00       0.00       0.00      98   0 edac-poller
+      0     0.00      33.59       0.03    4190 …90 evolution-…
+      0     0.00      92.38       0.25    4294 …39 evolution-…
+      0     0.00      29.06       0.03    4171 …71 evolution-…
+      0     0.00      59.92       0.07    4149 …49 evolution-…
+      0     0.00      18.20       0.24    3725 …25 exim4
+      0     0.00       0.00       0.00    1165   0 ext4-rsv-c…
+      0     0.00       0.00       0.00    1590   0 ext4-rsv-c…
+      0     0.00       0.00       0.00    1743   0 ext4-rsv-c…
+      0     0.00       0.94       0.00    4530 …30 fusermount3
+      0     0.00      48.83       1.22    4755 …55 fwupd
+      0     0.00       5.48       0.00    4014 …14 gcr-ssh-ag…
+      0     0.00      12.25       0.02    3798 …86 gdm-sessio…
+      0     0.00       7.65       0.00    3942 …42 gdm-waylan…
+      0     0.00      12.90       0.01    1986 …86 gdm3
+      0     0.00      39.62       1.25    2692 …92 geoclue
+      0     0.00      30.04       0.03    4240 …61 gjs
+      0     0.00      30.18       0.04    4417 …61 gjs
+      0     0.00      74.91       0.23    5863 …61 gnome-cale…
+      0     0.00      12.32       0.13    3859 …59 gnome-keyr…
+      0     0.00      17.90       0.01    3949 …42 gnome-sess…
+      0     0.00      19.48       0.08    4039 …39 gnome-sess…
+      0     0.00       6.85       0.00    4017 …17 gnome-sess…
+      0     0.00     319.47     237.76    4071 …71 gnome-shell
+      0     0.00      20.36       0.01    4143 …61 gnome-shel…
+      0     0.00     149.11       6.90    4347 …39 gnome-soft…
+      0     0.00      56.99       0.04    3995 …61 goa-daemon
+      0     0.00      10.62       0.04    4026 …61 goa-identi…
+      0     0.00       8.48       0.04    4274 …74 gsd-a11y-s…
+      0     0.00      25.32       0.12    4278 …78 gsd-color
+      0     0.00      15.68       0.01    4279 …79 gsd-dateti…
+      0     0.00       6.32       0.00    4351 …39 gsd-disk-u…
+      0     0.00       9.47       0.05    4281 …81 gsd-housek…
+      0     0.00      23.73       0.09    4283 …83 gsd-keyboa…
+      0     0.00      29.16       0.19    4288 …88 gsd-media-…
+      0     0.00      29.74       0.14    4290 …90 gsd-power
+      0     0.00      13.13       0.01    4292 …92 gsd-print-…
+      0     0.00      18.63       0.00    4408 …92 gsd-printer
+      0     0.00      10.50       0.01    4295 …95 gsd-rfkill
+      0     0.00       7.92       0.00    4298 …98 gsd-screen…
+      0     0.00      13.34       0.53    4299 …99 gsd-sharing
+      0     0.00      13.90       0.00    4300 …00 gsd-smartc…
+      0     0.00      11.11       0.01    4301 …01 gsd-sound
+      0     0.00       8.64       0.01    4303 …03 gsd-usb-pr…
+      0     0.00      24.27       0.10    4306 …06 gsd-wacom
+      0     0.00      89.36       0.23    5028 …28 gsd-xsetti…
+      0     0.00      11.81       0.22    4040 …40 gvfs-afc-v…
+      0     0.00       8.09       0.01    3988 …88 gvfs-goa-v…
+      0     0.00       8.33       0.00    3964 …64 gvfs-gphot…
+      0     0.00      10.07       0.00    3977 …77 gvfs-mtp-v…
+      0     0.00      13.38       0.01    3940 …40 gvfs-udisk…
+      0     0.00       9.62       0.02    3871 …71 gvfsd
+      0     0.00       8.42       0.00    3876 …71 gvfsd-fuse
+      0     0.00      10.64       0.00   22792 …71 gvfsd-http
+      0     0.00       8.12       0.00    4230 …30 gvfsd-meta…
+      0     0.00      12.10       0.01    5899 …71 gvfsd-trash
+      0     0.00       0.00       0.00     124   0 hfi-updates
+      0     0.00       0.00       0.23     122   0 hwrng
+      0     0.00      11.74       0.58    4277 …71 ibus-daemon
+      0     0.00       6.92       0.00    4359 …71 ibus-dconf
+      0     0.00       6.89       0.19    4473 …71 ibus-engin…
+      0     0.00      29.30       0.85    4372 …71 ibus-exten…
+      0     0.00       6.92       0.02    4383 …61 ibus-portal
+      0     0.00      22.85       0.06    5080 …28 ibus-x11
+      0     0.00       0.00       0.00      85   0 inet_frag_…
+      0     0.00       0.00       0.00    2294   0 iprt-VBoxT…
+      0     0.00       0.00       0.00    2292   0 iprt-VBoxW…
+      0     0.00       0.00       0.00     127   0 ipv6_addrc…
+      0     0.00       0.00       0.00     119   0 irq/124-pc…
+      0     0.00       0.00       0.00     120   0 irq/125-pc…
+      0     0.00       0.00       0.00     296   0 irq/160-EL…
+      0     0.00       0.00       0.00    1422   0 irq/175-me…
+      0     0.00       0.00       7.42    1467   0 irq/177-iw…
+      0     0.00       0.00       2.46    1468   0 irq/178-iw…
+      0     0.00       0.00       2.50    1469   0 irq/179-iw…
+      0     0.00       0.00       2.34    1470   0 irq/180-iw…
+      0     0.00       0.00       2.54    1471   0 irq/181-iw…
+      0     0.00       0.00       0.94    1472   0 irq/182-iw…
+      0     0.00       0.00       1.35    1473   0 irq/183-iw…
+      0     0.00       0.00       1.29    1474   0 irq/184-iw…
+      0     0.00       0.00       2.60    1475   0 irq/185-iw…
+      0     0.00       0.00       2.06    1476   0 irq/186-iw…
+      0     0.00       0.00       1.55    1477   0 irq/187-iw…
+      0     0.00       0.00       1.69    1479   0 irq/188-iw…
+      0     0.00       0.00       1.99    1480   0 irq/189-iw…
+      0     0.00       0.00       0.00    1481   0 irq/190-iw…
+      0     0.00       0.00       0.10    1512   0 irq/191-Au…
+      0     0.00       0.00       0.22    1164   0 jbd2/dm-0-8
+      0     0.00       0.00       0.11    1742   0 jbd2/dm-1-8
+      0     0.00       0.00       0.00    1589   0 jbd2/nvme0…
+      0     0.00       0.00       0.00      86   0 kauditd
+      0     0.00       0.00       0.00      94   0 kblockd
+      0     0.00       0.00       0.19      90   0 kcompactd0
+      0     0.00       0.00       0.00     619   0 kcryptd/25…
+      0     0.00       0.00       0.00    1733   0 kcryptd/25…
+      0     0.00       0.00       0.00     618   0 kcryptd_io…
+      0     0.00       0.00       0.00    1732   0 kcryptd_io…
+      0     0.00       0.00       0.00      84   0 kdevtmpfs
+      0     0.00       0.00       0.00     617   0 kdmflush/2…
+      0     0.00       0.00       0.00    1731   0 kdmflush/2…
+      0     0.00       0.00       0.25      92   0 khugepaged
+      0     0.00       0.00       0.00      87   0 khungtaskd
+      0     0.00       0.00       0.00      93   0 kintegrityd
+      0     0.00       0.00       0.00    2614   0 krfcommd
+      0     0.00       0.00       0.00      91   0 ksmd
+      0     0.00       0.00       0.19      14   0 ksoftirqd/0
+      0     0.00       0.00       0.06      21   0 ksoftirqd/1
+      0     0.00       0.00       0.01      66   0 ksoftirqd/…
+      0     0.00       0.00       0.01      71   0 ksoftirqd/…
+      0     0.00       0.00       0.14      26   0 ksoftirqd/2
+      0     0.00       0.00       0.01      31   0 ksoftirqd/3
+      0     0.00       0.00       0.12      36   0 ksoftirqd/4
+      0     0.00       0.00       0.06      41   0 ksoftirqd/5
+      0     0.00       0.00       0.13      46   0 ksoftirqd/6
+      0     0.00       0.00       0.02      51   0 ksoftirqd/7
+      0     0.00       0.00       0.03      56   0 ksoftirqd/8
+      0     0.00       0.00       0.02      61   0 ksoftirqd/9
+      0     0.00       0.00       0.00     132   0 kstrp
+      0     0.00       0.00       0.00     111   0 kswapd0
+      0     0.00       0.00       0.01       2   0 kthreadd
+      0     0.00       0.00       0.00     117   0 kthrotld
+      0     0.00       0.00       0.00   45372   0 kworker/0:…
+      0     0.00       0.00       0.00       8   0 kworker/0:…
+      0     0.00       0.00       0.09   52237   0 kworker/0:…
+      0     0.00       0.00       0.08     126   0 kworker/0:…
+      0     0.00       0.00       0.00   56361   0 kworker/0:…
+      0     0.00       0.00       0.01   54260   0 kworker/10…
+      0     0.00       0.00       0.00      68   0 kworker/10…
+      0     0.00       0.00       0.04   44945   0 kworker/10…
+      0     0.00       0.00       0.13     204   0 kworker/10…
+      0     0.00       0.00       0.00   57106   0 kworker/11…
+      0     0.00       0.00       0.00      73   0 kworker/11…
+      0     0.00       0.00       0.00   53905   0 kworker/11…
+      0     0.00       0.00       0.08     206   0 kworker/11…
+      0     0.00       0.00       0.20   16874   0 kworker/11…
+      0     0.00       0.00       0.00   56911   0 kworker/1:…
+      0     0.00       0.00       0.00      23   0 kworker/1:…
+      0     0.00       0.00       0.00   49664   0 kworker/1:…
+      0     0.00       0.00       0.01     110   0 kworker/1:…
+      0     0.00       0.00       0.04   52952   0 kworker/1:…
+      0     0.00       0.00       0.00   56219   0 kworker/2:0
+      0     0.00       0.00       0.00      28   0 kworker/2:…
+      0     0.00       0.00       0.00   52590   0 kworker/2:1
+      0     0.00       0.00       0.10     207   0 kworker/2:…
+      0     0.00       0.00       0.11   48316   0 kworker/2:…
+      0     0.00       0.00       0.00   42680   0 kworker/3:…
+      0     0.00       0.00       0.00      33   0 kworker/3:…
+      0     0.00       0.00       0.00   56991   0 kworker/3:1
+      0     0.00       0.00       0.01     237   0 kworker/3:…
+      0     0.00       0.00       0.03   50570   0 kworker/3:…
+      0     0.00       0.00       0.00   53534   0 kworker/4:0
+      0     0.00       0.00       0.00      38   0 kworker/4:…
+      0     0.00       0.00       0.57   15192   0 kworker/4:…
+      0     0.00       0.00       0.22     202   0 kworker/4:…
+      0     0.00       0.00       0.00   54032   0 kworker/5:0
+      0     0.00       0.00       0.00      43   0 kworker/5:…
+      0     0.00       0.00       0.03   50673   0 kworker/5:…
+      0     0.00       0.00       1.12     187   0 kworker/5:…
+      0     0.00       0.00       0.00   57146   0 kworker/5:2
+      0     0.00       0.00       0.00   56476   0 kworker/6:0
+      0     0.00       0.00       0.00      48   0 kworker/6:…
+      0     0.00       0.00       0.00   49148   0 kworker/6:1
+      0     0.00       0.00       0.22     198   0 kworker/6:…
+      0     0.00       0.00       0.08   52461   0 kworker/6:…
+      0     0.00       0.00       0.00   51330   0 kworker/7:…
+      0     0.00       0.00       0.00      53   0 kworker/7:…
+      0     0.00       0.00       7.49   45240   0 kworker/7:…
+      0     0.00       0.00       0.66     201   0 kworker/7:…
+      0     0.00       0.00       0.00   54741   0 kworker/7:…
+      0     0.00       0.00       0.19   35331   0 kworker/8:…
+      0     0.00       0.00       0.00      58   0 kworker/8:…
+      0     0.00       0.00       0.00   48329   0 kworker/8:…
+      0     0.00       0.00       0.54     199   0 kworker/8:…
+      0     0.00       0.00       0.32   11959   0 kworker/9:…
+      0     0.00       0.00       0.00      63   0 kworker/9:…
+      0     0.00       0.00       0.00   53141   0 kworker/9:1
+      0     0.00       0.00       0.25     203   0 kworker/9:…
+      0     0.00       0.00       4.11       9   0 kworker/u2…
+      0     0.00       0.00       3.60   17364   0 kworker/u2…
+      0     0.00       0.00       4.38    7339   0 kworker/u2…
+      0     0.00       0.00       3.61    7340   0 kworker/u2…
+      0     0.00       0.00       2.75   24764   0 kworker/u2…
+      0     0.00       0.00       4.68      77   0 kworker/u2…
+      0     0.00       0.00       2.34   26678   0 kworker/u2…
+      0     0.00       0.00       1.92   31051   0 kworker/u2…
+      0     0.00       0.00       1.28   39639   0 kworker/u2…
+      0     0.00       0.00       0.15   48772   0 kworker/u2…
+      0     0.00       0.00       1.22   43858   0 kworker/u2…
+      0     0.00       0.00       0.98   54510   0 kworker/u2…
+      0     0.00       0.00       8.46   17077   0 kworker/u2…
+      0     0.00       0.00       4.00   42594   0 kworker/u2…
+      0     0.00       0.00       1.26   45813   0 kworker/u2…
+      0     0.00       0.00       0.00    3164   0 lockd
+      0     0.00       4.71       0.01    1809 …09 low-memory…
+      0     0.00       0.00       0.00     349   0 md
+      0     0.00       0.00       0.02      16   0 migration/0
+      0     0.00       0.00       0.19      20   0 migration/1
+      0     0.00       0.00       0.49      65   0 migration/…
+      0     0.00       0.00       0.48      70   0 migration/…
+      0     0.00       0.00       0.07      25   0 migration/2
+      0     0.00       0.00       0.18      30   0 migration/3
+      0     0.00       0.00       0.07      35   0 migration/4
+      0     0.00       0.00       0.25      40   0 migration/5
+      0     0.00       0.00       0.07      45   0 migration/6
+      0     0.00       0.00       0.58      50   0 migration/7
+      0     0.00       0.00       0.66      55   0 migration/8
+      0     0.00       0.00       0.56      60   0 migration/9
+      0     0.00       0.00       0.00     125   0 mld
+      0     0.00       0.00       0.00      10   0 mm_percpu_…
+      0     0.00      13.95       0.03    1910 …10 ModemManag…
+      0     0.00       0.00       0.00       6   0 netns
+      0     0.00      24.49       4.27    1871 …71 NetworkMan…
+      0     0.00       0.00       0.00    3436   0 nfsd
+      0     0.00       0.00       0.00    3437   0 nfsd
+      0     0.00       0.00       0.00    3438   0 nfsd
+      0     0.00       0.00       0.00    3439   0 nfsd
+      0     0.00       0.00       0.00    3440   0 nfsd
+      0     0.00       0.00       0.00    3441   0 nfsd
+      0     0.00       0.00       0.00    3442   0 nfsd
+      0     0.00       0.00       0.00    3443   0 nfsd
+      0     0.00       2.69       0.00    1787 …87 nfsdcld
+      0     0.00       0.00       0.00     284   0 nvme-delet…
+      0     0.00       0.00       0.00     283   0 nvme-reset…
+      0     0.00       0.00       0.00     282   0 nvme-wq
+      0     0.00       7.06       0.00    4675 …75 obexd
+      0     0.00       0.00       0.00      88   0 oom_reaper
+      0     0.00      14.20       0.09    3849 …49 pipewire
+      0     0.00      12.04       0.06    3855 …55 pipewire-p…
+      0     0.00      12.73       0.46    1811 …11 polkitd
+      0     0.00       9.18       0.03    1812 …12 power-prof…
+      0     0.00       0.00       0.00    1886   0 psimon
+      0     0.00     205.02       5.53   19013 …08 pwsh
+      0     0.00       0.00       0.00     360   0 raid5wq
+      0     0.00       0.00       0.00       3   0 rcu_gp
+      0     0.00       0.00       0.00       4   0 rcu_par_gp
+      0     0.00       0.00       7.58      15   0 rcu_preempt
+      0     0.00       0.00       0.00      11   0 rcu_tasks_…
+      0     0.00       0.00       0.00      12   0 rcu_tasks_…
+      0     0.00       0.00       0.00      13   0 rcu_tasks_…
+      0     0.00       1.89       0.00    1786 …86 rpc.idmapd
+      0     0.00       0.43       0.00    3136 …36 rpc.mountd
+      0     0.00       1.84       0.00    3135 …35 rpc.statd
+      0     0.00       3.90       0.01    1779 …79 rpcbind
+      0     0.00       0.00       0.00    1247   0 rpciod
+      0     0.00       1.49       0.03    2320 …20 rtkit-daem…
+      0     0.00       1.03       0.05   18907 …72 script
+      0     0.00       0.88       0.00    4271 …71 sh
+      0     0.00       0.87       0.00   57333 …50 sleep
+      0     0.00       0.00       0.00       5   0 slub_flush…
+      0     0.00       5.27       0.00    1814 …14 smartd
+      0     0.00       5.09       0.00    4024 …24 ssh-agent
+      0     0.00       5.66       0.07    7179 …59 ssh-agent
+      0     0.00       8.58       0.00    1963 …63 sshd -D [l…
+      0     0.00       8.44       0.01    1815 …15 switcheroo…
+      0     0.00      13.12       1.37       1   1 systemd
+      0     0.00      11.33       2.11    3817 …17 systemd
+      0     0.00      34.06       1.75    1226 …26 systemd-jo…
+      0     0.00       8.66       0.12    1819 …19 systemd-lo…
+      0     0.00       7.38       0.07    1822 …22 systemd-ma…
+      0     0.00       6.91       0.03    1780 …80 systemd-ti…
+      0     0.00       7.64       0.14    1241 …41 systemd-ud…
+      0     0.00      96.36       5.80    1939 …39 tailscaled
+      0     0.00       0.00       0.00      97   0 tpm_dev_wq
+      0     0.00      64.14       0.38    3929 …29 tracker-mi…
+      0     0.00      19.54       0.08    1824 …24 udisksd
+      0     0.00       9.65       0.19    2595 …95 upowerd
+      0     0.00       1.45       0.01    4706 …06 uuidd
+      0     0.00       0.00       0.00    1423   0 watchdogd
+      0     0.00      21.47       0.19    3852 …52 wireplumber
+      0     0.00      11.78       0.40    1872 …72 wpa_suppli…
+      0     0.00       0.00       0.00      89   0 writeback
+      0     0.00      20.35       0.15    4512 …12 xdg-deskto…
+      0     0.00      41.02       0.25    4535 …35 xdg-deskto…
+      0     0.00      34.20       0.18    4729 …29 xdg-deskto…
+      0     0.00      56.08       0.11    4734 …34 xdg-deskto…
+      0     0.00      11.02       0.02    4523 …23 xdg-docume…
+      0     0.00       7.44       0.00    4114 …14 xdg-permis…
+      0     0.00       0.00       0.00    1248   0 xprtiod
+      0     0.00      94.34     141.63    4982 …71 Xwayland
+      0     0.00       0.00       0.00     137   0 zswap-shri…
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> Get-Process> Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }Get-Process | Where-Object { $_.CPU -gt 100 }> Get-Process | Where-Object { $_.CPU -gt 100 }
+
+ NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI ProcessName
+ ------    -----      -----     ------      --  -- -----------
+      0     0.00      10.47     215.80    1798 …98 avahi-daem…
+      0     0.00     567.82     124.79    5784 …71 chrome --t…
+      0     0.00     149.77     431.57    8226 …66 code
+      0     0.00     287.32     306.51    8279 …66 code
+      0     0.00   1,222.80     211.64    3860 …60 dropbox
+      0     0.00     318.70     242.90    4071 …71 gnome-shell
+      0     0.00      94.35     143.90    4982 …71 Xwayland
+
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > "Hello">        nano $PROFILEnano $PROFILEnam          namnnamn=> namn="namn="Hnamn=" namn="Mnamn="Monamn="Monnamn="Mondnamn="Mondanamn="Monday> namn="Monday"
+namn=Monday: The term 'namn=Monday' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> namn="Monday"$namn="Monday"PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $namn="Monday"
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $namn="Monday"$namn="Monday"$namn="Monday"$namn="Monday"$namn="Monday"> $namn.        > $namn.m$namn.ma$namn.m > $namn. 
+Length                Substring             
+Clone                 ToBoolean             
+CompareTo             ToByte                
+Contains              ToChar                
+CopyTo                ToCharArray           
+EndsWith              ToDateTime            
+EnumerateRunes        ToDecimal             
+Equals                ToDouble              
+GetEnumerator         ToInt16               
+GetHashCode           ToInt32               
+GetPinnableReference  ToInt64               
+GetType               ToLower               
+GetTypeCode           ToLowerInvariant      
+IndexOf               ToSByte               
+IndexOfAny            ToSingle              
+Insert                ToString              
+IsNormalized          ToType                
+LastIndexOf           ToUInt16              
+LastIndexOfAny        ToUInt32              
+Normalize             ToUInt64              
+PadLeft               ToUpper               
+PadRight              ToUpperInvariant      
+Remove                Trim                  
+Replace               TrimEnd               
+ReplaceLineEndings    TrimStart             
+Split                 TryCopyTo             
+StartsWith            Chars                 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $namn.
+Length                Substring             
+Clone                 ToBoolean             
+CompareTo             ToByte                
+Contains              ToChar                
+CopyTo                ToCharArray           
+EndsWith              ToDateTime            
+EnumerateRunes        ToDecimal             
+Equals                ToDouble              
+GetEnumerator         ToInt16               
+GetHashCode           ToInt32               
+GetPinnableReference  ToInt64               
+GetType               ToLower               
+GetTypeCode           ToLowerInvariant      
+IndexOf               ToSByte               
+IndexOfAny            ToSingle              
+Insert                ToString              
+IsNormalized          ToType                
+LastIndexOf           ToUInt16              
+LastIndexOfAny        ToUInt32              
+Normalize             ToUInt64              
+PadLeft               ToUpper               
+PadRight              ToUpperInvariant      
+Remove                Trim                  
+Replace               TrimEnd               
+ReplaceLineEndings    TrimStart             
+Split                 TryCopyTo             
+StartsWith            Chars                 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $namn.> $namn.m$namn.ma$namn.maa$namn.maaa$namn.maa $namn.ma $namn.m > $namn. > $namn="Monday"> $namn,        > $namn="Monday"> $namn.        
+Length                Substring             
+Clone                 ToBoolean             
+CompareTo             ToByte                
+Contains              ToChar                
+CopyTo                ToCharArray           
+EndsWith              ToDateTime            
+EnumerateRunes        ToDecimal             
+Equals                ToDouble              
+GetEnumerator         ToInt16               
+GetHashCode           ToInt32               
+GetPinnableReference  ToInt64               
+GetType               ToLower               
+GetTypeCode           ToLowerInvariant      
+IndexOf               ToSByte               
+IndexOfAny            ToSingle              
+Insert                ToString              
+IsNormalized          ToType                
+LastIndexOf           ToUInt16              
+LastIndexOfAny        ToUInt32              
+Normalize             ToUInt64              
+PadLeft               ToUpper               
+PadRight              ToUpperInvariant      
+Remove                Trim                  
+Replace               TrimEnd               
+ReplaceLineEndings    TrimStart             
+Split                 TryCopyTo             
+StartsWith            Chars                 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $namn.
+Length                Substring             
+Clone                 ToBoolean             
+CompareTo             ToByte                
+Contains              ToChar                
+CopyTo                ToCharArray           
+EndsWith              ToDateTime            
+EnumerateRunes        ToDecimal             
+Equals                ToDouble              
+GetEnumerator         ToInt16               
+GetHashCode           ToInt32               
+GetPinnableReference  ToInt64               
+GetType               ToLower               
+GetTypeCode           ToLowerInvariant      
+IndexOf               ToSByte               
+IndexOfAny            ToSingle              
+Insert                ToString              
+IsNormalized          ToType                
+LastIndexOf           ToUInt16              
+LastIndexOfAny        ToUInt32              
+Normalize             ToUInt64              
+PadLeft               ToUpper               
+PadRight              ToUpperInvariant      
+Remove                Trim                  
+Replace               TrimEnd               
+ReplaceLineEndings    TrimStart             
+Split                 TryCopyTo             
+StartsWith            Chars                 
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $namn.$namn.^C
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $namn="Monday"> $mittObjekt = [PSCustomObject]@{
+>>     Namn = "Xi"
+>>     ��lder = 30
+ParserError: 
+Line |
+   1 |  $mittObjekt = [PSCustomObject]@{
+     |                                  ~
+     | Missing closing '}' in statement block or type
+     | definition.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> >     Stad = "St    Stad = "Sto    Stad = "Stoc    Stad = "Stock    Stad = "Stockh    Stad = "Stockho    Stad = "Stockhol    Stad = "Stockholm>     Stad = "Stockholm"    Stad = "Stockholm"
+Stad: The term 'Stad' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > }}^C
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> $namn="Monday"> $mittObjekt = [PSCusto$mittObjekt = [PSCustom$mittObjekt = [PSCustomO$mittObjekt = [PSCustomOb$mittObjekt = [PSCustomObj$mittObjekt = [PSCustomObje$mittObjekt = [PSCustomObjec$mittObjekt = [PSCustomObject> $mittObjekt = [PSCustomObject]> $mittObjekt = [PSCustomObject]@$mittObjekt = [PSCustomObject]@{$mittObjekt = [PSCustomObject]@{ $mittObjekt = [PSCustomObject]@{ N$mittObjekt = [PSCustomObject]@{ Na$mittObjekt = [PSCustomObject]@{ Nam$mittObjekt = [PSCustomObject]@{ Namn$mittObjekt = [PSCustomObject]@{ Namn $mittObjekt = [PSCustomObject]@{ Namn =$mittObjekt = [PSCustomObject]@{ Namn = $mittObjekt = [PSCustomObject]@{ Namn = "$mittObjekt = [PSCustomObject]@{ Namn = "M$mittObjekt = [PSCustomObject]@{ Namn = "Mo$mittObjekt = [PSCustomObject]@{ Namn = "Mol$mittObjekt = [PSCustomObject]@{ Namn = "Moll$mittObjekt = [PSCustomObject]@{ Namn = "Molle$mittObjekt = [PSCustomObject]@{ Namn = "Molle"$mittObjekt = [PSCustomObject]@{ Namn = "Molle",$mittObjekt = [PSCustomObject]@{ Namn = "Molle", $mittObjekt = [PSCustomObject]@{ Namn = "Molle", C$mittObjekt = [PSCustomObject]@{ Namn = "Molle", Ci$mittObjekt = [PSCustomObject]@{ Namn = "Molle", Cit$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City $mittObjekt = [PSCustomObject]@{ Namn = "Molle", City =$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = $mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "S$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "St$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Sto$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stoc$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stock$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockh$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockho$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockhol$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm"$mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm" $mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm" }
+ParserError: 
+Line |
+   1 |  $mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm" }
+     |                                                  ~
+     | Missing expression after ','.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $mittObjekt = [PSCustomObject]@{ Namn = "Molle", City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle" City = "Stockholm" } PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $mittObjekt = [PSCustomObject]@{ Namn = "Molle" City = "Stockholm" }
+ParserError: 
+Line |
+   1 |  $mittObjekt = [PSCustomObject]@{ Namn = "Molle" City = "Stockholm" }
+     |                                                  ~~~~
+     | Unexpected token 'City' in expression or statement.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $mittObjekt = [PSCustomObject]@{ Namn = "Molle" City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }
+ParserError: 
+Line |
+   1 |  $mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }
+     |                                                   ~~~~
+     | Unexpected token 'City' in expression or statement.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> > $mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle"` City = "Stockholm" }$mittObjekt = [PSCustomObject]@{ Namn = "Molle" City = "Stockholm" } $mittObjekt = [PSCustomObject]@{ Namn = "Molle" `                   $mittObjekt = [PSCustomObject]@{ Namn = "Molle" `
+>> >> X>> Xi>> Xit>> Xity>> Xit >> Xi >> X >>  >> C>> Ci>> Cit>> City>> City >> City =>> City = >> City = ">> City = "S>> City = "St>> City = "Sto>> City = "Stoc>> City = "Stock>> City = "Stockh>> City = "Stockho>> City = "Stockhol>> City = "Stockholm>> City = "Stockholm">> City = "Stockholm" >> City = "Stockholm" }
+ParserError: 
+Line |
+   2 |  City = "Stockholm" }
+     |  ~~~~
+     | Unexpected token 'City' in expression or statement.
+PS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> ITINF24/lektion04
+$ 
+exit
+
+Script done on 2025-11-03 10:58:14+01:00 [COMMAND_EXIT_CODE="0"]
