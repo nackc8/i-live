@@ -1162,4 +1162,142 @@ SYNOPSIS
     Windows, the IncludeUserName parameter requires elevated 
     user rights ( Run as Administrator ). The output reveals 
     that the owner is `Domain01\user01`.
-    Example 9: Use an automatic variable to i
+    Example 9: Use an automatic variable to identify the 
+    process hosting the current session
+    
+    Get-Process pwsh
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21     105.95       4.33    1192  10 pwsh
+        79    83.81     117.61       2.16   10580  10 pwsh
+    
+    Get-Process -Id $PID
+    
+    NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI 
+    ProcessName
+    ------    -----      -----     ------      --  -- 
+    -----------
+        83    96.21      77.53       4.39    1192  10 pwsh
+    
+    These commands show how to use the `$PID` automatic 
+    variable to identify the process that is hosting the 
+    current PowerShell session. You can use this method to 
+    distinguish the host process from other PowerShell 
+    processes that you might want to stop or close.
+    
+    The first command gets all of the PowerShell processes in 
+    the current session.
+    
+    The second command gets the PowerShell process that is 
+    hosting the current session.
+    Example 10: Get all processes that have a main window 
+    title and display them in a table
+    
+    Get-Process | Where-Object {$_.mainWindowTitle} | 
+    Format-Table Id, Name, mainWindowtitle -AutoSize
+    
+    This command gets all the processes that have a main 
+    window title, and it displays them in a table with the 
+    process ID and the process name.
+    
+    The mainWindowTitle property is just one of many useful 
+    properties of the Process object that `Get-Process` 
+    returns. To view all of the properties, pipe the results 
+    of a `Get-Process` command to the `Get-Member` cmdlet 
+    `Get-Process | Get-Member`.
+
+
+[6nPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [?1h[6n[?25l[17;7H[0m[93mq[39;49m[0m[17;8H[?12l[?25h[6n[?25l[17;7H[39;49m [0m[17;7H[?12l[?25h[6n[2J[?25l[1;1HPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [6n[?25l[2;7H[39;49m[0m[2;7H[?12l[?25h[6n[?12l[?25h[6n[?25l[2;7H[0m[93ma[0m[97;2;3mlias echo[0m[39;49m[0m[2;8H[?12l[?25h[6n[?25l[2;7H[0m[93mal[0m[97;2;3mias echo[0m[39;49m[0m[2;9H[?12l[?25h[6n[?25l[2;7H[0m[93mali[0m[97;2;3mas echo[0m[39;49m[0m[2;10H[?12l[?25h[6n[?25l[2;7H[0m[93malia[0m[97;2;3ms echo[0m[39;49m[0m[2;11H[?12l[?25h[6n[?25l[2;7H[0m[93malias[0m[97;2;3m echo[0m[39;49m[0m[2;12H[?12l[?25h[6n[K
+[?1l
+[32;1mCommandType    [0m[32;1m Name[0m
+[32;1m-----------    [0m [32;1m----                                          [0m
+Alias           ? -> Where-Object                             
+Alias           % -> ForEach-Object                           
+Alias           cd -> Set-Location                            
+Alias           chdir -> Set-Location                         
+Alias           clc -> Clear-Content                          
+Alias           clhy -> Clear-History                         
+Alias           cli -> Clear-Item                             
+Alias           clp -> Clear-ItemProperty                     
+Alias           cls -> Clear-Host                             
+Alias           clv -> Clear-Variable                         
+Alias           copy -> Copy-Item                             
+Alias           cpi -> Copy-Item                              
+Alias           cvpa -> Convert-Path                          
+Alias           dbp -> Disable-PSBreakpoint                   
+Alias           del -> Remove-Item                            
+Alias           dir -> Get-ChildItem                          
+Alias           ebp -> Enable-PSBreakpoint                    
+Alias           echo -> Write-Output                          
+Alias           epal -> Export-Alias                          
+Alias           epcsv -> Export-Csv                           
+Alias           erase -> Remove-Item                          
+Alias           etsn -> Enter-PSSession                       
+Alias           exsn -> Exit-PSSession                        
+Alias           fc -> Format-Custom                           
+Alias           fhx -> Format-Hex                             
+Alias           fl -> Format-List                             
+Alias           foreach -> ForEach-Object                     
+Alias           ft -> Format-Table                            
+Alias           fw -> Format-Wide                             
+Alias           gal -> Get-Alias                              
+Alias           gbp -> Get-PSBreakpoint                       
+Alias           gc -> Get-Content                             
+Alias           gcb -> Get-Clipboard                          
+Alias           gci -> Get-ChildItem                          
+Alias           gcm -> Get-Command                            
+Alias           gcs -> Get-PSCallStack                        
+Alias           gdr -> Get-PSDrive                            
+Alias           gerr -> Get-Error                             
+Alias           ghy -> Get-History                            
+Alias           gi -> Get-Item                                
+Alias           gjb -> Get-Job                                
+Alias           gl -> Get-Location                            
+Alias           gm -> Get-Member                              
+Alias           gmo -> Get-Module                             
+Alias           gp -> Get-ItemProperty                        
+Alias           gps -> Get-Process                            
+Alias           gpv -> Get-ItemPropertyValue                  
+Alias           group -> Group-Object                         
+Alias           gsn -> Get-PSSession                          
+Alias           gtz -> Get-TimeZone                           
+Alias           gu -> Get-Unique                              
+Alias           gv -> Get-Variable                            
+Alias           h -> Get-History                              
+Alias           history -> Get-History                        
+Alias           icm -> Invoke-Command                         
+Alias           iex -> Invoke-Expression                      
+Alias           ihy -> Invoke-History                         
+Alias           ii -> Invoke-Item                             
+Alias           ipal -> Import-Alias                          
+Alias           ipcsv -> Import-Csv                           
+Alias           ipmo -> Import-Module                         
+Alias           irm -> Invoke-RestMethod                      
+Alias           iwr -> Invoke-WebRequest                      
+Alias           md -> mkdir                                   
+Alias           measure -> Measure-Object                     
+Alias           mi -> Move-Item                               
+Alias           move -> Move-Item                             
+Alias           mp -> Move-ItemProperty                       
+Alias           nal -> New-Alias                              
+Alias           ndr -> New-PSDrive                            
+Alias           ni -> New-Item                                
+Alias           nmo -> New-Module                             
+Alias           nsn -> New-PSSession                          
+Alias           nv -> New-Variable                            
+Alias           oh -> Out-Host                                
+Alias           popd -> Pop-Location                          
+Alias           pushd -> Push-Location                        
+Alias           pwd -> Get-Location                           
+Alias           r -> Invoke-History                           
+Alias           rbp -> Remove-PSBreakpoint                    
+Alias           rcjb -> Receive-Job                           
+Alias           rcsn -> Receive-PSSession                     
+Alias           rd -> Remove-Item                             
+Alias           rdr -> Remove-PSDrive                         
+Alias           ren -> Rename-Item                            
+Alias           ri -> Remove-Item                             
+Alias           rjb -> Remove-Job     
