@@ -1,0 +1,30 @@
+Script started on 2025-11-03 09:06:40+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="65" LINES="12"]
+[?2004h[94mITINF24/lektion04
+(B[m$ git diff
+[?2004l[?1h=[1mdiff --git a/.profiles/educator_present/dot_vscode/settings.json [m [1mb/.profiles/educator_present/dot_vscode/settings.json[m[m
+[1mindex 2ce5713..46e64e3 100644[m[m
+[1m--- a/.profiles/educator_present/dot_vscode/settings.json[m[m
+[1m+++ b/.profiles/educator_present/dot_vscode/settings.json[m[m
+[36m@@ -104,7 +104,7 @@[m[m
+   "terminal.integrated.suggest.quickSuggestions": {[m[m
+     "arguments": "off"[m[m
+   },[m[m
+[31m-  "window.zoomLevel": 4,[m[m
+[32m+[m[32m  "window.zoomLevel": 3,[m[m
+:[K[K...skipping...
+[1mdiff --git a/.profiles/educator_present/dot_vscode/settings.json [m [1mb/.profiles/educator_present/dot_vscode/settings.json[m[m
+[1mindex 2ce5713..46e64e3 100644[m[m
+[1m--- a/.profiles/educator_present/dot_vscode/settings.json[m[m
+[1m+++ b/.profiles/educator_present/dot_vscode/settings.json[m[m
+[36m@@ -104,7 +104,7 @@[m[m
+   "terminal.integrated.suggest.quickSuggestions": {[m[m
+     "arguments": "off"[m[m
+   },[m[m
+[31m-  "window.zoomLevel": 4,[m[m
+[32m+[m[32m  "window.zoomLevel": 3,[m[m
+:[K[K[?1l>[?2004h[94mITINF24/lektion04
+(B[m$ [H[2J[94mITINF24/lektion04
+(B[m$ [?2004l
+exit
+
+Script done on 2025-11-03 09:07:00+01:00 [COMMAND_EXIT_CODE="0"]
