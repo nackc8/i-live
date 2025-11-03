@@ -1300,4 +1300,30 @@ Alias           rd -> Remove-Item
 Alias           rdr -> Remove-PSDrive                         
 Alias           ren -> Rename-Item                            
 Alias           ri -> Remove-Item                             
-Alias           rjb -> Remove-Job     
+Alias           rjb -> Remove-Job                             
+Alias           rmo -> Remove-Module                          
+Alias           rni -> Rename-Item                            
+Alias           rnp -> Rename-ItemProperty                    
+Alias           rp -> Remove-ItemProperty                     
+Alias           rsn -> Remove-PSSession                       
+Alias           rv -> Remove-Variable                         
+Alias           rvpa -> Resolve-Path                          
+Alias           sajb -> Start-Job                             
+Alias           sal -> Set-Alias                              
+Alias           saps -> Start-Process                         
+Alias           sbp -> Set-PSBreakpoint                       
+Alias           scb -> Set-Clipboard                          
+Alias           select -> Select-Object                       
+Alias           set -> Set-Variable                           
+Alias           si -> Set-Item                                
+Alias           sl -> Set-Location                            
+Alias           sls -> Select-String                          
+Alias           sp -> Set-ItemProperty                        
+Alias           spjb -> Stop-Job                              
+Alias           spps -> Stop-Process                          
+Alias           sv -> Set-Variable                            
+Alias           type -> Get-Content                           
+Alias           where -> Where-Object                         
+Alias           wjb -> Wait-Job                               
+
+[6nPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [?1h[6n[?25l[17;7H[0m[93mW[0m[97;2;3mrite-Output "Hej från PowerShell"[0m[39;49m[0m[17;8H[?12l[?25h[6n[?25l[17;7H[0m[93mWe[39;49m                                [0m[17;9H[?12l[?25h[6n[?25l[17;7H[0m[93mWer[39;49m[0m[17;10H[?12l[?25h[6n[?25l[17;7H[0m[93mWe[39;49m [0m[17;9H[?12l[?25h[6n[?25l[17;7H[0m[93mW[0m[97;2;3mrite-Output "Hej från PowerShell"[0m[39;49m[0m[17;8H[?12l[?25h[6n[?25l[17;7H[0m[93mWh[39;49m                                [0m[17;9H[?12l[?25h[6n[?25l[17;7H[0m[93mWhe[39;49m[0m[17;10H[?12l[?25h[6n[?25l[17;7H[0m[93mWher[39;49m[0m[17;11H[?12l[?25h[6n[?25l[17;7H[0m[93mwhere[39;49m[0m[17;12H[?12l[?25h[6n[?25l[17;7H[0m[93mwhere-[39;49m[0m[17;13H[?12l[?25h[6n[?25l[17;7H[0m[93mwhere-O[39;49m[0m[17;14H[?12l[?25h[6n[?25l[17;7H[0m[93mwhere-[39;49m [0m[17;13H[?12l[?25h[6n[?25l[17;7H[0m[93mwhere-o[39;49m[0m[17;14H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-Object[39;49m[0m[17;19H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-Objec[39;49m [0m[17;18H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-Obje[39;49m [0m[17;17H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-Obj[39;49m [0m[17;16H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-Ob[39;49m [0m[17;15H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-O[39;49m [0m[17;14H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere-[39;49m [0m[17;13H[?12l[?25h[6n[?25l[17;7H[0m[93mWhere[39;49m [0m[17;12H[?12l[?25h[6n[?25l[17;7H[0m[93mWher[39;49m [0m[17;11H[?12l[?25h[6n[?25l[17;7H[0m[93mWhe[39;49m [0m[17;10H[?12l[?25h[6n[?25l[17;7H[0m[93mWh[39;49m [0m[17;9H[?12l[?25h[6n[?25l[17;7H[0m[93mW[0m[97;2;3mrite-Output "Hej från PowerShell"[0m[39;49m[0m[17;8H[?12l[?25h[6n[?25l[17;7H[39;49m                                  [0m[17;7H[?12l[?25h[6n[2J[?25l[1;1HPS /shared/kent/Documents/nackademin/infra/i-live/ITINF24/lektion04> [6n[?25l[2;7H[39;49m[0m[2;7H[?12l[?25h[6n[?12l[?25h[6n[?25l[2;7H[0m[93me[0m[97;2;3mcho $Host[0m[39;49m[0m[2;8H[?12l[?25h[6n[?25l[2;7H[0m[93mec[0m[97;2;3mho $Host[0m[39;49m[0m[2;9H[?12l[?25h[6n[?25l[2;7H[0m[93mech[0m[97;2;3mo $Host[0m[39;49m[0m[2;10H[?12l[?25h[6n[?25l[2;7H[0m[93mecho[0m[97;2;3m $Host[0m[39;49m[0m[2;11H[?12l[?25h[6n[?25l[2;7H[0m[93mecho[0m[39;49m [0m[97;2;3m$Host[0m[39;49m[0m[2;12H[?12l[?
