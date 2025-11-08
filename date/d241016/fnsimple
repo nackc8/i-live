@@ -1,7 +1,0 @@
-#!/bin/bash
-
-funktionsnamn() {
-    echo "Jag är en funktion"
-}
-
-funktionsnamn

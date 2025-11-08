@@ -1,559 +1,0 @@
-Script started on 2024-10-18 09:17:41+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="109" LINES="11"]
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [7mchmod +x kod1.py[27m[C[C[Cchmod +x kod1.py
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod1.py 
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[36m ⇡[0m
- [35m❯[0m ./kod1.py 
-[?2004l./kod1.py: line 6: syntax error near unexpected token `"utskrift"'
-./kod1.py: line 6: `print("utskrift")'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod1.py [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod1.py 
-[?2004l./kod1.py: line 8: syntax error near unexpected token `"utskrift"'
-./kod1.py: line 8: `print("utskrift")'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod1.py [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod1.py 
-[?2004lutskrift
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ln kod1.py kod # två namn, samma fil
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ln kod1.py kod # två namn, samma fil[C[C[C./kod1.py [K[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod1.py 
-[?2004lutskrift
-[?2004h
-[34mi-live/241018[0m [90m241018[36m [0m
- [35m❯[0m ./kod1.py [1P[1P[C[C[C[C[C[C[C[C ^C[?2004l[?2004h[?2004l
-[?2004h
-[34mi-live/241018[0m [90m241018[36m [0m
- [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m .-[K-[K-[K/kod[H[2J
-[34mi-live/241018[0m [90m241018[36m [0m
- [31m❯[0m ./kod
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: the following arguments are required: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m echo $?
-[?2004l2
-[?2004h
-[34mi-live/241018[0m [90m241018[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m echo $?[C[C[C[2P./kod[H[2J
-[34mi-live/241018[0m [90m241018[36m [0m
- [35m❯[0m ./kod filnamn[K[Kmn1 filnamnw[K2
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: unrecognized arguments: filnamn2
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m echo $?
-[?2004l2
-[?2004h
-[34mi-live/241018[0m [90m241018[36m [0m
- [35m❯[0m echo $?[C[C[C./kod filnamn1 filnamn2[H[2J
-[34mi-live/241018[0m [90m241018[36m [0m
- [35m❯[0m ./kod filnamn1 filnamn2[K[K[K[K[K[K[K[K[K
-[?2004lTraceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 19, in <module>
-    print(args.filename, args.count, args.verbose)
-          ^^^^^^^^^^^^^
-AttributeError: 'Namespace' object has no attribute 'filename'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod filnamn1[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod filnamn1
-[?2004lTraceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 19, in <module>
-    print(args.FILE, args.count, args.verbose)
-                     ^^^^^^^^^^
-AttributeError: 'Namespace' object has no attribute 'count'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod filnamn1[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod filnamn1
-[?2004lfilnamn1
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod filnamn1[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod filnamn1
-[?2004lfilnamn1
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 25, in <module>
-    with open(args.FILE, encoding="utf-8") as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'filnamn1'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod filnamn1[K[K[K[K[K[K[K[Ktestfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-Mina favoritdjur::
-
-- Hund
-- Katt
-- Nakenråtta
-
-Mina favoritmaträtter: tårta,pizza,,kebabrulle
-
-Mina favoritdjur   älskar   också min favoritmat.
-
-Jag gillar denna for-loop:
-
-for(int i = 0; i < 100;;; i++) {
-    printf("%s", i);
-}
-
-Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
-
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-Mina favoritdjur::
-
-- Hund
-- Katt
-- Nakenråtta
-
-Mina favoritmaträtter: tårta,pizza,,kebabrulle
-
-Mina favoritdjur   älskar   också min favoritmat.
-
-Jag gillar denna for-loop:
-
-for(int i = 0; i < 100;;; i++) {
-    printf("%s", i);
-}
-
-Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
-
-<class 'str'>
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
-<class 'list'>
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt [1P[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P f o i [1P [1P i n n s i n t e 
-[?2004lfinnsinte
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 25, in <module>
-    with open(args.FILE, encoding="utf-8") as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte [K[K[K[K[K[K[K[K[K[K[K
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: the following arguments are required: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: the following arguments are required: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004lfinnsinte
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 22, in <module>
-    with open(args.FILE, encoding="utf-8") as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 26, in <module>
-    print(f"{args.program}: error: the file does not exist or could not be read: FILE")
-             ^^^^^^^^^^^^
-AttributeError: 'Namespace' object has no attribute 'program'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004lfinnsinte
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 22, in <module>
-    with open(args.FILE, encoding="utf-8") as f:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'finnsinte'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 26, in <module>
-    print(f"{args.prog}: error: the file does not exist or could not be read: FILE")
-             ^^^^^^^^^
-AttributeError: 'Namespace' object has no attribute 'prog'
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004l  File "/home/kent/i-live/241018/./kod", line 26
-    (args.)
-          ^
-SyntaxError: f-string: invalid syntax
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004lfinnsinte
-cleanup: error: the file does not exist or could not be read: FILE
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./kod", line 30, in <module>
-    print(file_lines)
-          ^^^^^^^^^^
-NameError: name 'file_lines' is not defined
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004lfinnsinte
-cleanup: error: the file does not exist or could not be read: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m ./kod finnsinte[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte
-[?2004lfinnsinte
-cleanup: error: the file does not exist or could not be read: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod finnsinte[K[K[K[K[K[K[K[K[K[K
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: the following arguments are required: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod eokoe okoe 
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: unrecognized arguments: okoe
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod eokoe okoe [K[K[K[K[K[K[K[K[K[K[K[H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-cleanup: error: the file does not exist or could not be read: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt [K [31m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
-<class 'list'>
-rad: Mina favoritdjur::
-
-rad: 
-
-rad: - Hund
-
-rad: - Katt
-
-rad: - Nakenråtta
-
-rad: 
-
-rad: Mina favoritmaträtter: tårta,pizza,,kebabrulle
-
-rad: 
-
-rad: Mina favoritdjur   älskar   också min favoritmat.
-
-rad: 
-
-rad: Jag gillar denna for-loop:
-
-rad: 
-
-rad: for(int i = 0; i < 100;;; i++) {
-
-rad:     printf("%s", i);
-
-rad: }
-
-rad: 
-
-rad: Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
-
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./kod testfil.txt 
-[?2004ltestfil.txt
-['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
-<class 'list'>
-rad: Mina favoritdjur::
-rad: 
-rad: - Hund
-rad: - Katt
-rad: - Nakenråtta
-rad: 
-rad: Mina favoritmaträtter: tårta,pizza,,kebabrulle
-rad: 
-rad: Mina favoritdjur   älskar   också min favoritmat.
-rad: 
-rad: Jag gillar denna for-loop:
-rad: 
-rad: for(int i = 0; i < 100;;; i++) {
-rad:     printf("%s", i);
-rad: }
-rad: 
-rad: Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m rn [K[Km kod
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
- [35m❯[0m ln kod_efter_lunch.py kod
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m ⇡[0m
- [35m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m ⇡[0m
- [35m❯[0m ./kod[K[K[K[K[Kmv kod cleanup
-[?2004l[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
- [35m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​​[36m [0m
- [35m❯[0m ./cleanup 
-[?2004l  File "/home/kent/i-live/241018/./cleanup", line 39
-    repeating_re = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"gm
-                                                       ^^
-SyntaxError: invalid syntax
-[?2004h
-[34mi-live/241018[0m [90m241018[36m [0m
- [31m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[36m [0m
- [31m❯[0m [H[2J
-[34mi-live/241018[0m [90m241018[36m [0m
- [31m❯[0m python3
-[?2004lPython 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> print("Hej")
-Hej
->>> import re
->>> repeating_regular_expression = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
->>> print(re
-re                            repr(                         reversed(
-repeating_regular_expression  return                        
->>> print(re
-re                            repr(                         reversed(
-repeating_regular_expression  return                        
->>> print(rep
-repeating_regular_expression  repr(                         
->>> print(rep
-repeating_regular_expression  repr(                         
->>> print(repeating_regular_expression)[H[2J>>> print(repeating_regular_expression)
-:{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}
->>> repl[Keating_regular_expression
-':{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}'
->>> 5
-5
->>> re.compilepre.compile[C[C[C[C[C re.compile[C[C[C[C[C[C=re.compile[C[C[C[C[C[C[C re.compile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(repeating_regular_expression)
->>> p
-re.compile(':{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}')
->>> p.match(""h"e"j"s"a"n"[C)
->>> p.match("hejsan")sp.match("hejsan")[C[C[C[C[Cvp.match("hejsan")[C[C[C[C[C[Cap.match("hejsan")[C[C[C[C[C[C[Crp.match("hejsan")[C[C[C[C[C[C[C[C p.match("hejsan")[C[C[C[C[C[C[C[C[C=p.match("hejsan")[C[C[C[C[C[C[C[C[C[C p.match("hejsan")[C[C[C[C[C[C[C[C[C[C[C
->>> svar
->>> print(svar)
-None
->>> print(svar)[C[C[C[C[7Psvar = p.match("hejsan")[C san") san") san")[C[C[C[C[C
->>> svar
->>> print(svar)
-None
->>>     print(svar)[C[C[C[C[7Psvar = p.match("hej   san")[1Psan")[1Psan")[1Psan")[1Psan")[C[Cjsan") hejsan") hejsan") hejsan")
->>> svar
-<re.Match object; span=(0, 3), match='   '>
->>> p.findall("hejsan")
-[]
->>> p.findall("hejsan") san") san") san")[C[C[C[C[C
-['   ']
->>> p.findall("hej   san");n");n");n")
-['   ', ';;;']
->>> [K>>> [K>>> [K>>> [K>>> [K>>> [H[2J>>> [''[Krad 1\n'm[K [K, ''r'a'd' '2'\'n'm'[1P'[C][1@f[1@i[1@l[1@e[1@_[1@l[1@i[1@n[1@e[1@s[1@ [1@=[1@ 
->>> for line in file_lines:
-...             [K
-KeyboardInterrupt
->>> repeating_regex_string = r":{2,}|,{2,}|[.]{2,}|;{2,}|[ ]{2,}"
->>> 
->>> repeating = re.compile(repeating_regex_string)
->>> 
->>> for line in file_lins:[K[Kes:
-...   print("[Kf"l[K{f[Kline}")[K)
-... 
-rad 1
-
-rad 2
-
->>>   print(f"{line}")[C[C[C[Cfor line in file_lines:[C[C[C[C[C[C[C[C[C[C[C[C[C[C,:[1P:.:t:i:[1P:[1P:i:t:e:m:s:(:):[C[C[C[C[C[C[C[C
-...   print("[Kf"{line"[K}")
-... 
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'list' object has no attribute 'items'
->>>   print(f"{line}")[C[C[C[Cfor line in file_lines.items():[1P():[1P():[1P():[1P():[1P():[1P():[C[C[1P:[1P:efile_lines:nfile_lines:ufile_lines:mfile_lines:efile_lines:rfile_lines:afile_lines:tfile_lines:efile_lines:(file_lines:[C[C[C[C[C[C[C[C[C[C[C):[C
-...   print(f""{"l"i"n"e"}"[C_)[K[K)
-... 
-(0, 'rad 1\n')
-(1, 'rad 2\n')
->>> 
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [33m27m20s[0m 
- [35m❯[0m python3[C[C[C[K./cleanup [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [33m27m20s[0m 
- [35m❯[0m ./cleanup 
-[?2004lusage: cleanup [-h] FILE
-cleanup: error: the following arguments are required: FILE
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [K [31m❯[0m ./cleanup testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./cleanup testfil.txt 
-[?2004ltestfil.txt
-['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
-<class 'list'>
-Traceback (most recent call last):
-  File "/home/kent/i-live/241018/./cleanup", line 46, in <module>
-    repeating = re.compile(repeating_regex_string)
-                ^^
-NameError: name 're' is not defined
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m [K [31m❯[0m ./cleanup testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [31m❯[0m ./cleanup testfil.txt 
-[?2004ltestfil.txt
-['Mina favoritdjur::\n', '\n', '- Hund\n', '- Katt\n', '- Nakenråtta\n', '\n', 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n', '\n', 'Mina favoritdjur   älskar   också min favoritmat.\n', '\n', 'Jag gillar denna for-loop:\n', '\n', 'for(int i = 0; i < 100;;; i++) {\n', '    printf("%s", i);\n', '}\n', '\n', 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n']
-<class 'list'>
-rad innan: (0, 'Mina favoritdjur::\n')rad efter: Mina favoritdjur:
-rad innan: (1, '\n')rad efter: 
-rad innan: (2, '- Hund\n')rad efter: - Hund
-rad innan: (3, '- Katt\n')rad efter: - Katt
-rad innan: (4, '- Nakenråtta\n')rad efter: - Nakenråtta
-rad innan: (5, '\n')rad efter: 
-rad innan: (6, 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n')rad efter: Mina favoritmaträtter: tårta,pizza,kebabrulle
-rad innan: (7, '\n')rad efter: 
-rad innan: (8, 'Mina favoritdjur   älskar   också min favoritmat.\n')rad efter: Mina favoritdjur älskar också min favoritmat.
-rad innan: (9, '\n')rad efter: 
-rad innan: (10, 'Jag gillar denna for-loop:\n')rad efter: Jag gillar denna for-loop:
-rad innan: (11, '\n')rad efter: 
-rad innan: (12, 'for(int i = 0; i < 100;;; i++) {\n')rad efter: for(int i = 0; i < 100; i++) {
-rad innan: (13, '    printf("%s", i);\n')rad efter:  printf("%s", i);
-rad innan: (14, '}\n')rad efter: }
-rad innan: (15, '\n')rad efter: 
-rad innan: (16, 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n')rad efter: Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt [K [35m❯[0m ./cleanup testfil.txt 
-[?2004lrad innan: (0, 'Mina favoritdjur::\n')
-rad efter: Mina favoritdjur:
-
-rad innan: (1, '\n')
-rad efter: 
-
-rad innan: (2, '- Hund\n')
-rad efter: - Hund
-
-rad innan: (3, '- Katt\n')
-rad efter: - Katt
-
-rad innan: (4, '- Nakenråtta\n')
-rad efter: - Nakenråtta
-
-rad innan: (5, '\n')
-rad efter: 
-
-rad innan: (6, 'Mina favoritmaträtter: tårta,pizza,,kebabrulle\n')
-rad efter: Mina favoritmaträtter: tårta,pizza,kebabrulle
-
-rad innan: (7, '\n')
-rad efter: 
-
-rad innan: (8, 'Mina favoritdjur   älskar   också min favoritmat.\n')
-rad efter: Mina favoritdjur älskar också min favoritmat.
-
-rad innan: (9, '\n')
-rad efter: 
-
-rad innan: (10, 'Jag gillar denna for-loop:\n')
-rad efter: Jag gillar denna for-loop:
-
-rad innan: (11, '\n')
-rad efter: 
-
-rad innan: (12, 'for(int i = 0; i < 100;;; i++) {\n')
-rad efter: for(int i = 0; i < 100; i++) {
-
-rad innan: (13, '    printf("%s", i);\n')
-rad efter:  printf("%s", i);
-
-rad innan: (14, '}\n')
-rad efter: }
-
-rad innan: (15, '\n')
-rad efter: 
-
-rad innan: (16, 'Jag skriver alltid en punkt mellan meningar... I annat fall blir jag arg.\n')
-rad efter: Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
-
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m ./cleanup testfil.txt [H[2J
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m ./cleanup testfil.txt 
-[?2004lMina favoritdjur:
-
-- Hund
-- Katt
-- Nakenråtta
-
-Mina favoritmaträtter: tårta,pizza,kebabrulle
-
-Mina favoritdjur älskar också min favoritmat.
-
-Jag gillar denna for-loop:
-
-for(int i = 0; i < 100; i++) {
- printf("%s", i);
-}
-
-Jag skriver alltid en punkt mellan meningar. I annat fall blir jag arg.
-
-[?2004h
-[34mi-live/241018[0m [90m241018[38;5;218m*​[36m [0m
- [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m❯[0m [K [35m
